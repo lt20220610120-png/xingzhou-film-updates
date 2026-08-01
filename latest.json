@@ -1,6 +1,6 @@
 {
-  "version": "0.7.0",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.7.0/Xingzhou-Film-Setup-0.7.0.exe",
-  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.7.0",
-  "notes": "新增应用内下载进度和直接安装；从 0.7.0 起无需浏览器下载。"
+  "version": "0.8.0",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.8.0/Xingzhou-Film-Setup-0.8.0.exe",
+  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.8.0",
+  "notes": "提示词可删除、显示分集字数、Skill 可上传修改、API 供应商/模型下拉、桌面图标刷新。"
 }
