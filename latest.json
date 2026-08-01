@@ -1,6 +1,6 @@
 {
-  "version": "0.9.3",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.9.3/Xingzhou-Film-Setup-0.9.3.exe",
-  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.9.3",
-  "notes": "修复检查更新连接失败：增加自动重试、备用更新源和中文错误提示。"
+  "version": "0.9.4",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.9.4/Xingzhou-Film-Setup-0.9.4.exe",
+  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.9.4",
+  "notes": "修复语言模型 API 连接，并彻底绕过 Windows 桌面图标缓存。"
 }
