@@ -1,6 +1,6 @@
 {
-  "version": "0.8.0",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.8.0/Xingzhou-Film-Setup-0.8.0.exe",
-  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.8.0",
-  "notes": "提示词可删除、显示分集字数、Skill 可上传修改、API 供应商/模型下拉、桌面图标刷新。"
+  "version": "0.9.0",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.9.0/Xingzhou-Film-Setup-0.9.0.exe",
+  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.9.0",
+  "notes": "导演项目和果子项目可删除；创作中栏配色统一；行舟 AI 移至顶端中间，不再遮挡原创选项。"
 }
