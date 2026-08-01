@@ -1,6 +1,6 @@
 {
-  "version": "0.9.5",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.9.5/Xingzhou-Film-Setup-0.9.5.exe",
-  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.9.5",
-  "notes": "解决升级重复桌面图标，并将软件与快捷方式统一为圆角蓝紫帆船图标。"
+  "version": "0.9.6",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.9.6/Xingzhou-Film-Setup-0.9.6.exe",
+  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.9.6",
+  "notes": "修复全软件删除功能，新增剧本库删除、创作项目卡片首页与 Claude Code 号池供应商。"
 }
