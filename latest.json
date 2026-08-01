@@ -1,6 +1,6 @@
 {
-  "version": "0.5.0",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.5.0/Xingzhou-Film-Setup-0.5.0.exe",
-  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.5.0",
-  "notes": "内置固定更新通道，以后可直接在软件内发现新版本。"
+  "version": "0.6.0",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v0.6.0/Xingzhou-Film-Setup-0.6.0.exe",
+  "releasePage": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/tag/v0.6.0",
+  "notes": "全局 AI、Skill 库、API 管理、导演工作台与全新品牌升级。"
 }
