@@ -1,5 +1,5 @@
 {
-  "version": "1.9.13",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v1.9.13/Xingzhou-Film-Tencent-Setup-1.9.13.exe",
-  "notes": "修复升级后历史 API 配置模型字段不兼容导致的模型名称为空；恢复语言、图片、视频模型调用。"
+  "version": "1.9.14",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v1.9.14/Xingzhou-Film-Tencent-Setup-1.9.14.exe",
+  "notes": "修复项目协作大语言模型调用、多人项目资产重复、COS 图片展示下载；新增图片大图预览和滚轮缩放。"
 }
