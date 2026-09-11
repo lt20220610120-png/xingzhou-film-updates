@@ -1,1 +1,1 @@
-{"version":"2.1.4","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.4/Xingzhou-Film-Tencent-Setup-2.1.4.exe","notes":"修复 Electron 启动初始化顺序，重新构建并验证 Windows 安装包。"}
+{"version":"2.1.5","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.5/Xingzhou-Film-Tencent-Setup-2.1.5.exe","notes":"修复安装后点击快捷方式无法进入的问题：补充主进程异常日志与启动稳定性处理。"}
