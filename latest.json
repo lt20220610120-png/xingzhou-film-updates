@@ -1,1 +1,1 @@
-{"version":"2.1.10","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.10/Xingzhou-Film-Tencent-Setup-2.1.10.exe","notes":"基于 v2.1.7 基线更新：新增图视生成工作台、海洋视觉界面与飞拓异步视频任务协议。"}
+{"version":"2.1.11","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.11/Xingzhou-Film-Tencent-Setup-2.1.11.exe","notes":"严格基于 v2.1.7 基线更新：新增海洋视觉图视生成工作台、飞拓异步视频 API 接入，并完善无提示词场景创建分镜。"}
