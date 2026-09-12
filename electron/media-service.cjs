@@ -71,6 +71,7 @@ async function generateVideo({ endpoint, apiKey, model, prompt, ratio, duration,
   if (!endpoint?.trim()) throw new Error('请先在画布中配置视频生成 API');
   if (!prompt?.trim()) throw new Error('请填写视频描述');
   const base = normalizeBase(endpoint);
+  if (/feituokuajing\.com/i.test(base)) return generateFeituoVideo({ base, apiKey, model, prompt, ratio, duration, resolution, audioEnabled, firstFramePath, firstFrameUrl, destDir, onStatus });
   let firstFrameDataUrl = '';
   if (firstFramePath && fs.existsSync(firstFramePath)) {
     firstFrameDataUrl = `data:image/png;base64,${fs.readFileSync(firstFramePath).toString('base64')}`;
@@ -107,6 +108,31 @@ async function generateVideo({ endpoint, apiKey, model, prompt, ratio, duration,
     }
   }
   throw new Error('视频生成超时（10 分钟），请稍后在服务商控制台查看任务');
+}
+
+
+async function generateFeituoVideo({ base, apiKey, model, prompt, ratio, duration, resolution, audioEnabled, firstFramePath, firstFrameUrl, destDir, onStatus }) {
+  const headers = { ...authHeaders(apiKey), 'X-Public-Model-Ids': '1', 'Cache-Control': 'no-cache' };
+  const frame = firstFrameUrl || (firstFramePath && fs.existsSync(firstFramePath) ? `data:image/png;base64,${fs.readFileSync(firstFramePath).toString('base64')}` : '');
+  const response = await fetch(`${base}/api/open/v1/video/generate`, { method: 'POST', headers, body: JSON.stringify({ model: model?.trim(), prompt: prompt.trim(), ratio, duration, resolution, audio: audioEnabled, imageUrls: frame ? [frame] : [], videoUrls: [], audioUrls: [] }), signal: AbortSignal.timeout(120000) });
+  const created = await readJson(response);
+  if (!response.ok || created.success === false) throw new Error(created.error || created.errorMessage || `飞拓提交失败（${response.status}）`);
+  const jobId = created.jobId || created.taskId;
+  if (!jobId) throw new Error('飞拓接口未返回 jobId');
+  const deadline = Date.now() + 10 * 60 * 1000;
+  while (Date.now() < deadline) {
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+    const poll = await fetch(`${base}/api/open/v1/video/status?jobId=${encodeURIComponent(jobId)}&_=${Date.now()}`, { headers, cache: 'no-store', signal: AbortSignal.timeout(60000) });
+    const result = await readJson(poll);
+    if (!poll.ok || result.success === false) throw new Error(result.error || result.errorMessage || `飞拓状态查询失败（${poll.status}）`);
+    const status = String(result.status || '').toLowerCase(); onStatus(status);
+    if (['success', 'succeeded', 'completed'].includes(status)) {
+      if (!result.videoUrl) throw new Error('飞拓任务完成但没有返回视频地址');
+      return downloadToFile(result.videoUrl, destDir, 'mp4');
+    }
+    if (['failed', 'cancelled', 'canceled', 'error'].includes(status)) throw new Error(result.errorMessage || '飞拓视频生成失败');
+  }
+  throw new Error('飞拓视频生成超时（10 分钟）');
 }
 
 module.exports = { generateImage, generateVideo, normalizeBase, buildVideoContent };

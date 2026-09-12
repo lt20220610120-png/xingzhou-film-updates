@@ -17,12 +17,21 @@ export const IMAGE_FORMATS = [
 export const IMAGE_SIZES = IMAGE_FORMATS.map((item) => item.size);
 export const VIDEO_RATIOS = ['16:9', '9:16', '1:1', '4:3', '3:4', '21:9'];
 export const VIDEO_DURATIONS = [5, 6, 10];
+export const FEITUO_VIDEO_MODELS = [
+  { name: 'XZ-Seedance 2.5 720p（9图参考）', id: 'ft-video-v1-69ef4c70291248a25c8198cd1c7c9c1f', durations: [4, 5, 10, 15, 20, 25, 30], ratios: ['9:16', '16:9', '1:1', '4:3', '3:4'] },
+  { name: 'XZ-Seedance 2.5 720p（10图全参）', id: 'ft-video-v1-3dd9e73a8bd0d4e06ba6ebcbddafd811', durations: [4, 5, 10, 15, 20, 25, 30], ratios: ['9:16', '16:9', '1:1', '4:3', '3:4'] },
+  { name: 'XZ-Seedance 2.0 720p（10秒）', id: 'ft-video-v1-5d6b990f8ef1d6159d4c94454ed6db5f', durations: [5, 10], ratios: ['9:16', '16:9', '1:1', '4:3', '3:4'] },
+  { name: 'XZ-Seedance 2.0 720p（15秒）', id: 'ft-video-v1-81ceb24e127dcb0ccba4737c58170a3e', durations: [4, 5, 10, 15], ratios: ['9:16', '16:9', '1:1', '4:3', '3:4'] },
+  { name: 'Wan 3.0 1080p（速度优化）', id: 'ft-video-v1-5c39062ebd696fff7c93dca19dc3b570', durations: [4, 5, 10, 15, 20, 25, 30], ratios: ['9:16', '16:9', '1:1', '4:3', '3:4'] },
+];
 export const VIDEO_MODEL_CAPABILITIES = {
   'seedance-2.0': { label: 'Seedance 2.0', durations: Array.from({ length: 15 }, (_, i) => i + 1), resolutions: ['480p', '720p', '1080p', '4K'], ratios: VIDEO_RATIOS, audio: true },
   'seedance-2.5': { label: 'Seedance 2.5', durations: [5, 10, 15, 20, 30], resolutions: ['480p', '720p', '1080p', '2K', '4K'], ratios: VIDEO_RATIOS, audio: true },
 };
 export const videoModelCapabilities = (model = '') => {
   const id = String(model).toLowerCase();
+  const feituo = FEITUO_VIDEO_MODELS.find((item) => item.id.toLowerCase() === id);
+  if (feituo) return { label: feituo.name, durations: feituo.durations, resolutions: ['720p', '1080p'], ratios: feituo.ratios, audio: false };
   if (id.includes('seedance') && id.includes('2.5')) return VIDEO_MODEL_CAPABILITIES['seedance-2.5'];
   if (id.includes('seedance') && id.includes('2.0')) return VIDEO_MODEL_CAPABILITIES['seedance-2.0'];
   return { label: model || '通用视频模型', durations: VIDEO_DURATIONS, resolutions: ['480p', '720p', '1080p'], ratios: VIDEO_RATIOS, audio: false };

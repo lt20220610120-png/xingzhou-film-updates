@@ -6,7 +6,7 @@ import {
 import {
   addCanvasNode, addMediaProfile, createCanvas, deleteCanvas, IMAGE_FORMATS,
   activeMediaProfile, removeCanvasNode, removeMediaProfile, renameCanvas,
-  setActiveMediaApi, updateCanvasNode, updateMediaProfile, VIDEO_DURATIONS, VIDEO_RATIOS, videoModelCapabilities,
+  setActiveMediaApi, updateCanvasNode, updateMediaProfile, FEITUO_VIDEO_MODELS, VIDEO_DURATIONS, VIDEO_RATIOS, videoModelCapabilities,
 } from '../../core/canvasStore.js';
 import { Dialog } from './GlobalTools.jsx';
 import { DeleteConfirm } from './DeleteConfirm.jsx';
@@ -44,7 +44,8 @@ export function MediaApiSettings({ state, setState, onClose }) {
           </select>
           <input placeholder="名称（例如 即梦图片）" value={form.name} onChange={update('name')} />
           <input placeholder="接口地址（例如 https://ark.cn-beijing.volces.com/api/v3）" value={form.endpoint} onChange={update('endpoint')} />
-          <input placeholder="模型名称（例如 doubao-seedance-1-0-pro）" value={form.model} onChange={update('model')} />
+          {form.kind === 'video' && <select value={FEITUO_VIDEO_MODELS.some((item) => item.id === form.model) ? form.model : ''} onChange={update('model')}><option value="">选择飞拓模型或手动填写</option>{FEITUO_VIDEO_MODELS.map((item) => <option key={item.id} value={item.id}>{item.name}</option>)}</select>}
+          <input placeholder="模型 ID（例如 doubao-seedance-1-0-pro）" value={form.model} onChange={update('model')} />
           <input placeholder="API Key" type="password" value={form.apiKey} onChange={update('apiKey')} />
           <button className="primary" onClick={save}><Save size={14} /> {editingId ? '保存修改' : '添加接口'}</button>
         </div>

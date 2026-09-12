@@ -612,6 +612,24 @@ function StoryboardSection({ project, assets, api, state, refresh, canEdit, isPr
     setPromptDrafts((current) => { const next = { ...current }; delete next[prompt.id]; return next; });
     await refresh();
   };
+  const createStoryboardPrompt = async (afterPrompt = null) => {
+    if (!canEdit || busy) return;
+    setBusy(true); setError('');
+    try {
+      const nextEpisodes = episodes.map((item, index) => {
+        if (index !== epIndex) return item;
+        const current = item.prompts || [];
+        const scenePrompts = current.filter((candidate) => String(candidate.label || '').startsWith(`${currentScene}-`));
+        const position = afterPrompt ? current.findIndex((candidate) => candidate.id === afterPrompt.id) + 1 : current.length;
+        const newPrompt = { id: `storyboard-${Date.now()}-${Math.random().toString(36).slice(2)}`, label: `${currentScene}-${scenePrompts.length + 1}`, content: '' };
+        const next = [...current]; next.splice(Math.max(0, position), 0, newPrompt);
+        return { ...item, prompts: next };
+      });
+      await api.collabUpdateProject({ projectId: project.id, scope: 'storyboard', updates: { episodes: nextEpisodes } });
+      await refresh();
+    } catch (err) { setError(`创建分镜失败：${err.message || '网络连接异常'}`); }
+    finally { setBusy(false); }
+  };
 
   return (
     <div className="collab-storyboard">
@@ -643,7 +661,7 @@ function StoryboardSection({ project, assets, api, state, refresh, canEdit, isPr
             try { const selectedUploaded = uploadedImages.find((item) => item.id === selectedUploadedRefId) || uploadedImages[0]; const generated = await api.mediaGenerateVideo({ endpoint: profile.endpoint, apiKey: profile.apiKey, model: profile.model, prompt, ratio, duration, resolution, audioEnabled, firstFrameUrl: selectedUploaded?.url || '' }); await api.collabRecordGeneratedMedia({ projectId: project.id, episode: epNumber, scene: currentScene, kind: 'video', filePath: generated.filePath, note: p.label }); await loadMedia(); }
             catch (e) { setError(e.message); } finally { setBusy(false); }
           };
-          return <article className="collab-shot-card" key={p.id}>
+          return <React.Fragment key={p.id}><article className="collab-shot-card">
             <header><b className="collab-shot-badge">{p.label}</b><span>提示词与参考素材</span></header>
             <div className="collab-shot-controls">
               <select value={profileId} onChange={(e) => setProfileId(e.target.value)}>{!videoProfiles.length && <option value="">未配置视频接口</option>}{videoProfiles.map((x) => <option key={x.id} value={x.id}>{x.name} · {x.model}</option>)}</select>
@@ -655,8 +673,8 @@ function StoryboardSection({ project, assets, api, state, refresh, canEdit, isPr
             </div>
             <div className="collab-shot-main"><div className="collab-shot-prompt"><textarea value={promptDrafts[p.id] ?? p.content} onChange={(event) => setPromptDrafts((current) => ({ ...current, [p.id]: event.target.value }))} disabled={!canEdit}/>{canEdit && <button className="secondary collab-prompt-save" onClick={() => saveStoryboardPrompt(p)} disabled={(promptDrafts[p.id] ?? p.content).trim() === String(p.content || '').trim()}><Save size={14}/>保存提示词</button>}</div><aside className="collab-shot-video"><div className="collab-shot-video-head"><b><Film size={14} /> 视频结果（{videos.length}）</b><button className="ghost" onClick={() => uploadAssetFor(p.label)} disabled={!canEdit || busy}><Plus size={14} /> 选择视频</button></div>{videos.length ? videos.map((m) => <div key={m.id} className="collab-video-result"><video src={m.url} controls preload="metadata" /><button className="danger" onClick={async () => await api.collabDeleteMedia({ projectId: project.id, mediaId: m.id }).then(loadMedia).catch((err) => setError(err.message))}><Trash2 size={13} /> 删除</button></div>) : <div className="collab-video-empty"><Film size={26} /><span>暂无视频</span></div>}</aside></div>
             <div className="collab-shot-assets"><b><ImageIcon size={14} /> 参考素材（@ 标记会自动关联）</b>{refs.map((a) => <figure key={a.id}><img src={a.image_url} alt={a.name} /><figcaption>{a.name}</figcaption></figure>)}{uploadedImages.map((m) => <figure key={m.id}><img src={m.url} alt="已上传参考图" /><figcaption>{m.note || '场景参考图'} <button className="asset-delete-mini" onClick={() => api.collabDeleteMedia({ projectId: project.id, mediaId: m.id }).then(loadMedia).catch((err) => setError(err.message))}><Trash2 size={11} /></button></figcaption></figure>)}{uploadedImages.length > 0 && <label className="uploaded-reference-picker">本次首帧<select value={selectedUploadedRefId || uploadedImages[0].id} onChange={(event) => setSelectedUploadedRefId(event.target.value)}>{uploadedImages.map((item) => <option key={item.id} value={item.id}>{item.note || '上传参考图'}</option>)}</select></label>}<button className="collab-add-ref" onClick={uploadAsset} disabled={!canEdit || busy}><Plus size={22} /></button>{!refs.length && !uploadedImages.length && <small>请先上传参考图片，上传完成后才可选择并作为首帧使用</small>}</div>
-          </article>;
-        }) : <div className="collab-empty small"><p>该场景还没有提示词，请先在导演工作台快速模式按场景生成。</p></div>}
+          </article><button className="collab-create-shot" onClick={() => createStoryboardPrompt(p)} disabled={!canEdit || busy}><Plus size={16} /> 创建分镜</button></React.Fragment>;
+        }) : <div className="collab-empty small"><p>该场景还没有提示词，请先创建第一个分镜。</p><button className="primary" onClick={() => createStoryboardPrompt()} disabled={!canEdit || busy}><Plus size={16} /> 创建分镜</button></div>}
         {error && <div className="collab-error">{error}</div>}
       </section>
     </div>
