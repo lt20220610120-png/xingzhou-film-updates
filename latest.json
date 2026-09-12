@@ -1,1 +1,1 @@
-{"version":"2.1.5","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.5/Xingzhou-Film-Tencent-Setup-2.1.5.exe","notes":"修复安装后点击快捷方式无法进入的问题：补充主进程异常日志与启动稳定性处理。"}
+{"version":"2.1.8","installerUrl":"https://github.com/lt20220610120-png/xingzhou-film-tencent/releases/download/v2.1.8/Xingzhou-Film-Tencent-Setup-2.1.8.exe","notes":"新增图视生成；完善无提示词场景创建分镜与视频生成入口。"}
