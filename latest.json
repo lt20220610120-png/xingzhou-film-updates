@@ -1,7 +1,7 @@
 {
-  "version": "2.3.1",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.3.1/Xingzhou-Film-Tencent-Setup-2.3.1.exe",
-  "notes": "优化 COS 图片流量：图片预览、导出和参考图读取共享本地缓存；图片按可见区域加载，视频和音频按需读取；修复 Windows 本地图片预览路径，并保留项目和账号权限校验。软件设置页可直接检查、下载并安装此版本。",
-  "sha256": "cb34f4a5a8550bfe36cc83be94c482b6f476e339b99801dba30c7ddba77a370a",
-  "size": 102238912
+  "version": "2.3.2",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.3.2/Xingzhou-Film-Tencent-Setup-2.3.2.exe",
+  "notes": "修复旧协作项目追加剧本时误报“没有操作权限”的问题。\n\n对早期从本机导演工作台创建的项目，系统会安全识别本机来源并升级为协作项目；若编号实际对应已删除或无权访问的云端项目，仍会拒绝操作以保护项目隔离。",
+  "sha256": "f5e7594b2bda3a406fe5efaa43aec5637cdea9760621717a4194fc95ba5a5346",
+  "size": 102238951
 }
