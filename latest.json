@@ -1,7 +1,7 @@
 {
-  "version": "2.4.2",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.4.2/Xingzhou-Film-Tencent-Setup-2.4.2.exe",
-  "notes": "行舟影视 2.4.2：桌面版可调用本人 ChatGPT 登录的本机 Codex 处理文本\n\n- 在「API 接口 → 文本模型」新增「本机 Codex（ChatGPT 额度）」；可选择 GPT-6 Luna、Sol 或 Astra，以及低、中、高、超高推理档位。\n- 本机 Codex 配置可设为默认，也可与现有文本 API 配置并存；聊天、Skill、剧本助手、协作提示词修改和剧本分析沿用各自已选模型，把处理结果返回原工作区。\n- 调用前核对本机 `codex login` 的登录方式。仅接受 ChatGPT 账号登录，拒绝 API Key 登录，避免意外转为 OpenAI API 按量计费。\n- 每次任务在临时目录内以只读方式运行，完成后清理临时文件。取消任务仍可停止本机调用。\n- 首次使用时，在本机安装或打开 Codex 并执行 `codex login`。不同 ChatGPT 方案的可用模型和使用额度以账号当前权限为准；额度不是无限量，图像与视频生成仍使用各自原有接口。\n\n请使用软件内「检查更新」安装本版本。",
-  "sha256": "2e2c0a6b6a785bf90965b6bcf13903782a21a6fa40827f63c066e7152fc45c9d",
-  "size": 102248891
+  "version": "2.4.3",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.4.3/Xingzhou-Film-Tencent-Setup-2.4.3.exe",
+  "notes": "行舟影视 2.4.3：修复整本提示词素材预览，并增加按集图片导出\n\n- 修复 Windows 本地素材地址和图片预览：导入的参考图可正常显示，点击编号可插入 `@image1` 等引用；素材文件名也可直接用于命名引用。\n- 支持在整本提示词中导入单张或多张图片、音频、视频，或导入本集／整部素材文件夹；素材按集共享，在当前模型不支持某类参考时仍保留已导入文件。\n- 新增“清除当前项目”：确认后清除所选提示词文档、编辑进度及其素材引用；未清除的项目在关闭和重开软件后继续保留。其他项目和已生成的作品不受影响。\n- “导出整部剧图片”新增选择：全部汇总到一个文件夹，或按集整理到子文件夹。跨集共用图片只下载一次，再放入对应集文件夹。\n\n请使用软件内“检查更新”安装本版本。",
+  "sha256": "c9ff4fe5ce5910bc1478f8da3159db0c6af88dc8afeef8738c441618bdf3b4f8",
+  "size": 102252219
 }
