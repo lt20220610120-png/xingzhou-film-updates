@@ -1,7 +1,12 @@
 {
-  "version": "2.8.3",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.3/Xingzhou-Film-Tencent-Setup-2.8.3.exe",
-  "notes": "# 行舟影视 2.8.3\n\n- 大事件、小事件的“新建”卡片与已有事件卡片统一等宽等高，保持整齐排列。\n- 框架式创作各页面顶部直接显示“接口与 Agent”下拉选择，无需打开写作 Agent 浮窗；灵感、设定、大事件、主线、小事件、集纲、正文分别记住接口和模型。\n- 事件卡片的 Agent 整理、设定检查、正文生成与衔接检查旁也可直接选择接口，与当前步骤的选择同步。\n- 模拟助手提供独立接口选择，可以与当前创作步骤使用不同模型；选择保存于本地项目，重新打开仍可恢复。\n- 模拟助手、候选窗口、写作 Agent，以及导出、来源选择等创作弹窗都可拖住标题栏移动，也支持方向键移动；窗口位置会记住，缩小界面后自动保持在可见范围。\n- 模拟助手浮在当前卡片工作区上，打开时不再挤压卡片布局；正文编辑区随工具栏高度调整，较窄窗口下增集与底部操作保持可见。",
-  "sha256": "ebc2355b66fe6a87a3d8eb28f7e9bcdf9b1c30d9e37daef46e3867d3cfcbbd39",
-  "size": 102699768
+  "version": "2.8.4",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.4/Xingzhou-Film-Tencent-Setup-2.8.4.exe",
+  "notes": "行舟影视 2.8.4 · 安全加固\n\n- 软件更新清单增加发布密钥签名，下载校验大小与 SHA256，安装前再次校验；拒绝非官方来源、旧版本和裸 asar 替换。\n- 所有桌面 IPC 入口统一验证主窗口与页面来源；联网生成验证有效账号，退出、封禁或凭证失效后阻断后续请求。\n- 登录凭证使用 Windows 系统加密保存，旧会话自动迁移；临时断网保留凭证，本地稿件仍优先保存并可继续编辑。\n- 服务端找回密码与封禁操作撤销旧会话，拒绝封禁账号恢复登录，并防止登录与改密竞态。\n- 生产版限制导航、新窗口与外部链接协议，关闭主工作区调试入口，启用 ASAR 完整性校验并清理未使用的旧权限模块。\n\n更新清单使用行舟独立发布密钥签名；不等同于 Windows 商业发布者证书签名。已被模型服务商受理的任务不能保证通过本地中止撤销计费。",
+  "sha256": "978dab893ed9b2c65a600ec044105297bd66a7f3db74a06302628e6b09b0ea3c",
+  "size": 102709978,
+  "publishedAt": "2026-10-07T20:22:42.021470+00:00",
+  "signature": {
+    "algorithm": "Ed25519",
+    "value": "bcMz4a2db2t4QEZHARRdbC9x6haSNCEWPv2TEZPlzX3lDJSnbhCVBE765CIPV+S15hMkYT1n/YnrtCzo2CPUAw=="
+  }
 }
