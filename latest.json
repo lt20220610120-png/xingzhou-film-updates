@@ -1,12 +1,12 @@
 {
-  "version": "2.8.9",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.9/Xingzhou-Film-Tencent-Setup-2.8.9.exe",
-  "notes": "# 行舟影视 2.8.9\n\n- 修复本机 ChatGPT 后台浏览器无法显示登录窗口的问题。窗口在当前 Windows 桌面以最小化状态启动，点击登录按钮恢复同一窗口；连续打开保留当前页面，不重启、不刷新人工验证页。窗口打开失败会明确提示。\n- 剧本正文的场景选择改为顶部直接可见的编号卡片：1-1、1-2 等同尺寸排列，宽度自适应，窄窗口自动换行。点击即显示对应场景，保留完整正文入口及整集、单场字数。\n- 左侧成品库支持悬停或点击展开果子库、IP 库；创作剧本支持展开洗稿、原创。点击分类直接进入对应项目列表，已打开的项目资料与本地编辑内容保留。\n- 子菜单增加展开动效、当前分类标记、键盘操作与减少动效支持。\n\n登录窗口的显示与页面保留已用真实 Windows 浏览器、本地测试页面验证。外部网站的人工验证仍需本人完成，未替用户完成真实账号登录或验证码。",
-  "sha256": "d0555a5fcebf4263214f1db71659a5aaa5cc534eac57e43c43acef5841eb804c",
-  "size": 102740082,
-  "publishedAt": "2026-10-08T09:59:14.894612+00:00",
+  "version": "2.8.10",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.10/Xingzhou-Film-Tencent-Setup-2.8.10.exe",
+  "notes": "# 行舟影视 2.8.10\n\n- 侧栏明确分为身份工作区和共用工具。Skill 库、API 接口、设置、管理后台在导演与内容创作者之间共用。\n- 修复切换身份时管理后台被卸载、WorkBuddy 号池重新打开的问题。同一登录期间保留原生页面及其路由、搜索内容与滚动位置；返回旧身份选择页也会保留已打开的共用页面。\n- 共用工具保留搜索、分类和本地操作状态，切回时恢复原页面。切换身份时如果正在查看共用工具，就继续停留在该工具。\n- 底部“切换身份”支持鼠标悬停浮窗，选择导演或内容创作者即可一步切换；保留返回身份选择页入口及键盘操作。\n- 工作区之间切换记住各身份上次打开的功能；未开通的身份仍须通过原解锁流程。\n- 隐藏工作区的弹窗同步隐藏并保留草稿；退出登录正常关闭原生号池页面，管理员权限检查保持有效。",
+  "sha256": "73c97132ce30480c2a8556adf18a1235f3c5e04e97e79dc9ca58eb07572b5c4b",
+  "size": 102734045,
+  "publishedAt": "2026-10-08T17:27:58.148417+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "yHqmwkxqBxKTs0BSh9KCzv17vsTtH04yHpVtCUpsnN3g6IL3qUd64pMeswXqDG3eZeRrwEEFy+vM7tbGPlyRCw=="
+    "value": "ItKBIjo8f4FG3on5+wQpSWcUoIfJlJMjPNdPw91eoIrKYL9D/axMEsf74xuWHiSOXFnd8tRGnGXRWBeH/HmzAQ=="
   }
 }
