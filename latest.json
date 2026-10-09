@@ -1,12 +1,12 @@
 {
-  "version": "2.8.14",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.14/Xingzhou-Film-Tencent-Setup-2.8.14.exe",
-  "notes": "行舟影视 2.8.14：统一两种身份的左侧导航分区。\n\n- 导演身份：导演工作台、项目协作、图视生成、画布上方增加“常用”标题。\n- 内容创作者身份：成品库、创作剧本、剧本库上方增加“常用”标题。\n- 下方“共用工具”标题改为“更多”，包含 Skill 库、API 接口、设置、回收站及有权限时显示的管理后台。\n- 两组标题使用统一字形和对齐，分组边界清楚。",
-  "sha256": "848b6909e302d9158ac59b937fc74e8f1cc976f3c1dc903994389753c7e2213c",
-  "size": 102769007,
-  "publishedAt": "2026-10-09T05:57:36.579819+00:00",
+  "version": "2.8.15",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.15/Xingzhou-Film-Tencent-Setup-2.8.15.exe",
+  "notes": "行舟影视 2.8.15：人物图片构图可选，项目默认协作同步。\n\n- 美术、资产及信息读取增加“项目默认人物构图”，可选择原四格或新增的横向五格。\n- 新五格采用左侧三个全身面板、右侧两个脸颈面板：正面及侧面躯干裁切，背面保留完整头部；建议使用 16:9 横屏。\n- 构图与 AI真人、3D动漫、2D动漫画风分别组合。旧项目默认沿用原四格。\n- 单人人物卡可跟随项目默认、独立选择构图或使用手写前置；继续支持人工修改和清空前置。\n- 项目默认保存到云端，同项目成员读取相同设置；单张、批量及实际提示词预览采用相同组合规则。\n- 保持人物换装参考及身份一致性，场景、道具、群像和自由构图沿用相应规则。",
+  "sha256": "b59cbbe23b0d950ddf4d41f86bf867c59d46de43abffbc087a5673fd8701b854",
+  "size": 102780405,
+  "publishedAt": "2026-10-09T09:53:32.696963+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "0NpAYyaYFSTEQKqBVD52OCKlCBQ5Koy+u4hii5FL0kg8EfLHJW1a6k7MjXXhlW9GOXo70RBtL4/jd4tpyVfnAg=="
+    "value": "ftLOKKC9mQDVcbBiZkqHJ5XGsNI7vZo62pDwSXJ+ISu2mVwX2FE57FSx5ZFIApJKDqfNDKDGXEq+i1pDovOxCg=="
   }
 }
