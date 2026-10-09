@@ -1,12 +1,12 @@
 {
-  "version": "2.8.18",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.18/Xingzhou-Film-Tencent-Setup-2.8.18.exe",
-  "notes": "行舟影视 2.8.18：导演剧本颜色与全剧生图界面整理。\n\n- 导演快速模式的剧本文字采用清单核实页相同的深色，原字号、行距及编辑功能保持不变。\n- 美术分集页“一键生成全剧图片”移至人物、场景、道具分类按钮右侧，同排显示；窄窗口自动换行。\n- 全剧生图确认弹窗重新排版：任务摘要、对齐的模型/画幅/并发设置、底部说明与操作按钮。三个选择框统一宽度及高度，长模型名称不再撑破弹窗。",
-  "sha256": "9f1290be8d1890e30110ce62ce36683cb6654c5e66d6da39f2de3808c0cc9cd4",
-  "size": 102777228,
-  "publishedAt": "2026-10-09T14:09:50.027352+00:00",
+  "version": "2.8.19",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.19/Xingzhou-Film-Tencent-Setup-2.8.19.exe",
+  "notes": "行舟影视 2.8.19：导演剧本正文明确使用黑色。\n\n- 导演快速模式的剧本编辑区及内部段落、对白、动作、强调和引用文字统一使用纯黑色，避免继承灰色或其他格式颜色。\n- 原字号、行距、编辑及自动保存方式保持不变。",
+  "sha256": "600e748ff54517e91585685736b83d0be12bd61d03f773f6e0c9908352704fbb",
+  "size": 102786507,
+  "publishedAt": "2026-10-09T14:30:30.163007+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "uBeZveCyqzAjA0fkqVFZMDGd6BYoxvtNVc03tzTmpt0ENWGd7GBRCyIonHrdSBz9B531v6DjMb6rJgseQ0xACQ=="
+    "value": "8VhXEHPC3yPmcXYqAThiHvXH8YA8tpkmPG28m72Ucoa9GAT4A4l75KI99DOKTjnaS2LTaXqEG7eHech6wGkFAQ=="
   }
 }
