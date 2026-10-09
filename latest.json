@@ -1,12 +1,12 @@
 {
-  "version": "2.8.19",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.19/Xingzhou-Film-Tencent-Setup-2.8.19.exe",
-  "notes": "行舟影视 2.8.19：导演剧本正文明确使用黑色。\n\n- 导演快速模式的剧本编辑区及内部段落、对白、动作、强调和引用文字统一使用纯黑色，避免继承灰色或其他格式颜色。\n- 原字号、行距、编辑及自动保存方式保持不变。",
-  "sha256": "600e748ff54517e91585685736b83d0be12bd61d03f773f6e0c9908352704fbb",
-  "size": 102786507,
-  "publishedAt": "2026-10-09T14:30:30.163007+00:00",
+  "version": "2.8.20",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.20/Xingzhou-Film-Tencent-Setup-2.8.20.exe",
+  "notes": "# 行舟影视 2.8.20\n\n- 修复导演创造模式与快速模式的剧本文字颜色不一致：两种模式共用黑色正文、白色底色，保持原有字号和行距。\n- 保留创造模式只读、快速模式编辑的行为；切换模式继续显示同一份剧本。",
+  "sha256": "171c6314f1643cd3799d7a48079e1b102ab76663dee7e578346c6e9a4f78925a",
+  "size": 102777400,
+  "publishedAt": "2026-10-09T14:55:15.090626+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8VhXEHPC3yPmcXYqAThiHvXH8YA8tpkmPG28m72Ucoa9GAT4A4l75KI99DOKTjnaS2LTaXqEG7eHech6wGkFAQ=="
+    "value": "63VUJMEjuR0bKyEIzsvz8o1edPNIF9lGK52PxMIyB2Z4diWhXgByl3dXVKr3vGD3Meg835qVpL5gPmZZgAA4BQ=="
   }
 }
