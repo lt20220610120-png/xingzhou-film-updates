@@ -1,12 +1,12 @@
 {
-  "version": "2.8.15",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.15/Xingzhou-Film-Tencent-Setup-2.8.15.exe",
-  "notes": "行舟影视 2.8.15：人物图片构图可选，项目默认协作同步。\n\n- 美术、资产及信息读取增加“项目默认人物构图”，可选择原四格或新增的横向五格。\n- 新五格采用左侧三个全身面板、右侧两个脸颈面板：正面及侧面躯干裁切，背面保留完整头部；建议使用 16:9 横屏。\n- 构图与 AI真人、3D动漫、2D动漫画风分别组合。旧项目默认沿用原四格。\n- 单人人物卡可跟随项目默认、独立选择构图或使用手写前置；继续支持人工修改和清空前置。\n- 项目默认保存到云端，同项目成员读取相同设置；单张、批量及实际提示词预览采用相同组合规则。\n- 保持人物换装参考及身份一致性，场景、道具、群像和自由构图沿用相应规则。",
-  "sha256": "b59cbbe23b0d950ddf4d41f86bf867c59d46de43abffbc087a5673fd8701b854",
-  "size": 102780405,
-  "publishedAt": "2026-10-09T09:53:32.696963+00:00",
+  "version": "2.8.16",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.16/Xingzhou-Film-Tencent-Setup-2.8.16.exe",
+  "notes": "行舟影视 2.8.16：逐集美术分析与人工协同核实，修复历史云同步冲突提示。\n\n- 信息读取保留“自动连续分析”，按真实集号从前到后运行。当前集失败、回包不完整、关联或详细描述待补齐时暂停，后续集不先生成。\n- 新增“逐集协同核实”：生成一集后进入对应核实页，人工核实整集、补齐详细描述及确认场景关联后，再点击继续分析下一集。\n- 分析方式按本机账号和项目保存，刷新及重启后保留；下一集检索前集已保存的资产，协同模式沿用人工确认后的描述和关联。\n- 有效清单及原始回包继续保存；重试已有清单时只补待完成部分。禁止把包含其他集的回包当成本集完整结果。\n- 单集补缺、补齐信息卡和修复场景关联功能继续保留；未发布的核实内容仍在本机，发布后协作者可见。\n- 导演项目成功核对云端后清除已经解决的历史冲突提示，云端基准变化后恢复保存重试。真正的双方同时修改继续保留双版本并提示选择，不直接覆盖。",
+  "sha256": "2adab3be7a4ca555be44e0dfbea61cbc2b1f6956f9f8e25a69c387b374991fbd",
+  "size": 102773816,
+  "publishedAt": "2026-10-09T10:41:20.460064+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ftLOKKC9mQDVcbBiZkqHJ5XGsNI7vZo62pDwSXJ+ISu2mVwX2FE57FSx5ZFIApJKDqfNDKDGXEq+i1pDovOxCg=="
+    "value": "68EDJ9y9ks/tD2kpHhxHvQbfAkAJzKhoz28W+WA6AOSqFc+EumwHhCcehPUgXDQuttz4b2/HrcF9haZDK7+ICQ=="
   }
 }
