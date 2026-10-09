@@ -1,12 +1,12 @@
 {
-  "version": "2.8.17",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.17/Xingzhou-Film-Tencent-Setup-2.8.17.exe",
-  "notes": "行舟影视 2.8.17：修复生成图片下载循环，新增选集与全剧图片生成。\n\n- 媒体下载改用系统浏览器网络通道，支持本机系统代理/PAC，修复接口已经返回图片但下载持续连接超时的问题；旧待下载记录可以继续恢复，不重复调用生图接口。\n- 下载失败区分网络、本地保存与服务商链接不可用。链接不可用时停止无效重试；可打开已生成结果保存原图后上传，或明确放弃旧结果后自行重新生成。\n- 美术页顶部新增选集下拉，直接切换集数，保留当前人物/场景/道具分类。\n- 新增“一键生成全剧图片”，先确认模型、画幅和并发数量，默认并发 2，可选 1 至 8；已有图片跳过，跨集复用资产只生成一次。\n- 全剧生成先完成参考基准，再生成差异造型；基准失败时阻止依赖造型付费生成。显示进度与未完成项，可停止后续任务，进行中的结果继续保存。\n- 本集批量生图同样使用并发上限，失败结果不自动重复付费生成，待下载结果优先恢复。",
-  "sha256": "b999d716e06d0a83f1022262227f759c04208ddaa2a1be759328bb4819265eca",
-  "size": 102786165,
-  "publishedAt": "2026-10-09T12:50:31.186625+00:00",
+  "version": "2.8.18",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.18/Xingzhou-Film-Tencent-Setup-2.8.18.exe",
+  "notes": "行舟影视 2.8.18：导演剧本颜色与全剧生图界面整理。\n\n- 导演快速模式的剧本文字采用清单核实页相同的深色，原字号、行距及编辑功能保持不变。\n- 美术分集页“一键生成全剧图片”移至人物、场景、道具分类按钮右侧，同排显示；窄窗口自动换行。\n- 全剧生图确认弹窗重新排版：任务摘要、对齐的模型/画幅/并发设置、底部说明与操作按钮。三个选择框统一宽度及高度，长模型名称不再撑破弹窗。",
+  "sha256": "9f1290be8d1890e30110ce62ce36683cb6654c5e66d6da39f2de3808c0cc9cd4",
+  "size": 102777228,
+  "publishedAt": "2026-10-09T14:09:50.027352+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "D7BWzFmSwzeQkAzz1i5pOBX/0NbhngKMMHi5HytQs6gwbgr/3bhldWnwY0gtDs9buODiBUEGIWk0lKYtSFqDAw=="
+    "value": "uBeZveCyqzAjA0fkqVFZMDGd6BYoxvtNVc03tzTmpt0ENWGd7GBRCyIonHrdSBz9B531v6DjMb6rJgseQ0xACQ=="
   }
 }
