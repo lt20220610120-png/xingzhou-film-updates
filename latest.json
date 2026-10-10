@@ -1,12 +1,12 @@
 {
-  "version": "2.8.20",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.20/Xingzhou-Film-Tencent-Setup-2.8.20.exe",
-  "notes": "# 行舟影视 2.8.20\n\n- 修复导演创造模式与快速模式的剧本文字颜色不一致：两种模式共用黑色正文、白色底色，保持原有字号和行距。\n- 保留创造模式只读、快速模式编辑的行为；切换模式继续显示同一份剧本。",
-  "sha256": "171c6314f1643cd3799d7a48079e1b102ab76663dee7e578346c6e9a4f78925a",
-  "size": 102777400,
-  "publishedAt": "2026-10-09T14:55:15.090626+00:00",
+  "version": "2.8.21",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.21/Xingzhou-Film-Tencent-Setup-2.8.21.exe",
+  "notes": "# 行舟影视 2.8.21\n\n- 优化框架式创作灵感、设定及正文输入：连续打字先保留编辑草稿，停顿后合并保存，减少频繁写盘造成的卡顿。\n- 优化自由创作总稿与分集、洗稿正文、IP 分场、导演正文编辑，以及图视生成和分镜草稿的缓存保存。\n- 中文输入法选词期间不提交半成品；保留定时检查点、失焦和操作前提交、手动保存及保存失败后重试，切换分集不丢末尾文字。\n- 导演云协作改为“本地编辑 → 手动上传云端”：保存、刷新和 AI 生成不自动覆盖共享项目；其他成员刷新后读取已上传的改动。\n- 新增“协作版本”，保留成员上传、冲突稿与恢复前版本。不同位置的修改合并；同处冲突不覆盖，由项目制片选择采用或恢复历史。我的本地上传前副本也可找回。\n- 修复多人刷新、同步基准缺失、迟到回包及错误提示未清除；三名独立客户端与五名成员数据库场景验证通过。\n- 快速模式顶部模型选择右侧新增“一键生成整本提示词”。人工分段沿用已有集、场景和（1）（2）边界，每场执行原始完整 Skill；自动分段流程保留。\n- 整本生成可选择 1、2、4、8、16、32 场或全部场景并发，人工模式新任务默认 2 场；预览后确认开始，支持暂停、继续及原始回包查看，结果先保存本地。\n- 协作成员须一起更新到 2.8.21；旧版自动上传入口将提示升级，防止绕过手动上传和版本保留流程。",
+  "sha256": "79042a38b9b2deb75b0f493f42e9650a084cf946cbb8b455809a7438b918d27e",
+  "size": 102788259,
+  "publishedAt": "2026-10-10T13:19:43.655727+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "63VUJMEjuR0bKyEIzsvz8o1edPNIF9lGK52PxMIyB2Z4diWhXgByl3dXVKr3vGD3Meg835qVpL5gPmZZgAA4BQ=="
+    "value": "wAIhSnpj/RG4Ti/9cyioQGT1DMuvJz8g/e8dv8Nb0iV0gfevRDmaVuVLEuFcIGZKrdCBf1uupV3q2ET3J4VWAA=="
   }
 }
