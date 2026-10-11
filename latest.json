@@ -1,12 +1,12 @@
 {
-  "version": "2.8.25",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.25/Xingzhou-Film-Tencent-Setup-2.8.25.exe",
-  "notes": "行舟影视 2.8.25\n\n- 更新飞拓 ft 视频目录：27 个当前型号，包括官方 Seedance 2.0 Mini/Fast/满血、2.5 满血、全能参考和 XN2；旧模型编号与已保存配置保留。视频 API 编辑支持直接选择型号。\n- 时长、分辨率、比例、参考素材数量及音频依赖按最新目录校验；修复模型拉取的公共编号请求头与能力读取。验证仅读取模型目录及使用模拟任务，没有发起付费生成。\n- 内容创作者仍默认本地保存；创作编辑不再重复写未改变的导演项目文件，减少保存开销。\n- 切换资料位置完整复制素材、进度与自建参考目录，改写本机路径；已有目标独立加载，原目录保留。生成/分析任务运行时阻止切换，迁移中冻结编辑；取消后可重新迁移，避免旧快照覆盖新结果。\n- 启动及运行中每六小时清理受控的过期/超额原图与预览缓存。项目、账号浏览器资料、故障备份和协作历史不进入该缓存清理。\n- 完成本地、数据库和对象存储体检。云端三天回收站与本地七天规则正常；未匹配引用的云端对象保留待核验。",
-  "sha256": "0eb04a78b2cd2d63c8efe0dd85f2f0b48dea05b0dfc7707a1bb92d59c81d32c4",
-  "size": 103567440,
-  "publishedAt": "2026-10-11T07:00:28.337448+00:00",
+  "version": "2.8.26",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.26/Xingzhou-Film-Tencent-Setup-2.8.26.exe",
+  "notes": "行舟影视 2.8.26\n\n- 视频模型改为动态目录：拉取/刷新或手填的新型号保存后直接进入图视生成，不再仅认软件内置名单。支持批量导入时保存协议与完整能力；飞拓未内置的新型号可直接提交。\n- API 编辑增加视频协议、参数与模型目录刷新。提供飞拓标准、火山方舟、Videos JSON/表单预设；特殊 HTTP JSON/multipart 上游可自行配置路径、鉴权和字段映射，不自动试探付费生成。\n- 参数随型号读取；未声明的时长、分辨率可手填。手工覆盖与实际提交一致，切换型号重新选择参数；保留原有接口配置和图片功能。\n- 通用视频任务保存 ID 后异步查询，重启可恢复。下载失败只重试下载/查询，支持直返地址恢复；更换服务商地址时保护旧任务密钥，复用历史不继承旧任务编号。\n- 操作说明见 docs/video-self-service-2.8.26.md。专用 SDK、动态签名等非常规协议仍需额外适配。",
+  "sha256": "d5cba1eb7cfadb7aac2eb11e3d0f972642704a27688c6dd8ce1f76c61ccfe24d",
+  "size": 103578511,
+  "publishedAt": "2026-10-11T10:44:17.514675+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "X+mWEjFAtmYjsrRUfVQX6zHwqLMHZSMqZGC4ePyu+Ea8Rrzi3VlRH4JDqTJW4YjJhEAmyBLynUD6O66stLoVBA=="
+    "value": "UoeChsCLjZCfzMcBClOtb1T0Ix19jaEUxue59oOne3S1k8B56kVUewvtk20RxbMHsHAbIbyYmNMF7qWHWHS4CA=="
   }
 }
