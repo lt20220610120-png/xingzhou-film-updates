@@ -1,12 +1,12 @@
 {
-  "version": "2.8.27",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.27/Xingzhou-Film-Tencent-Setup-2.8.27.exe",
-  "notes": "行舟影视 2.8.27\n\n- 接入 LibTV 官方账号授权：在 API 接口或图视生成的 API 设置中点击「连接 LibTV」，浏览器完成登录后读取可用图片和视频型号，无需填写旧 Access Key。\n- 图视生成、协作分镜共用 LibTV 连接。按当前型号实时读取参数、生成模式及参考限制；仅提交当前提示词和选定素材。成功分镜视频按既有项目权限共享。\n- 官方 CLI 首次按需下载并校验；登录凭据按行舟账号在本机隔离，系统加密封存。启动保护异常退出残留；更换账号/空间、资料目录迁移保护运行任务。\n- LibTV 后台任务只触发一次生成，保留官方画布入口；下载失败或重启后查询/下载原节点，不自动重复扣积分。支持首帧、多参考、多结果 ZIP 下载与失败状态识别。\n- 保留普通视频 API、自主接入和原有图片接口。操作说明见 docs/libtv-connection-2.8.27.md。",
-  "sha256": "2403381c0d6a2185c8c5b84e64cd9101d690c9a6e1b59fe5a798e8c6c4f8c1de",
-  "size": 103592691,
-  "publishedAt": "2026-10-11T19:03:04.469645+00:00",
+  "version": "2.8.28",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.28/Xingzhou-Film-Tencent-Setup-2.8.28.exe",
+  "notes": "行舟影视 2.8.28\n\n- 导演提示词正文统一黑色：创造模式、快速模式、历史卡片及提示词编辑使用同一规则，保持原字号；粗体、引用、代码和链接也清晰显示，辅助标签颜色保留。\n- 导演新导入剧本自动移除空白行，支持文件导入、剧本库首次转导演与来源项目复制；原库作品和已有人工草稿保留。\n- 左侧剧本段落不再额外增加空段落间距。场景前人物表等前言按原文切片读取，不重新造空行；快速模式后续人工空行正常保存，切换两种模式继续保留。",
+  "sha256": "1ae70d8fed3391a5cbda6d9f26c06f32d3f31a9b43843eb87174bcb090dfe03d",
+  "size": 103584459,
+  "publishedAt": "2026-10-11T19:26:05.341334+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "xg8C6j5xgCBz98FcBDDPSSSeGET5h6SddbU7/32mubCUBIs/zhG5K77tOGum3uNtr9DPXWC/Bd+tilVUB+q7DQ=="
+    "value": "E+TNmufgy0hqsIiPGpM0fc/r96CoWJruAQpokTOTJP1XTDEYmUz7igKVsQRIrj3AVOWWqJovZz7q3oKExlZ+Bw=="
   }
 }
