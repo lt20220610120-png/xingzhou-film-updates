@@ -1,12 +1,12 @@
 {
-  "version": "2.8.26",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.26/Xingzhou-Film-Tencent-Setup-2.8.26.exe",
-  "notes": "行舟影视 2.8.26\n\n- 视频模型改为动态目录：拉取/刷新或手填的新型号保存后直接进入图视生成，不再仅认软件内置名单。支持批量导入时保存协议与完整能力；飞拓未内置的新型号可直接提交。\n- API 编辑增加视频协议、参数与模型目录刷新。提供飞拓标准、火山方舟、Videos JSON/表单预设；特殊 HTTP JSON/multipart 上游可自行配置路径、鉴权和字段映射，不自动试探付费生成。\n- 参数随型号读取；未声明的时长、分辨率可手填。手工覆盖与实际提交一致，切换型号重新选择参数；保留原有接口配置和图片功能。\n- 通用视频任务保存 ID 后异步查询，重启可恢复。下载失败只重试下载/查询，支持直返地址恢复；更换服务商地址时保护旧任务密钥，复用历史不继承旧任务编号。\n- 操作说明见 docs/video-self-service-2.8.26.md。专用 SDK、动态签名等非常规协议仍需额外适配。",
-  "sha256": "d5cba1eb7cfadb7aac2eb11e3d0f972642704a27688c6dd8ce1f76c61ccfe24d",
-  "size": 103578511,
-  "publishedAt": "2026-10-11T10:44:17.514675+00:00",
+  "version": "2.8.27",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.27/Xingzhou-Film-Tencent-Setup-2.8.27.exe",
+  "notes": "行舟影视 2.8.27\n\n- 接入 LibTV 官方账号授权：在 API 接口或图视生成的 API 设置中点击「连接 LibTV」，浏览器完成登录后读取可用图片和视频型号，无需填写旧 Access Key。\n- 图视生成、协作分镜共用 LibTV 连接。按当前型号实时读取参数、生成模式及参考限制；仅提交当前提示词和选定素材。成功分镜视频按既有项目权限共享。\n- 官方 CLI 首次按需下载并校验；登录凭据按行舟账号在本机隔离，系统加密封存。启动保护异常退出残留；更换账号/空间、资料目录迁移保护运行任务。\n- LibTV 后台任务只触发一次生成，保留官方画布入口；下载失败或重启后查询/下载原节点，不自动重复扣积分。支持首帧、多参考、多结果 ZIP 下载与失败状态识别。\n- 保留普通视频 API、自主接入和原有图片接口。操作说明见 docs/libtv-connection-2.8.27.md。",
+  "sha256": "2403381c0d6a2185c8c5b84e64cd9101d690c9a6e1b59fe5a798e8c6c4f8c1de",
+  "size": 103592691,
+  "publishedAt": "2026-10-11T19:03:04.469645+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "UoeChsCLjZCfzMcBClOtb1T0Ix19jaEUxue59oOne3S1k8B56kVUewvtk20RxbMHsHAbIbyYmNMF7qWHWHS4CA=="
+    "value": "xg8C6j5xgCBz98FcBDDPSSSeGET5h6SddbU7/32mubCUBIs/zhG5K77tOGum3uNtr9DPXWC/Bd+tilVUB+q7DQ=="
   }
 }
