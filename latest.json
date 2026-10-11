@@ -1,12 +1,12 @@
 {
-  "version": "2.8.24",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.24/Xingzhou-Film-Tencent-Setup-2.8.24.exe",
-  "notes": "# 行舟影视 2.8.24\n\n- 修复导演工作台添加集数没有显示新集的问题：直接创建新分集与场景，兼容带空格及英文括号集标题，保留已有分集的导演创作与提示词。保存失败会显示原因，重试不会重复追加。\n- 确认开始整本提示词生成后自动收起弹窗；任务继续在后台执行，入口显示生成进度，可随时重新打开查看、暂停或继续。\n- 浏览器本地存储满额时，小型界面偏好降级保留在本次运行内，避免记忆当前面板失败导致工作区加载失败；项目和生成结果继续按原有文件保存流程处理，保存错误仍明确提示。\n- ChatGPT 独立登录浏览器禁用扩展，拒绝连接 AdGuard 等第三方欢迎标签；官方登录验证页断线重连时保留原标签，刷新不重启窗口或跳走。网站的人工验证仍需由用户完成。\n- 自动整理软件更新缓存，通常保留最近两份完整安装包；正在使用的安装包额外保护，过期下载碎片七天后清理。项目资料、浏览器登录资料和此前备份不参与清理。",
-  "sha256": "23788e03fa8ce68cdf4abf8031a15f116f226a4f9bc504d69d194f35d40d5e2a",
-  "size": 103559372,
-  "publishedAt": "2026-10-11T04:50:08.799585+00:00",
+  "version": "2.8.25",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.25/Xingzhou-Film-Tencent-Setup-2.8.25.exe",
+  "notes": "行舟影视 2.8.25\n\n- 更新飞拓 ft 视频目录：27 个当前型号，包括官方 Seedance 2.0 Mini/Fast/满血、2.5 满血、全能参考和 XN2；旧模型编号与已保存配置保留。视频 API 编辑支持直接选择型号。\n- 时长、分辨率、比例、参考素材数量及音频依赖按最新目录校验；修复模型拉取的公共编号请求头与能力读取。验证仅读取模型目录及使用模拟任务，没有发起付费生成。\n- 内容创作者仍默认本地保存；创作编辑不再重复写未改变的导演项目文件，减少保存开销。\n- 切换资料位置完整复制素材、进度与自建参考目录，改写本机路径；已有目标独立加载，原目录保留。生成/分析任务运行时阻止切换，迁移中冻结编辑；取消后可重新迁移，避免旧快照覆盖新结果。\n- 启动及运行中每六小时清理受控的过期/超额原图与预览缓存。项目、账号浏览器资料、故障备份和协作历史不进入该缓存清理。\n- 完成本地、数据库和对象存储体检。云端三天回收站与本地七天规则正常；未匹配引用的云端对象保留待核验。",
+  "sha256": "0eb04a78b2cd2d63c8efe0dd85f2f0b48dea05b0dfc7707a1bb92d59c81d32c4",
+  "size": 103567440,
+  "publishedAt": "2026-10-11T07:00:28.337448+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "DZSU27aSp828x91qGkGo0fL5GyOsKKPGft6tyVisaLw/m031Ucmslz9adLnbs/IDVR8TwQSpaVhZG2WxWtDSAQ=="
+    "value": "X+mWEjFAtmYjsrRUfVQX6zHwqLMHZSMqZGC4ePyu+Ea8Rrzi3VlRH4JDqTJW4YjJhEAmyBLynUD6O66stLoVBA=="
   }
 }
