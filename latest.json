@@ -1,12 +1,12 @@
 {
-  "version": "2.8.28",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.28/Xingzhou-Film-Tencent-Setup-2.8.28.exe",
-  "notes": "行舟影视 2.8.28\n\n- 导演提示词正文统一黑色：创造模式、快速模式、历史卡片及提示词编辑使用同一规则，保持原字号；粗体、引用、代码和链接也清晰显示，辅助标签颜色保留。\n- 导演新导入剧本自动移除空白行，支持文件导入、剧本库首次转导演与来源项目复制；原库作品和已有人工草稿保留。\n- 左侧剧本段落不再额外增加空段落间距。场景前人物表等前言按原文切片读取，不重新造空行；快速模式后续人工空行正常保存，切换两种模式继续保留。",
-  "sha256": "1ae70d8fed3391a5cbda6d9f26c06f32d3f31a9b43843eb87174bcb090dfe03d",
-  "size": 103584459,
-  "publishedAt": "2026-10-11T19:26:05.341334+00:00",
+  "version": "2.8.29",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.29/Xingzhou-Film-Tencent-Setup-2.8.29.exe",
+  "notes": "行舟影视 2.8.29\n\n- 自动划分：最高时长为每条上限，接近上限为优先倾向，较短非尾段不再阻断整场。保留合法25+25等有衔接收益的划分；换人物、换观察对象、已有细节特写及动作匹配纳入边界建议。\n- 模型规划异常恢复：可提取说明/围栏内唯一完整JSON；有限修正仍失败时，按只读原文的语音和动作计时恢复分段，并带每条建议生成时长继续调用原Skill。不删除原话、不偷偷截小超限秒数。\n- 修复引号/换行切点遗漏，以及紧凑排版中台词被重复当作动作计时；动作分摊小数舍入不再产生负时长。旧任务可以继续，已生成提示词保留；不会自动重跑历史项目。\n- 清单核实：修复全部场景已核实、已发布却被未关联旧候选卡堵住的逐集流程。整集确认保留未关联候选；新增/修改候选后重新核实。真正未完成的关联现在指出具体条目。\n- 美术资产提示词正文与编辑统一纯黑，字号由15px增至16px；正文内强调内容同样清晰。\n\n无法在上限内自然拆开的单句/明确持续动作仍显示具体核对原因；付费接口/网络中断仍可从已保存进度继续。",
+  "sha256": "d24671d649917e4af9958a23e4c5211d3926470d35df7f8ac9ac0df3113547ed",
+  "size": 103587586,
+  "publishedAt": "2026-10-11T23:29:31.949292+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "E+TNmufgy0hqsIiPGpM0fc/r96CoWJruAQpokTOTJP1XTDEYmUz7igKVsQRIrj3AVOWWqJovZz7q3oKExlZ+Bw=="
+    "value": "CXTEhnJGmOC4Ll41WQaXAZ0wuIgosNS6GUd+00FyCvhKznYCguIZgd09fteULtuhMYt3jVbuYpkvx4R44r0oDQ=="
   }
 }
