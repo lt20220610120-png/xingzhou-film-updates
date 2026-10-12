@@ -1,12 +1,12 @@
 {
-  "version": "2.8.30",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.30/Xingzhou-Film-Tencent-Setup-2.8.30.exe",
-  "notes": "行舟影视 2.8.30\n\n- 修复较长中文清单上传时网络分块切断汉字，导致核实签名与条目不一致、单场发布后整集发布失败的问题。云端UTF-8连续解码修复已同步部署。\n- 明确拒绝的旧发布请求不再反复重放；新版加载旧失败检查点即退役旧请求，保留最新本地稿及失败记录。网络断开/回执不明仍使用原请求编号安全恢复。\n- 单场发布后，整集/全部发布复用已上传核实稿，已完成的重复发布不再重复上传。没有内容变化的确认不再制造新的本地未发布版本。\n- 继续保留核实签名、权限、版本冲突保护、本地历史、已有图片与提示词；人工纠正或采用云端版本后可以继续发布。",
-  "sha256": "46e2ba8ff874b5f3b9a8651da521dc01f7ce6d122fe50bf259455353985cacf9",
-  "size": 103591293,
-  "publishedAt": "2026-10-12T00:19:18.299265+00:00",
+  "version": "2.8.31",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.31/Xingzhou-Film-Tencent-Setup-2.8.31.exe",
+  "notes": "# 行舟影视 2.8.31\n\n- 人物换装、状态造型按首次身份形象引用，显式参考关系优先，同集按首次场景排序。单张与整本生图使用同一基准；基准未生成时等待，避免差异造型直接生成另一张脸。链式参考回到首次形象，人工参考选择继续有效。\n- 自动划分先减少合理条数，再在相同条数内选择衔接。合并零碎讲话和动作，合法的30+20、25+25保留；完整讲话、原文覆盖与单条最高时长继续校验，每段带实际建议生成时长。\n- 修复已返回提示词却被保存阶段残留的时长填充率规则拒绝，导致整场显示0条的问题。短段的填充率属于提示，不再挡住已有生成结果。\n- 旧版已返回但未保存的完整付费草稿可从“继续未完成部分”恢复，保留原计划及编号，避免重复生成；已有作品、手动修改、项目权限和源文变化保护保留。\n\n本版不自动修改用户正在使用的项目；测试只用副本和模拟接口。",
+  "sha256": "0bf6b20fbb75ec736f35d3abe5f9774de8360aadaaa6f3b3f829a1476971f43d",
+  "size": 103598405,
+  "publishedAt": "2026-10-12T01:54:37.362806+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8PYZUtmYkiYJkBq0j6P0Usmw3GFBH+ih07yLEPtx3Q+RysOlGKJgSx4AEYS4VOgxYxurwbErG2Xhtfife7ykDA=="
+    "value": "HxYwJ6KrhUyUJW+kT0yiQE79o0F3O8aSd7Hsu1IlFgbNo22CX00Zy5rLYOtqfz5/enzp045FZlvgFy/2fv3ICQ=="
   }
 }
