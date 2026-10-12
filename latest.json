@@ -1,12 +1,12 @@
 {
-  "version": "2.8.29",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.29/Xingzhou-Film-Tencent-Setup-2.8.29.exe",
-  "notes": "行舟影视 2.8.29\n\n- 自动划分：最高时长为每条上限，接近上限为优先倾向，较短非尾段不再阻断整场。保留合法25+25等有衔接收益的划分；换人物、换观察对象、已有细节特写及动作匹配纳入边界建议。\n- 模型规划异常恢复：可提取说明/围栏内唯一完整JSON；有限修正仍失败时，按只读原文的语音和动作计时恢复分段，并带每条建议生成时长继续调用原Skill。不删除原话、不偷偷截小超限秒数。\n- 修复引号/换行切点遗漏，以及紧凑排版中台词被重复当作动作计时；动作分摊小数舍入不再产生负时长。旧任务可以继续，已生成提示词保留；不会自动重跑历史项目。\n- 清单核实：修复全部场景已核实、已发布却被未关联旧候选卡堵住的逐集流程。整集确认保留未关联候选；新增/修改候选后重新核实。真正未完成的关联现在指出具体条目。\n- 美术资产提示词正文与编辑统一纯黑，字号由15px增至16px；正文内强调内容同样清晰。\n\n无法在上限内自然拆开的单句/明确持续动作仍显示具体核对原因；付费接口/网络中断仍可从已保存进度继续。",
-  "sha256": "d24671d649917e4af9958a23e4c5211d3926470d35df7f8ac9ac0df3113547ed",
-  "size": 103587586,
-  "publishedAt": "2026-10-11T23:29:31.949292+00:00",
+  "version": "2.8.30",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.30/Xingzhou-Film-Tencent-Setup-2.8.30.exe",
+  "notes": "行舟影视 2.8.30\n\n- 修复较长中文清单上传时网络分块切断汉字，导致核实签名与条目不一致、单场发布后整集发布失败的问题。云端UTF-8连续解码修复已同步部署。\n- 明确拒绝的旧发布请求不再反复重放；新版加载旧失败检查点即退役旧请求，保留最新本地稿及失败记录。网络断开/回执不明仍使用原请求编号安全恢复。\n- 单场发布后，整集/全部发布复用已上传核实稿，已完成的重复发布不再重复上传。没有内容变化的确认不再制造新的本地未发布版本。\n- 继续保留核实签名、权限、版本冲突保护、本地历史、已有图片与提示词；人工纠正或采用云端版本后可以继续发布。",
+  "sha256": "46e2ba8ff874b5f3b9a8651da521dc01f7ce6d122fe50bf259455353985cacf9",
+  "size": 103591293,
+  "publishedAt": "2026-10-12T00:19:18.299265+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "CXTEhnJGmOC4Ll41WQaXAZ0wuIgosNS6GUd+00FyCvhKznYCguIZgd09fteULtuhMYt3jVbuYpkvx4R44r0oDQ=="
+    "value": "8PYZUtmYkiYJkBq0j6P0Usmw3GFBH+ih07yLEPtx3Q+RysOlGKJgSx4AEYS4VOgxYxurwbErG2Xhtfife7ykDA=="
   }
 }
