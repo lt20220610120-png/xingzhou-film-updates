@@ -1,12 +1,12 @@
 {
-  "version": "2.8.32",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.32/Xingzhou-Film-Tencent-Setup-2.8.32.exe",
-  "notes": "# 行舟影视 2.8.32\n\n- 新增 MaxForAI 和 9Y 视频快捷接入。填写各自网站生成的 API Key 后，可只读拉取当前视频型号并保存到本机；具有明确视频标识的新型号可重新刷新，其余可人工确认用途后导入或手填编号，无需等软件更新内置编号。\n- 两家视频配置统一进入图视生成、导演项目协作分镜和画布。MaxForAI 使用官方 `/v1/videos` 任务接口，本地参考素材自动上传到同一账号并转换引用编号；任务附带幂等编号，网络异常不会切换接口重复生成。\n- 9Y 使用官方 `seconds`、`aspect_ratio` 和多类型参考素材字段；Wan 视频素材卡可填写参考时长并保存草稿，付费提交前检查单段及总时长。本地文件或非公网 HTTPS 素材会明确提示，不再出现已配置、已拉取但生成时静默失效。\n- 完善两家任务状态、失败原因和鉴权下载解析。完整接口路径、官网文档地址也会规范到官方 `/v1`，查询和下载始终使用原任务编号。\n\n本版验证使用本地模拟接口，不调用真实付费视频生成。",
-  "sha256": "ad8f18c5e8c396ef37775d208a53c05ba5ad6dc877b17faeefe7a834b3ecad35",
-  "size": 103601227,
-  "publishedAt": "2026-10-12T10:46:50.190598+00:00",
+  "version": "2.8.33",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.33/Xingzhou-Film-Tencent-Setup-2.8.33.exe",
+  "notes": "# 行舟影视 2.8.33\n\n- 修复 9Y 在图视生成和协作分镜中无法使用本地参考素材的问题。点击生成时仅临时上传本次选中的本地图片、音频或视频，提供可读取的签名链接；原素材仍保留本机，无需创建协作项目。\n- 临时素材链接有效48小时，服务端定期自动清理到期对象。上传按行舟账号隔离、限制格式和大小，重复使用同一未变化文件可复用短期链接。\n- 素材准备失败明确显示失败，可修正后重新生成；生成请求未发出时不再提示“提交未确认/核对扣费”。真正提交结果不明仍保留原任务，不自动重复生成。\n- 9Y 的参考编号转换为其支持的中文引用；官转 Wan 使用官方分辨率字段，并在素材上传前检查参考视频与生成时长总计不超过30秒。特惠 Wan 不套用官转时长规则。\n\n本版生成验证使用模拟接口，未执行真实付费视频生成。",
+  "sha256": "880f3ae28d262d5b25511eba6bfa66d5d2f4668bb8ee75634ae4d953cff64fc7",
+  "size": 103602974,
+  "publishedAt": "2026-10-12T12:33:03.860333+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "xhlEQuMDK51tEiLINa1eW8oxjcQZopVe+Bnmg2gX2kPpRCUjuiPafuXbSCyqNkiQNSpQ1V8VS7SqIDjNDSXnDg=="
+    "value": "YAG1pooNgRx1iieRYG0RiPEyYQtHTkqSB3zXMWEH0hTVnkb2NkNokuitd+CpjirEjBoo9mnI18INGI807mEeBg=="
   }
 }
