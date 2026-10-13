@@ -1,12 +1,12 @@
 {
-  "version": "2.8.34",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.34/Xingzhou-Film-Tencent-Setup-2.8.34.exe",
-  "notes": "# 行舟影视 2.8.34\n\n- 新增AutoDL H3视频快捷接入，预置“多图多音频·升级画质”和“高速版”两个工作流。用户填写AutoDL官网ComfyUI分组Token即可在图视生成、项目协作分镜中选择使用。\n- 按AutoDL官方协议原样Token鉴权、提交并保存任务ID，异步查询原任务并尽快下载视频结果；不会转发Token到视频结果域名，不以重复生成恢复网络或下载失败。\n- 支持1–15秒、480p/768p、横屏/竖屏/方形画幅，最多9张参考图、3段参考音频，至少1张图，可选随机种子。参数、素材数量在上传和提交前验证。\n- 本地参考沿用48小时临时上传和到期清理，补充FLAC、MP4音频导入与临时上传；只上传当前选中的素材，原文件保留。两个已核对工作流可直接载入，无需猜测模型目录接口。\n\n本版视频生成验证采用模拟接口，未调用真实付费视频生成。",
-  "sha256": "886c0a2eafea8969542918a0b215bd80fb4b1af263063dfa0cc22a6a0a7be11f",
-  "size": 103606883,
-  "publishedAt": "2026-10-13T11:08:46.809486+00:00",
+  "version": "2.8.35",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.35/Xingzhou-Film-Tencent-Setup-2.8.35.exe",
+  "notes": "# 行舟影视 2.8.35\n\n- 修复导演多人协作中项目名、分集标题、编号、状态、风格与画幅重复，以及重复分集导致场景错位的问题。结构字段独立保存，创作文字继续实时同步。\n- 协作客户端统一从云端共同基准连接；旧初始化缓存、历史恢复之前的改动不会再混入新版本。本地稿、离线缓存稿和归档提示词保留，可在协作版本取回。\n- 受影响项目新增“预览修复协作数据”。制片查看整理后的分集与创作内容后确认采用，修复前后云端版本自动保留。有独立创作差异时不自动选择内容。\n- 修复中文输入法组字期间同步可能永久停住，以及请求期间撤权或锁定可能覆盖新输入的问题。\n\n请项目内所有成员更新至 2.8.35 或以上。打开异常项目后，制片在顶部点击“预览修复协作数据”，核对后点击“确认采用修复结果”；其他成员随后自动重新同步。旧客户端会提示升级并保留本地稿。",
+  "sha256": "2a26f797254d3e5369d66dce2a0780bd98c454fbebb36127f5d439dfd786f615",
+  "size": 103609052,
+  "publishedAt": "2026-10-13T13:52:27.638269+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "3OGP/v7cULEoLGb7BUZaiSZC5Gy/JaO/jsq+u3jF5z9ZQph24O7ofSyHZaPlD04Qdx53mpnjrMvAL299gg+TBQ=="
+    "value": "TvhChn5ss3wQCpewNmupOhXBcJt0mOLEWcH7C9GXrzCwU6pohgUpdnlzZU2LEPs+msBnFCJ5LVsnjbrvs/tIAQ=="
   }
 }
