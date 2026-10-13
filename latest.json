@@ -1,12 +1,12 @@
 {
-  "version": "2.8.33",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.33/Xingzhou-Film-Tencent-Setup-2.8.33.exe",
-  "notes": "# 行舟影视 2.8.33\n\n- 修复 9Y 在图视生成和协作分镜中无法使用本地参考素材的问题。点击生成时仅临时上传本次选中的本地图片、音频或视频，提供可读取的签名链接；原素材仍保留本机，无需创建协作项目。\n- 临时素材链接有效48小时，服务端定期自动清理到期对象。上传按行舟账号隔离、限制格式和大小，重复使用同一未变化文件可复用短期链接。\n- 素材准备失败明确显示失败，可修正后重新生成；生成请求未发出时不再提示“提交未确认/核对扣费”。真正提交结果不明仍保留原任务，不自动重复生成。\n- 9Y 的参考编号转换为其支持的中文引用；官转 Wan 使用官方分辨率字段，并在素材上传前检查参考视频与生成时长总计不超过30秒。特惠 Wan 不套用官转时长规则。\n\n本版生成验证使用模拟接口，未执行真实付费视频生成。",
-  "sha256": "880f3ae28d262d5b25511eba6bfa66d5d2f4668bb8ee75634ae4d953cff64fc7",
-  "size": 103602974,
-  "publishedAt": "2026-10-12T12:33:03.860333+00:00",
+  "version": "2.8.34",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.34/Xingzhou-Film-Tencent-Setup-2.8.34.exe",
+  "notes": "# 行舟影视 2.8.34\n\n- 新增AutoDL H3视频快捷接入，预置“多图多音频·升级画质”和“高速版”两个工作流。用户填写AutoDL官网ComfyUI分组Token即可在图视生成、项目协作分镜中选择使用。\n- 按AutoDL官方协议原样Token鉴权、提交并保存任务ID，异步查询原任务并尽快下载视频结果；不会转发Token到视频结果域名，不以重复生成恢复网络或下载失败。\n- 支持1–15秒、480p/768p、横屏/竖屏/方形画幅，最多9张参考图、3段参考音频，至少1张图，可选随机种子。参数、素材数量在上传和提交前验证。\n- 本地参考沿用48小时临时上传和到期清理，补充FLAC、MP4音频导入与临时上传；只上传当前选中的素材，原文件保留。两个已核对工作流可直接载入，无需猜测模型目录接口。\n\n本版视频生成验证采用模拟接口，未调用真实付费视频生成。",
+  "sha256": "886c0a2eafea8969542918a0b215bd80fb4b1af263063dfa0cc22a6a0a7be11f",
+  "size": 103606883,
+  "publishedAt": "2026-10-13T11:08:46.809486+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "YAG1pooNgRx1iieRYG0RiPEyYQtHTkqSB3zXMWEH0hTVnkb2NkNokuitd+CpjirEjBoo9mnI18INGI807mEeBg=="
+    "value": "3OGP/v7cULEoLGb7BUZaiSZC5Gy/JaO/jsq+u3jF5z9ZQph24O7ofSyHZaPlD04Qdx53mpnjrMvAL299gg+TBQ=="
   }
 }
