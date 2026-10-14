@@ -1,12 +1,12 @@
 {
-  "version": "2.8.36",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.36/Xingzhou-Film-Tencent-Setup-2.8.36.exe",
-  "notes": "# 行舟影视 2.8.36\n\n- 修复 IP 库上传小说后自动任务依赖当前页面状态的问题。上传 TXT 并点击“开始改编”后，自动通读、规划、提取设定并生成首版正文；未完成的自动启动任务可在重启后恢复。\n- 原句不在当前范围、重复对白无法唯一定位或规划结构异常时，自动改用真实原文段落编号修正本批，不再反复停在同一条定位错误。\n- 某段原文提前用完时，自动把剩余集数预算移至下一段原文；末批自动重分。已知失效的切点不会再次用于续跑，有效前文与历史记录保留。\n- 修复正文场号异常会立即中止的问题；自动纠正分集结构，断流时接续新稿。减少规划重复原文造成的上下文占用。\n- 分集规划页新增已保存进度、规划预览及主线/原著停点调整入口。已有正文生成新版规划时仍先保留为候选，采用后才重写。\n\n已有卡住项目更新后可点击“一键生成完整首版”继续；已经采用规划的项目点击“补全设定与未完成集”。原文、已生成正文与历史不会因本次更新被清空。",
-  "sha256": "4f5cc08b2217ccbc1a0106fd63b475b287fbc32577de15476c127a88237706e3",
-  "size": 103609330,
-  "publishedAt": "2026-10-14T17:50:05.500608+00:00",
+  "version": "2.8.37",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.37/Xingzhou-Film-Tencent-Setup-2.8.37.exe",
+  "notes": "修复 LibTV 已连接账号仍无法生图的问题。\n\n- 正确读取官方连接器的画布编号，解决“画布创建未确认，未提交生成”。\n- 从官方型号目录解析创建节点所需的模型名称，解决把模型编号误传为名称后被拒绝。\n- 刷新模型、断开或切换空间时同步更新相关缓存，保留账号隔离和原任务只运行一次的保护。\n- 清除已核对下架的四个旧飞拓生图型号，不再从已有飞拓密钥自动显示这些失效选项；原有生成结果和任务历史保留。\n\n更新后可直接使用已有 LibTV 连接，在美术或图视生成里选择 LibTV 图片模型生成，无须重新填写密钥。其他站点的通道、额度、审核和网络状态仍以其实际响应为准。",
+  "sha256": "7b4f338e41a0611a461b2e3016d2fa5fe3c37c6b4a5ea83438a174857fdede3d",
+  "size": 103613754,
+  "publishedAt": "2026-10-14T21:23:54.211397+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "1Sxf4NWkC44M5lz9vw8KBIfmvbNgwZqDqmjqL6tKdJAYqPLSaQ3zQugMVYVAMlOgqgVkYHyk7sJRxotA3iq8AQ=="
+    "value": "t6E+aT7ANxAMW/jgrgBDb1xWU5Ytzxqq3Cy9RzDnSaOSTOFdAxwMQ1U6hkpqpchpQ2Do6hb4nz40b0OxEu+4DQ=="
   }
 }
