@@ -1,12 +1,12 @@
 {
-  "version": "2.8.39",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.39/Xingzhou-Film-Tencent-Setup-2.8.39.exe",
-  "notes": "资产页新增按人物、场景、道具分类的一键生图。\n\n- 默认勾选当前分类未生成图片的资产，人物包含全部妆造；支持取消全选、全选未生成、逐项选择及人物全部妆造选择。\n- 顶部可选已配置的图片 API 模型、画幅与并发数量，默认并发2张。按钮显示本次选择数量，搜索不改变当前分类的生成范围。\n- 复用美术页的基准优先、参考图、草稿保存、旧结果恢复和生成结果保存规则，提供进度与停止后续生成。失败不会自动重复付费生成。\n- 成功项主动取消勾选，继续处理时只保留失败及未开始项。手动勾选已有图片资产会新增图片，原图保留；未关联历史资产不参与批量生成。",
-  "sha256": "12b747f0f7f3939f07d7df7078c408bbb243d3c9b04b96a47d75a02765bc6e3e",
-  "size": 103610951,
-  "publishedAt": "2026-10-15T18:47:21.713578+00:00",
+  "version": "2.8.40",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.40/Xingzhou-Film-Tencent-Setup-2.8.40.exe",
+  "notes": "分集编号冲突不再导致整个工作区加载失败。\n\n- 项目内新增“分集检查与历史”，重复或错误集号可展开完整原文，主动选择主稿、编辑集号/标题/正文，或移出当前分集并保留历史。\n- 其他项目分区继续可用，已有美术、图片和核实记录保留。核实页只将编号明确的分集用于当前操作，不自动按顺序改号或替你决定主稿。\n- 导演源编号异常时保留当前协作项目，显示同步待核对提示；修正后旧稿不会被后台同步重新加入。\n- 修正操作检查制片权限、项目锁与并发版本，旧正文、完整剧本与分镜历史保留，重复编辑历史保持正常体积。",
+  "sha256": "d9e03fa6641cabd2f78b61e6e2af20e2ff86d45ec87867212c1904234ad69074",
+  "size": 103612894,
+  "publishedAt": "2026-10-15T19:33:12.761506+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "q2gLWQxzf1ta5zNJDHhPzXmXsRyiJDybziW22cKKvok77scauzmgn3DhNWqPX6qxWmlMUcGocCikhTcnryxnBA=="
+    "value": "AfHdm63HjUrXLNZwAX7Ss1hx/4Mt9Y4ZStE54pkR2GF3SCl7bhNOAVIu1PvbMMN8PXRTRlslcMtLFKeMze9jDw=="
   }
 }
