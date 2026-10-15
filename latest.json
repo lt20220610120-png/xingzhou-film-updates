@@ -1,12 +1,12 @@
 {
-  "version": "2.8.38",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.38/Xingzhou-Film-Tencent-Setup-2.8.38.exe",
-  "notes": "修复清单核实发布与美术人物基准、参考图片的衔接。\n\n- 已核实类别可纠正旧资产分类，保留资产编号、图片、原提示词和历史；同次同名分类矛盾给出待核对提醒，其他资产继续发布。\n- 核实确认名单与补齐描述分开，首次人物只有服化道时显示外貌缺漏；补齐后可以直接采用完整信息卡。前集已补齐的同名信息优先复用，避免重复付费设计面貌。\n- 参考图片入口始终显示，可选项目已有图片或导入本机参考；后续造型默认继承人物基准。单张和批量使用同一规则，原结果恢复不会重新生图。\n- 非人形巨龙使用自由构图，已核实分类不再被旧的自动分类规则改回道具。\n- 修复 LibTV 带参考图任务仍按文生图创建节点的问题，参考图任务正确提交图生图模式；场景时段变体同样提示引用已有场景基准。\n\n已有项目可继续核实并发布；原有人工修改、图片与历史记录保留。",
-  "sha256": "ddfb3b67488b45f2694cdf920c27f2426a74bb86d007662b75a9d46b8180f4fd",
-  "size": 103609162,
-  "publishedAt": "2026-10-15T16:29:56.007755+00:00",
+  "version": "2.8.39",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.39/Xingzhou-Film-Tencent-Setup-2.8.39.exe",
+  "notes": "资产页新增按人物、场景、道具分类的一键生图。\n\n- 默认勾选当前分类未生成图片的资产，人物包含全部妆造；支持取消全选、全选未生成、逐项选择及人物全部妆造选择。\n- 顶部可选已配置的图片 API 模型、画幅与并发数量，默认并发2张。按钮显示本次选择数量，搜索不改变当前分类的生成范围。\n- 复用美术页的基准优先、参考图、草稿保存、旧结果恢复和生成结果保存规则，提供进度与停止后续生成。失败不会自动重复付费生成。\n- 成功项主动取消勾选，继续处理时只保留失败及未开始项。手动勾选已有图片资产会新增图片，原图保留；未关联历史资产不参与批量生成。",
+  "sha256": "12b747f0f7f3939f07d7df7078c408bbb243d3c9b04b96a47d75a02765bc6e3e",
+  "size": 103610951,
+  "publishedAt": "2026-10-15T18:47:21.713578+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "k4j2iTBr+Pnw1gvAkfSm2DQNRc5P2DjKDk3aN3tm5SJkrNrj4HjbJ+26EzNipmuZiz5mSeqa4qM1Mm82Nn9mBw=="
+    "value": "q2gLWQxzf1ta5zNJDHhPzXmXsRyiJDybziW22cKKvok77scauzmgn3DhNWqPX6qxWmlMUcGocCikhTcnryxnBA=="
   }
 }
