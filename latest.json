@@ -1,12 +1,12 @@
 {
-  "version": "2.8.37",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.37/Xingzhou-Film-Tencent-Setup-2.8.37.exe",
-  "notes": "修复 LibTV 已连接账号仍无法生图的问题。\n\n- 正确读取官方连接器的画布编号，解决“画布创建未确认，未提交生成”。\n- 从官方型号目录解析创建节点所需的模型名称，解决把模型编号误传为名称后被拒绝。\n- 刷新模型、断开或切换空间时同步更新相关缓存，保留账号隔离和原任务只运行一次的保护。\n- 清除已核对下架的四个旧飞拓生图型号，不再从已有飞拓密钥自动显示这些失效选项；原有生成结果和任务历史保留。\n\n更新后可直接使用已有 LibTV 连接，在美术或图视生成里选择 LibTV 图片模型生成，无须重新填写密钥。其他站点的通道、额度、审核和网络状态仍以其实际响应为准。",
-  "sha256": "7b4f338e41a0611a461b2e3016d2fa5fe3c37c6b4a5ea83438a174857fdede3d",
-  "size": 103613754,
-  "publishedAt": "2026-10-14T21:23:54.211397+00:00",
+  "version": "2.8.38",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.38/Xingzhou-Film-Tencent-Setup-2.8.38.exe",
+  "notes": "修复清单核实发布与美术人物基准、参考图片的衔接。\n\n- 已核实类别可纠正旧资产分类，保留资产编号、图片、原提示词和历史；同次同名分类矛盾给出待核对提醒，其他资产继续发布。\n- 核实确认名单与补齐描述分开，首次人物只有服化道时显示外貌缺漏；补齐后可以直接采用完整信息卡。前集已补齐的同名信息优先复用，避免重复付费设计面貌。\n- 参考图片入口始终显示，可选项目已有图片或导入本机参考；后续造型默认继承人物基准。单张和批量使用同一规则，原结果恢复不会重新生图。\n- 非人形巨龙使用自由构图，已核实分类不再被旧的自动分类规则改回道具。\n- 修复 LibTV 带参考图任务仍按文生图创建节点的问题，参考图任务正确提交图生图模式；场景时段变体同样提示引用已有场景基准。\n\n已有项目可继续核实并发布；原有人工修改、图片与历史记录保留。",
+  "sha256": "ddfb3b67488b45f2694cdf920c27f2426a74bb86d007662b75a9d46b8180f4fd",
+  "size": 103609162,
+  "publishedAt": "2026-10-15T16:29:56.007755+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "t6E+aT7ANxAMW/jgrgBDb1xWU5Ytzxqq3Cy9RzDnSaOSTOFdAxwMQ1U6hkpqpchpQ2Do6hb4nz40b0OxEu+4DQ=="
+    "value": "k4j2iTBr+Pnw1gvAkfSm2DQNRc5P2DjKDk3aN3tm5SJkrNrj4HjbJ+26EzNipmuZiz5mSeqa4qM1Mm82Nn9mBw=="
   }
 }
