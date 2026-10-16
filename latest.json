@@ -1,12 +1,12 @@
 {
-  "version": "2.8.42",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.42/Xingzhou-Film-Tencent-Setup-2.8.42.exe",
-  "notes": "# 行舟影视 2.8.42\n\n- 历史提示词的逐集删除改为卡片右上角的小图标，顶部“删除全部”也更简洁；删除范围和确认流程保持。\n- 项目协作分镜的参考素材改为内部滚动展示区；大量图片不再把页面撑成长列表，宽屏底部对齐参考上传按钮，窄窗自动调整。\n- 修复美术资产图片的内部记录被混入分镜参考、错误显示为大量音频的问题。按素材类型与项目标识筛选，打开旧分镜和草稿时清理错误引用；保留正常图片、明确上传的音频、原始素材与独立整本导入。",
-  "sha256": "2eb657a4ece616e1fe006bd0fa7e1535b854b3416e56a21be49c6914d0a38e49",
-  "size": 103617580,
-  "publishedAt": "2026-10-16T21:18:23.220585+00:00",
+  "version": "2.8.43",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.43/Xingzhou-Film-Tencent-Setup-2.8.43.exe",
+  "notes": "# 行舟影视 2.8.43\n\n- 信息读取不再要求手填题材。所选分析模型先通读完整剧本，自动整理背景、时代地域、族群及故事风格，保存后作为各集美术清单的前提；长剧本分段读取并支持断点复用，原文未明确的内容保留待核对说明。\n- 自动连续分析遇到缺少描述、错误场景对应、回包截断或临时接口失败时，会在当前集自动补全、等待重试，完成后再进入下一集。可随时停止，已完成进度保留，分析说明汇总修复记录和需要人工注意的内容。\n- 新增“生物多视图”。动物与非人形生物自动采用纯白背景正面、侧面、背面全身三视图，不添加人物或场景；清单识别、旧自动人像预置迁移、单张与批量生成统一生效。人类、真正的人形角色和道具仍使用对应构图，手写前置保留。\n- 移除信息读取页面的内置美术规则名称展示。\n- 修复“全部核实 → 全集发布”被正常英文台词误拦的问题：例如 Activate 不再误识别成 Act 幕标题，同集的中英双语标题也能正确识别。快速核实允许细节稍后补齐，发布后正常显示美术资产；遇到真实项目级问题时保留核实结果并集中提示，避免逐集重复请求和整页报错。",
+  "sha256": "efcbc317af579dd612c75fe442cd97db9610312526be507a0241da778a2599bc",
+  "size": 103623601,
+  "publishedAt": "2026-10-16T22:59:27.208938+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "mCkAUi83k4CKyeTBd4pH5J2ExRs9/sqRpMHkqy4FTMZNFD4b++SxZv/ZnIuAJIF7THlLF4poDsFRrq+gmvpSCw=="
+    "value": "dQgJiNTyZX1wWm69lhytUTqhHjZrqS74EXVWARoNRIYlusZ1Ai4vAQ/wdXLeN2ZsZg9SaC0X1leUBzuq0/0aAw=="
   }
 }
