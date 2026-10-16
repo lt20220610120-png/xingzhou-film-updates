@@ -1,12 +1,12 @@
 {
-  "version": "2.8.41",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.41/Xingzhou-Film-Tencent-Setup-2.8.41.exe",
-  "notes": "# 行舟影视 2.8.41\n\n- 导演工作台的历史提示词支持按集删除，每个集数卡片和集内详情都有入口；顶部新增“删除全部历史提示词”。删除前显示范围和条数，可取消。\n- 删除同步清理历史与分集中的对应提示词，保留剧本正文、分集及已生成媒体文件；修复迟到的旧生成缓存可能重新写回已删除提示词的问题。\n- 资产页顶部的添加资产、角色／场景／道具切换，与生图模型、画幅、并发及生成按钮统一对齐；较窄窗口自动换行。",
-  "sha256": "163bce9f9c39cbd983bd377b87587c54f1b02872de6f5936cdfe35936be77f2a",
-  "size": 103613690,
-  "publishedAt": "2026-10-16T13:54:42.570694+00:00",
+  "version": "2.8.42",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.42/Xingzhou-Film-Tencent-Setup-2.8.42.exe",
+  "notes": "# 行舟影视 2.8.42\n\n- 历史提示词的逐集删除改为卡片右上角的小图标，顶部“删除全部”也更简洁；删除范围和确认流程保持。\n- 项目协作分镜的参考素材改为内部滚动展示区；大量图片不再把页面撑成长列表，宽屏底部对齐参考上传按钮，窄窗自动调整。\n- 修复美术资产图片的内部记录被混入分镜参考、错误显示为大量音频的问题。按素材类型与项目标识筛选，打开旧分镜和草稿时清理错误引用；保留正常图片、明确上传的音频、原始素材与独立整本导入。",
+  "sha256": "2eb657a4ece616e1fe006bd0fa7e1535b854b3416e56a21be49c6914d0a38e49",
+  "size": 103617580,
+  "publishedAt": "2026-10-16T21:18:23.220585+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "MC5ELfL69UQFycHo7KbDZ4DFQzjOLXb/kXV2VAou5wA5lNvKJFmIdGvx9SB84li0dxptYq8zuuRvXRiPsD8xCA=="
+    "value": "mCkAUi83k4CKyeTBd4pH5J2ExRs9/sqRpMHkqy4FTMZNFD4b++SxZv/ZnIuAJIF7THlLF4poDsFRrq+gmvpSCw=="
   }
 }
