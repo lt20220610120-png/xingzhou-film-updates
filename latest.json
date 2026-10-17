@@ -1,12 +1,12 @@
 {
-  "version": "2.8.43",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.43/Xingzhou-Film-Tencent-Setup-2.8.43.exe",
-  "notes": "# 行舟影视 2.8.43\n\n- 信息读取不再要求手填题材。所选分析模型先通读完整剧本，自动整理背景、时代地域、族群及故事风格，保存后作为各集美术清单的前提；长剧本分段读取并支持断点复用，原文未明确的内容保留待核对说明。\n- 自动连续分析遇到缺少描述、错误场景对应、回包截断或临时接口失败时，会在当前集自动补全、等待重试，完成后再进入下一集。可随时停止，已完成进度保留，分析说明汇总修复记录和需要人工注意的内容。\n- 新增“生物多视图”。动物与非人形生物自动采用纯白背景正面、侧面、背面全身三视图，不添加人物或场景；清单识别、旧自动人像预置迁移、单张与批量生成统一生效。人类、真正的人形角色和道具仍使用对应构图，手写前置保留。\n- 移除信息读取页面的内置美术规则名称展示。\n- 修复“全部核实 → 全集发布”被正常英文台词误拦的问题：例如 Activate 不再误识别成 Act 幕标题，同集的中英双语标题也能正确识别。快速核实允许细节稍后补齐，发布后正常显示美术资产；遇到真实项目级问题时保留核实结果并集中提示，避免逐集重复请求和整页报错。",
-  "sha256": "efcbc317af579dd612c75fe442cd97db9610312526be507a0241da778a2599bc",
-  "size": 103623601,
-  "publishedAt": "2026-10-16T22:59:27.208938+00:00",
+  "version": "2.8.44",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.44/Xingzhou-Film-Tencent-Setup-2.8.44.exe",
+  "notes": "# 行舟影视 2.8.44\n\n- 精简信息读取：移除“剧本背景”标题、说明和结果展示。后台仍自动分析并保存全剧背景，继续用于美术清单与资产描述。\n- 美术和资产卡片的场景编号默认收起，只显示“对应场景”。鼠标悬停可查看，点击可固定展开；长列表在浮层内部滚动，不再挤占妆造切换区域。\n- 场景浮层支持键盘进入和滚动、Escape关闭、点击外部关闭；切换妆造后自动收起，窄窗口也能完整查看。",
+  "sha256": "cdf96676d8b4644ba6449897110030db413334c0c5a96a432a25b46c25661332",
+  "size": 103625120,
+  "publishedAt": "2026-10-17T02:37:29.303713+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "dQgJiNTyZX1wWm69lhytUTqhHjZrqS74EXVWARoNRIYlusZ1Ai4vAQ/wdXLeN2ZsZg9SaC0X1leUBzuq0/0aAw=="
+    "value": "8siplt8Ocj3tqE0+8WvYTRSkJIJOz1PVZ0wFZLbsugQKNxPCL4utXsJZV1gTn3T8nsnrfIFsB769ggRii4miCw=="
   }
 }
