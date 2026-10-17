@@ -1,12 +1,12 @@
 {
-  "version": "2.8.44",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.44/Xingzhou-Film-Tencent-Setup-2.8.44.exe",
-  "notes": "# 行舟影视 2.8.44\n\n- 精简信息读取：移除“剧本背景”标题、说明和结果展示。后台仍自动分析并保存全剧背景，继续用于美术清单与资产描述。\n- 美术和资产卡片的场景编号默认收起，只显示“对应场景”。鼠标悬停可查看，点击可固定展开；长列表在浮层内部滚动，不再挤占妆造切换区域。\n- 场景浮层支持键盘进入和滚动、Escape关闭、点击外部关闭；切换妆造后自动收起，窄窗口也能完整查看。",
-  "sha256": "cdf96676d8b4644ba6449897110030db413334c0c5a96a432a25b46c25661332",
-  "size": 103625120,
-  "publishedAt": "2026-10-17T02:37:29.303713+00:00",
+  "version": "2.8.45",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.45/Xingzhou-Film-Tencent-Setup-2.8.45.exe",
+  "notes": "# 行舟影视 2.8.45\n\n- 资产页新增“只看未生成”：一键集中显示当前人物、场景或道具中尚未出图的资产；人物按具体妆造筛选，左侧定位与内容同步。出图成功后自动移出，未完成项继续保留，可随时关闭筛选查看全部。\n- 开启未生成筛选时，批量任务只包含未出图的已选项，隐藏的已生成图片不会参与本批次。\n- 修正导演工作台创造模式：模型同时读取左侧完整整场剧本、右侧导演构想、项目风格画幅与所选完整 Skill 及附件，再输出提示词。左侧保持原始剧本，快速模式的局部编辑独立保留。\n- 创造模式结果按对应场景保存并进入历史，输入来源保留完整剧本与构想；空回包明确提示，不再记为生成成功。",
+  "sha256": "7b40a572acb064e3104b2d4317f72f26a34da57fefa7f3b77500da8c8667599f",
+  "size": 103625238,
+  "publishedAt": "2026-10-17T14:24:15.870801+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8siplt8Ocj3tqE0+8WvYTRSkJIJOz1PVZ0wFZLbsugQKNxPCL4utXsJZV1gTn3T8nsnrfIFsB769ggRii4miCw=="
+    "value": "nPC24Yl3ZbhUDUy5isLczGlwOLrqJQcklJGyNGMuAUR6OsfRQ+bYCW1S4cwqP4Vnb42RZVtxHeu1POLWnIlDBg=="
   }
 }
