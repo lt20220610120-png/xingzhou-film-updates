@@ -1,12 +1,12 @@
 {
-  "version": "2.8.50",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.50/Xingzhou-Film-Tencent-Setup-2.8.50.exe",
-  "notes": "# 行舟影视 2.8.50\n\n- 新安装使用纯净资料：不预置开发者项目、API配置或自定义Skill，仅提供三个自带导演Skill。已有资料升级保留。\n- 自带导演Skill改为服务端执行，客户端仅保留名称和说明，关闭查看、编辑、删除入口；支持已审核的官方OpenAI、DeepSeek、Anthropic和行舟Win AI线路。\n- 加强地区文化和画面文字约束：全剧背景、清单补全、单张及批量美术统一继承当地语言要求，保留剧本明确的例外。\n- 老用户新增FT五类连接：视频兼容、原生视频、官方渠道、图片兼容、原生图片。填写新站Key后刷新当前账号的模型目录；旧Key不迁移，旧站任务仍可查询。\n- 补齐新接口的素材上传、型号版本、参考编号、原任务查询和下载恢复，网络异常时不自动重复付费提交。\n- 新用户隐藏上游快捷接入与品牌预设，继续支持自定义协议接入。",
-  "sha256": "13cbd379ef6871c41ad483967faec8cb5deb84bad0dbc94ab8d72f600f3bc39e",
-  "size": 103744761,
-  "publishedAt": "2026-10-18T16:38:42.220701+00:00",
+  "version": "2.8.51",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.51/Xingzhou-Film-Tencent-Setup-2.8.51.exe",
+  "notes": "# 行舟影视 2.8.51\n\n- AI修改提示词提交后立即关闭弹窗，任务在后台运行；可继续操作其他卡片、切换妆造或页面，返回后自动显示并保存结果。失败提示和原修改意见保留。\n- 修复美术/资产在保存、生成、刷新后卡片顺序和妆造选择跳变；保留既有顺序，固定选择边框宽度。\n- 新增妆造明确继承第一套人物身份、外貌及完整提示词，AI按新要求更换服装/状态；默认使用第一套的第一张参考图。\n- 修复空妆造名被误作人物基准、手动新增资产首现集数错误记为第1集的问题；新妆造须命名并按实际关联集数保存。",
+  "sha256": "b550e3e29fa179521b55e4684748b4d98bfcb1337e560f7acf6704830913f3ca",
+  "size": 103739497,
+  "publishedAt": "2026-10-18T21:20:39.158535+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "DwZv0OQZFDaVd6dX/JwDhTO3qEjUN7JM6BuVpFwfD9ucNLjci7gkcKupqrAsmjCJrqkeIkDltqPPinXKGe5HDg=="
+    "value": "isN5l0OBlC9SEcO9j8d/xu5W/gA8JsLxkPUlg2kMVEfuy3f1XUYK3SC2K66uesEq0REhn3b7kDc0/XD7CqRQBA=="
   }
 }
