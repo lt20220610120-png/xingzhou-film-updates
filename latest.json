@@ -1,12 +1,12 @@
 {
-  "version": "2.8.48",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.48/Xingzhou-Film-Tencent-Setup-2.8.48.exe",
-  "notes": "修复 Win AI 内嵌控制台的登录交接：先完成安全验证再打开页面，改善打开时出现 ERR_UNEXPECTED 的问题。\n\nWin AI 改用网络节点图标，与“API 接口”区分；用户界面不新增站长入口。\n\nWin AI 网站补齐独立浏览器注册、登录和找回密码，复用行舟账号；软件内继续自动登录。真实上游、模型售价与支付商户需由站长配置，网站公网访问仍待备案审核和线路验收。",
-  "sha256": "45fbc3c04f0865d758572a41b10b8813ac5e803276dd07bdd556494693e4ae1c",
-  "size": 103629780,
-  "publishedAt": "2026-10-18T10:41:44.212714+00:00",
+  "version": "2.8.49",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.49/Xingzhou-Film-Tencent-Setup-2.8.49.exe",
+  "notes": "# 行舟影视 2.8.49\n\n- 修复已生成视频在图视生成中打开后黑屏、停在 0:00、无法拖动播放的问题；项目协作的分镜视频预览同步修复。\n- 预览使用独立弹层和清晰的关闭按钮，支持 Esc、点击空白处退出；加载失败或耗时较长时显示提示并允许重新加载、下载。\n- 下载保留原文件内容；本地副本丢失且结果链接仍有效时可恢复下载。图片预览和参考素材同步兼容新的本地媒体地址。\n\n本次更新不重新提交生成任务，不消耗模型生成额度。",
+  "sha256": "f1b3f21f459e84fc85d24506639b54a645ccdeb1767aaecf9c0b1d474599eca5",
+  "size": 103731899,
+  "publishedAt": "2026-10-18T13:25:53.147560+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "+Oj6QAblczlX1lJdNoms7nesoPXdykhxOqKcg67XgQ6L2zANCdDX+GZh9iRBzK2KVvFbZQEqdLz8pvOOalvBCA=="
+    "value": "b9DslJI6rLzwOJMsZj9PKjT89G2aczNpg7dG7sbG9RuN3I3+YXqaS4JJICg1V50RsNlV/XS61lvBejw5WE7iCg=="
   }
 }
