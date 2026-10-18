@@ -1,12 +1,12 @@
 {
-  "version": "2.8.47",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.47/Xingzhou-Film-Tencent-Setup-2.8.47.exe",
-  "notes": "# 行舟影视 2.8.47\n\n- 左侧新增 Win AI 控制台。使用当前行舟账号自动进入，无需再次注册；API 令牌、钱包、模型与用量在独立页面中管理。\n- Win AI 页面使用隔离的安全会话，退出、换号或账号停用后关闭；普通行舟用户不会获得网关管理员权限。\n- Win AI 的软件内页面和模型接口支持官方服务器证书校验连接，改善当前域名线路不稳定时的可用性；文本、模型列表与兼容的图片/视频请求可使用 Win AI 地址及独立令牌。\n- 接入原生钱包、充值订单与支付宝/微信支付配置，沿用参考站的金额档位；增加回调金额核对和重复到账保护验证。实际收款仍需站长填写自己的商户资料并完成启用和小额验收，未配置时不接受真实付款。\n\n- 账号退出、失效或权限更新时，Win AI 页面明确显示重新连接提示，避免关闭安全会话后只留下空白区域。",
-  "sha256": "b74930dcca07c528620a1d6538b1f3ebb699dc6e8ea39e6793d5128d64751dc1",
-  "size": 103629227,
-  "publishedAt": "2026-10-18T05:15:32.741560+00:00",
+  "version": "2.8.48",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.48/Xingzhou-Film-Tencent-Setup-2.8.48.exe",
+  "notes": "修复 Win AI 内嵌控制台的登录交接：先完成安全验证再打开页面，改善打开时出现 ERR_UNEXPECTED 的问题。\n\nWin AI 改用网络节点图标，与“API 接口”区分；用户界面不新增站长入口。\n\nWin AI 网站补齐独立浏览器注册、登录和找回密码，复用行舟账号；软件内继续自动登录。真实上游、模型售价与支付商户需由站长配置，网站公网访问仍待备案审核和线路验收。",
+  "sha256": "45fbc3c04f0865d758572a41b10b8813ac5e803276dd07bdd556494693e4ae1c",
+  "size": 103629780,
+  "publishedAt": "2026-10-18T10:41:44.212714+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "x+hyl8zyXyYtD7utde/EQAOQsVrHkX/IWMDU9Y22Wm8eQzyZs9MKlpLeqqa72P6dI5J+4J9KGHOs8rCMVuBSCA=="
+    "value": "+Oj6QAblczlX1lJdNoms7nesoPXdykhxOqKcg67XgQ6L2zANCdDX+GZh9iRBzK2KVvFbZQEqdLz8pvOOalvBCA=="
   }
 }
