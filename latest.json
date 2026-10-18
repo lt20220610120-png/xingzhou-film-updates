@@ -1,12 +1,12 @@
 {
-  "version": "2.8.49",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.49/Xingzhou-Film-Tencent-Setup-2.8.49.exe",
-  "notes": "# 行舟影视 2.8.49\n\n- 修复已生成视频在图视生成中打开后黑屏、停在 0:00、无法拖动播放的问题；项目协作的分镜视频预览同步修复。\n- 预览使用独立弹层和清晰的关闭按钮，支持 Esc、点击空白处退出；加载失败或耗时较长时显示提示并允许重新加载、下载。\n- 下载保留原文件内容；本地副本丢失且结果链接仍有效时可恢复下载。图片预览和参考素材同步兼容新的本地媒体地址。\n\n本次更新不重新提交生成任务，不消耗模型生成额度。",
-  "sha256": "f1b3f21f459e84fc85d24506639b54a645ccdeb1767aaecf9c0b1d474599eca5",
-  "size": 103731899,
-  "publishedAt": "2026-10-18T13:25:53.147560+00:00",
+  "version": "2.8.50",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.50/Xingzhou-Film-Tencent-Setup-2.8.50.exe",
+  "notes": "# 行舟影视 2.8.50\n\n- 新安装使用纯净资料：不预置开发者项目、API配置或自定义Skill，仅提供三个自带导演Skill。已有资料升级保留。\n- 自带导演Skill改为服务端执行，客户端仅保留名称和说明，关闭查看、编辑、删除入口；支持已审核的官方OpenAI、DeepSeek、Anthropic和行舟Win AI线路。\n- 加强地区文化和画面文字约束：全剧背景、清单补全、单张及批量美术统一继承当地语言要求，保留剧本明确的例外。\n- 老用户新增FT五类连接：视频兼容、原生视频、官方渠道、图片兼容、原生图片。填写新站Key后刷新当前账号的模型目录；旧Key不迁移，旧站任务仍可查询。\n- 补齐新接口的素材上传、型号版本、参考编号、原任务查询和下载恢复，网络异常时不自动重复付费提交。\n- 新用户隐藏上游快捷接入与品牌预设，继续支持自定义协议接入。",
+  "sha256": "13cbd379ef6871c41ad483967faec8cb5deb84bad0dbc94ab8d72f600f3bc39e",
+  "size": 103744761,
+  "publishedAt": "2026-10-18T16:38:42.220701+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "b9DslJI6rLzwOJMsZj9PKjT89G2aczNpg7dG7sbG9RuN3I3+YXqaS4JJICg1V50RsNlV/XS61lvBejw5WE7iCg=="
+    "value": "DwZv0OQZFDaVd6dX/JwDhTO3qEjUN7JM6BuVpFwfD9ucNLjci7gkcKupqrAsmjCJrqkeIkDltqPPinXKGe5HDg=="
   }
 }
