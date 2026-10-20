@@ -1,12 +1,12 @@
 {
-  "version": "2.8.53",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.53/Xingzhou-Film-Tencent-Setup-2.8.53.exe",
-  "notes": "# 行舟影视 2.8.53\n\n- 资产“只看未生成”界面新增“一键重试原图”和“一键放弃旧结果”，按当前人物/场景/道具分类及搜索范围处理，包含匹配人物的未生成妆造。\n- 批量重试显示处理进度、成功数量、未恢复图片名称及原因；单项失败不影响其余图片，支持停止后续恢复。没有旧结果的资产自动跳过，不会新建生图任务。\n- 批量放弃先确认数量和范围，只解除旧结果恢复状态，不删除已保存图片、不自动重新生图；之后可手动生成新图，可能产生费用。\n- “本机参考图”改为带图标的紧凑单行按钮，避免换行撑高。\n- 加强恢复操作保护：即使等待保存提示词时旧记录被放弃，原重试也不会误转成付费生图。",
-  "sha256": "8f02874486af95df439c552bf52231a1ed15377e2ee8ec48930011a110f52f07",
-  "size": 103745864,
-  "publishedAt": "2026-10-20T02:21:03.837841+00:00",
+  "version": "2.8.55",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.55/Xingzhou-Film-Tencent-Setup-2.8.55.exe",
+  "notes": "导演工作台自动分段重构：先估整场表演时长，按最高视频时长确定条数，再在固定条数内选择特写、换人或换观察对象的衔接。英文按词估算，明确的中英对照不重复计时；语速与时长仅作拍摄参考，不再因此拦住提示词生成。自动分段与人工分段使用同一套所选 Skill，返回内容及时显示，缺失条目可继续补齐。\n\n新增云端临时素材管理：设置页和视频生成参考区可查看用量，选择清理、清理已到期或全部可清理副本。任务使用中的副本受保护，旧版无法确认用途的副本保留至到期；本机原文件、项目资产与生成结果保留。修复临时参考文件过早触及100个数量上限，提升至500个、仍保留1GB容量限制；同文件跨任务和重启后复用有效副本，减少重复占用。\n\n已有生成结果、历史与用户自定义 Skill 保留。本机已启用的提示词联动美术试用功能在升级后延续。",
+  "sha256": "b77986422874632b4dd499187490498417df10f97defd514f7a44cd4e84bbe62",
+  "size": 103783426,
+  "publishedAt": "2026-10-20T14:39:36.281996+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "XvuBZ8BViclfbLrz8P1KQkmjPue4OpQy0UgAbJZABx1dvBo6TkDvJSLqvJrBhIARLDYK4h0raCjXF2teOwFoBQ=="
+    "value": "SvnAr7eO9viPgUY+Ba3FJg8cfD8x02mB/9uUDWsRSiVBK7yK12iDJy5CTrbFlhpDGv763fEwsI+jCjQDx1xHCg=="
   }
 }
