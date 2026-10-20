@@ -1,12 +1,12 @@
 {
-  "version": "2.8.55",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.55/Xingzhou-Film-Tencent-Setup-2.8.55.exe",
-  "notes": "导演工作台自动分段重构：先估整场表演时长，按最高视频时长确定条数，再在固定条数内选择特写、换人或换观察对象的衔接。英文按词估算，明确的中英对照不重复计时；语速与时长仅作拍摄参考，不再因此拦住提示词生成。自动分段与人工分段使用同一套所选 Skill，返回内容及时显示，缺失条目可继续补齐。\n\n新增云端临时素材管理：设置页和视频生成参考区可查看用量，选择清理、清理已到期或全部可清理副本。任务使用中的副本受保护，旧版无法确认用途的副本保留至到期；本机原文件、项目资产与生成结果保留。修复临时参考文件过早触及100个数量上限，提升至500个、仍保留1GB容量限制；同文件跨任务和重启后复用有效副本，减少重复占用。\n\n已有生成结果、历史与用户自定义 Skill 保留。本机已启用的提示词联动美术试用功能在升级后延续。",
-  "sha256": "b77986422874632b4dd499187490498417df10f97defd514f7a44cd4e84bbe62",
-  "size": 103783426,
-  "publishedAt": "2026-10-20T14:39:36.281996+00:00",
+  "version": "2.8.56",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.56/Xingzhou-Film-Tencent-Setup-2.8.56.exe",
+  "notes": "新增 Like 浏览器画布连接：在 API 接口或图视生成的接口设置中，安装浏览器连接组件、输入本机配对码，粘贴 Like 项目网址并绑定当前画布。绑定会保存；刷新网页、重启浏览器或电脑后，打开行舟和已登录的目标画布即可自动重连，无需网站 API Key 或开发者控制台。新项目可直接新增绑定。\n\n支持 Seedance 2.5，16:9 / 9:16、4–30 秒、默认 480p，以及图片、音频、视频参考。图视生成与项目分镜共用连接；生成结果可返回原画布查看。断线或提交未确认时仅查询原任务，不自动重复生成。\n\n保留已有项目、接口、Skill 与本机已启用的提示词联动美术试用。Like 网站需保持登录且目标画布可编辑；首次需要在 Edge 或 Chrome 加载连接扩展并配对一次。",
+  "sha256": "096f4d411008a933007de5b47c72c1c920df5f0fe511d67218c94da3496bebfd",
+  "size": 103798446,
+  "publishedAt": "2026-10-20T18:31:59.470692+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "SvnAr7eO9viPgUY+Ba3FJg8cfD8x02mB/9uUDWsRSiVBK7yK12iDJy5CTrbFlhpDGv763fEwsI+jCjQDx1xHCg=="
+    "value": "EuNtWAphZYqsD05ld2GG7RcxkOk+CxIzUMohiXBmCWBY6qGqIVz3rJ2+pE3AUMizDs+DkqQaalnP0deXgewVCw=="
   }
 }
