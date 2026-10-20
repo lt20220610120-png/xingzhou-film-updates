@@ -2,11 +2,11 @@
   "version": "2.8.56",
   "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.56/Xingzhou-Film-Tencent-Setup-2.8.56.exe",
   "notes": "新增 Like 浏览器画布连接：在 API 接口或图视生成的接口设置中，安装浏览器连接组件、输入本机配对码，粘贴 Like 项目网址并绑定当前画布。绑定会保存；刷新网页、重启浏览器或电脑后，打开行舟和已登录的目标画布即可自动重连，无需网站 API Key 或开发者控制台。新项目可直接新增绑定。\n\n支持 Seedance 2.5，16:9 / 9:16、4–30 秒、默认 480p，以及图片、音频、视频参考。图视生成与项目分镜共用连接；生成结果可返回原画布查看。断线或提交未确认时仅查询原任务，不自动重复生成。\n\n保留已有项目、接口、Skill 与本机已启用的提示词联动美术试用。Like 网站需保持登录且目标画布可编辑；首次需要在 Edge 或 Chrome 加载连接扩展并配对一次。",
-  "sha256": "096f4d411008a933007de5b47c72c1c920df5f0fe511d67218c94da3496bebfd",
-  "size": 103798446,
-  "publishedAt": "2026-10-20T18:31:59.470692+00:00",
+  "sha256": "367b3761a5ede2fdff74d8656ee40e5e74dd4b9f23479cb096b8b527ff2fa03d",
+  "size": 103797991,
+  "publishedAt": "2026-10-20T18:36:30.319705+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "EuNtWAphZYqsD05ld2GG7RcxkOk+CxIzUMohiXBmCWBY6qGqIVz3rJ2+pE3AUMizDs+DkqQaalnP0deXgewVCw=="
+    "value": "w37Nst+cEqpWNAM0h+tGZ327bIj9PxJqFNxVemqjWDrBKclVzga+44FiJf69IrwBx1N24EgJEACjP7tQ2esyDA=="
   }
 }
