@@ -1,12 +1,12 @@
 {
-  "version": "2.8.51",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.51/Xingzhou-Film-Tencent-Setup-2.8.51.exe",
-  "notes": "# 行舟影视 2.8.51\n\n- AI修改提示词提交后立即关闭弹窗，任务在后台运行；可继续操作其他卡片、切换妆造或页面，返回后自动显示并保存结果。失败提示和原修改意见保留。\n- 修复美术/资产在保存、生成、刷新后卡片顺序和妆造选择跳变；保留既有顺序，固定选择边框宽度。\n- 新增妆造明确继承第一套人物身份、外貌及完整提示词，AI按新要求更换服装/状态；默认使用第一套的第一张参考图。\n- 修复空妆造名被误作人物基准、手动新增资产首现集数错误记为第1集的问题；新妆造须命名并按实际关联集数保存。",
-  "sha256": "b550e3e29fa179521b55e4684748b4d98bfcb1337e560f7acf6704830913f3ca",
-  "size": 103739497,
-  "publishedAt": "2026-10-18T21:20:39.158535+00:00",
+  "version": "2.8.52",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.52/Xingzhou-Film-Tencent-Setup-2.8.52.exe",
+  "notes": "# 行舟影视 2.8.52\n\n- 美术与资产的图片恢复区整合为独立面板，两行按钮等宽对齐；重试取回、上传原图、打开结果地址、放弃旧结果更容易找到。\n- 修正 HTTP 477 等上游下载失败被误报为本地磁盘问题；显示服务商返回的原因，区分结果地址、有效图片和本地保存状态。\n- GPT 兼容图片接口优先请求直接返回图片数据，减少临时链接过期带来的影响；校验图片有效性，避免错误网页被当作图片保存。\n- 原图取回后保留本地恢复依据，保存中断可继续；恢复不会重复生图。确认放弃旧结果后，可另行点击“生成图片”提交新任务，界面会提示可能产生费用。",
+  "sha256": "ba1a1cb546cca923e811717b1cd352a9ba081e1f345decc4818b2008f9e605aa",
+  "size": 103745137,
+  "publishedAt": "2026-10-20T01:20:37.490089+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "isN5l0OBlC9SEcO9j8d/xu5W/gA8JsLxkPUlg2kMVEfuy3f1XUYK3SC2K66uesEq0REhn3b7kDc0/XD7CqRQBA=="
+    "value": "FfXw0Nud1a0wy/9xlZOlPmb8CDnW88yGRK8S01U/wuoQj38WS6BeG+6L+lrULCOuOdqyLfQLa+vuKcBeWLIvAA=="
   }
 }
