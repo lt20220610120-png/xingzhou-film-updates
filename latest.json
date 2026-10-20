@@ -1,12 +1,12 @@
 {
-  "version": "2.8.52",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.52/Xingzhou-Film-Tencent-Setup-2.8.52.exe",
-  "notes": "# 行舟影视 2.8.52\n\n- 美术与资产的图片恢复区整合为独立面板，两行按钮等宽对齐；重试取回、上传原图、打开结果地址、放弃旧结果更容易找到。\n- 修正 HTTP 477 等上游下载失败被误报为本地磁盘问题；显示服务商返回的原因，区分结果地址、有效图片和本地保存状态。\n- GPT 兼容图片接口优先请求直接返回图片数据，减少临时链接过期带来的影响；校验图片有效性，避免错误网页被当作图片保存。\n- 原图取回后保留本地恢复依据，保存中断可继续；恢复不会重复生图。确认放弃旧结果后，可另行点击“生成图片”提交新任务，界面会提示可能产生费用。",
-  "sha256": "ba1a1cb546cca923e811717b1cd352a9ba081e1f345decc4818b2008f9e605aa",
-  "size": 103745137,
-  "publishedAt": "2026-10-20T01:20:37.490089+00:00",
+  "version": "2.8.53",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.53/Xingzhou-Film-Tencent-Setup-2.8.53.exe",
+  "notes": "# 行舟影视 2.8.53\n\n- 资产“只看未生成”界面新增“一键重试原图”和“一键放弃旧结果”，按当前人物/场景/道具分类及搜索范围处理，包含匹配人物的未生成妆造。\n- 批量重试显示处理进度、成功数量、未恢复图片名称及原因；单项失败不影响其余图片，支持停止后续恢复。没有旧结果的资产自动跳过，不会新建生图任务。\n- 批量放弃先确认数量和范围，只解除旧结果恢复状态，不删除已保存图片、不自动重新生图；之后可手动生成新图，可能产生费用。\n- “本机参考图”改为带图标的紧凑单行按钮，避免换行撑高。\n- 加强恢复操作保护：即使等待保存提示词时旧记录被放弃，原重试也不会误转成付费生图。",
+  "sha256": "8f02874486af95df439c552bf52231a1ed15377e2ee8ec48930011a110f52f07",
+  "size": 103745864,
+  "publishedAt": "2026-10-20T02:21:03.837841+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "FfXw0Nud1a0wy/9xlZOlPmb8CDnW88yGRK8S01U/wuoQj38WS6BeG+6L+lrULCOuOdqyLfQLa+vuKcBeWLIvAA=="
+    "value": "XvuBZ8BViclfbLrz8P1KQkmjPue4OpQy0UgAbJZABx1dvBo6TkDvJSLqvJrBhIARLDYK4h0raCjXF2teOwFoBQ=="
   }
 }
