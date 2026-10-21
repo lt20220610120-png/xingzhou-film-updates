@@ -1,12 +1,12 @@
 {
-  "version": "2.8.56",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.56/Xingzhou-Film-Tencent-Setup-2.8.56.exe",
-  "notes": "新增 Like 浏览器画布连接：在 API 接口或图视生成的接口设置中，安装浏览器连接组件、输入本机配对码，粘贴 Like 项目网址并绑定当前画布。绑定会保存；刷新网页、重启浏览器或电脑后，打开行舟和已登录的目标画布即可自动重连，无需网站 API Key 或开发者控制台。新项目可直接新增绑定。\n\n支持 Seedance 2.5，16:9 / 9:16、4–30 秒、默认 480p，以及图片、音频、视频参考。图视生成与项目分镜共用连接；生成结果可返回原画布查看。断线或提交未确认时仅查询原任务，不自动重复生成。\n\n保留已有项目、接口、Skill 与本机已启用的提示词联动美术试用。Like 网站需保持登录且目标画布可编辑；首次需要在 Edge 或 Chrome 加载连接扩展并配对一次。",
-  "sha256": "367b3761a5ede2fdff74d8656ee40e5e74dd4b9f23479cb096b8b527ff2fa03d",
-  "size": 103797991,
-  "publishedAt": "2026-10-20T18:36:30.319705+00:00",
+  "version": "2.8.58",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.58/Xingzhou-Film-Tencent-Setup-2.8.58.exe",
+  "notes": "# 行舟影视 2.8.58\n\n- 修复 Like 画布连接在创建、选中视频节点后，把模型或参数下拉框误认成当前画布，导致提交中止的问题。\n- 项目变化、画布变化和编辑权限不足分别给出明确提示，保留严格的目标画布校验。\n- 更新已安装的本机连接组件文件，保留原扩展目录、配对和绑定。更新后在浏览器扩展管理页重新加载连接组件，再刷新 Like 画布一次即可生效。\n- 恢复连接仅查询原任务，不自动重发未确认的生成任务。",
+  "sha256": "daef752d2c91a3855abf9af43f4a370df8a0c7c93c4d9e899fa032dba707aba2",
+  "size": 103798271,
+  "publishedAt": "2026-10-21T08:31:42.142854+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "w37Nst+cEqpWNAM0h+tGZ327bIj9PxJqFNxVemqjWDrBKclVzga+44FiJf69IrwBx1N24EgJEACjP7tQ2esyDA=="
+    "value": "6F6cnkwZ+fXTmJCOqhnZ6IgK0IlXt0hVarcN1Hm7EeltbILamsxxqwRp3chegUOI88xyPsQpJP8w28GugqH3BQ=="
   }
 }
