@@ -1,12 +1,12 @@
 {
-  "version": "2.8.59",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.59/Xingzhou-Film-Tencent-Setup-2.8.59.exe",
-  "notes": "# 行舟影视 2.8.59\n\n- 项目协作美术清单中的道具采用“道具名-所属人物”展示，先突出道具本体，再显示归属人物。\n- 新生成的美术清单通过内置规则固定道具命名顺序，并将属性、状态和补充说明放到描述字段。\n- 历史“人物-道具名”数据只调整显示顺序，保留原始资产 ID、图片、提示词引用和场景关联。",
-  "sha256": "1c08fedd79f3b329d5317f64c2a1bf92904c6c3dbf8516e1dbe1a64af9eff812",
-  "size": 103743712,
-  "publishedAt": "2026-10-21T09:51:59.266083+00:00",
+  "version": "2.8.60",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.60/Xingzhou-Film-Tencent-Setup-2.8.60.exe",
+  "notes": "# 行舟影视 2.8.60\n\n- 项目协作道具统一采用“道具名-所属人物”：快速定位、卡片标题、参考选择、图片文件名先显示道具。\n- 内置美术清单规则明确新道具命名；无明确归属时只写道具名，必要状态在本体与归属之后。\n- 历史“人物-道具名”保留资产身份、图片与场景记录；新旧名称均可引用同一张图片。\n- 补齐道具按本体名称自动匹配参考图，避免将所属人名当作道具本体。\n- 正式版与本机专用版分别打包；保护已有本机专用功能和用户配置。",
+  "sha256": "d01de0a01fc9e86d286534d2951b46297a00cd843d6d525049831ff74a796eb8",
+  "size": 103741465,
+  "publishedAt": "2026-10-21T15:03:17.823429+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "2gUp9wwiraiif1t8nJJrrrkUCm9DJdznq0NI1vYAIL9Hw1wYeK0SvuN0+p2W4ddIUiDoo9/ZWDSaMLbqUiZeDw=="
+    "value": "ap+jtdjLmjI6ot4OhgLYRY9IBkjcl4vOYZ8i8DmhzOdR1VJOkL2PhrAxEwswLieZKuHeQsz+1WyJQYtqW4cLCg=="
   }
 }
