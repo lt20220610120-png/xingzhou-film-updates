@@ -1,12 +1,12 @@
 {
-  "version": "2.8.58",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.58/Xingzhou-Film-Tencent-Setup-2.8.58.exe",
-  "notes": "# 行舟影视 2.8.58\n\n- 修复 Like 画布连接在创建、选中视频节点后，把模型或参数下拉框误认成当前画布，导致提交中止的问题。\n- 项目变化、画布变化和编辑权限不足分别给出明确提示，保留严格的目标画布校验。\n- 更新已安装的本机连接组件文件，保留原扩展目录、配对和绑定。更新后在浏览器扩展管理页重新加载连接组件，再刷新 Like 画布一次即可生效。\n- 恢复连接仅查询原任务，不自动重发未确认的生成任务。",
-  "sha256": "daef752d2c91a3855abf9af43f4a370df8a0c7c93c4d9e899fa032dba707aba2",
-  "size": 103798271,
-  "publishedAt": "2026-10-21T08:31:42.142854+00:00",
+  "version": "2.8.59",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.59/Xingzhou-Film-Tencent-Setup-2.8.59.exe",
+  "notes": "# 行舟影视 2.8.59\n\n- 项目协作美术清单中的道具采用“道具名-所属人物”展示，先突出道具本体，再显示归属人物。\n- 新生成的美术清单通过内置规则固定道具命名顺序，并将属性、状态和补充说明放到描述字段。\n- 历史“人物-道具名”数据只调整显示顺序，保留原始资产 ID、图片、提示词引用和场景关联。",
+  "sha256": "1c08fedd79f3b329d5317f64c2a1bf92904c6c3dbf8516e1dbe1a64af9eff812",
+  "size": 103743712,
+  "publishedAt": "2026-10-21T09:51:59.266083+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "6F6cnkwZ+fXTmJCOqhnZ6IgK0IlXt0hVarcN1Hm7EeltbILamsxxqwRp3chegUOI88xyPsQpJP8w28GugqH3BQ=="
+    "value": "2gUp9wwiraiif1t8nJJrrrkUCm9DJdznq0NI1vYAIL9Hw1wYeK0SvuN0+p2W4ddIUiDoo9/ZWDSaMLbqUiZeDw=="
   }
 }
