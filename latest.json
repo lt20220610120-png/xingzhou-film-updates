@@ -1,12 +1,12 @@
 {
-  "version": "2.8.63",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.63/Xingzhou-Film-Tencent-Setup-2.8.63.exe",
-  "notes": "# 2.8.63\n\n- 管理后台“制作工作流总控”增加启动前必填设置：Agent 类型、视频渠道与模型、视觉风格、画幅、单条最高时长、生图优先/回退渠道、超分目标、输出目录和 OpenFilm/CodeDance 模板。\n- 增加无费用预跑检查。项目、Agent、渠道、输出目录或后期模板未就绪时禁止启动。\n- 七阶段卡片显示可开始、运行中、已完成、需处理和等待前置；保存预设与开始执行分离。\n- 本次不改变普通用户权限；制作工作流仍只在管理员后台显示。",
-  "sha256": "a7ccdbba0c3757b163d166f62023afa1018796e0f81ed7335ebb650c329f135d",
-  "size": 103813930,
-  "publishedAt": "2026-10-22T16:35:29.588305+00:00",
+  "version": "2.8.64",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.64/Xingzhou-Film-Tencent-Setup-2.8.64.exe",
+  "notes": "# 2.8.64\n\n- 图视生成的“查看当前场景已挂载素材”支持单个恢复：移除的素材显示“↶ 恢复”，点击只恢复该素材，其他移除结果保留。图片、音频和视频均支持，原来的整条恢复按钮保留。\n- 恢复只影响当前提示词；切换条目、重新打开软件后保留已保存结果，自动引用编号随素材列表同步。\n- 修复管理员制作工作流的视频模型选择、设置保存和预跑拦截：设置变更后须重新检查，后端继续执行时也会校验。\n- 工作流明确显示实际接入状态。当前支持从已准备的提示词和素材接续生成、下载及按集归档；Agent 名称、超分和剪辑模板仅保存为后续接入预设，不会显示为已完成。",
+  "sha256": "9dafe13accb01928d0b967113af9d9b7c4c9891518735abaf40219c025654cb4",
+  "size": 103823222,
+  "publishedAt": "2026-10-22T17:42:38.639775+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "MFDtIZ8hEXRBFGuaKx9D+5zqZx+nv0LWAXW+iD+cC0ZAhdhyUHxfREw8HpNy9yRQo/fhoNu9gRayAobdL+j7CA=="
+    "value": "TnHhOVQb9gi+TyUZQbZyZUDvzhpof02B7KOYi8zj1UQ3YIhawIZBrFo7/cd9n+wneSfnoEyxTuUAmBb1Ooq2Dg=="
   }
 }
