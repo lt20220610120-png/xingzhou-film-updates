@@ -1,12 +1,12 @@
 {
-  "version": "2.8.64",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.64/Xingzhou-Film-Tencent-Setup-2.8.64.exe",
-  "notes": "# 2.8.64\n\n- 图视生成的“查看当前场景已挂载素材”支持单个恢复：移除的素材显示“↶ 恢复”，点击只恢复该素材，其他移除结果保留。图片、音频和视频均支持，原来的整条恢复按钮保留。\n- 恢复只影响当前提示词；切换条目、重新打开软件后保留已保存结果，自动引用编号随素材列表同步。\n- 修复管理员制作工作流的视频模型选择、设置保存和预跑拦截：设置变更后须重新检查，后端继续执行时也会校验。\n- 工作流明确显示实际接入状态。当前支持从已准备的提示词和素材接续生成、下载及按集归档；Agent 名称、超分和剪辑模板仅保存为后续接入预设，不会显示为已完成。",
-  "sha256": "9dafe13accb01928d0b967113af9d9b7c4c9891518735abaf40219c025654cb4",
-  "size": 103823222,
-  "publishedAt": "2026-10-22T17:42:38.639775+00:00",
+  "version": "2.8.65",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.65/Xingzhou-Film-Tencent-Setup-2.8.65.exe",
+  "notes": "# 2.8.65\n\n- 重新设计按提示词关联界面：图视生成的独立关联、项目协作的提示词联动美术统一为白色与浅紫灰配色，替换原深色底板。\n- 关联卡片中的用途、图片/卡片选择和关联依据横向紧凑排布，缩略图置于右侧；小窗口自动换行。\n- 关联条目与图片身份列表设置独立滚动区，默认展示约一至两张关联卡片的高度，大量素材不再撑长整个页面。列表支持键盘聚焦与滚动。\n- 保留图片完整比例，关联选择、确认、AI 整理及保存流程沿用原规则。",
+  "sha256": "4141a425a929e0255120617baf5a8045e8480fa7c635725dd944326e3b992b26",
+  "size": 103812885,
+  "publishedAt": "2026-10-23T08:47:27.129956+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "TnHhOVQb9gi+TyUZQbZyZUDvzhpof02B7KOYi8zj1UQ3YIhawIZBrFo7/cd9n+wneSfnoEyxTuUAmBb1Ooq2Dg=="
+    "value": "1zLu9uzCSpfLLJvYhV4lftEBpEp2MQArMS1it3ADJMygKwRjNkkx69v54MFUCgChTPnB6PO/FwrejxFQP1fRCQ=="
   }
 }
