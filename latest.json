@@ -1,12 +1,12 @@
 {
-  "version": "2.8.66",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.66/Xingzhou-Film-Tencent-Setup-2.8.66.exe",
-  "notes": "# 2.8.66\n\n- 新安装用户在启动页完成软件月卡和设备授权后，才能登录或注册。\n- 现有三个老账号继续使用，不受月卡流程影响；邀请码与软件卡密保持分离。\n- 月卡从完成激活时按北京时间对应日计算一个月，提前续卡顺延；一份授权同时绑定一台电脑。\n- 管理后台新增“软件授权 / 卡密”，支持一次性发卡、年度订单、库存、授权、解绑、撤销和审计。\n- 软件更新统一放在启动授权页；未激活或已到期也可以获取官方安全更新，安装不会延长授权。",
-  "sha256": "f9622e42a1622f469335494d76c8d68f7c07099d9cab91c85d65d9f6fb89eae8",
-  "size": 103829078,
-  "publishedAt": "2026-10-23T12:48:35.421995+00:00",
+  "version": "2.8.67",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.67/Xingzhou-Film-Tencent-Setup-2.8.67.exe",
+  "notes": "# 行舟影视 2.8.67\n\n- 三个已确认的老账号继续按原流程使用，完全隐藏卡密门禁、授权提示和设备校验；管理员权限仍只由账号身份决定。\n- 新账号每次启动联网校验月卡；卡密到期、撤销或校验失败时停在授权页，不能进入工作区。有效月卡可提前续卡，剩余期限顺延。\n- 修复切换账号时可能把新卡兑换到旧账号的问题，并保留换机解绑后的受限账号恢复入口。\n- 启动页继续提供官方更新，更新不延长授权。",
+  "sha256": "1a95f6024e935b56d2d5a974897b055bad8cbb519b01eb207c9e06fa4d33d18c",
+  "size": 103818242,
+  "publishedAt": "2026-10-23T17:25:12.591538+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "BAIpYROs7Yh+f2BFvHEA7wE62cmqxjh+mHWhKesjhRrCEBo3C49/X+JGgoC3MhWl9hdXwj5ky0BNtWlyz2UdBw=="
+    "value": "VfTiC/wYBztiandDzjniQp+/CrrwcAY6HI1mu/4BHGAf9Bnd48GuMw0CV8JbFJGrrghMx96Dqyw1Gk13eu62Cg=="
   }
 }
