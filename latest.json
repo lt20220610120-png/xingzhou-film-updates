@@ -1,12 +1,12 @@
 {
-  "version": "2.8.65",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.65/Xingzhou-Film-Tencent-Setup-2.8.65.exe",
-  "notes": "# 2.8.65\n\n- 重新设计按提示词关联界面：图视生成的独立关联、项目协作的提示词联动美术统一为白色与浅紫灰配色，替换原深色底板。\n- 关联卡片中的用途、图片/卡片选择和关联依据横向紧凑排布，缩略图置于右侧；小窗口自动换行。\n- 关联条目与图片身份列表设置独立滚动区，默认展示约一至两张关联卡片的高度，大量素材不再撑长整个页面。列表支持键盘聚焦与滚动。\n- 保留图片完整比例，关联选择、确认、AI 整理及保存流程沿用原规则。",
-  "sha256": "4141a425a929e0255120617baf5a8045e8480fa7c635725dd944326e3b992b26",
-  "size": 103812885,
-  "publishedAt": "2026-10-23T08:47:27.129956+00:00",
+  "version": "2.8.66",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.66/Xingzhou-Film-Tencent-Setup-2.8.66.exe",
+  "notes": "# 2.8.66\n\n- 新安装用户在启动页完成软件月卡和设备授权后，才能登录或注册。\n- 现有三个老账号继续使用，不受月卡流程影响；邀请码与软件卡密保持分离。\n- 月卡从完成激活时按北京时间对应日计算一个月，提前续卡顺延；一份授权同时绑定一台电脑。\n- 管理后台新增“软件授权 / 卡密”，支持一次性发卡、年度订单、库存、授权、解绑、撤销和审计。\n- 软件更新统一放在启动授权页；未激活或已到期也可以获取官方安全更新，安装不会延长授权。",
+  "sha256": "f9622e42a1622f469335494d76c8d68f7c07099d9cab91c85d65d9f6fb89eae8",
+  "size": 103829078,
+  "publishedAt": "2026-10-23T12:48:35.421995+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "1zLu9uzCSpfLLJvYhV4lftEBpEp2MQArMS1it3ADJMygKwRjNkkx69v54MFUCgChTPnB6PO/FwrejxFQP1fRCQ=="
+    "value": "BAIpYROs7Yh+f2BFvHEA7wE62cmqxjh+mHWhKesjhRrCEBo3C49/X+JGgoC3MhWl9hdXwj5ky0BNtWlyz2UdBw=="
   }
 }
