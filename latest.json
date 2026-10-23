@@ -1,12 +1,12 @@
 {
-  "version": "2.8.68",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.68/Xingzhou-Film-Tencent-Setup-2.8.68.exe",
-  "notes": "# 2.8.68\n\n- 修复图视生成“清除全部结果”后仍残留待核对卡片的问题。待核对记录可单条或批量从列表清除，刷新与重启后不再出现；原任务信息保留供核对，不会重新提交生成。正在提交、生成或下载的任务继续保护，并显示数量。\n- 修复旧列表请求或原任务查询迟到时，已清除记录重新出现在界面的情况。\n- 设置页重新设计云端临时素材与版本卡片：图标、标题和说明形成清晰层级，“管理临时素材”作为独立按钮置于右侧，版本号单独突出展示。\n- 软件授权 / 卡密页统一浅色卡片布局：四项概览、月卡发放、老用户豁免、设备授权、卡密库存和操作记录分区展示；补齐空列表提示，窄窗口自动换行和内部滚动。发卡、导出及授权确认规则保持。",
-  "sha256": "51b683ce6d097189ffd9853469e030e052693762a029fc585e8019177b0c04cf",
-  "size": 103821101,
-  "publishedAt": "2026-10-23T17:48:50.912178+00:00",
+  "version": "2.8.69",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.69/Xingzhou-Film-Tencent-Setup-2.8.69.exe",
+  "notes": "# 行舟影视 2.8.69\n\n- 精简图视生成、美术配置、清单核实、导演工作台、设置、Skill、API 及授权管理中的重复说明文字。\n- 重排整本提示词工具栏，上传、独立关联、联动载入与文档选择集中展示；集数和场景横向排列。\n- 全剧生图按钮移到人物构图设置右侧；导演工作台的云端管理按钮与标题右对齐，主功能栏略微收窄。\n- 分集卡片改为接近白色的淡海水蓝，内容使用清晰的黑色文字；项目群成员栏采用同样的淡蓝色。\n- Win AI 移除顶部重复工具栏，改用左下方圆形刷新按钮；切回时复用当前账号的已连接页面，减少重复加载。\n- Win AI 网站更换为提供的 Wink 图标，并修正脚本压缩配置，减少首次加载传输量。",
+  "sha256": "a0c47bb9cb17f8c2b5a75c4089e7fe67a7806b04bab06a9d22870eb900959f74",
+  "size": 103883801,
+  "publishedAt": "2026-10-23T19:28:08.097376+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "pqjAQxGOsK79qGA/ZMmDShq+bUcQh8OqIPLvtZd2RtjqhBCmXruoF+/TqY5J2XB+q14qNYlD7HLoU1rJOPFpCw=="
+    "value": "ixGyXeoU45Mqh0xWGddZ2MuH4YLDcPwTfRpIdLW5H2GchjNLasbDsZf7qMsFjPyXQmgdksC4Hra71lBB181rDg=="
   }
 }
