@@ -1,12 +1,12 @@
 {
-  "version": "2.8.69",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.69/Xingzhou-Film-Tencent-Setup-2.8.69.exe",
-  "notes": "# 行舟影视 2.8.69\n\n- 精简图视生成、美术配置、清单核实、导演工作台、设置、Skill、API 及授权管理中的重复说明文字。\n- 重排整本提示词工具栏，上传、独立关联、联动载入与文档选择集中展示；集数和场景横向排列。\n- 全剧生图按钮移到人物构图设置右侧；导演工作台的云端管理按钮与标题右对齐，主功能栏略微收窄。\n- 分集卡片改为接近白色的淡海水蓝，内容使用清晰的黑色文字；项目群成员栏采用同样的淡蓝色。\n- Win AI 移除顶部重复工具栏，改用左下方圆形刷新按钮；切回时复用当前账号的已连接页面，减少重复加载。\n- Win AI 网站更换为提供的 Wink 图标，并修正脚本压缩配置，减少首次加载传输量。",
-  "sha256": "a0c47bb9cb17f8c2b5a75c4089e7fe67a7806b04bab06a9d22870eb900959f74",
-  "size": 103883801,
-  "publishedAt": "2026-10-23T19:28:08.097376+00:00",
+  "version": "2.8.70",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.70/Xingzhou-Film-Tencent-Setup-2.8.70.exe",
+  "notes": "# 行舟影视 2.8.70\n\n- 左侧功能栏保留收窄后的边界，恢复原有菜单与品牌字体大小。\n- “重新匹配素材”移到当前编辑行右侧，与“恢复本条移除的素材”并排。\n- Win AI 移除额外的空白竖栏及重复图标，圆形刷新按钮改放网站顶部名称旁。\n- 生成结果支持按失败、已完成、待核对分类清理，也可清空当前界面；操作前显示数量并确认。\n- 清空当前界面可移除排队、生成中、下载中的卡片，后台任务继续处理，刷新或重开后不会重新出现；保留任务身份与其仍使用的素材。",
+  "sha256": "ec8b00cb72cc5b575f93f813732166c490e4f16fa88f5966710346acf8756e71",
+  "size": 103820528,
+  "publishedAt": "2026-10-24T08:30:04.249470+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ixGyXeoU45Mqh0xWGddZ2MuH4YLDcPwTfRpIdLW5H2GchjNLasbDsZf7qMsFjPyXQmgdksC4Hra71lBB181rDg=="
+    "value": "s1sy9aUBW4gcZxqv5GNY7qb9nYbcPbbi8wGacgv9mSjO8YzrQiOyehvpWlS3ACyDjWiexCTcS+mdVNcr+74mDQ=="
   }
 }
