@@ -1,12 +1,12 @@
 {
-  "version": "2.8.71",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.71/Xingzhou-Film-Tencent-Setup-2.8.71.exe",
-  "notes": "# 行舟影视 2.8.71\n\n- 项目协作「信息读取」自动分析对缺少判断依据的单条信息卡最多补全三次。\n- 三次仍无依据时标记为待补，继续分析后续集，不再重复卡在同一集。\n- 后续集出现同一人物并提供可核对原文时，自动回填声音、年龄等信息，再继续后续分析；后文首次出镜不会把服装和外貌倒灌到前面的电话声音场景。\n- 全文检查后仍无依据的条目保留“全文无充分依据”标记，不编造可见外貌，也不阻塞整本分析。\n- 正文、后文证据或人工修改发生变化时，旧补全标记自动失效并重新核对；新增“待补与回填”面板显示尝试次数、来源集和原文依据。",
-  "sha256": "b433e8c4ec298263ddd5938e501daa991269af0fca7ef10be449a3263186b59f",
-  "size": 103837760,
-  "publishedAt": "2026-10-25T15:42:10.559450+00:00",
+  "version": "2.8.72",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.72/Xingzhou-Film-Tencent-Setup-2.8.72.exe",
+  "notes": "# 行舟影视 2.8.72\n\n- 清单核实把分析方式收进场景核实标题栏，按提示词核实作为管理员可用的第二种方式；整场人物、场景、道具清单作为稳定资产池。\n- 提示词按内容指纹保存版本，逐条分发关系独立保留；重新拆分提示词时可切换旧版复核，不重建或删除已确认的整场资产。\n- 新增本场提示词批量分发和缺项核查。缺项只有找到本场及全剧原文依据才会进入清单，无法判断的电话声音或提及继续待核，不在图视生成阶段修改剧本清单。\n- 图视生成支持按具体提示词载入联动项目、切换版本、将整场图片池重新分发到提示词；保留手工 TXT/Word、按集/场景文件夹导入，并新增本条提示词素材导入。\n- 美术导出新增“按具体提示词”目录层级，导入时保留同一图片在多条提示词中的分发关系；旧版按集和按场景素材继续兼容。\n\n验证：2403 项全量测试通过；提示词版本、缺项依据、按提示词导出/导入 24 项定向测试通过；1280/1700 宽度模拟界面验证通过；未执行付费生成。",
+  "sha256": "f0ee4d7d1f94e277995564252250fdcad19f89821f25f99a7aada576cc19641e",
+  "size": 103843046,
+  "publishedAt": "2026-10-25T19:30:30.221935+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "+bbY1BwtpMpbhlrfXE61N8XjGqpvtMgbFmrqgbpNpUbS8yLvHArvVd6ShQlhF9PXEzHwd88DyMNsBrTEczn5AQ=="
+    "value": "2RzOxXYwYgKb1vUywHbK8s2ZEWKkUWR3LUz7XIO/QuWvyiYPciM/mJ2lDSfqe94lbaUBrlDdfFgYXidVxf67BQ=="
   }
 }
