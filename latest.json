@@ -1,12 +1,12 @@
 {
-  "version": "2.8.70",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.70/Xingzhou-Film-Tencent-Setup-2.8.70.exe",
-  "notes": "# 行舟影视 2.8.70\n\n- 左侧功能栏保留收窄后的边界，恢复原有菜单与品牌字体大小。\n- “重新匹配素材”移到当前编辑行右侧，与“恢复本条移除的素材”并排。\n- Win AI 移除额外的空白竖栏及重复图标，圆形刷新按钮改放网站顶部名称旁。\n- 生成结果支持按失败、已完成、待核对分类清理，也可清空当前界面；操作前显示数量并确认。\n- 清空当前界面可移除排队、生成中、下载中的卡片，后台任务继续处理，刷新或重开后不会重新出现；保留任务身份与其仍使用的素材。",
-  "sha256": "ec8b00cb72cc5b575f93f813732166c490e4f16fa88f5966710346acf8756e71",
-  "size": 103820528,
-  "publishedAt": "2026-10-24T08:30:04.249470+00:00",
+  "version": "2.8.71",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.71/Xingzhou-Film-Tencent-Setup-2.8.71.exe",
+  "notes": "# 行舟影视 2.8.71\n\n- 项目协作「信息读取」自动分析对缺少判断依据的单条信息卡最多补全三次。\n- 三次仍无依据时标记为待补，继续分析后续集，不再重复卡在同一集。\n- 后续集出现同一人物并提供可核对原文时，自动回填声音、年龄等信息，再继续后续分析；后文首次出镜不会把服装和外貌倒灌到前面的电话声音场景。\n- 全文检查后仍无依据的条目保留“全文无充分依据”标记，不编造可见外貌，也不阻塞整本分析。\n- 正文、后文证据或人工修改发生变化时，旧补全标记自动失效并重新核对；新增“待补与回填”面板显示尝试次数、来源集和原文依据。",
+  "sha256": "b433e8c4ec298263ddd5938e501daa991269af0fca7ef10be449a3263186b59f",
+  "size": 103837760,
+  "publishedAt": "2026-10-25T15:42:10.559450+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "s1sy9aUBW4gcZxqv5GNY7qb9nYbcPbbi8wGacgv9mSjO8YzrQiOyehvpWlS3ACyDjWiexCTcS+mdVNcr+74mDQ=="
+    "value": "+bbY1BwtpMpbhlrfXE61N8XjGqpvtMgbFmrqgbpNpUbS8yLvHArvVd6ShQlhF9PXEzHwd88DyMNsBrTEczn5AQ=="
   }
 }
