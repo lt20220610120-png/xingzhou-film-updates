@@ -1,12 +1,12 @@
 {
-  "version": "2.8.73",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.73/Xingzhou-Film-Tencent-Setup-2.8.73.exe",
-  "notes": "# 行舟影视 2.8.73\n\n- 清单核实的“按提示词核实”改为左右工作区：左侧查看原提示词并执行核对操作，右侧查看整场清单和当前提示词的分发卡片。\n- 人物、场景、道具分组改为紧凑双列排列，降低卡片高度；编辑、删除、用途、关联卡片、依据和图片选择继续保留。\n- 整场核实右侧清单改为分组双列条目，减少长页面滚动，保留分类数量和添加、补充、修改、移除操作。\n- 窄窗口自动回到单列布局，卡片区域继续使用内部滚动。\n\n验证：2403 项全量测试通过；提示词左右布局、整场清单分组双列、1280/1700 宽度模拟界面通过；未执行付费生成。",
-  "sha256": "5e90c1e46d4da9ba66330a07f71e47685083271ac5b8ceabbcf758a5bcff0473",
-  "size": 103843330,
-  "publishedAt": "2026-10-25T20:01:46.377386+00:00",
+  "version": "2.8.74",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.74/Xingzhou-Film-Tencent-Setup-2.8.74.exe",
+  "notes": "# 行舟影视 2.8.74\n\n- API 接口列表压缩为紧凑的一一对应行：左侧配置摘要，右侧默认、编辑/测试和删除操作；文本、图片、视频 API 共用布局。\n- 修复美术清单解析把肤色、发型、服装和鞋履等属性误识别为独立人物资产的问题，属性会并入正确人物描述。\n- 提示词核实和图视生成增加人物、场景、道具分类筛选；提示词核实支持重新选择分发模型后 AI 分发本条或本场。\n- 图视生成身份整理保留分类筛选，减少错误卡片对分发界面的干扰。\n\n验证：2404 项全量测试通过；构建及识别回归测试通过；未执行付费生成。",
+  "sha256": "f7fded31f03b890597f7781490211d6a4754e68b8baf209a01d16833245b8d68",
+  "size": 103835037,
+  "publishedAt": "2026-10-25T20:30:22.475119+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Xz20aYoXOTh1s696Ni95FKrD+gI2idn/yQ/x/FWyqRz0k9wZWTG0jOxmnfXzVrUTrV4Ui0aKdWOvSvTVV7WyAw=="
+    "value": "aOY8DlnGCD2zchpTffJy1wpfyZ/rm69eAPD+5QQlxRKRgjhKlKLqLA2/WawdcTs0XEHE8xdUbq+KPTunxfn+DA=="
   }
 }
