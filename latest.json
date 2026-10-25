@@ -1,12 +1,12 @@
 {
-  "version": "2.8.72",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.72/Xingzhou-Film-Tencent-Setup-2.8.72.exe",
-  "notes": "# 行舟影视 2.8.72\n\n- 清单核实把分析方式收进场景核实标题栏，按提示词核实作为管理员可用的第二种方式；整场人物、场景、道具清单作为稳定资产池。\n- 提示词按内容指纹保存版本，逐条分发关系独立保留；重新拆分提示词时可切换旧版复核，不重建或删除已确认的整场资产。\n- 新增本场提示词批量分发和缺项核查。缺项只有找到本场及全剧原文依据才会进入清单，无法判断的电话声音或提及继续待核，不在图视生成阶段修改剧本清单。\n- 图视生成支持按具体提示词载入联动项目、切换版本、将整场图片池重新分发到提示词；保留手工 TXT/Word、按集/场景文件夹导入，并新增本条提示词素材导入。\n- 美术导出新增“按具体提示词”目录层级，导入时保留同一图片在多条提示词中的分发关系；旧版按集和按场景素材继续兼容。\n\n验证：2403 项全量测试通过；提示词版本、缺项依据、按提示词导出/导入 24 项定向测试通过；1280/1700 宽度模拟界面验证通过；未执行付费生成。",
-  "sha256": "f0ee4d7d1f94e277995564252250fdcad19f89821f25f99a7aada576cc19641e",
-  "size": 103843046,
-  "publishedAt": "2026-10-25T19:30:30.221935+00:00",
+  "version": "2.8.73",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.73/Xingzhou-Film-Tencent-Setup-2.8.73.exe",
+  "notes": "# 行舟影视 2.8.73\n\n- 清单核实的“按提示词核实”改为左右工作区：左侧查看原提示词并执行核对操作，右侧查看整场清单和当前提示词的分发卡片。\n- 人物、场景、道具分组改为紧凑双列排列，降低卡片高度；编辑、删除、用途、关联卡片、依据和图片选择继续保留。\n- 整场核实右侧清单改为分组双列条目，减少长页面滚动，保留分类数量和添加、补充、修改、移除操作。\n- 窄窗口自动回到单列布局，卡片区域继续使用内部滚动。\n\n验证：2403 项全量测试通过；提示词左右布局、整场清单分组双列、1280/1700 宽度模拟界面通过；未执行付费生成。",
+  "sha256": "5e90c1e46d4da9ba66330a07f71e47685083271ac5b8ceabbcf758a5bcff0473",
+  "size": 103843330,
+  "publishedAt": "2026-10-25T20:01:46.377386+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "2RzOxXYwYgKb1vUywHbK8s2ZEWKkUWR3LUz7XIO/QuWvyiYPciM/mJ2lDSfqe94lbaUBrlDdfFgYXidVxf67BQ=="
+    "value": "Xz20aYoXOTh1s696Ni95FKrD+gI2idn/yQ/x/FWyqRz0k9wZWTG0jOxmnfXzVrUTrV4Ui0aKdWOvSvTVV7WyAw=="
   }
 }
