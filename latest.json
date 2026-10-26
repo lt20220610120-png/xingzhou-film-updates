@@ -1,12 +1,12 @@
 {
-  "version": "2.8.78",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.78/Xingzhou-Film-Tencent-Setup-2.8.78.exe",
-  "notes": "# 行舟影视 2.8.78\n\n- 清单核实中的资产卡片统一高度，名称与操作分行；窄窗自动调整列数。提示词关联只预览前两个编号和剩余数量，点击即可查看、修改完整关联，避免卡片被撑大或姓名竖排。\n- 美术和资产页的“对应提示词”展示该资产已关联的具体提示词编号，同时保留所属场景；没有提示词关联的旧项目继续按场景查看。\n- 分镜自动读取清单核实中已保存的提示词关联，只在本条下展示它实际使用的图片。不同提示词分别加载自己的素材，保留人工选择和生成参数。\n- 分镜保存时区分原始正文和带图片编号的生成正文，避免保存后关联失效；关联过期、缺图或正文变动时显示具体原因，可重新载入本条素材。手工修改的正文保留，不冒用其他提示词或整场素材。",
-  "sha256": "2eda59dd21e7688124e25ab80ecf170a16cea9ee06f7a6317bc7e439ac2bb157",
-  "size": 103843444,
-  "publishedAt": "2026-10-26T16:29:23.015957+00:00",
+  "version": "2.8.79",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.79/Xingzhou-Film-Tencent-Setup-2.8.79.exe",
+  "notes": "# 行舟影视 2.8.79\n\n- 清单核实中的资产卡片统一高度和宽度，名称与操作分行；窄窗自动调整列数。人物、场景、道具各分类共用相同卡片规格，单张卡片也不拉满整行。\n- 提示词关联只预览前两个编号和剩余数量，点击查看、修改完整关联，避免卡片被撑大或姓名竖排。\n- 美术和资产页展示资产已关联的具体提示词编号，同时保留所属场景；旧项目继续按场景查看。\n- 分镜自动读取已保存的提示词关联，在每条提示词下展示它实际使用的图片，保留生成参数；缺图、关联过期或正文变更时显示原因，可重新载入本条素材。\n- 分镜保存时保留原始正文，将带图片引用的生成正文单独保存，避免保存后关联失效；手工修改的正文继续保留并要求重新核对关联。",
+  "sha256": "113f537a16ecfda01b35da624f5fa24cad2264c0dd461baaf5f1eb6a165ca3ee",
+  "size": 103843546,
+  "publishedAt": "2026-10-26T16:55:27.299568+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "VIaEM6QXpHe5k4p8Q/ts+vthgaR9qpeWqhteUaZG9V2oRX7sbsbp0MM8hMu3Iw33hw0FsiNSjf5P+Cn5BnO+Cw=="
+    "value": "bF85aMX4xPcjjuuKeos/TzRyztNHGPMvv/7CJ5I+mOEOjCrpFBXY5GGbHR0OXC8zhXZUdDeykrhtJ9WVtL1dDg=="
   }
 }
