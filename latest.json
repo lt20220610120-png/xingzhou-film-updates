@@ -1,12 +1,12 @@
 {
-  "version": "2.8.75",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.75/Xingzhou-Film-Tencent-Setup-2.8.75.exe",
-  "notes": "# 行舟影视 2.8.75\n\n- 提示词分发统一为左侧提示词、右侧人物/场景/道具；两侧等高并独立滚动，修复底部核实栏遮挡正文。\n- 使用同一行的编号圆圈切换提示词，删除重复标签和下拉切换。\n- 顶部保留模型选择与「AI 重新分发本条」，取消逐条核对和确认流程，核实发布仍按整场进行。\n- 分发以整场清单为身份来源，AI 通读当前提示词判断本段真正需要的资产；肤色、发型、衣着、时间及否定描述不再拆成伪卡片，旧规则记录重新建立有效分发。\n- 协作中的缺项会自动核查全剧依据，补入整场清单并更新分发；没有依据时明确保留待处理。\n- 图视生成的独立关联界面同步采用左右布局，保留导入、人工调整和模型分发功能。",
-  "sha256": "025c4f06142239a11cba34d124a496e45d3bed81206e64ba9abe2671541cec9c",
-  "size": 103835077,
-  "publishedAt": "2026-10-26T00:54:38.282284+00:00",
+  "version": "2.8.76",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.76/Xingzhou-Film-Tencent-Setup-2.8.76.exe",
+  "notes": "# 行舟影视 2.8.76\n\n- 按“集 → 场景 → 提示词”整理清单；有提示词时默认进入提示词分发，可直接返回场景补充或重新分析。\n- AI 通读提示词，对本场已有的每张人物、场景、道具卡片逐一判断用途，修复场景称呼不同造成的漏关联；外貌和衣着描述不再生成新的分发卡片。\n- 新增完整“本场景资产清单”，支持手动勾选本条使用、为同一卡片关联多条提示词；人工选择保留，重新分发不会覆盖。\n- 场景关联就绪后自动逐条分发，保存进度；异常最多修正三次后继续其他条目，重新打开不会重复请求。\n- 缺项可手动匹配本场已有资产，或返回场景补充；仍按整场核实和发布。\n- 提示词正文改为黑色，保留左右等高、内部滚动和圆圈定位。",
+  "sha256": "19351031243a4013c8b55d7c497026c833eeb49311967da379a79af00652aaf4",
+  "size": 103838183,
+  "publishedAt": "2026-10-26T09:05:22.025703+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ULOI1pbD+P++5p/biQeq49coBV6ICfPcuovQVn0Uqs47S0OLP//NutZffwpHJiu7HvOavdMEJidHWwI9vuc9Dg=="
+    "value": "whLZShCuB/f8xSiZjIeeBvjMr3lPibvBvKzVgh1YRQkfg5v1wEsIm6JkIuQ/C4m2OdTMQxu4YJgxiTYhej3iCw=="
   }
 }
