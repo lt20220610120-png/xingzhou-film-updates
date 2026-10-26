@@ -1,12 +1,12 @@
 {
-  "version": "2.8.81",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.81/Xingzhou-Film-Tencent-Setup-2.8.81.exe",
-  "notes": "# 行舟影视 2.8.81\n\n- 美术模型请求改为统一队列，实际最多 6 路；自动任务最多 5 路，保留 1 路给人工重分发。信息读取、场景关联、细节补齐与提示词分发共用额度，其他条目排队，界面分别展示实际请求数和排队数。\n- 信息读取的“停止分析”只停止读取后续分集及其当前请求；已经得到清单的场景、提示词继续分发。清单核实提供独立“开始清单分发 / 停止清单分发”，可扫描所有已有上游信息并继续未完成工作，无需重新读取全集；打开页面不触发请求。\n- 已完成且无缺项的场景、分集可独立核实发布，不必等待全剧。停止信息读取不影响已完成范围的核实按钮；未完成或缺项明确显示具体原因，保留发布校验。\n- 提示词分发工具栏在窄窗与大窗都保持标题、模型及按钮同一水平线，超出可用宽度时在工具栏内部横向查看，不再换行增加高度。\n- 保留完整提示词与基础设定的模型判断、人工关联、版本、人审记录、已生成图片与后文回填机制，停止分发后迟到回包不会覆盖保存结果。",
-  "sha256": "54efa28db5c8f42cef8b2b8f0a2aabe935d8a3676c58c16319e816ea32a563f0",
-  "size": 103854884,
-  "publishedAt": "2026-10-26T22:27:57.013235+00:00",
+  "version": "2.8.82",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.82/Xingzhou-Film-Tencent-Setup-2.8.82.exe",
+  "notes": "# 行舟影视 2.8.82\n\n- 修复提示词分发的模型输出截断。场景关联请求显式使用分析模式，DeepSeek 不再把输出预算消耗在隐藏推理上；逐场对应调用也统一使用分析模式。\n- 分发请求只发送【基础设定】的人物、场景、道具索引、本场卡片及少量实体用途提示，不再重复发送完整的整体视听、连续台词、画面内容和人物起止段落。模型只需返回实际使用的卡片，未返回卡片自动标记为本条未使用，显著缩短输入和输出。\n- 原文证据限制在【基础设定】范围内，避免把镜头或对白描述误当成身份依据。卡片身份仍以场景清单为准，人工锁定继续保留。\n- 输出预算按本场卡片数动态设置，并保留服务商允许的最小额度；结构化服务商错误直接显示，不重复发送已截断的付费请求。",
+  "sha256": "05cd433e686c5b3d5352694ca4b1d7cf459dc15a2fabb4864e2c780bcb47846a",
+  "size": 103852588,
+  "publishedAt": "2026-10-26T23:31:15.830878+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ol/B2sLZQOyjDTIrB+hQoYUxiweSgFxK8f7+MTu3oxPAIRhL1dQ15st9zf0tix36zMG/AQ8z6Gxp5oNg//YGAg=="
+    "value": "E5252sa4CZkQEJytxlBj/zwOwO9XspsjIIkECC4Z1oC9q/wyGql39VgaYJEGjdDMYKHAEPzuCppvMf1ngeWsCQ=="
   }
 }
