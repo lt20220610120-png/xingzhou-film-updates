@@ -1,12 +1,12 @@
 {
-  "version": "2.8.77",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.77/Xingzhou-Film-Tencent-Setup-2.8.77.exe",
-  "notes": "# 行舟影视 2.8.77\n\n- 场景清单的资产卡片增加“提示词”关联入口，直接显示关联到哪些条目；AI 分发结果自动同步，也可人工调整多条提示词。\n- 按提示词分发改为左右审核工作台：左侧黑色提示词原文，右侧按人物、场景、道具显示已经关联的紧凑清单。用途、依据、图片等详细信息折叠查看。\n- 新增可展开的完整“本场景资产清单”，在当前提示词下点击“关联本条”即可补选；切换圆圈后，关联目标随当前提示词切换。\n- 内置基础设定分发规则：按人物、场景、道具字段及分号识别实体，外貌、衣着、年龄、动作等只作为属性；结合后续镜头判断实际用途和场景别名，缺项保留提醒。\n- 图视生成中的独立提示词与图片分发同步采用相同布局，保留手动导入、联动项目载入和提示词版本选择。\n- 场景修改、提示词审核共用同一份版本关联，避免两边结果不一致；人工修改后的迟到 AI 回包不再覆盖最新选择。",
-  "sha256": "8c907a87482c21ef0b65ddc84d2a9f70ba6e4a322564aed705d2e9155087cb50",
-  "size": 103841830,
-  "publishedAt": "2026-10-26T14:45:30.133285+00:00",
+  "version": "2.8.78",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.78/Xingzhou-Film-Tencent-Setup-2.8.78.exe",
+  "notes": "# 行舟影视 2.8.78\n\n- 清单核实中的资产卡片统一高度，名称与操作分行；窄窗自动调整列数。提示词关联只预览前两个编号和剩余数量，点击即可查看、修改完整关联，避免卡片被撑大或姓名竖排。\n- 美术和资产页的“对应提示词”展示该资产已关联的具体提示词编号，同时保留所属场景；没有提示词关联的旧项目继续按场景查看。\n- 分镜自动读取清单核实中已保存的提示词关联，只在本条下展示它实际使用的图片。不同提示词分别加载自己的素材，保留人工选择和生成参数。\n- 分镜保存时区分原始正文和带图片编号的生成正文，避免保存后关联失效；关联过期、缺图或正文变动时显示具体原因，可重新载入本条素材。手工修改的正文保留，不冒用其他提示词或整场素材。",
+  "sha256": "2eda59dd21e7688124e25ab80ecf170a16cea9ee06f7a6317bc7e439ac2bb157",
+  "size": 103843444,
+  "publishedAt": "2026-10-26T16:29:23.015957+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "7VnB41GEcWxtWHZTwq4lScMNoqr1ubUnj8PXDUixSmVYdhfwqSxPTaQphbSXrkuIo/uXfuoREsWGBqHy5XRFBw=="
+    "value": "VIaEM6QXpHe5k4p8Q/ts+vthgaR9qpeWqhteUaZG9V2oRX7sbsbp0MM8hMu3Iw33hw0FsiNSjf5P+Cn5BnO+Cw=="
   }
 }
