@@ -1,12 +1,12 @@
 {
-  "version": "2.8.74",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.74/Xingzhou-Film-Tencent-Setup-2.8.74.exe",
-  "notes": "# 行舟影视 2.8.74\n\n- API 接口列表压缩为紧凑的一一对应行：左侧配置摘要，右侧默认、编辑/测试和删除操作；文本、图片、视频 API 共用布局。\n- 修复美术清单解析把肤色、发型、服装和鞋履等属性误识别为独立人物资产的问题，属性会并入正确人物描述。\n- 提示词核实和图视生成增加人物、场景、道具分类筛选；提示词核实支持重新选择分发模型后 AI 分发本条或本场。\n- 图视生成身份整理保留分类筛选，减少错误卡片对分发界面的干扰。\n\n验证：2404 项全量测试通过；构建及识别回归测试通过；未执行付费生成。",
-  "sha256": "f7fded31f03b890597f7781490211d6a4754e68b8baf209a01d16833245b8d68",
-  "size": 103835037,
-  "publishedAt": "2026-10-25T20:30:22.475119+00:00",
+  "version": "2.8.75",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.75/Xingzhou-Film-Tencent-Setup-2.8.75.exe",
+  "notes": "# 行舟影视 2.8.75\n\n- 提示词分发统一为左侧提示词、右侧人物/场景/道具；两侧等高并独立滚动，修复底部核实栏遮挡正文。\n- 使用同一行的编号圆圈切换提示词，删除重复标签和下拉切换。\n- 顶部保留模型选择与「AI 重新分发本条」，取消逐条核对和确认流程，核实发布仍按整场进行。\n- 分发以整场清单为身份来源，AI 通读当前提示词判断本段真正需要的资产；肤色、发型、衣着、时间及否定描述不再拆成伪卡片，旧规则记录重新建立有效分发。\n- 协作中的缺项会自动核查全剧依据，补入整场清单并更新分发；没有依据时明确保留待处理。\n- 图视生成的独立关联界面同步采用左右布局，保留导入、人工调整和模型分发功能。",
+  "sha256": "025c4f06142239a11cba34d124a496e45d3bed81206e64ba9abe2671541cec9c",
+  "size": 103835077,
+  "publishedAt": "2026-10-26T00:54:38.282284+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "aOY8DlnGCD2zchpTffJy1wpfyZ/rm69eAPD+5QQlxRKRgjhKlKLqLA2/WawdcTs0XEHE8xdUbq+KPTunxfn+DA=="
+    "value": "ULOI1pbD+P++5p/biQeq49coBV6ICfPcuovQVn0Uqs47S0OLP//NutZffwpHJiu7HvOavdMEJidHWwI9vuc9Dg=="
   }
 }
