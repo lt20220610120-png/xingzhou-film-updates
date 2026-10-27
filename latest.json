@@ -1,12 +1,12 @@
 {
-  "version": "2.8.86",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe",
-  "notes": "# 行舟影视 2.8.86\n\n- 修复“核实全剧提示词”和“发布全剧已核实提示词”被整体置灰的问题。全剧操作现在会筛选已经完成模型分发、没有待补项且没有正在处理的提示词批量执行。\n- 用户可以先快速浏览各集，再一次核实当前已完成部分；随后一键发布已核实提示词。尚未完成的集保留待处理，后续再次点击全剧操作即可继续，不再要求逐条停下来确认。\n- 当前集、本集和全剧的严格门禁仍保留；全剧批量只处理可安全核实的条目，不会跳过真实缺项、空提示词或模型分发失败。\n- 验证：2468/2468 全量测试、全剧部分完成批量核实/发布回归、1280/1700/2232 三宽模型流水线 UI、生产构建、NSIS 与实际安装包运行时通过；无真实付费模型调用。\n\n## 安装包\n\n- 官方下载：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- 本机：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- 大小：103858494 字节。\n- SHA256：6e9cd7159fa17256dd3ea4d3a86fb133d2152be60975cb8f923050e6db2d05f0。",
-  "sha256": "6e9cd7159fa17256dd3ea4d3a86fb133d2152be60975cb8f923050e6db2d05f0",
-  "size": 103858494,
-  "publishedAt": "2026-10-27T17:15:21.423348+00:00",
+  "version": "2.8.87",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.87/Xingzhou-Film-Tencent-Setup-2.8.87.exe",
+  "notes": "# 行舟影视 2.8.87\n\n- 全剧提示词发布改为按集最多 4 路并发，同一集内部按顺序上传和发布，减少等待。\n- 发布直接使用人工已核实结果，不重复调用大模型，不重复核实、上传已经成功的内容。失败后再次发布会继续处理未完成部分。\n- 新增后台发布进度：已完成提示词与集数、并发、排队、耗时、逐集上传/发布/保存阶段及失败原因。清单、美术等页面共用进度，切换页面不会中断任务。\n- 已发布资产及时刷新到美术页面，避免重复下载全剧分析历史；本机草稿不会当作已发布资产展示。\n- 加强账号切换、同场新增提示词、部分场景发布与回执保存异常时的数据保护。",
+  "sha256": "c7becfb6277d17172217f1891e9e29d1cb2d47fa47abeadee0ad859ad896281e",
+  "size": 103871989,
+  "publishedAt": "2026-10-27T20:19:28.798646+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "tBR4KgdBhnDCJ/0fmOrtKdkeeg8ts0ALpaTp3rTop/v/vtXgUb+k8AOhtaUBvC8hIxHibEx6Qga/Hy+WitEZDg=="
+    "value": "OOQJ6LhPH0s1f4jrF4LfgMI9WZ6E65xziwvTbBS6j1VGsOhKReyVkrhTStwnp4ubtoxXaPT0L05rQIX8SEIPDw=="
   }
 }
