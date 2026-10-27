@@ -1,12 +1,12 @@
 {
-  "version": "2.8.84",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.84/Xingzhou-Film-Tencent-Setup-2.8.84.exe",
-  "notes": "# 行舟影视 2.8.84\n\n- “提示词待处理”改为全剧汇总，跨集、跨场景集中显示当前提示词版本中尚未确认的缺项；默认收起，点击标题可展开或收起，长列表内部滚动。\n- 增加“一键确认所选无需参考图”和“一键确认全部无需参考图”，保留逐项确认与返回对应集场补充。移除原解释性文字。\n- 当前提示词的缺项名称与两个操作按钮同行排列，按钮靠右，窄窗口也不另占一行。\n- 批量确认一次保存，保护未选项、人工锁定和版本；目标正在分发或来源发生变化时拒绝过期操作。确认无需参考图后可继续按原流程核实、发布，不会自动发布。\n- 验证：2457/2457 全量测试、1280/1700/2232 三种窗口宽度交互检查、生产构建、NSIS 和安装包运行时检查通过；无真实付费模型调用。\n\n## 安装包\n\n- 官方下载：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.84.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.84/Xingzhou-Film-Tencent-Setup-2.8.84.exe\n- 本机：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.84/Xingzhou-Film-Tencent-Setup-2.8.84.exe\n- 大小：103854324 字节。\n- SHA256：e1dffc188af59e76335a958c318342840b122d31ee07f628aca929e33c00d814。",
-  "sha256": "e1dffc188af59e76335a958c318342840b122d31ee07f628aca929e33c00d814",
-  "size": 103854324,
-  "publishedAt": "2026-10-27T06:55:48.511696+00:00",
+  "version": "2.8.85",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe",
+  "notes": "# 行舟影视 2.8.85\n\n- “提示词待处理”新增逐项“一键补充”和顶部“一键补充勾选项”。人工确认需要参考卡片后，使用当前所选模型读取提示词基础设定与本场原文，生成详细美术描述，反向补充到对应场景及分集资产清单。\n- 同一场景多条提示词缺少同一对象时合并补充；已有同名同状态卡片优先复用，保留人工描述和图片。完成补卡后，自动调用模型重新分发本场提示词，沿用总并发 6 的队列。\n- 补充不会自动核实、发布或生成图片。核实发布后，新卡片按现有流程进入美术与资产，保留具体提示词关联；未勾选缺项仍保留待处理。\n- 模型证据不符、来源或人工清单变化时拒绝旧回包；本地保存失败不清除缺项。补卡成功但重新分发失败时保留卡片并提示重试。\n- 验证：2467/2467 全量测试、三组 1280/1700/2232 窗口宽度交互回归、生产构建、NSIS 与实际安装包运行时通过；测试未调用真实付费模型。\n\n## 安装包\n\n- 官方下载：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- 本机：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- 大小：103858278 字节。\n- SHA256：2807d5abf27a52d05c1a19edb70f08ed90af90fecb1bf6e27e59325d262d46c7。",
+  "sha256": "2807d5abf27a52d05c1a19edb70f08ed90af90fecb1bf6e27e59325d262d46c7",
+  "size": 103858278,
+  "publishedAt": "2026-10-27T12:03:46.668169+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Ges0Jk8A0dNN0PJDRHCjsBGZHCSJVXbSDIKGgP1Td+ky2yEBk+NDJlEAgXniW4g4p62m/MHAhkIkakgZRAl0Bg=="
+    "value": "vCF3P37xsOOjsmLRfN7Zt3zU3cWhIYlm275Kp8FagqChgC1Ps1xnaOSa0WLOxAUNPR+QfMyjFNIVmxgJTjmKCQ=="
   }
 }
