@@ -1,12 +1,12 @@
 {
   "version": "2.8.83",
   "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.83/Xingzhou-Film-Tencent-Setup-2.8.83.exe",
-  "notes": "# 行舟影视 2.8.83\n\n- 提示词分发出现“本场清单待补”时，不再强制用户返回场景补充。新增批量待处理面板，人工可以逐项确认“无需参考图，可使用文生”，确认后的缺项会以锁定的 excluded 决策保存，不再阻塞本场、本集或全剧的批量核实与发布。\n- 对确实需要资产的缺项保留“返回场景补充”，直接定位到对应场景；当前提示词页也提供同样的快速处理入口。\n- 汇总当前分集内所有提示词的待处理缺项，先完成模型分发后集中人工判断，避免逐条卡住；既有模型关联、版本、人工锁定和发布审计继续保留。\n- 验证：2453/2453 全量测试通过；提示词缺项人工跳过、批量核实并发布回归通过；1280/1700/2232 三宽模型流水线 UI 通过，最大实际模型并发保持 6；Vite、NSIS、实际安装包运行时通过；未调用真实付费模型。\n\n## 发布\n\n- 官方安装包：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.83/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- 本机安装包：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.83/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- SHA256：b4b2b73c105163bf3ccdea561f16d391db451350b1cf1495b040046f172ff512。\n- 安装包大小：103853659 字节。",
-  "sha256": "b4b2b73c105163bf3ccdea561f16d391db451350b1cf1495b040046f172ff512",
-  "size": 103853659,
-  "publishedAt": "2026-10-27T00:36:21.054156+00:00",
+  "notes": "# 行舟影视 2.8.83\n\n- 提示词分发出现“本场清单待补”时，不再强制用户返回场景补充。新增批量待处理面板，人工可以逐项确认“无需参考图，可使用文生”，确认后的缺项会以锁定的 excluded 决策保存，不再阻塞本场、本集或全剧的批量核实与发布。\n- 对确实需要资产的缺项保留“返回场景补充”，直接定位到对应场景；当前提示词页也提供同样的快速处理入口。\n- 汇总当前分集内所有提示词的待处理缺项，先完成模型分发后集中人工判断，避免逐条卡住；既有模型关联、版本、人工锁定和发布审计继续保留。\n- 验证：2453/2453 全量测试通过；提示词缺项人工跳过、批量核实并发布回归通过；1280/1700/2232 三宽模型流水线 UI 通过，最大实际模型并发保持 6；Vite、NSIS、实际安装包运行时通过；未调用真实付费模型。\n\n## 发布\n\n- 官方安装包：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.83/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- 本机安装包：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.83/Xingzhou-Film-Tencent-Setup-2.8.83.exe\n- SHA256：9cf39eb6e7a2513d9e5405dfcb44665f5bffaedb1079b998d3df3578c1c37c6f。\n- 安装包大小：103853520 字节。",
+  "sha256": "9cf39eb6e7a2513d9e5405dfcb44665f5bffaedb1079b998d3df3578c1c37c6f",
+  "size": 103853520,
+  "publishedAt": "2026-10-27T01:02:53.771994+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "7HJ91Qnwbdwx3YX6bP9Xg+WPN7ibWMtOe9k2B7JUcdd7XFFcMy6bQGJkZ4IrZJR7M8X+lPQmeEUNeJFu+gngCw=="
+    "value": "X630ekYjRHqi6DuZJsGLGAHPDL+EzMGgGS9UJRT9nyZYCmPJ6Xj3OLmpecRiCFXWI2SllnfSLPlLVNCDYod4Cg=="
   }
 }
