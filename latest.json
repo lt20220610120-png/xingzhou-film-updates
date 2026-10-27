@@ -1,12 +1,12 @@
 {
-  "version": "2.8.85",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe",
-  "notes": "# 行舟影视 2.8.85\n\n- “提示词待处理”新增逐项“一键补充”和顶部“一键补充勾选项”。人工确认需要参考卡片后，使用当前所选模型读取提示词基础设定与本场原文，生成详细美术描述，反向补充到对应场景及分集资产清单。\n- 同一场景多条提示词缺少同一对象时合并补充；已有同名同状态卡片优先复用，保留人工描述和图片。完成补卡后，自动调用模型重新分发本场提示词，沿用总并发 6 的队列。\n- 补充不会自动核实、发布或生成图片。核实发布后，新卡片按现有流程进入美术与资产，保留具体提示词关联；未勾选缺项仍保留待处理。\n- 模型证据不符、来源或人工清单变化时拒绝旧回包；本地保存失败不清除缺项。补卡成功但重新分发失败时保留卡片并提示重试。\n- 验证：2467/2467 全量测试、三组 1280/1700/2232 窗口宽度交互回归、生产构建、NSIS 与实际安装包运行时通过；测试未调用真实付费模型。\n\n## 安装包\n\n- 官方下载：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- 本机：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.85/Xingzhou-Film-Tencent-Setup-2.8.85.exe\n- 大小：103858278 字节。\n- SHA256：2807d5abf27a52d05c1a19edb70f08ed90af90fecb1bf6e27e59325d262d46c7。",
-  "sha256": "2807d5abf27a52d05c1a19edb70f08ed90af90fecb1bf6e27e59325d262d46c7",
-  "size": 103858278,
-  "publishedAt": "2026-10-27T12:03:46.668169+00:00",
+  "version": "2.8.86",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe",
+  "notes": "# 行舟影视 2.8.86\n\n- 修复“核实全剧提示词”和“发布全剧已核实提示词”被整体置灰的问题。全剧操作现在会筛选已经完成模型分发、没有待补项且没有正在处理的提示词批量执行。\n- 用户可以先快速浏览各集，再一次核实当前已完成部分；随后一键发布已核实提示词。尚未完成的集保留待处理，后续再次点击全剧操作即可继续，不再要求逐条停下来确认。\n- 当前集、本集和全剧的严格门禁仍保留；全剧批量只处理可安全核实的条目，不会跳过真实缺项、空提示词或模型分发失败。\n- 验证：2468/2468 全量测试、全剧部分完成批量核实/发布回归、1280/1700/2232 三宽模型流水线 UI、生产构建、NSIS 与实际安装包运行时通过；无真实付费模型调用。\n\n## 安装包\n\n- 官方下载：https://xingzhoufilm.cn/api/updates/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- GitHub：https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- 本机：C:/Users/11599/Documents/ChatGPT/行舟影视/tencent/release/2.8.86/Xingzhou-Film-Tencent-Setup-2.8.86.exe\n- 大小：103858494 字节。\n- SHA256：6e9cd7159fa17256dd3ea4d3a86fb133d2152be60975cb8f923050e6db2d05f0。",
+  "sha256": "6e9cd7159fa17256dd3ea4d3a86fb133d2152be60975cb8f923050e6db2d05f0",
+  "size": 103858494,
+  "publishedAt": "2026-10-27T17:15:21.423348+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "vCF3P37xsOOjsmLRfN7Zt3zU3cWhIYlm275Kp8FagqChgC1Ps1xnaOSa0WLOxAUNPR+QfMyjFNIVmxgJTjmKCQ=="
+    "value": "tBR4KgdBhnDCJ/0fmOrtKdkeeg8ts0ALpaTp3rTop/v/vtXgUb+k8AOhtaUBvC8hIxHibEx6Qga/Hy+WitEZDg=="
   }
 }
