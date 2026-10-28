@@ -1,12 +1,12 @@
 {
-  "version": "2.8.87",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.87/Xingzhou-Film-Tencent-Setup-2.8.87.exe",
-  "notes": "# 行舟影视 2.8.87\n\n- 全剧提示词发布改为按集最多 4 路并发，同一集内部按顺序上传和发布，减少等待。\n- 发布直接使用人工已核实结果，不重复调用大模型，不重复核实、上传已经成功的内容。失败后再次发布会继续处理未完成部分。\n- 新增后台发布进度：已完成提示词与集数、并发、排队、耗时、逐集上传/发布/保存阶段及失败原因。清单、美术等页面共用进度，切换页面不会中断任务。\n- 已发布资产及时刷新到美术页面，避免重复下载全剧分析历史；本机草稿不会当作已发布资产展示。\n- 加强账号切换、同场新增提示词、部分场景发布与回执保存异常时的数据保护。",
-  "sha256": "c7becfb6277d17172217f1891e9e29d1cb2d47fa47abeadee0ad859ad896281e",
-  "size": 103871989,
-  "publishedAt": "2026-10-27T20:19:28.798646+00:00",
+  "version": "2.8.88",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.88/Xingzhou-Film-Tencent-Setup-2.8.88.exe",
+  "notes": "# 2.8.88\n\n- 项目协作新增“视频池”，位于分镜与邀请协作之间。按全剧、分集、场景筛选，按集场条编号排序；每 5 秒监测生成状态，支持按当前范围批量下载、按集保存。\n- 管理员制作工作流重建为开工设置与运行进度。集中设置剧本、风格画幅、提示词/分析/生图主备/视频模型、并发重试、输出位置、Topaz 倍率、OpenFilm 剪辑 Agent 与统一剪辑指令、音乐音效目录。\n- 管理员试用链路接入本机 Codex app-server，支持模型连接检查；复用导演整本生成、美术连续分析、逐条关联与发布，接续视频生成、验收归档、逐集超分和剪辑。自动化继续仅管理员可用。\n- 提交前检查模型参数、工具与目录；Agent 分场检查，半自动逐条检查；保留任务与后期回执，失败项可续跑，提交结果不明时不重复生成。每集片段齐全才进入后期。\n- 本次完成模拟流程和界面验证、本机 Codex 只读执行、Topaz/OpenFilm 组件预检。完整真实生图、生视频、Topaz 增强及 OpenFilm 成片仍属于管理员试用验收，其他 ACP Agent 需分别验证；内容拒绝保留待处理，不自动改变人物年龄或画风。",
+  "sha256": "d3d2bdadd4be0890b02b96a80dc0d86491f209b14ff0d72797cd7a2a3082485d",
+  "size": 103890403,
+  "publishedAt": "2026-10-28T17:14:32.542687+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "OOQJ6LhPH0s1f4jrF4LfgMI9WZ6E65xziwvTbBS6j1VGsOhKReyVkrhTStwnp4ubtoxXaPT0L05rQIX8SEIPDw=="
+    "value": "vYuc7x5HO+MeptxNXLje6b8o6IoK3MOmqfxxB3p8g2MThp3byYDnCHvMfzL9sU/Bv2sfy3OM/QpRbImmHQcCBA=="
   }
 }
