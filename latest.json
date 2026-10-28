@@ -1,12 +1,12 @@
 {
-  "version": "2.8.91",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.91/Xingzhou-Film-Tencent-Setup-2.8.91.exe",
-  "notes": "# 2.8.91\n\n- Agent 连接成功后自动选择推荐模型，优先选择 `gpt-6.1-sol`，没有时使用连接返回的第一个模型。\n- 已连接的用户无需再因为模型下拉为空而重复完善；仍可打开模型选择窗口切换模型。\n\n自动化仍限管理员本机试用。",
-  "sha256": "4503dc7b6942f3cbda3d76e9fa4c59b3abba90afafe2651df96e21ea8029e49a",
-  "size": 103896146,
-  "publishedAt": "2026-10-28T22:24:09.099594+00:00",
+  "version": "2.8.92",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.92/Xingzhou-Film-Tencent-Setup-2.8.92.exe",
+  "notes": "# 2.8.92\n\n- 已生成的提示词直接复用，不再重新生成或重复整本审核。\n- 已有美术清单和关联结果允许继续推进；单个关联、清单或图片问题进入待处理记录，不再阻断后续阶段。\n- 运行进度新增可滚动的制作 Agent 工作日志，记录当前步骤、复用结果、继续执行和具体错误。\n- 运行页将全局大错误改为紧凑状态栏，待处理问题与 Agent 日志分开显示。\n- 新增阶段异常继续执行测试，确保单阶段问题不会停止整条炉子。\n\n自动化仍限管理员本机试用。",
+  "sha256": "ec8fe64a411e663611ede349bbd416f130b0970a8c49a39f22b78590ef9f1db7",
+  "size": 103882353,
+  "publishedAt": "2026-10-28T23:20:58.106067+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "PYZ9/VQ/+pu4uIUtT4CqPoEnrnIQqnzSBAun7t6TvJ3915ezSkRpueBR+3BipXVxjUws7Q9bn90IENgsaCroCg=="
+    "value": "DFJU63ITCwu0OATmoViSYY3PDPl4cWb5ssDpDI8LqcGgbVcY3Grl3cj/w0YDIYccvT32QoPqr+x+vKdQ+GzMDQ=="
   }
 }
