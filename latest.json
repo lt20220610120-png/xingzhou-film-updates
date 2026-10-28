@@ -1,12 +1,12 @@
 {
-  "version": "2.8.90",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.90/Xingzhou-Film-Tencent-Setup-2.8.90.exe",
-  "notes": "# 2.8.90\n\n- 移除管理后台中的旧版接续任务界面与入口，制作工作流统一使用新版炉子。\n- 剪辑设置新增默认剪辑设定：自动附带项目剧本、镜头顺序、粗剪、音效、每集至少两首情绪配乐、字幕、人名条、尾帧和交付检查规则。\n- 新增国内剧／海外剧选择：国内剧使用竖条人名条和中文单行字幕（每行不超过 8 字）；海外剧使用横条人名条和最多两行字幕。人名条只在前 3 集人物首次出场时添加。\n- 新增默认伪帧：每集结尾定格并保留 2 秒；支持选择指定尾帧图片或视频。\n- 新增音色目录；背景音乐、音效、音色、尾帧与项目剧本都会写入 OpenFilm 的制作任务文件，供剪辑 Agent 实际读取。\n- 选择自定义剪辑指令时仍可完全覆盖默认指令。\n\n自动化仍限管理员本机试用；完整真实剧集成片仍需本机验收。",
-  "sha256": "350a9a14843bb547d155f8f61b18d1edbfc3179d2382c046f14b81af0a366e3d",
-  "size": 103895789,
-  "publishedAt": "2026-10-28T22:05:38.076365+00:00",
+  "version": "2.8.91",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.91/Xingzhou-Film-Tencent-Setup-2.8.91.exe",
+  "notes": "# 2.8.91\n\n- Agent 连接成功后自动选择推荐模型，优先选择 `gpt-6.1-sol`，没有时使用连接返回的第一个模型。\n- 已连接的用户无需再因为模型下拉为空而重复完善；仍可打开模型选择窗口切换模型。\n\n自动化仍限管理员本机试用。",
+  "sha256": "4503dc7b6942f3cbda3d76e9fa4c59b3abba90afafe2651df96e21ea8029e49a",
+  "size": 103896146,
+  "publishedAt": "2026-10-28T22:24:09.099594+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "RydwigF3QSQ7B8zioO97hM6HVLNy1EoPADUy109TVgteR30yNxM1ln6KC8cLmmzoG4QJbIJ8R2n/Q9wyRGMmCg=="
+    "value": "PYZ9/VQ/+pu4uIUtT4CqPoEnrnIQqnzSBAun7t6TvJ3915ezSkRpueBR+3BipXVxjUws7Q9bn90IENgsaCroCg=="
   }
 }
