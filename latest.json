@@ -1,12 +1,12 @@
 {
-  "version": "2.8.88",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.88/Xingzhou-Film-Tencent-Setup-2.8.88.exe",
-  "notes": "# 2.8.88\n\n- 项目协作新增“视频池”，位于分镜与邀请协作之间。按全剧、分集、场景筛选，按集场条编号排序；每 5 秒监测生成状态，支持按当前范围批量下载、按集保存。\n- 管理员制作工作流重建为开工设置与运行进度。集中设置剧本、风格画幅、提示词/分析/生图主备/视频模型、并发重试、输出位置、Topaz 倍率、OpenFilm 剪辑 Agent 与统一剪辑指令、音乐音效目录。\n- 管理员试用链路接入本机 Codex app-server，支持模型连接检查；复用导演整本生成、美术连续分析、逐条关联与发布，接续视频生成、验收归档、逐集超分和剪辑。自动化继续仅管理员可用。\n- 提交前检查模型参数、工具与目录；Agent 分场检查，半自动逐条检查；保留任务与后期回执，失败项可续跑，提交结果不明时不重复生成。每集片段齐全才进入后期。\n- 本次完成模拟流程和界面验证、本机 Codex 只读执行、Topaz/OpenFilm 组件预检。完整真实生图、生视频、Topaz 增强及 OpenFilm 成片仍属于管理员试用验收，其他 ACP Agent 需分别验证；内容拒绝保留待处理，不自动改变人物年龄或画风。",
-  "sha256": "d3d2bdadd4be0890b02b96a80dc0d86491f209b14ff0d72797cd7a2a3082485d",
-  "size": 103890403,
-  "publishedAt": "2026-10-28T17:14:32.542687+00:00",
+  "version": "2.8.89",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.89/Xingzhou-Film-Tencent-Setup-2.8.89.exe",
+  "notes": "# 2.8.89\n\n- 管理员制作工作流改为五步设置：项目与智能体、剧本与提示词、美术与图片、视频生成、超分与剪辑，减少长表单滚动。\n- 项目、模型与提示词 Skill 改为可搜索选择窗口，支持关闭、Esc 返回及键盘焦点恢复。\n- 输出目录、音乐音效和软件路径改为整块可点击选择卡片；系统文件夹窗口可选择或新建，记住已有位置，取消保留原值；可单独清空音乐或音效目录。\n- 制作与剪辑智能体分别展示连接卡片、状态、自动查找和模型选择；剪辑可沿用制作智能体配置。连接失败不再保留成功状态。\n- 统一按钮尺寸、图标、对齐及操作栏；原有开工检查、任务保存与运行流程保持接续。\n\n自动化仍限管理员试用。本次为交互改版，不代表完整真实剧集的生成、超分与剪辑已经完成验收。",
+  "sha256": "39c1001a501230eb5877518bf9ea96db2960e9be759191adf035c70903627187",
+  "size": 103881691,
+  "publishedAt": "2026-10-28T18:38:29.877044+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "vYuc7x5HO+MeptxNXLje6b8o6IoK3MOmqfxxB3p8g2MThp3byYDnCHvMfzL9sU/Bv2sfy3OM/QpRbImmHQcCBA=="
+    "value": "mvUiJ2/149/oXTiAgQejxzUcHEA9gdx2p2OFZK8WuxT+jSM2TNndNvdxPXDIELSfX4rrBmwOD7IjwB/rxNxPAg=="
   }
 }
