@@ -1,12 +1,12 @@
 {
-  "version": "2.8.94",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.94/Xingzhou-Film-Tencent-Setup-2.8.94.exe",
-  "notes": "# 2.8.94\n\n- 制作工作流新增成果监测：一次批量读取提示词、清单、关联、发布和图片，逐集逐场展示完成依据与缺项；监测不调用生成模型。\n- 开始、暂停后继续及重新打开软件时，复用已有成果，只补缺清单、缺关联或未发布场景；已发布场景和人工确认无需参考图的选择不重复分发、审核或发布。\n- 原片与后期输出按文件及 SHA256 验收，超分另核对本集片段编号、原片来源和倍率。发现缺失保留生成任务，接续归档，不自动重复付费提交。\n- 视频任务列表集中读取；不同集的视频、超分与剪辑按依赖接续，Topaz 和剪辑各自逐集排队。\n- Codex 连接面板新增实际账号、套餐、5小时/每周额度、重置时间及 Skill/MCP 列表；通过官方 app-server 接入。服务未返回的额度或状态明确显示未提供。\n- 修复刷新期间重复启动/切换项目、完成任务发现文件缺失后不能继续等恢复边界。\n\n制作自动化仍仅管理员试用。监测反映结构、签名及文件凭据，不替代图片内容或叙事效果验收；其他 ACP 智能体按其实际提供能力展示。未进行真实整剧付费生成联合试跑。",
-  "sha256": "1937986ccb8ced0af8115a8bfab14b1ecc23b324ee4d1c67735b07656289ac6a",
-  "size": 103894638,
-  "publishedAt": "2026-10-29T11:39:42.856807+00:00",
+  "version": "2.8.95",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.95/Xingzhou-Film-Tencent-Setup-2.8.95.exe",
+  "notes": "# 2.8.95\n\n## 自动化制作接续与视频参考图核验\n\n- 自动化工作流遇到未发布清单、缺少美术描述、关联缺项、来源身份变化或可恢复生成错误时，改由 Agent 设定可验证的修复目标，程序执行并重新读取结果后继续运行。\n- 已完成的提示词、清单、关联、图片和视频任务会按签名、发布凭据、图片凭据和原任务编号复用，不重复生成或重复提交。\n- 余额不足单独进入“等待模型充值”，保留已完成成果和在途任务；未知上游提交状态不会自动重投。\n- 视频提交前增加参考图闭环校验：美术卡片 → 已生成图片 → 提示词 `@image` → 最终发送数组。模型上限超出时由 Agent 在固定模型下选择，人物和场景优先，道具权重最低；实际提交使用筛选后的最终数组并记录验收明细。\n- 恢复导演项目与协作项目按集数保持稳定身份，避免已有清单被误判为新项目。\n- 管理员制作对话面板展示 Agent 账号、模型、额度、Skill/MCP、滚动工作日志、恢复目标和引用验收明细；已验证的制作经验可保存给后续任务。\n- 本机生产任务运行期间保持唤醒，Topaz 和 OpenFilm 后期仍按集接续。\n\n本版本仍只在管理员制作中心使用。真实整剧付费生图、生视频、超分和 OpenFilm 成片需要管理员另行试跑；测试使用模拟接口，不代表已消耗生产额度。",
+  "sha256": "a14c8a05df31fd5c06632f5d9ab0bf26bc2cedf3772f203d9b7061cbe60852e8",
+  "size": 103912941,
+  "publishedAt": "2026-10-29T16:52:13.571106+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "+IWbN95EaZmwNR3WxEmDmdq6E3ZD6H4PEpIcBlk/huFGEENHAwKMhwq7rd6/hnmzR931XkwtZOTXmsmHr5QSBg=="
+    "value": "NU1Eas4DpJ106pnxDzgxkVbR85eHWrI8qe8VREW+pqvetbZGzdQ4pem14wrWUOAF5HmAKpDbdwyKLEi+4cStBA=="
   }
 }
