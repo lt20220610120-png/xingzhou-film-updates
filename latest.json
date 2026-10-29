@@ -1,12 +1,12 @@
 {
-  "version": "2.8.93",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.93/Xingzhou-Film-Tencent-Setup-2.8.93.exe",
-  "notes": "# 2.8.93\n\n- 制作工作流排除协作回收站项目；优先复用当前正常协作项目，没有时自动开启协作。多个正常副本按更新时间选择，并记录采用的项目；也可在对话区明确选择。\n- 已发布且已有分发的集直接复用，未完成集按缺清单、缺关联/发布分别接续；已有图片保留，继续补齐未完成项。\n- 待处理问题下增加真实制作 Agent 对话，可刷新/选择模型、发送指令、查看工作日志和执行结果。\n- 对话首批支持继续、暂停、重新读取、同源协作项目切换；已有视频提交记录不重绑项目、不重复提交。\n- 可将确认有效的做法保存为当前账号默认制作流程，后续新任务自动带入制作/剪辑 Agent 上下文。\n- 修正阶段恢复后旧错误仍显示的问题，增加逐项生图和视频接续日志。\n\n自动化仍为管理员本机试用；完整真实剧集的生成、超分和成片效果需本机试跑验收。",
-  "sha256": "132a9ae727aa636c7f2330270762048ea2d33fe1a31523634690b1f3406ece5a",
-  "size": 103884863,
-  "publishedAt": "2026-10-29T08:13:27.892080+00:00",
+  "version": "2.8.94",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.94/Xingzhou-Film-Tencent-Setup-2.8.94.exe",
+  "notes": "# 2.8.94\n\n- 制作工作流新增成果监测：一次批量读取提示词、清单、关联、发布和图片，逐集逐场展示完成依据与缺项；监测不调用生成模型。\n- 开始、暂停后继续及重新打开软件时，复用已有成果，只补缺清单、缺关联或未发布场景；已发布场景和人工确认无需参考图的选择不重复分发、审核或发布。\n- 原片与后期输出按文件及 SHA256 验收，超分另核对本集片段编号、原片来源和倍率。发现缺失保留生成任务，接续归档，不自动重复付费提交。\n- 视频任务列表集中读取；不同集的视频、超分与剪辑按依赖接续，Topaz 和剪辑各自逐集排队。\n- Codex 连接面板新增实际账号、套餐、5小时/每周额度、重置时间及 Skill/MCP 列表；通过官方 app-server 接入。服务未返回的额度或状态明确显示未提供。\n- 修复刷新期间重复启动/切换项目、完成任务发现文件缺失后不能继续等恢复边界。\n\n制作自动化仍仅管理员试用。监测反映结构、签名及文件凭据，不替代图片内容或叙事效果验收；其他 ACP 智能体按其实际提供能力展示。未进行真实整剧付费生成联合试跑。",
+  "sha256": "1937986ccb8ced0af8115a8bfab14b1ecc23b324ee4d1c67735b07656289ac6a",
+  "size": 103894638,
+  "publishedAt": "2026-10-29T11:39:42.856807+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "paxIkLMB0IbBLoCrR6x5TrEpSLQRJiyjt1cIxL1OU6c2LLMZo08k9R8DsHj7PdbYMsEY/Y4A6L5ZzO2KmfgHDQ=="
+    "value": "+IWbN95EaZmwNR3WxEmDmdq6E3ZD6H4PEpIcBlk/huFGEENHAwKMhwq7rd6/hnmzR931XkwtZOTXmsmHr5QSBg=="
   }
 }
