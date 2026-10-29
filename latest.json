@@ -1,12 +1,12 @@
 {
-  "version": "2.8.92",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.92/Xingzhou-Film-Tencent-Setup-2.8.92.exe",
-  "notes": "# 2.8.92\n\n- 已生成的提示词直接复用，不再重新生成或重复整本审核。\n- 已有美术清单和关联结果允许继续推进；单个关联、清单或图片问题进入待处理记录，不再阻断后续阶段。\n- 运行进度新增可滚动的制作 Agent 工作日志，记录当前步骤、复用结果、继续执行和具体错误。\n- 运行页将全局大错误改为紧凑状态栏，待处理问题与 Agent 日志分开显示。\n- 新增阶段异常继续执行测试，确保单阶段问题不会停止整条炉子。\n\n自动化仍限管理员本机试用。",
-  "sha256": "ec8fe64a411e663611ede349bbd416f130b0970a8c49a39f22b78590ef9f1db7",
-  "size": 103882353,
-  "publishedAt": "2026-10-28T23:20:58.106067+00:00",
+  "version": "2.8.93",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.93/Xingzhou-Film-Tencent-Setup-2.8.93.exe",
+  "notes": "# 2.8.93\n\n- 制作工作流排除协作回收站项目；优先复用当前正常协作项目，没有时自动开启协作。多个正常副本按更新时间选择，并记录采用的项目；也可在对话区明确选择。\n- 已发布且已有分发的集直接复用，未完成集按缺清单、缺关联/发布分别接续；已有图片保留，继续补齐未完成项。\n- 待处理问题下增加真实制作 Agent 对话，可刷新/选择模型、发送指令、查看工作日志和执行结果。\n- 对话首批支持继续、暂停、重新读取、同源协作项目切换；已有视频提交记录不重绑项目、不重复提交。\n- 可将确认有效的做法保存为当前账号默认制作流程，后续新任务自动带入制作/剪辑 Agent 上下文。\n- 修正阶段恢复后旧错误仍显示的问题，增加逐项生图和视频接续日志。\n\n自动化仍为管理员本机试用；完整真实剧集的生成、超分和成片效果需本机试跑验收。",
+  "sha256": "132a9ae727aa636c7f2330270762048ea2d33fe1a31523634690b1f3406ece5a",
+  "size": 103884863,
+  "publishedAt": "2026-10-29T08:13:27.892080+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "DFJU63ITCwu0OATmoViSYY3PDPl4cWb5ssDpDI8LqcGgbVcY3Grl3cj/w0YDIYccvT32QoPqr+x+vKdQ+GzMDQ=="
+    "value": "paxIkLMB0IbBLoCrR6x5TrEpSLQRJiyjt1cIxL1OU6c2LLMZo08k9R8DsHj7PdbYMsEY/Y4A6L5ZzO2KmfgHDQ=="
   }
 }
