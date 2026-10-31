@@ -1,12 +1,12 @@
 {
-  "version": "2.8.100",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.100/Xingzhou-Film-Tencent-Setup-2.8.100.exe",
-  "notes": "# 行舟影视 2.8.100\n\n- 信息读取内置正常对白清单；逐场讲话名单缺失时自动补读，按出场不同集数 ≥3 汇总主要人物及一句剧本原话。\n- 项目协作新增人物语音卡片，支持模型生成、上传本地语音、试听和确定音色。新候选不会覆盖已确认音色。\n- 提示词关联、项目分镜、混合素材文件夹和自动化共享语音关联；无提示词时按场景关联，只发送实际选中的素材。\n- 视频提交按模型音频容量取用，切换模型保留完整原关联。\n- 语音结果可查看、保存、导出、逐条删除和全部清理。人物固定音色独立保留，清理结果后仍可使用。\n- 美术按集、按场景、按具体提示词导出时，可选择仅图片或同时导出对应音频，保留音频格式并按目录归档。\n- 修复并发结果覆盖、旧场景音色残留、图片导出误处理音频和正常对白含“心声”词语被误判。",
-  "sha256": "9c574c83a7ca0ff35600748a01137013c59b19791d9e817417cc1b99c5c5b66e",
-  "size": 103940785,
-  "publishedAt": "2026-10-31T18:38:13.243358+00:00",
+  "version": "2.8.101",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.101/Xingzhou-Film-Tencent-Setup-2.8.101.exe",
+  "notes": "# 行舟影视 2.8.101\n\n- 清单核实内置“美术核实 / 音色”切换，移除左侧独立语音入口；音色卡片改为单列紧凑布局。\n- 音色页增加按出场集数快速定位、搜索、未生成/未采用筛选、人工新增人物卡、场景选择、批量补全、批量生成和批量采用。\n- 人物身份、年龄阶段、人物介绍和剧本逐字依据会传给语音模型；音色描述改为选填，留空使用人物基础音色。\n- 年幼、成年、老年只有在剧本有明确依据时拆成独立音色卡，并只关联对应场景。\n- 自动化工作流新增“人物音色”阶段，位于剧本与提示词之后、美术清单之前；开工设置包含音色生成、前置信息补充和音色分发模型。自动化每个人物采用第一条成功生成音色，并把规则写入 Agent 指令。",
+  "sha256": "1e92d6a855656f54827d4a16887f960b7f8aaaa4d54196c69b05a557062971c8",
+  "size": 103934851,
+  "publishedAt": "2026-10-31T19:24:16.667033+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "P9i7+xLk8/mfEFNQ87xsCbbs1ebTRmrm4RRkuz5jMY6K48YKscVvFLCkN94ykfwAFxm8NGqB0Fg3797YW+UhCA=="
+    "value": "zSZ6Y17CdaUZOUelW74TKDV7j3saJ1uZpLTlD97kYaSf7stPvfHxbv10Ddx3OMC+QF/GzccG71otD9Y8aX2rBA=="
   }
 }
