@@ -1,12 +1,12 @@
 {
-  "version": "2.8.96",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.96/Xingzhou-Film-Tencent-Setup-2.8.96.exe",
-  "notes": "# 2.8.96\n\n- 修复视频池等待查询/下载完成才显示的问题：提交后立即显示原任务，默认每4秒刷新状态，上游成功并下载完成后显示“已成功”。\n- 新增独立后台视频监测；不依赖当前页面、Agent或提交队列，继续查询和下载已有任务。查询、下载失败只接续原结果，不重新收费生成。\n- 修复 Fnko 完成视频的结果地址跳转和网络下载问题；支持受控HTTPS跳转，使用系统网络，网络故障时尝试备用GET传输，密钥不随跨站跳转。\n- 视频生成增加主模型尝试次数、是否使用指定备用模型、备用模型与尝试次数。默认主模型2次、不自动切换；备用模型沿用当前画幅、时长、分辨率，开工前校验。\n- 暂停后可调整当前任务后续重试策略，保留原任务编号及成功成果。未知提交不重投，余额不足明确等待。\n- 自动化分集视频池默认收起，汇总已成功视频和已收齐集数；展开后可下载指定集已成功的视频。\n- 原Codex版本路径被更新移除时，自动定位已安装的Codex连接组件。\n\n自动化仍仅管理员试用。本次真实验证只查询/下载两条已有成功视频，没有重新生成或产生新生成扣费；整剧生成、超分、剪辑仍需实际试跑。",
-  "sha256": "add0ded3d0f4e248eb998d26e6038f0475ffaecb54e114f7db12fe0e34f5084a",
-  "size": 103914954,
-  "publishedAt": "2026-10-30T14:59:57.208158+00:00",
+  "version": "2.8.97",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.97/Xingzhou-Film-Tencent-Setup-2.8.97.exe",
+  "notes": "# 2.8.97\n\n- 视频失败策略集中到开工设置：可添加多个备用模型，每项独立设置尝试次数，并支持上移、下移与删除。运行后自动依次接力，无需失败后回来操作。\n- 移除运行进度中的重复视频设置；保留原任务和已经成功的成果，旧单备用配置兼容。\n- Codex内部制作改用后台临时会话，避免制作检查不断新增桌面聊天；工作记录继续保存在行舟影视。\n- 移除视频池副说明和清单核实口号。",
+  "sha256": "a33b6c81119aed867eb03f27e4c0728712921ed1a1d7bb9a48b61213320527bb",
+  "size": 103914167,
+  "publishedAt": "2026-10-31T05:00:40.308972+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "rDlVwPg2zPZPhINYLke6v1dw5FsrHQCclHRqL0eVxEwiNvX4UR0Lr8Tsivw50OGx2gf7NLS3qSS9gtQN4oNxDg=="
+    "value": "GSV97YnQDIPSys5PG7folgC3X3kNy2zmpbaqNmNWsvcrx6sIPfBt1TLsJdzbrd5gWlbHJrX1pPAaQQVxqPTbAA=="
   }
 }
