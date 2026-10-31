@@ -1,12 +1,12 @@
 {
-  "version": "2.8.97",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.97/Xingzhou-Film-Tencent-Setup-2.8.97.exe",
-  "notes": "# 2.8.97\n\n- 视频失败策略集中到开工设置：可添加多个备用模型，每项独立设置尝试次数，并支持上移、下移与删除。运行后自动依次接力，无需失败后回来操作。\n- 移除运行进度中的重复视频设置；保留原任务和已经成功的成果，旧单备用配置兼容。\n- Codex内部制作改用后台临时会话，避免制作检查不断新增桌面聊天；工作记录继续保存在行舟影视。\n- 移除视频池副说明和清单核实口号。",
-  "sha256": "a33b6c81119aed867eb03f27e4c0728712921ed1a1d7bb9a48b61213320527bb",
-  "size": 103914167,
-  "publishedAt": "2026-10-31T05:00:40.308972+00:00",
+  "version": "2.8.98",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.98/Xingzhou-Film-Tencent-Setup-2.8.98.exe",
+  "notes": "# 行舟影视 2.8.98\n\n- 语音模型配置现在可实际生成语音：输入配音文本、音色与表演描述，选择语言，生成后直接试听并导出 WAV。\n- 支持用户本地和自部署的 OpenAI Speech 兼容服务，无需密钥的接口可单独勾选；提供本地 Qwen3-TTS 1.7B VoiceDesign 配置预设。\n- 音频保存到当前资料目录，先校验内容再显示成功；连接失败、超时和无效音频会明确提示，生成请求不自动重试。\n- 延续 2.8.97 的开工前多备用模型策略与 Codex 后台临时会话改进。\n\n本地模型需另行部署并启动。模型权重不包含在安装包内。本次已在本机 RTX5060 8GB 上验证官方 VoiceDesign 的中文与英文真实语音生成。",
+  "sha256": "1d1d4e0848e5fd01602e5313e3d3c59e8310412eb91c49000930655479d68d51",
+  "size": 103929750,
+  "publishedAt": "2026-10-31T05:12:03.614718+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "GSV97YnQDIPSys5PG7folgC3X3kNy2zmpbaqNmNWsvcrx6sIPfBt1TLsJdzbrd5gWlbHJrX1pPAaQQVxqPTbAA=="
+    "value": "AmANpUU64xaUK8V9QKnR1O8IbyEibaOfVWgmeXBGQ5/Y2lGtvgl5KC2NTwCQh0r6PkS7buUGvT/HrqUP7YuvAw=="
   }
 }
