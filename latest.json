@@ -1,12 +1,12 @@
 {
-  "version": "2.8.99",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.99/Xingzhou-Film-Tencent-Setup-2.8.99.exe",
-  "notes": "# 2.8.99（2026-10-31）\n\n## 语音生成结果管理\n\n- 语音生成结果统一进入本地索引，可播放查看、保存、导出 WAV 和逐条删除。\n- 结果区增加一键清理全部；会同时清理索引记录和语音生成目录中的遗留音频文件。\n- 人物确认音色时复用已保存的生成结果；上传本地语音仍可直接关联人物。\n- 生成结果默认待保存，用户可以逐条决定保留内容。\n\n## 验证\n\n- 全量测试：2596/2596\n- Vite 构建：通过\n- 语音管理 UI：1280、1700、2232 三种宽度通过\n- 安装包与公开下载地址：见 `docs/release-verification-2.8.99.md`",
-  "sha256": "32c4b2d4901667583306d35c6ec8e025e558a53374a038045a7b5e3aad0d341f",
-  "size": 103928023,
-  "publishedAt": "2026-10-31T13:15:04.024312+00:00",
+  "version": "2.8.100",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.100/Xingzhou-Film-Tencent-Setup-2.8.100.exe",
+  "notes": "# 行舟影视 2.8.100\n\n- 信息读取内置正常对白清单；逐场讲话名单缺失时自动补读，按出场不同集数 ≥3 汇总主要人物及一句剧本原话。\n- 项目协作新增人物语音卡片，支持模型生成、上传本地语音、试听和确定音色。新候选不会覆盖已确认音色。\n- 提示词关联、项目分镜、混合素材文件夹和自动化共享语音关联；无提示词时按场景关联，只发送实际选中的素材。\n- 视频提交按模型音频容量取用，切换模型保留完整原关联。\n- 语音结果可查看、保存、导出、逐条删除和全部清理。人物固定音色独立保留，清理结果后仍可使用。\n- 美术按集、按场景、按具体提示词导出时，可选择仅图片或同时导出对应音频，保留音频格式并按目录归档。\n- 修复并发结果覆盖、旧场景音色残留、图片导出误处理音频和正常对白含“心声”词语被误判。",
+  "sha256": "9c574c83a7ca0ff35600748a01137013c59b19791d9e817417cc1b99c5c5b66e",
+  "size": 103940785,
+  "publishedAt": "2026-10-31T18:38:13.243358+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "t71owteXQ+QeuvRia9WDO/5OlO5YO62BCoOm2uPd+qEfKtiqObQxm0ScphiQURA6Otz+m2T2mPvVNlx/yWxxDQ=="
+    "value": "P9i7+xLk8/mfEFNQ87xsCbbs1ebTRmrm4RRkuz5jMY6K48YKscVvFLCkN94ykfwAFxm8NGqB0Fg3797YW+UhCA=="
   }
 }
