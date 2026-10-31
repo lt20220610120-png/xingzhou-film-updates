@@ -1,12 +1,12 @@
 {
-  "version": "2.8.98",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.98/Xingzhou-Film-Tencent-Setup-2.8.98.exe",
-  "notes": "# 行舟影视 2.8.98\n\n- 语音模型配置现在可实际生成语音：输入配音文本、音色与表演描述，选择语言，生成后直接试听并导出 WAV。\n- 支持用户本地和自部署的 OpenAI Speech 兼容服务，无需密钥的接口可单独勾选；提供本地 Qwen3-TTS 1.7B VoiceDesign 配置预设。\n- 音频保存到当前资料目录，先校验内容再显示成功；连接失败、超时和无效音频会明确提示，生成请求不自动重试。\n- 延续 2.8.97 的开工前多备用模型策略与 Codex 后台临时会话改进。\n\n本地模型需另行部署并启动。模型权重不包含在安装包内。本次已在本机 RTX5060 8GB 上验证官方 VoiceDesign 的中文与英文真实语音生成。",
-  "sha256": "1d1d4e0848e5fd01602e5313e3d3c59e8310412eb91c49000930655479d68d51",
-  "size": 103929750,
-  "publishedAt": "2026-10-31T05:12:03.614718+00:00",
+  "version": "2.8.99",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.99/Xingzhou-Film-Tencent-Setup-2.8.99.exe",
+  "notes": "# 2.8.99（2026-10-31）\n\n## 语音生成结果管理\n\n- 语音生成结果统一进入本地索引，可播放查看、保存、导出 WAV 和逐条删除。\n- 结果区增加一键清理全部；会同时清理索引记录和语音生成目录中的遗留音频文件。\n- 人物确认音色时复用已保存的生成结果；上传本地语音仍可直接关联人物。\n- 生成结果默认待保存，用户可以逐条决定保留内容。\n\n## 验证\n\n- 全量测试：2596/2596\n- Vite 构建：通过\n- 语音管理 UI：1280、1700、2232 三种宽度通过\n- 安装包与公开下载地址：见 `docs/release-verification-2.8.99.md`",
+  "sha256": "32c4b2d4901667583306d35c6ec8e025e558a53374a038045a7b5e3aad0d341f",
+  "size": 103928023,
+  "publishedAt": "2026-10-31T13:15:04.024312+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "AmANpUU64xaUK8V9QKnR1O8IbyEibaOfVWgmeXBGQ5/Y2lGtvgl5KC2NTwCQh0r6PkS7buUGvT/HrqUP7YuvAw=="
+    "value": "t71owteXQ+QeuvRia9WDO/5OlO5YO62BCoOm2uPd+qEfKtiqObQxm0ScphiQURA6Otz+m2T2mPvVNlx/yWxxDQ=="
   }
 }
