@@ -1,12 +1,12 @@
 {
-  "version": "2.8.101",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.101/Xingzhou-Film-Tencent-Setup-2.8.101.exe",
-  "notes": "# 行舟影视 2.8.101\n\n- 清单核实内置“美术核实 / 音色”切换，移除左侧独立语音入口；音色卡片改为单列紧凑布局。\n- 音色页增加按出场集数快速定位、搜索、未生成/未采用筛选、人工新增人物卡、场景选择、批量补全、批量生成和批量采用。\n- 人物身份、年龄阶段、人物介绍和剧本逐字依据会传给语音模型；音色描述改为选填，留空使用人物基础音色。\n- 年幼、成年、老年只有在剧本有明确依据时拆成独立音色卡，并只关联对应场景。\n- 自动化工作流新增“人物音色”阶段，位于剧本与提示词之后、美术清单之前；开工设置包含音色生成、前置信息补充和音色分发模型。自动化每个人物采用第一条成功生成音色，并把规则写入 Agent 指令。",
-  "sha256": "1e92d6a855656f54827d4a16887f960b7f8aaaa4d54196c69b05a557062971c8",
-  "size": 103934851,
-  "publishedAt": "2026-10-31T19:24:16.667033+00:00",
+  "version": "2.8.102",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.102/Xingzhou-Film-Tencent-Setup-2.8.102.exe",
+  "notes": "# 行舟影视 2.8.102\n\n- 清单核实页改为同一组分段切换：音色在前，核实分发在后；按钮尺寸、对齐和状态统一。\n- 核实分发的场景清单、本集资产清单、提示词分发卡片增加音色类别，展示已采用/待确定音色及其场景关联。\n- 音色继续沿用正常对白和年龄阶段边界，提示词分发只带当前实际讲话人物的音色；美术人物、场景、道具流程保持原有核实和发布规则。\n- 检查自动化和视频提交回归，新增音色不会阻塞原有流程。",
+  "sha256": "20257bbd475661e0ca4817782a26b349b79247e372a292a37e83a0e3ee153141",
+  "size": 103935296,
+  "publishedAt": "2026-10-31T19:53:52.375534+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "zSZ6Y17CdaUZOUelW74TKDV7j3saJ1uZpLTlD97kYaSf7stPvfHxbv10Ddx3OMC+QF/GzccG71otD9Y8aX2rBA=="
+    "value": "0h8VGHyoH9CUB4LOOR9zRYNutBrTdA+RNvq4LeIXa7TosvOBcpMgKUEoKoENf9cYVw0Ow/nvxhunzS9Tmn+TBQ=="
   }
 }
