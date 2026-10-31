@@ -1,12 +1,12 @@
 {
-  "version": "2.8.102",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.102/Xingzhou-Film-Tencent-Setup-2.8.102.exe",
-  "notes": "# 行舟影视 2.8.102\n\n- 清单核实页改为同一组分段切换：音色在前，核实分发在后；按钮尺寸、对齐和状态统一。\n- 核实分发的场景清单、本集资产清单、提示词分发卡片增加音色类别，展示已采用/待确定音色及其场景关联。\n- 音色继续沿用正常对白和年龄阶段边界，提示词分发只带当前实际讲话人物的音色；美术人物、场景、道具流程保持原有核实和发布规则。\n- 检查自动化和视频提交回归，新增音色不会阻塞原有流程。",
-  "sha256": "20257bbd475661e0ca4817782a26b349b79247e372a292a37e83a0e3ee153141",
-  "size": 103935296,
-  "publishedAt": "2026-10-31T19:53:52.375534+00:00",
+  "version": "2.8.103",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.103/Xingzhou-Film-Tencent-Setup-2.8.103.exe",
+  "notes": "# 行舟影视 2.8.103\n\n- 提示词分发始终通读左侧完整提示词；`【基础设定】`/`音色` 仅作为快速索引，结构变化后仍按全文上下文提取正常对白人物并关联音色。整场分发读取场景原文，旁白、画外音、心声和群像不进入音色关联。\n- 音色清单排除群像、群演、群众等群体卡片，保留单人和会说话的生物；增加回归测试覆盖群像过滤和生物角色。\n- API 语音配置、语音生成结果、回收站和制作工作流界面压缩冗余说明并统一横向对齐；制作设置对象、步骤、来源和模式卡片保持同一基线，新增音色阶段验收脚本。\n- 保留语音结果的保存、查看、导出、单条删除和全部清理能力；本地 Qwen3-TTS 配置仍支持默认接口选择。",
+  "sha256": "2450e0a7ef99bfd026580881e18c5a0279c4d3799d8b10ecef1d81c01d123ea2",
+  "size": 103947606,
+  "publishedAt": "2026-10-31T21:52:19.834175+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "0h8VGHyoH9CUB4LOOR9zRYNutBrTdA+RNvq4LeIXa7TosvOBcpMgKUEoKoENf9cYVw0Ow/nvxhunzS9Tmn+TBQ=="
+    "value": "wZRtL7NTIj0ZvsW8qs+vui44NwJrhknL2bGKjzK9wZTU6vIRdnfyzErr1VsDhr+BiYulLucI0KtcOGXxLmy9Dw=="
   }
 }
