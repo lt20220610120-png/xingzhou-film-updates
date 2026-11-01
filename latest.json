@@ -1,12 +1,12 @@
 {
-  "version": "2.8.104",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.104/Xingzhou-Film-Tencent-Setup-2.8.104.exe",
-  "notes": "# 行舟影视 2.8.104\n\n- 自动化人物音色改为可选，默认关闭。开工前和运行页可开关；关闭不再强制选择语音模型、不运行音色生成，已有成果保留。运行中开启会暂停新派发，继续后先补跑音色并接续原任务。\n- 人物音色增加并发正整数输入，不按本机型号锁定上限。当前本机 Qwen 服务有效推理并发实测为 1，两个同时请求中额外一条返回忙碌；更换模型后可自行提高设置。\n- 修复已选音色接口及型号仍被误报不存在、已有样音未采用的问题。暂停时保留返回样音，接续采用第一条并只补缺项，按实际人物卡采用情况判断完成。\n- 管理后台使用窗口剩余宽度；音色页统一模型、语言及操作按钮基线，快速定位条改为小号浅色卡片。\n- 美术卡片的生图前置、人物构图和保存/AI修改操作横向排列；本机参考图按钮与参考选择等宽并排，窄窗口自动换行。",
-  "sha256": "0ba54b3d2ca4fdc9cffbe615e8b0662491222ae82fec7cb8bca900ceafcb5bbf",
-  "size": 103950631,
-  "publishedAt": "2026-11-01T04:13:31.647115+00:00",
+  "version": "2.8.105",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.105/Xingzhou-Film-Tencent-Setup-2.8.105.exe",
+  "notes": "行舟影视 2.8.105\n\n- 人物音色顶部操作统一为同一水平工具栏，停止操作保持同行；窄窗口在工具栏内横向浏览。\n- 显示出场≥3集的实际人物数及年龄音色卡片数，全部、未生成、未采用分别显示实时数量，搜索展示当前卡片数；群像继续排除。\n- 一键补全逐集保存并自动重试单集异常，遇到个别错误继续处理后续分集，结束统一显示待处理问题；无需反复点击才能继续后面的集数。\n- 空白草稿不再遮住已识别台词，已有正常对白逐字依据可直接提取到人物的一句话，保留人工非空编辑；音色描述仍为选填。\n- 手工一键生成增加可自由设置的并发数。自动化保留音色开关与并发设置，读取异常会如实记录。\n- 本机 Qwen VoiceDesign 服务升级为真实动态批量推理：8GB 显卡短对白实测6路，超过80字符时自动按3路分批；新增队列、取消、显存不足降批及安全停止。此服务升级已在当前电脑部署，其他电脑需同步更新 tools/local-qwen-tts 服务文件。",
+  "sha256": "982c514ccc4d3e67ab65eb8da369f40e4f9336375a89469be12b385854457bac",
+  "size": 103940818,
+  "publishedAt": "2026-11-01T06:18:32.632364+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "sDnKztJpLNKdHGFqqOyHMVgA3GClQV0QYnzGH9qRyA2A4ift4zIgsifIwNCxzFwglxSSVwRZ5wk3q41yZrHcAQ=="
+    "value": "5B3Y0EXNcr+PSkrEbnr3ZRCvC5HryXe6SrZCUtZbDgbASFp4UMV15lUVNkfOwdrc9z5uZuKY0tpE5XVORQjoBg=="
   }
 }
