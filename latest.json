@@ -1,12 +1,12 @@
 {
-  "version": "2.8.103",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.103/Xingzhou-Film-Tencent-Setup-2.8.103.exe",
-  "notes": "# 行舟影视 2.8.103\n\n- 提示词分发始终通读左侧完整提示词；`【基础设定】`/`音色` 仅作为快速索引，结构变化后仍按全文上下文提取正常对白人物并关联音色。整场分发读取场景原文，旁白、画外音、心声和群像不进入音色关联。\n- 音色清单排除群像、群演、群众等群体卡片，保留单人和会说话的生物；增加回归测试覆盖群像过滤和生物角色。\n- API 语音配置、语音生成结果、回收站和制作工作流界面压缩冗余说明并统一横向对齐；制作设置对象、步骤、来源和模式卡片保持同一基线，新增音色阶段验收脚本。\n- 保留语音结果的保存、查看、导出、单条删除和全部清理能力；本地 Qwen3-TTS 配置仍支持默认接口选择。",
-  "sha256": "2450e0a7ef99bfd026580881e18c5a0279c4d3799d8b10ecef1d81c01d123ea2",
-  "size": 103947606,
-  "publishedAt": "2026-10-31T21:52:19.834175+00:00",
+  "version": "2.8.104",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.104/Xingzhou-Film-Tencent-Setup-2.8.104.exe",
+  "notes": "# 行舟影视 2.8.104\n\n- 自动化人物音色改为可选，默认关闭。开工前和运行页可开关；关闭不再强制选择语音模型、不运行音色生成，已有成果保留。运行中开启会暂停新派发，继续后先补跑音色并接续原任务。\n- 人物音色增加并发正整数输入，不按本机型号锁定上限。当前本机 Qwen 服务有效推理并发实测为 1，两个同时请求中额外一条返回忙碌；更换模型后可自行提高设置。\n- 修复已选音色接口及型号仍被误报不存在、已有样音未采用的问题。暂停时保留返回样音，接续采用第一条并只补缺项，按实际人物卡采用情况判断完成。\n- 管理后台使用窗口剩余宽度；音色页统一模型、语言及操作按钮基线，快速定位条改为小号浅色卡片。\n- 美术卡片的生图前置、人物构图和保存/AI修改操作横向排列；本机参考图按钮与参考选择等宽并排，窄窗口自动换行。",
+  "sha256": "0ba54b3d2ca4fdc9cffbe615e8b0662491222ae82fec7cb8bca900ceafcb5bbf",
+  "size": 103950631,
+  "publishedAt": "2026-11-01T04:13:31.647115+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "wZRtL7NTIj0ZvsW8qs+vui44NwJrhknL2bGKjzK9wZTU6vIRdnfyzErr1VsDhr+BiYulLucI0KtcOGXxLmy9Dw=="
+    "value": "sDnKztJpLNKdHGFqqOyHMVgA3GClQV0QYnzGH9qRyA2A4ift4zIgsifIwNCxzFwglxSSVwRZ5wk3q41yZrHcAQ=="
   }
 }
