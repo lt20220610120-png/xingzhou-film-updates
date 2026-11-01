@@ -1,12 +1,12 @@
 {
-  "version": "2.8.105",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.105/Xingzhou-Film-Tencent-Setup-2.8.105.exe",
-  "notes": "行舟影视 2.8.105\n\n- 人物音色顶部操作统一为同一水平工具栏，停止操作保持同行；窄窗口在工具栏内横向浏览。\n- 显示出场≥3集的实际人物数及年龄音色卡片数，全部、未生成、未采用分别显示实时数量，搜索展示当前卡片数；群像继续排除。\n- 一键补全逐集保存并自动重试单集异常，遇到个别错误继续处理后续分集，结束统一显示待处理问题；无需反复点击才能继续后面的集数。\n- 空白草稿不再遮住已识别台词，已有正常对白逐字依据可直接提取到人物的一句话，保留人工非空编辑；音色描述仍为选填。\n- 手工一键生成增加可自由设置的并发数。自动化保留音色开关与并发设置，读取异常会如实记录。\n- 本机 Qwen VoiceDesign 服务升级为真实动态批量推理：8GB 显卡短对白实测6路，超过80字符时自动按3路分批；新增队列、取消、显存不足降批及安全停止。此服务升级已在当前电脑部署，其他电脑需同步更新 tools/local-qwen-tts 服务文件。",
-  "sha256": "982c514ccc4d3e67ab65eb8da369f40e4f9336375a89469be12b385854457bac",
-  "size": 103940818,
-  "publishedAt": "2026-11-01T06:18:32.632364+00:00",
+  "version": "2.8.107",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.107/Xingzhou-Film-Tencent-Setup-2.8.107.exe",
+  "notes": "# 行舟影视 2.8.107\n\n- 修复同一视频接口下备用模型的分辨率被当前主模型参数覆盖的问题；每个备用模型现在按自己的模型目录展示分辨率、时长及参考素材能力。\n- 主模型和备用模型继续分别保存画幅、时长、分辨率、同时生成数量与尝试次数，开工检查和实际提交使用对应模型的独立参数。\n- 保留 2.8.106 的主模型尝试次数位置、备用模型独立参数与人物音色样音删除功能。",
+  "sha256": "93023f64b2256ab09c6cf7a41d1740cff294198d3122dfe5514fb0adbaf29187",
+  "size": 103953356,
+  "publishedAt": "2026-11-01T09:44:20.940058+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "5B3Y0EXNcr+PSkrEbnr3ZRCvC5HryXe6SrZCUtZbDgbASFp4UMV15lUVNkfOwdrc9z5uZuKY0tpE5XVORQjoBg=="
+    "value": "5UAWarYiH2pedSnlTk+0Ave0d3RRyphXAEVVHbZUihGHStNRhItQxiS0Z0eJm4Xy5IlwI3vDw50ViNLx1kC1Bw=="
   }
 }
