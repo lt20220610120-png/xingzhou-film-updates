@@ -1,12 +1,12 @@
 {
-  "version": "2.8.107",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.107/Xingzhou-Film-Tencent-Setup-2.8.107.exe",
-  "notes": "# 行舟影视 2.8.107\n\n- 修复同一视频接口下备用模型的分辨率被当前主模型参数覆盖的问题；每个备用模型现在按自己的模型目录展示分辨率、时长及参考素材能力。\n- 主模型和备用模型继续分别保存画幅、时长、分辨率、同时生成数量与尝试次数，开工检查和实际提交使用对应模型的独立参数。\n- 保留 2.8.106 的主模型尝试次数位置、备用模型独立参数与人物音色样音删除功能。",
-  "sha256": "93023f64b2256ab09c6cf7a41d1740cff294198d3122dfe5514fb0adbaf29187",
-  "size": 103953356,
-  "publishedAt": "2026-11-01T09:44:20.940058+00:00",
+  "version": "2.8.108",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.108/Xingzhou-Film-Tencent-Setup-2.8.108.exe",
+  "notes": "# 2.8.108\n\n- 人物音色生成前自动检查服务。本机已部署 Qwen 未启动时按需启动，多张卡片共享启动过程；再次生成或自动化接续时重新检查服务，连接错误显示明确原因。云语音配置可填写同源健康检查与启动地址，未就绪时先启动并等待，不重复提交状态不明的语音请求。\n- 一键补全继续查漏补缺，并调用所选大模型扩写较短人物台词：保留完整原句，在后面自然续写，样音目标约3–5秒。原剧本依据独立保留，扩写仅用于试听，音色描述仍选填；补全期间人工编辑不被覆盖。\n- 提示词生成增加主模型尝试次数及可自由添加、排序、删除的有序备用模型，失败后按阈值接力，只补缺失场景；已完成提示词保留。\n- 开工设置拆为七步：项目与智能体、剧本与提示词、信息读取、人物音色、美术资产、视频生成、超分与剪辑。信息读取负责画风、人物构图和清单分析/默认分发模型，并先读取人物身份、关联场景与正常对白。\n- 美术资产支持多个有序备用生图模型，每个模型独立设置尝试次数、同时生图数量和画幅，自动接力；暂停保留未提交队列，余额不足切换可用备用渠道。\n- 视频主备参数在字段下面展开可搜索、可滚动选项，不再使用居中选择弹窗。根据所选型号能力显示画幅、时长、分辨率；未声明分辨率的接口提供480p、720p、1080p、2K、4K选项。",
+  "sha256": "a74b2074c1b4918176a0e8ceb7a0ed7951785c0cc1c9076f864cee31044ac8c4",
+  "size": 103964233,
+  "publishedAt": "2026-11-01T12:45:40.767372+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "5UAWarYiH2pedSnlTk+0Ave0d3RRyphXAEVVHbZUihGHStNRhItQxiS0Z0eJm4Xy5IlwI3vDw50ViNLx1kC1Bw=="
+    "value": "zCXxAY0dPD/82OrsxEUz+eEBzkVKG85WeBUQeb7m8pSPsHhzfSFxqaVOSk8qO3URmcUN6JcPKmb4Qv+1kKcXCA=="
   }
 }
