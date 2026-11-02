@@ -1,12 +1,12 @@
 {
-  "version": "2.8.113",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.113/Xingzhou-Film-Tencent-Setup-2.8.113.exe",
-  "notes": "# 2.8.113\n\n- 移除“第一集”的专门解析和固定范围展示，不再从旧对话自动提取测试指令作为制作范围。临时要求只作用当前任务，不写入以后任务的默认流程。\n- 制作对话接通本机 Codex 的真实后端工具调用：读取项目/素材/关联/视频任务，原任务查询下载归档，暂停/继续，动态调整或解除本次范围，修改当前任务设置，运行制作工序。Agent按最新用户要求调用工具并获得执行回执。\n- 固定流程和历史经验作为默认工作方法；最新用户指令优先。前若干集、任意集数组或其他安排由Agent动态理解，用户可随时改变，明确保存默认流程时才变为默认经验。\n- 暂停状态仍可归档已成功视频；已完成任务收到新的制作安排可重开接续，保留原付费记录。未知操作不假报已完成。\n\n验证：2675项测试、三宽UI、生产构建。真实本机Codex一次只读动态工具探针成功，付费视频动作0。",
-  "sha256": "51620aac70b9468eff50ce0d4bf668932428f96d591c55e128e952092a40907d",
-  "size": 103961720,
-  "publishedAt": "2026-11-02T12:46:27.172145+00:00",
+  "version": "2.8.114",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.114/Xingzhou-Film-Tencent-Setup-2.8.114.exe",
+  "notes": "# 2.8.114\n\n- 制作/剪辑智能体设置改为接入列表：Codex、Hermes、Cursor、Claude Code与自定义ACP；显示组件发现、桌面应用待补组件、已连接状态，提供扫描、浏览与安装说明。\n- 本机Hermes通过hermes-acp连接，读取当前模型及模型列表；通过仅当前会话有效的本机MCP服务调用同一套行舟后台工具，复用Hermes已有登录与配置。\n- Cursor使用原生ACP CLI入口；Claude Code使用ACP连接组件与真实Node运行环境，缺组件时明确提示，不把发现桌面程序冒充可调用。\n- 非Codex账号信息缺省时仍保留运行模型选择；开工与运行模型同步。ACP剪辑仅允许当前工程目录内明确请求的文件编辑，终端及范围外操作不自动授权。\n\n验证：2679项测试、生产构建、三宽接入列表及运行页模型验证。真实本机Hermes连接成功、读取33模型、MCP只读工具实际调用1次并返回OK；0次付费视频生成。Cursor/Claude Code在本机未具备相应组件，未宣称真实连接验收通过。",
+  "sha256": "b1959ebe870279f625155f215113ae0c2218de5a032f375fbba701a0bdbf7848",
+  "size": 103977356,
+  "publishedAt": "2026-11-02T13:08:08.412232+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "YP+7lDsXS70MZSdQOT9ktsvRKJ6QRxvVzFikSkuLg+UlYjFJsGYvau073Q6oMYDwFI8GQfs/8f8E0CnqR4HIBg=="
+    "value": "nW5T3fQuJQkTSxTKdLUDxZ15CiIBgQtjpKKgaiwnqNrR534Eixq2Sf9sxQ84IPbGcXDUMB5PDHV3VpnmI/ewDQ=="
   }
 }
