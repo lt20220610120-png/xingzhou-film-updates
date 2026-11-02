@@ -1,12 +1,12 @@
 {
-  "version": "2.8.117",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.117/Xingzhou-Film-Tencent-Setup-2.8.117.exe",
-  "notes": "# 行舟影视 2.8.117\n\n- 制作Agent改为文字消息穿插折叠执行步骤，逐项展开查看调用参数与返回结果，保留过程回复和最终回答。\n- 修复协议按整个接收块触发8MB中断：按单条消息解帧，关闭无用原始响应通知，超大可选通知排空后接续。\n- 项目、素材、关联及生成任务改为分页和按路径读取；长原文支持连续读取，媒体以引用表示，避免整项目反复灌入上下文。\n- 当前任务检查不再复制完整剧本；保留真实Codex流式回复和运行中追加指令。",
-  "sha256": "53cac750239fa0fb7d04b92260ecee74ae4f236dc7086b81254a3dde78ccc088",
-  "size": 103969801,
-  "publishedAt": "2026-11-02T15:41:02.446252+00:00",
+  "version": "2.8.118",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.118/Xingzhou-Film-Tencent-Setup-2.8.118.exe",
+  "notes": "# 行舟影视 2.8.118\n\n- 重构运行进度工作台，沿用行舟浅紫/白配色：固定状态与继续/暂停按钮，左侧制作概况、工序、问题及分集素材，右侧独立Agent聊天，双区独立滚动。\n- 暂停同时在顶部、概况提示和聊天输入区显示，不必翻回页面顶部。移除聊天里的重复协作项目选择。\n- 对话每轮集中为可展开的用时/步骤，过程文字与工具活动穿插，最终回答单独显示；保留长对话尾部及追加指令。\n- 输入框支持切换实际连接的模型及其支持的推理强度；Codex/Hermes名称、模型和事件跟随连接，未提供的能力不显示。",
+  "sha256": "d0a026032c62f71c1fa89bec2ea490261d71fddfff3592eba624699f97e4d919",
+  "size": 103989541,
+  "publishedAt": "2026-11-02T16:21:07.663304+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "A0oBqmtB7eOJqtJEO7l5CTrfhD9SN4Ff9oE9A+wC/LNvQ1pZHaqf1zfGfqz24NXPkyVULHflzAu6lXiv/VrQAA=="
+    "value": "8dGEbD3oW/xYabZGE8rNiYhQtMcvZAsjhYxtHV/BK957kJ1mOZmOK1J97IrEWpiiX4Vfer2Hp9il6wTl2c51Cg=="
   }
 }
