@@ -1,12 +1,12 @@
 {
-  "version": "2.8.110",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.110/Xingzhou-Film-Tencent-Setup-2.8.110.exe",
-  "notes": "# 2.8.110\n\n- 同一项目重新开工默认接续未完成的原任务；保留视频提交、归档、参考图选择和后期凭据，避免改设置后重复制作。\n- 原任务支持修改七项开工设置，保存并继续；新设置用于未完成项，已提交任务继续查询原记录。保存期间与启动互斥。\n- 已确认且有效的人工关联直接复用；每条关联单独保存复用依据，补卡、发布及图片就绪不再无故丢失已有依据。真实提示词或关联卡片身份变化仍需核实。\n- 修复关闭音色时分发流水线仍检查音色，以及旧分发成功缓存遮住实际缺项的问题。\n\n验证：2661 项测试、生产构建与三宽工作流界面；付费生成使用模拟接口。",
-  "sha256": "9dd95319ece91bb0be4b3f0f99120057cbc9511d5cd3004b7b3fa928b27eb7e9",
-  "size": 103967023,
-  "publishedAt": "2026-11-02T04:46:14.901202+00:00",
+  "version": "2.8.111",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.111/Xingzhou-Film-Tencent-Setup-2.8.111.exe",
+  "notes": "# 2.8.111\n\n- 美术主备模型按设置尝试，耗尽后 Agent 只修复重试一轮；仍失败的图片记录为已跳过，后续自动化不再重复尝试。未知提交保留原任务查询，余额不足保留充值状态。\n- 已跳过的缺图不阻塞视频，保留原提示词文字及其他人物、场景和道具参考图；实际发送和主进程校验共用跳过凭据。\n- 模型参考图名额不足时，人物和场景全部能容纳则由程序直接优先保留，道具只使用剩余名额；人物场景自身超限时仍按镜头重点选图。舍弃图片后重新编号引用，保留对象文字。\n- 生成任务列表支持完整备份后恢复有效数组末尾的损坏残留，避免 JSON 解析故障阻断原任务查询、下载和自动化；不把损坏记录当空表。\n\n验证：2666 项测试和生产构建通过；生成验证使用模拟接口。",
+  "sha256": "2cef5dd27246b9baa4644b3d57f31269e2d1a6a0d4519e6cb6d2bdbe6665ee78",
+  "size": 103957196,
+  "publishedAt": "2026-11-02T06:26:53.061673+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "MUPPmugnF05NoG49TmTMkSPPLZJzHzsKu6jJPSvshxMd8DENSGIb19VUcNt4qD2j4Ic3EP85MKe+gRR9YGNmCQ=="
+    "value": "2O1vbIsokDFs+eOSbVJS+1kSaLHNF7wXoeumdWWPjj4i2qR/wJjSZw47Wk0L6JuMyQ3IZGJVyC9tYJzhsk9OAg=="
   }
 }
