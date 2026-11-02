@@ -1,12 +1,12 @@
 {
-  "version": "2.8.116",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.116/Xingzhou-Film-Tencent-Setup-2.8.116.exe",
-  "notes": "# 行舟影视 2.8.116\n\n- 制作 Codex 对话在同一客户端内复用真实会话，逐段显示回复；后台子任务继续使用临时会话。\n- 运行中可发送补充指令，通过 Codex 原生 turn/steer 调整当前回合；工具调用与实际回执进入消息流。\n- 制作任务状态与 Agent 响应状态分别显示；修复失败后派发锁未释放、快速追加竞争和忙碌状态提前消失。\n- 默认制作流程继续接续已有成果，当前用户指令优先；暂停仍保留已提交任务。",
-  "sha256": "144b2335dfb80112a233285f328639b4a162eb70ea480a86e09d76054661c2a1",
-  "size": 103980839,
-  "publishedAt": "2026-11-02T15:23:37.190796+00:00",
+  "version": "2.8.117",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.117/Xingzhou-Film-Tencent-Setup-2.8.117.exe",
+  "notes": "# 行舟影视 2.8.117\n\n- 制作Agent改为文字消息穿插折叠执行步骤，逐项展开查看调用参数与返回结果，保留过程回复和最终回答。\n- 修复协议按整个接收块触发8MB中断：按单条消息解帧，关闭无用原始响应通知，超大可选通知排空后接续。\n- 项目、素材、关联及生成任务改为分页和按路径读取；长原文支持连续读取，媒体以引用表示，避免整项目反复灌入上下文。\n- 当前任务检查不再复制完整剧本；保留真实Codex流式回复和运行中追加指令。",
+  "sha256": "53cac750239fa0fb7d04b92260ecee74ae4f236dc7086b81254a3dde78ccc088",
+  "size": 103969801,
+  "publishedAt": "2026-11-02T15:41:02.446252+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "CKpFnfZ/qP5u3P9PNipWfK1a8uK7F/4j1lUZ+b7NmiL/8BOJ6a1BaK9rYXRrirKlspP5KebDMW1FmKhPPMZYAA=="
+    "value": "A0oBqmtB7eOJqtJEO7l5CTrfhD9SN4Ff9oE9A+wC/LNvQ1pZHaqf1zfGfqz24NXPkyVULHflzAu6lXiv/VrQAA=="
   }
 }
