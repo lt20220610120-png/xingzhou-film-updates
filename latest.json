@@ -1,12 +1,12 @@
 {
-  "version": "2.8.112",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.112/Xingzhou-Film-Tencent-Setup-2.8.112.exe",
-  "notes": "# 2.8.112\n\n- 管理员对话指令作为当前工作要求保存，优先于默认流程与历史经验，并传入制作及剪辑Agent。不能只口头承诺而不执行动作。\n- 支持只做指定集到归档、超分或剪辑交付后暂停；执行范围持久化，继续或重启仍沿用，明确取消限制后恢复全剧。\n- 并发队列及付费提交前重新核对最新范围；素材准备期间改变指令也可拦截尚未付费的提交。已提交任务保留，范围外任务由独立后台继续查询下载。\n- 制作Agent连接、模型及目标可收起。运行页模型选择移到账号区域，从本机Agent读取，与开工设置共用任务中的制作模型；剪辑模型保留独立配置。\n\n验证：2672项测试、生产构建及1280/1700/2232三宽界面验证通过。付费提交使用模拟接口验证。",
-  "sha256": "8dd0ca61456755649e437e1bdbca2bdab29f0ff66b606e702539da2f03a71c30",
-  "size": 103959058,
-  "publishedAt": "2026-11-02T12:18:21.568360+00:00",
+  "version": "2.8.113",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.113/Xingzhou-Film-Tencent-Setup-2.8.113.exe",
+  "notes": "# 2.8.113\n\n- 移除“第一集”的专门解析和固定范围展示，不再从旧对话自动提取测试指令作为制作范围。临时要求只作用当前任务，不写入以后任务的默认流程。\n- 制作对话接通本机 Codex 的真实后端工具调用：读取项目/素材/关联/视频任务，原任务查询下载归档，暂停/继续，动态调整或解除本次范围，修改当前任务设置，运行制作工序。Agent按最新用户要求调用工具并获得执行回执。\n- 固定流程和历史经验作为默认工作方法；最新用户指令优先。前若干集、任意集数组或其他安排由Agent动态理解，用户可随时改变，明确保存默认流程时才变为默认经验。\n- 暂停状态仍可归档已成功视频；已完成任务收到新的制作安排可重开接续，保留原付费记录。未知操作不假报已完成。\n\n验证：2675项测试、三宽UI、生产构建。真实本机Codex一次只读动态工具探针成功，付费视频动作0。",
+  "sha256": "51620aac70b9468eff50ce0d4bf668932428f96d591c55e128e952092a40907d",
+  "size": 103961720,
+  "publishedAt": "2026-11-02T12:46:27.172145+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "QULS0kSV+2CmPib1157Z9NZ2HxYblLKAEXxdJoNCOFMSBXUVyhWmBpSiX5gU55UfVJ6Na2+ZJ30V2zSsFBVaAg=="
+    "value": "YP+7lDsXS70MZSdQOT9ktsvRKJ6QRxvVzFikSkuLg+UlYjFJsGYvau073Q6oMYDwFI8GQfs/8f8E0CnqR4HIBg=="
   }
 }
