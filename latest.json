@@ -1,12 +1,12 @@
 {
-  "version": "2.8.109",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.109/Xingzhou-Film-Tencent-Setup-2.8.109.exe",
-  "notes": "# 2.8.109\n\n## 制作工作流总控与 Agent 边界\n\n- 全自动和半自动共用七项开工设置；半自动读取持久化成果，从实际缺项接续，不再要求先勾选“人工已核对”才能运行。\n- 导演提示词下游只核对集、场、分段数量和生成缺项，按主模型尝试次数及有序备用模型补齐。提示词内容、台词时序、剧情、镜头连续性和文案质量不再由素材分发 Agent 重审。备用模型接续保留原分段计划和已付费提示词编号。\n- 清单核实按每条提示词验证人物、场景、道具及启用时的音色关联；允许补卡、补描述、重新分发和发布。关闭音色时不读取或阻塞音色关联。\n- 全部人物音色卡参与自动补全和样音生成；短样音会继续扩写试听台词，保留真实对白依据，优先采用达到三秒的第一条样音。\n- 美术按人物、场景、道具顺序接续图片；单条参考素材齐备即可提交视频。视频下载后立即进入 Proteus 逐片超分，整集超分凭据齐备后进入剪辑。未知提交、暂停、重启和人工成果继续使用原有持久化保护。\n- Codex 制作 Agent 任务统一附加固定职责边界，历史默认规则不能扩大审查范围。\n\n验证：`npm test` 2656/2656；工作流、运行页、音色、音频和视频备用模型界面验证通过。",
-  "sha256": "d0dd0afa0ccb7eedbde5424ac6cc46cf9a860a6bc0251596f1c9c56cc66c7797",
-  "size": 103952830,
-  "publishedAt": "2026-11-01T23:21:37.301651+00:00",
+  "version": "2.8.110",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.110/Xingzhou-Film-Tencent-Setup-2.8.110.exe",
+  "notes": "# 2.8.110\n\n- 同一项目重新开工默认接续未完成的原任务；保留视频提交、归档、参考图选择和后期凭据，避免改设置后重复制作。\n- 原任务支持修改七项开工设置，保存并继续；新设置用于未完成项，已提交任务继续查询原记录。保存期间与启动互斥。\n- 已确认且有效的人工关联直接复用；每条关联单独保存复用依据，补卡、发布及图片就绪不再无故丢失已有依据。真实提示词或关联卡片身份变化仍需核实。\n- 修复关闭音色时分发流水线仍检查音色，以及旧分发成功缓存遮住实际缺项的问题。\n\n验证：2661 项测试、生产构建与三宽工作流界面；付费生成使用模拟接口。",
+  "sha256": "9dd95319ece91bb0be4b3f0f99120057cbc9511d5cd3004b7b3fa928b27eb7e9",
+  "size": 103967023,
+  "publishedAt": "2026-11-02T04:46:14.901202+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "BFlGm1Lb2wEwOKVBNsHoqH6L9qKJqfT0wlf4QXShs6Tg7AyHgfCQlqP3JRdLBOUtJoS5y4P5N+J4t+7O6IwoCA=="
+    "value": "MUPPmugnF05NoG49TmTMkSPPLZJzHzsKu6jJPSvshxMd8DENSGIb19VUcNt4qD2j4Ic3EP85MKe+gRR9YGNmCQ=="
   }
 }
