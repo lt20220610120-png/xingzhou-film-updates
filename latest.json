@@ -1,12 +1,12 @@
 {
-  "version": "2.8.111",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.111/Xingzhou-Film-Tencent-Setup-2.8.111.exe",
-  "notes": "# 2.8.111\n\n- 美术主备模型按设置尝试，耗尽后 Agent 只修复重试一轮；仍失败的图片记录为已跳过，后续自动化不再重复尝试。未知提交保留原任务查询，余额不足保留充值状态。\n- 已跳过的缺图不阻塞视频，保留原提示词文字及其他人物、场景和道具参考图；实际发送和主进程校验共用跳过凭据。\n- 模型参考图名额不足时，人物和场景全部能容纳则由程序直接优先保留，道具只使用剩余名额；人物场景自身超限时仍按镜头重点选图。舍弃图片后重新编号引用，保留对象文字。\n- 生成任务列表支持完整备份后恢复有效数组末尾的损坏残留，避免 JSON 解析故障阻断原任务查询、下载和自动化；不把损坏记录当空表。\n\n验证：2666 项测试和生产构建通过；生成验证使用模拟接口。",
-  "sha256": "2cef5dd27246b9baa4644b3d57f31269e2d1a6a0d4519e6cb6d2bdbe6665ee78",
-  "size": 103957196,
-  "publishedAt": "2026-11-02T06:26:53.061673+00:00",
+  "version": "2.8.112",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.112/Xingzhou-Film-Tencent-Setup-2.8.112.exe",
+  "notes": "# 2.8.112\n\n- 管理员对话指令作为当前工作要求保存，优先于默认流程与历史经验，并传入制作及剪辑Agent。不能只口头承诺而不执行动作。\n- 支持只做指定集到归档、超分或剪辑交付后暂停；执行范围持久化，继续或重启仍沿用，明确取消限制后恢复全剧。\n- 并发队列及付费提交前重新核对最新范围；素材准备期间改变指令也可拦截尚未付费的提交。已提交任务保留，范围外任务由独立后台继续查询下载。\n- 制作Agent连接、模型及目标可收起。运行页模型选择移到账号区域，从本机Agent读取，与开工设置共用任务中的制作模型；剪辑模型保留独立配置。\n\n验证：2672项测试、生产构建及1280/1700/2232三宽界面验证通过。付费提交使用模拟接口验证。",
+  "sha256": "8dd0ca61456755649e437e1bdbca2bdab29f0ff66b606e702539da2f03a71c30",
+  "size": 103959058,
+  "publishedAt": "2026-11-02T12:18:21.568360+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "2O1vbIsokDFs+eOSbVJS+1kSaLHNF7wXoeumdWWPjj4i2qR/wJjSZw47Wk0L6JuMyQ3IZGJVyC9tYJzhsk9OAg=="
+    "value": "QULS0kSV+2CmPib1157Z9NZ2HxYblLKAEXxdJoNCOFMSBXUVyhWmBpSiX5gU55UfVJ6Na2+ZJ30V2zSsFBVaAg=="
   }
 }
