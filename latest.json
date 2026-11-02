@@ -1,12 +1,12 @@
 {
-  "version": "2.8.114",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.114/Xingzhou-Film-Tencent-Setup-2.8.114.exe",
-  "notes": "# 2.8.114\n\n- 制作/剪辑智能体设置改为接入列表：Codex、Hermes、Cursor、Claude Code与自定义ACP；显示组件发现、桌面应用待补组件、已连接状态，提供扫描、浏览与安装说明。\n- 本机Hermes通过hermes-acp连接，读取当前模型及模型列表；通过仅当前会话有效的本机MCP服务调用同一套行舟后台工具，复用Hermes已有登录与配置。\n- Cursor使用原生ACP CLI入口；Claude Code使用ACP连接组件与真实Node运行环境，缺组件时明确提示，不把发现桌面程序冒充可调用。\n- 非Codex账号信息缺省时仍保留运行模型选择；开工与运行模型同步。ACP剪辑仅允许当前工程目录内明确请求的文件编辑，终端及范围外操作不自动授权。\n\n验证：2679项测试、生产构建、三宽接入列表及运行页模型验证。真实本机Hermes连接成功、读取33模型、MCP只读工具实际调用1次并返回OK；0次付费视频生成。Cursor/Claude Code在本机未具备相应组件，未宣称真实连接验收通过。",
-  "sha256": "b1959ebe870279f625155f215113ae0c2218de5a032f375fbba701a0bdbf7848",
-  "size": 103977356,
-  "publishedAt": "2026-11-02T13:08:08.412232+00:00",
+  "version": "2.8.115",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.115/Xingzhou-Film-Tencent-Setup-2.8.115.exe",
+  "notes": "# 2.8.115\n\n- 制作与剪辑智能体列表默认只展示 Codex、Hermes；Cursor、Claude Code 和自定义 ACP 收进“其他智能体”，点击后展开。统一图标、文字、选中标记与说明按钮的对齐和间距。\n- 制作 Agent 对话改为更宽、更高的消息流；用户消息、Agent 回复、工作日志与执行结果分层展示，长回复中的转义换行恢复为真实换行。\n- 工具调用不再把完整配置和 JSON 回执塞进对话，改为简短中文执行摘要；旧任务里的同类原始工具回执也以可读摘要显示，完整结果仍正常返回给 Agent。\n- 编辑框改为独立大圆角卡片，支持自动增高、Enter 发送、Shift + Enter 换行；点击发送后立即清空草稿，不再等 Agent 执行完成。\n- 模型繁忙、回包过大及 IPC 包装错误改为更易懂的提示。\n\n验证：2680 项全量测试、生产构建、1280/1700/2232 三宽工作流与智能体接入界面验证、安装包运行验收；覆盖默认收纳、展开选择、发送中立即清空、旧 JSON 清理、聊天区高度及横向溢出检查。未执行付费生成。",
+  "sha256": "680684a5b6e841e7323223c13fd18497bd41a6880feee31fe01146ce70477410",
+  "size": 103965898,
+  "publishedAt": "2026-11-02T14:09:54.221686+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "nW5T3fQuJQkTSxTKdLUDxZ15CiIBgQtjpKKgaiwnqNrR534Eixq2Sf9sxQ84IPbGcXDUMB5PDHV3VpnmI/ewDQ=="
+    "value": "1Dvr8WY1nFxoyU4LO3OLatVHA9nzhiqobzU601ZXdpW0JirT5AOgHtZvFJpe9oIIrCt1xCbncQ7Akcl2ULGtAg=="
   }
 }
