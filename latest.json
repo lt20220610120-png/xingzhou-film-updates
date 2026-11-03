@@ -1,12 +1,12 @@
 {
-  "version": "2.8.122",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.122/Xingzhou-Film-Tencent-Setup-2.8.122.exe",
-  "notes": "# 行舟影视 2.8.122\n\n本版统一制作工作流的主从控制，并完善 Topaz Video 与 OpenFilm 的本机适配。\n\n- 行舟影视是唯一制作控制端。协作智能体只通过同一工作流调整制作安排，不再自行另跑 FFmpeg、Topaz、OpenFilm 或第二套剪辑流程。\n- 剪辑沿用开工时选择的同一个 Codex、Hermes 或其他 ACP 智能体及模型，不再要求单独连接另一套剪辑智能体。\n- Hermes/ACP 回复期间可以追加指令，指令在当前工作流中按顺序接续；点击停止会同时取消活动对话、清空待处理指令，并终止智能体、剪辑和渲染进程树。\n- Topaz Video 与 OpenFilm 支持从 Windows 注册信息、标准安装目录及便携安装目录自动发现，并校验实际滤镜、模型组件、工程手册和渲染接口。\n- Topaz 输出会自动选择安装包实际提供的 H.264 编码器。授权、模型或组件失败时保留原片、清理未完成文件并给出明确处理提示，不会用普通放大冒充 AI 超分。",
-  "sha256": "32d9a0b66971311998dc00a0b1d267a27c5f896d803cad1734de317bc70b5d70",
-  "size": 104003383,
-  "publishedAt": "2026-11-03T05:32:15.366073+00:00",
+  "version": "2.8.124",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.124/Xingzhou-Film-Tencent-Setup-2.8.124.exe",
+  "notes": "# 行舟影视 2.8.124\n\n包含2.8.123的项目窗口、对话停止和自动接续修复，并重点加强Topaz接入。\n\n- 固定使用普罗透斯（Proteus）AI超分，开工前可选择放大2倍或4倍，正式执行与连接测试共用参数构造。\n- 增加“测试真实 Topaz 超分”。实际调用本机Topaz自带FFmpeg处理一秒测试片，验证尺寸、时长和输出文件，清楚区分组件存在与真正可用。\n- 开工前检查同时进行真实超分测试。外部授权或模型未就绪时提示具体原因，自动化其余工序继续推进，后期由当前协作Agent安排自动复查。\n- 支持开工前选择处理设备、Proteus自动估计帧数，并保存在当前任务中。",
+  "sha256": "b37b630644b4a26134e23a74f08ad2ca14994e183fa713d8e15346e0a2c667ee",
+  "size": 103992723,
+  "publishedAt": "2026-11-03T17:59:50.485326+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "VylnHmolDyrORGPeN3gUf8k6Zx0+297FSCC/jrUeITIcSx+GdhH4HI0XLkWKwI35thz0tkkMCykgTUCBc+C9Cg=="
+    "value": "XTEg8HZcmqtl5nOb4ybNxUW73DfpX/qdEwLjEU68lr2Kz7Dt9jXO8Qg/ZAgOxYmvTEGKkJWMIJL+wYCrO7LODg=="
   }
 }
