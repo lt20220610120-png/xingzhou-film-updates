@@ -1,12 +1,12 @@
 {
-  "version": "2.8.118",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.118/Xingzhou-Film-Tencent-Setup-2.8.118.exe",
-  "notes": "# 行舟影视 2.8.118\n\n- 重构运行进度工作台，沿用行舟浅紫/白配色：固定状态与继续/暂停按钮，左侧制作概况、工序、问题及分集素材，右侧独立Agent聊天，双区独立滚动。\n- 暂停同时在顶部、概况提示和聊天输入区显示，不必翻回页面顶部。移除聊天里的重复协作项目选择。\n- 对话每轮集中为可展开的用时/步骤，过程文字与工具活动穿插，最终回答单独显示；保留长对话尾部及追加指令。\n- 输入框支持切换实际连接的模型及其支持的推理强度；Codex/Hermes名称、模型和事件跟随连接，未提供的能力不显示。",
-  "sha256": "d0a026032c62f71c1fa89bec2ea490261d71fddfff3592eba624699f97e4d919",
-  "size": 103989541,
-  "publishedAt": "2026-11-02T16:21:07.663304+00:00",
+  "version": "2.8.119",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.119/Xingzhou-Film-Tencent-Setup-2.8.119.exe",
+  "notes": "行舟影视 2.8.119\n\n- 制作聊天调整不再停止新任务派发。“先做第几集”原位更新范围，默认继续完整制作链路，明确暂停时才停下。\n- 制作Agent固定为“超创 · 行舟影视制作总控”。身份随任务保存，每轮对话及运行中追加都携带开工设置、主备模型策略、当前安排和已验证经验，重新连接后仍可理解原任务。\n- 缺项接续沿用原调度器：核对原付费任务、补缺生成、明确失败后按配置接力备用模型，成功后归档、逐片超分并按集剪辑；不重复生成已有成果或未知提交。\n- 修复暂停后立即继续可能丢失接续请求的问题，保持每个任务只有一个制作执行器。\n- 管理后台标题与制作工作流总控、软件授权卡密、用户与邀请、WorkBuddy号池同排；删除冗余说明、管理员制作中心及重复制作标题。项目控制栏上移，与开工设置/运行进度合为一行；项目名只显示一次，任务选择和状态按钮单行对齐，长名称省略并预留独立箭头空间。工作台随实际顶部高度填满可用空间，保留浅紫白配色。\n\n验证采用隔离模拟制作接口；本机真实Codex已验证范围调整与持续执行工具调用，没有提交真实付费生成。",
+  "sha256": "59a39942e34a2b23aa4e32f6b93a61c001bed24eaad895d89d91eaaa1cc2760f",
+  "size": 103978690,
+  "publishedAt": "2026-11-03T00:53:09.486620+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8dGEbD3oW/xYabZGE8rNiYhQtMcvZAsjhYxtHV/BK957kJ1mOZmOK1J97IrEWpiiX4Vfer2Hp9il6wTl2c51Cg=="
+    "value": "wpxKB3S9LpqHIkqpPcdCGEj0pyAOnP2WLutGTEzB/5kwrCsD4heCJuH2gdx4jQdUjW76jkn9oJOey3l54bPNCg=="
   }
 }
