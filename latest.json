@@ -1,12 +1,12 @@
 {
-  "version": "2.8.119",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.119/Xingzhou-Film-Tencent-Setup-2.8.119.exe",
-  "notes": "行舟影视 2.8.119\n\n- 制作聊天调整不再停止新任务派发。“先做第几集”原位更新范围，默认继续完整制作链路，明确暂停时才停下。\n- 制作Agent固定为“超创 · 行舟影视制作总控”。身份随任务保存，每轮对话及运行中追加都携带开工设置、主备模型策略、当前安排和已验证经验，重新连接后仍可理解原任务。\n- 缺项接续沿用原调度器：核对原付费任务、补缺生成、明确失败后按配置接力备用模型，成功后归档、逐片超分并按集剪辑；不重复生成已有成果或未知提交。\n- 修复暂停后立即继续可能丢失接续请求的问题，保持每个任务只有一个制作执行器。\n- 管理后台标题与制作工作流总控、软件授权卡密、用户与邀请、WorkBuddy号池同排；删除冗余说明、管理员制作中心及重复制作标题。项目控制栏上移，与开工设置/运行进度合为一行；项目名只显示一次，任务选择和状态按钮单行对齐，长名称省略并预留独立箭头空间。工作台随实际顶部高度填满可用空间，保留浅紫白配色。\n\n验证采用隔离模拟制作接口；本机真实Codex已验证范围调整与持续执行工具调用，没有提交真实付费生成。",
-  "sha256": "59a39942e34a2b23aa4e32f6b93a61c001bed24eaad895d89d91eaaa1cc2760f",
-  "size": 103978690,
-  "publishedAt": "2026-11-03T00:53:09.486620+00:00",
+  "version": "2.8.120",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.120/Xingzhou-Film-Tencent-Setup-2.8.120.exe",
+  "notes": "行舟影视 2.8.120\n\n- 制作聊天的Codex会话改为实际完全访问：创建线程和每轮执行均使用完整本机文件、命令及网络权限，修复只读连接导致的approval request failed；不修改Codex全局设置。Hermes/ACP按当前制作会话处理授权。\n- 聊天支持拖入、粘贴和选择图片、视频及文件；图片走原生图片输入，视频和一般文件使用真实本机路径。附件可预览、移除，支持仅发送附件；超大视频不整体塞入聊天消息。\n- 临时安排默认是优先任务：例如先做第一集，完成后自动恢复全剧默认流程。同一执行器持续工作，聊天回合结束不再意味着制作结束；手动暂停仍然有效。\n- 显示独立自动流程累计用时，区分执行、后台生成/下载、等待重试、调度未接续与暂停，修复空显示正在工作的情况。\n- 原生命令、文件修改及ACP工具显示实际参数、状态和结果。\n- 本机已有视频可经制作工具验收、归档并纳入镜头记录，继续超分剪辑；保留原付费任务。修复导入与远端归档竞争，损坏导入副本可从原来源核验恢复。\n\n参考了实际安装的OpenFilm及REA对其Agent会话/附件模块的定向静态分析；行舟继续使用自身持续自动化主循环。真实Codex已在隔离夹具中验证工作目录外文件写入和图片输入，没有执行真实付费视频生成。",
+  "sha256": "24a2e09b7ce0708a32f0fe7c97c1db83c0ca18e48e3200c1dd4017bfddf63a03",
+  "size": 103984741,
+  "publishedAt": "2026-11-03T03:05:12.578891+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "wpxKB3S9LpqHIkqpPcdCGEj0pyAOnP2WLutGTEzB/5kwrCsD4heCJuH2gdx4jQdUjW76jkn9oJOey3l54bPNCg=="
+    "value": "fBp15OascMhlIK+bMT8aELzBUr6jSLFKIj0FhF8EWqwfCQoTmD4fDUepbYMhoPrf47b6ESzT9c45boT5BoBvCg=="
   }
 }
