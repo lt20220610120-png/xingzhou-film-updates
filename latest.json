@@ -1,12 +1,12 @@
 {
-  "version": "2.8.124",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.124/Xingzhou-Film-Tencent-Setup-2.8.124.exe",
-  "notes": "# 行舟影视 2.8.124\n\n包含2.8.123的项目窗口、对话停止和自动接续修复，并重点加强Topaz接入。\n\n- 固定使用普罗透斯（Proteus）AI超分，开工前可选择放大2倍或4倍，正式执行与连接测试共用参数构造。\n- 增加“测试真实 Topaz 超分”。实际调用本机Topaz自带FFmpeg处理一秒测试片，验证尺寸、时长和输出文件，清楚区分组件存在与真正可用。\n- 开工前检查同时进行真实超分测试。外部授权或模型未就绪时提示具体原因，自动化其余工序继续推进，后期由当前协作Agent安排自动复查。\n- 支持开工前选择处理设备、Proteus自动估计帧数，并保存在当前任务中。",
-  "sha256": "b37b630644b4a26134e23a74f08ad2ca14994e183fa713d8e15346e0a2c667ee",
-  "size": 103992723,
-  "publishedAt": "2026-11-03T17:59:50.485326+00:00",
+  "version": "2.8.125",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.125/Xingzhou-Film-Tencent-Setup-2.8.125.exe",
+  "notes": "# 行舟影视 2.8.125\n\n本版修复本机现有 Topaz 视频界面无法被自动化正式调用的问题，并补齐真实出片与停止验收。\n\n- 默认通过本机 Topaz 图形界面执行超分，自动创建只含当前原片的独立工程。兼容的 CLI 路径保留为可选项，产品不再要求更换官方版软件。\n- 固定使用普罗透斯（Proteus）`prob-4`。开工设置可选择放大 2 倍或 4 倍，测试与正式任务使用同一套工程和参数构造。\n- 每次输出必须核对目标尺寸、时长、原片音轨以及 Topaz `videoai` 中的 `Enhanced using prob-4` 元数据；缺少任何证据都不会登记为完成。\n- Topaz 测试和正式任务使用项目隔离的取消请求。停止会结束本次 Topaz 进程树、删除未验收半成品并保留原片；主动停止测试按正常取消提示返回。\n- Topaz 授权或模型错误继续交给当前协作 Agent 判断。需要用户处理登录、授权或模型时，自动化保持运行并低频复查，处理后从原片接续。",
+  "sha256": "c05d6c1e6913919ab9e68e11c502899b4b232f2e87d0405557c2e4c8987ced90",
+  "size": 103958417,
+  "publishedAt": "2026-11-03T18:59:37.760183+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "XTEg8HZcmqtl5nOb4ybNxUW73DfpX/qdEwLjEU68lr2Kz7Dt9jXO8Qg/ZAgOxYmvTEGKkJWMIJL+wYCrO7LODg=="
+    "value": "UtxGyDNnjXq4sKrTqLlisPdntQLxHq2jywSgPznlDM9IhNTEEVFmI/VJ0G7cdpqMG99N1GI9brmtR5oxg6SlDg=="
   }
 }
