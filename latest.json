@@ -1,12 +1,12 @@
 {
-  "version": "2.8.121",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.121/Xingzhou-Film-Tencent-Setup-2.8.121.exe",
-  "notes": "# 行舟影视 2.8.121\n\n本版修复制作工作流中的 Agent 模型发现，让行舟影视读取与本机 Agent 当前实际配置一致的模型目录。\n\n- Hermes 连接会跟随 Hermes Desktop 当前启用的资料档，不再继承错误的默认 `HERMES_HOME`。本机实测进入 `w` 资料档，读取到 WorkBuddy 的 61 个模型，包括 `auto`、`hy4-preview`、`glm-5.3`、`kimi-k3-1` 和当前默认的 `deepseek-v4.1-flash`。\n- Codex 会分页读取完整模型目录并包含隐藏模型。本机实测读取到 10 个模型，包括更新后的 `gpt-6.1-sol`、`gpt-6-astra`、`gpt-6.1-terra` 和 `gpt-reserve`。\n- 已保存的 Codex 安装路径如果属于行舟管理的旧版本目录，会自动切换到本机最新 Codex 二进制；用户手动选择的其他 Codex 路径仍保持原样。\n- 重新连接 Agent 时，只要原模型仍在目录中就保留原选择，避免刷新连接后擅自切回默认模型。",
-  "sha256": "048069516a32e6258ff4f7fdebeff9dc71ee1e054fc9402acec1c5a90f7ac157",
-  "size": 103986300,
-  "publishedAt": "2026-11-03T04:09:03.232661+00:00",
+  "version": "2.8.122",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.122/Xingzhou-Film-Tencent-Setup-2.8.122.exe",
+  "notes": "# 行舟影视 2.8.122\n\n本版统一制作工作流的主从控制，并完善 Topaz Video 与 OpenFilm 的本机适配。\n\n- 行舟影视是唯一制作控制端。协作智能体只通过同一工作流调整制作安排，不再自行另跑 FFmpeg、Topaz、OpenFilm 或第二套剪辑流程。\n- 剪辑沿用开工时选择的同一个 Codex、Hermes 或其他 ACP 智能体及模型，不再要求单独连接另一套剪辑智能体。\n- Hermes/ACP 回复期间可以追加指令，指令在当前工作流中按顺序接续；点击停止会同时取消活动对话、清空待处理指令，并终止智能体、剪辑和渲染进程树。\n- Topaz Video 与 OpenFilm 支持从 Windows 注册信息、标准安装目录及便携安装目录自动发现，并校验实际滤镜、模型组件、工程手册和渲染接口。\n- Topaz 输出会自动选择安装包实际提供的 H.264 编码器。授权、模型或组件失败时保留原片、清理未完成文件并给出明确处理提示，不会用普通放大冒充 AI 超分。",
+  "sha256": "32d9a0b66971311998dc00a0b1d267a27c5f896d803cad1734de317bc70b5d70",
+  "size": 104003383,
+  "publishedAt": "2026-11-03T05:32:15.366073+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "NUBVU2GTeveUtM26kAL6t0cguJRbmIf3a4IoIZt9qhhb+dWnQF6FMSwpPOoM9vyjCI4RwlgdifR2Hb9HTYN3Dw=="
+    "value": "VylnHmolDyrORGPeN3gUf8k6Zx0+297FSCC/jrUeITIcSx+GdhH4HI0XLkWKwI35thz0tkkMCykgTUCBc+C9Cg=="
   }
 }
