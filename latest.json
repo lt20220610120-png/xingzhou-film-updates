@@ -1,12 +1,12 @@
 {
-  "version": "2.8.120",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.120/Xingzhou-Film-Tencent-Setup-2.8.120.exe",
-  "notes": "行舟影视 2.8.120\n\n- 制作聊天的Codex会话改为实际完全访问：创建线程和每轮执行均使用完整本机文件、命令及网络权限，修复只读连接导致的approval request failed；不修改Codex全局设置。Hermes/ACP按当前制作会话处理授权。\n- 聊天支持拖入、粘贴和选择图片、视频及文件；图片走原生图片输入，视频和一般文件使用真实本机路径。附件可预览、移除，支持仅发送附件；超大视频不整体塞入聊天消息。\n- 临时安排默认是优先任务：例如先做第一集，完成后自动恢复全剧默认流程。同一执行器持续工作，聊天回合结束不再意味着制作结束；手动暂停仍然有效。\n- 显示独立自动流程累计用时，区分执行、后台生成/下载、等待重试、调度未接续与暂停，修复空显示正在工作的情况。\n- 原生命令、文件修改及ACP工具显示实际参数、状态和结果。\n- 本机已有视频可经制作工具验收、归档并纳入镜头记录，继续超分剪辑；保留原付费任务。修复导入与远端归档竞争，损坏导入副本可从原来源核验恢复。\n\n参考了实际安装的OpenFilm及REA对其Agent会话/附件模块的定向静态分析；行舟继续使用自身持续自动化主循环。真实Codex已在隔离夹具中验证工作目录外文件写入和图片输入，没有执行真实付费视频生成。",
-  "sha256": "24a2e09b7ce0708a32f0fe7c97c1db83c0ca18e48e3200c1dd4017bfddf63a03",
-  "size": 103984741,
-  "publishedAt": "2026-11-03T03:05:12.578891+00:00",
+  "version": "2.8.121",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.121/Xingzhou-Film-Tencent-Setup-2.8.121.exe",
+  "notes": "# 行舟影视 2.8.121\n\n本版修复制作工作流中的 Agent 模型发现，让行舟影视读取与本机 Agent 当前实际配置一致的模型目录。\n\n- Hermes 连接会跟随 Hermes Desktop 当前启用的资料档，不再继承错误的默认 `HERMES_HOME`。本机实测进入 `w` 资料档，读取到 WorkBuddy 的 61 个模型，包括 `auto`、`hy4-preview`、`glm-5.3`、`kimi-k3-1` 和当前默认的 `deepseek-v4.1-flash`。\n- Codex 会分页读取完整模型目录并包含隐藏模型。本机实测读取到 10 个模型，包括更新后的 `gpt-6.1-sol`、`gpt-6-astra`、`gpt-6.1-terra` 和 `gpt-reserve`。\n- 已保存的 Codex 安装路径如果属于行舟管理的旧版本目录，会自动切换到本机最新 Codex 二进制；用户手动选择的其他 Codex 路径仍保持原样。\n- 重新连接 Agent 时，只要原模型仍在目录中就保留原选择，避免刷新连接后擅自切回默认模型。",
+  "sha256": "048069516a32e6258ff4f7fdebeff9dc71ee1e054fc9402acec1c5a90f7ac157",
+  "size": 103986300,
+  "publishedAt": "2026-11-03T04:09:03.232661+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "fBp15OascMhlIK+bMT8aELzBUr6jSLFKIj0FhF8EWqwfCQoTmD4fDUepbYMhoPrf47b6ESzT9c45boT5BoBvCg=="
+    "value": "NUBVU2GTeveUtM26kAL6t0cguJRbmIf3a4IoIZt9qhhb+dWnQF6FMSwpPOoM9vyjCI4RwlgdifR2Hb9HTYN3Dw=="
   }
 }
