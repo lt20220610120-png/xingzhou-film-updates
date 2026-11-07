@@ -1,12 +1,12 @@
 {
-  "version": "2.8.125",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.125/Xingzhou-Film-Tencent-Setup-2.8.125.exe",
-  "notes": "# 行舟影视 2.8.125\n\n本版修复本机现有 Topaz 视频界面无法被自动化正式调用的问题，并补齐真实出片与停止验收。\n\n- 默认通过本机 Topaz 图形界面执行超分，自动创建只含当前原片的独立工程。兼容的 CLI 路径保留为可选项，产品不再要求更换官方版软件。\n- 固定使用普罗透斯（Proteus）`prob-4`。开工设置可选择放大 2 倍或 4 倍，测试与正式任务使用同一套工程和参数构造。\n- 每次输出必须核对目标尺寸、时长、原片音轨以及 Topaz `videoai` 中的 `Enhanced using prob-4` 元数据；缺少任何证据都不会登记为完成。\n- Topaz 测试和正式任务使用项目隔离的取消请求。停止会结束本次 Topaz 进程树、删除未验收半成品并保留原片；主动停止测试按正常取消提示返回。\n- Topaz 授权或模型错误继续交给当前协作 Agent 判断。需要用户处理登录、授权或模型时，自动化保持运行并低频复查，处理后从原片接续。",
-  "sha256": "c05d6c1e6913919ab9e68e11c502899b4b232f2e87d0405557c2e4c8987ced90",
-  "size": 103958417,
-  "publishedAt": "2026-11-03T18:59:37.760183+00:00",
+  "version": "2.8.126",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.126/Xingzhou-Film-Tencent-Setup-2.8.126.exe",
+  "notes": "# 行舟影视 2.8.126\n\n- API 接口页新增“连接 / 刷新 Codex”。直接读取当前电脑 Codex 已登录的 ChatGPT 账号、额度窗口和完整模型目录，勾选后导入接口配置，无需 API Key。\n- Codex 模型不再固定为旧选项。每次打开连接或点击刷新，重新读取本机最新 Codex 组件的模型目录，支持搜索、批量导入，以及各模型实际支持的推理档位。\n- 已有 Codex 配置及默认模型保留；重复导入不会覆盖原有名称和推理设置。刷新失败时显示连接提示，已有配置继续保留。\n- 重新设计账号入口、密码登录、注册和卡密激活界面，统一浅紫白视觉、表单层级和操作反馈。\n- 重新设计软件更新提示，清晰展示新旧版本、更新内容、下载进度及安装状态，支持失败后重新检查。\n- 点击“退出登录”先提示“是否确定退出登录？”。点击“确定退出”后才执行退出；取消或按 Esc 保持登录。",
+  "sha256": "c522f99ce6b80da373e9b16ba738c122a4369ab9b09e2f48b3f39ea2f3f98b77",
+  "size": 104020352,
+  "publishedAt": "2026-11-07T07:16:35.104832+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "UtxGyDNnjXq4sKrTqLlisPdntQLxHq2jywSgPznlDM9IhNTEEVFmI/VJ0G7cdpqMG99N1GI9brmtR5oxg6SlDg=="
+    "value": "zbcbFubbETGpZIesW0IaG9mhO5MQy+M6DOgkfgNxxcJ+r7UtU3r99GF5saSSFk0PcmjS2cHaISx42OX9zKcEDQ=="
   }
 }
