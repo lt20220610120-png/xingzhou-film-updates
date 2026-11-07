@@ -1,12 +1,12 @@
 {
-  "version": "2.8.126",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.126/Xingzhou-Film-Tencent-Setup-2.8.126.exe",
-  "notes": "# 行舟影视 2.8.126\n\n- API 接口页新增“连接 / 刷新 Codex”。直接读取当前电脑 Codex 已登录的 ChatGPT 账号、额度窗口和完整模型目录，勾选后导入接口配置，无需 API Key。\n- Codex 模型不再固定为旧选项。每次打开连接或点击刷新，重新读取本机最新 Codex 组件的模型目录，支持搜索、批量导入，以及各模型实际支持的推理档位。\n- 已有 Codex 配置及默认模型保留；重复导入不会覆盖原有名称和推理设置。刷新失败时显示连接提示，已有配置继续保留。\n- 重新设计账号入口、密码登录、注册和卡密激活界面，统一浅紫白视觉、表单层级和操作反馈。\n- 重新设计软件更新提示，清晰展示新旧版本、更新内容、下载进度及安装状态，支持失败后重新检查。\n- 点击“退出登录”先提示“是否确定退出登录？”。点击“确定退出”后才执行退出；取消或按 Esc 保持登录。",
-  "sha256": "c522f99ce6b80da373e9b16ba738c122a4369ab9b09e2f48b3f39ea2f3f98b77",
-  "size": 104020352,
-  "publishedAt": "2026-11-07T07:16:35.104832+00:00",
+  "version": "2.8.127",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.127/Xingzhou-Film-Tencent-Setup-2.8.127.exe",
+  "notes": "# 行舟影视 2.8.127\n\n- 启动卡密页改为独立的小窗口，只保留一个卡密输入框和“验证并激活”按钮；验证失败留在原处显示提示，不显示身份选择、账号切换或其他入口。\n- 首次使用先通过设备卡密验证，再进入原有账号密码登录/注册。已激活电脑仍按原有设备授权规则校验；卡密、有效期、续期、单机绑定及管理员发卡规则保留。\n- 导演或内容创作者权限由注册邀请码决定。通用注册入口不预设身份，同时兼容旧版明确选择身份的注册流程。\n- 更新提示独立弹窗展示，支持右上角关闭、“下次再说”和“不再提醒此版本”；新版本仍可提醒，也可以在设置中手动检查更新。\n- 更新下载可在关闭弹窗后继续，重新查看时可直接安装已下载的更新。",
+  "sha256": "fb8066dc4ed4808ba67541e121836c25f68d996b2c6a70d140d8939c857cbd4d",
+  "size": 104020868,
+  "publishedAt": "2026-11-07T08:04:06.948164+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "zbcbFubbETGpZIesW0IaG9mhO5MQy+M6DOgkfgNxxcJ+r7UtU3r99GF5saSSFk0PcmjS2cHaISx42OX9zKcEDQ=="
+    "value": "STjWtozDKrydBFYJNe7LWj0KK0U520WdDROWt9WiWH1Y2iJguAx/lh+Gcb04YnxNyqyhZZobINi3mzLEUiDpBg=="
   }
 }
