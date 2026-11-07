@@ -1,12 +1,12 @@
 {
-  "version": "2.8.127",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.127/Xingzhou-Film-Tencent-Setup-2.8.127.exe",
-  "notes": "# 行舟影视 2.8.127\n\n- 启动卡密页改为独立的小窗口，只保留一个卡密输入框和“验证并激活”按钮；验证失败留在原处显示提示，不显示身份选择、账号切换或其他入口。\n- 首次使用先通过设备卡密验证，再进入原有账号密码登录/注册。已激活电脑仍按原有设备授权规则校验；卡密、有效期、续期、单机绑定及管理员发卡规则保留。\n- 导演或内容创作者权限由注册邀请码决定。通用注册入口不预设身份，同时兼容旧版明确选择身份的注册流程。\n- 更新提示独立弹窗展示，支持右上角关闭、“下次再说”和“不再提醒此版本”；新版本仍可提醒，也可以在设置中手动检查更新。\n- 更新下载可在关闭弹窗后继续，重新查看时可直接安装已下载的更新。",
-  "sha256": "fb8066dc4ed4808ba67541e121836c25f68d996b2c6a70d140d8939c857cbd4d",
-  "size": 104020868,
-  "publishedAt": "2026-11-07T08:04:06.948164+00:00",
+  "version": "2.8.128",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.128/Xingzhou-Film-Tencent-Setup-2.8.128.exe",
+  "notes": "# 行舟影视 2.8.128\n\n- 本机 Codex 导入列表为每个模型新增“思考强度”选择，可选择该模型实际支持的 low、medium、high、xhigh、max、ultra 等档位。\n- 导入按所选强度保存；重新打开或刷新模型保留已选档位，不再只能使用目录默认 low。\n- 已导入的 Codex 模型可重新勾选并修改强度，更新原有配置，不重复创建接口，不改名称和默认接口。\n- 编辑/测试界面显示中文与原始档位名称，保存后实际文本调用沿用选择的思考强度。",
+  "sha256": "cb2e326a8749894db272b76fd0f12adb9767583933099336005e7cd8e8eebf0b",
+  "size": 104021149,
+  "publishedAt": "2026-11-07T08:19:54.688242+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "STjWtozDKrydBFYJNe7LWj0KK0U520WdDROWt9WiWH1Y2iJguAx/lh+Gcb04YnxNyqyhZZobINi3mzLEUiDpBg=="
+    "value": "ULgBkAOviNManXhmNYOv29TJeyTvRgKEbTGkkVEMm4B1GCPWQgCMvHwL2TB2J4qPp0kzea68AzcInttjb6KSAA=="
   }
 }
