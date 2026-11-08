@@ -1,12 +1,12 @@
 {
-  "version": "2.8.128",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.128/Xingzhou-Film-Tencent-Setup-2.8.128.exe",
-  "notes": "# 行舟影视 2.8.128\n\n- 本机 Codex 导入列表为每个模型新增“思考强度”选择，可选择该模型实际支持的 low、medium、high、xhigh、max、ultra 等档位。\n- 导入按所选强度保存；重新打开或刷新模型保留已选档位，不再只能使用目录默认 low。\n- 已导入的 Codex 模型可重新勾选并修改强度，更新原有配置，不重复创建接口，不改名称和默认接口。\n- 编辑/测试界面显示中文与原始档位名称，保存后实际文本调用沿用选择的思考强度。",
-  "sha256": "cb2e326a8749894db272b76fd0f12adb9767583933099336005e7cd8e8eebf0b",
-  "size": 104021149,
-  "publishedAt": "2026-11-07T08:19:54.688242+00:00",
+  "version": "2.8.129",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.129/Xingzhou-Film-Tencent-Setup-2.8.129.exe",
+  "notes": "行舟影视 2.8.129\n\n- 导演工作台新增分集及全剧提示词完成标记。按全部场景的实际分段、已保存正文和当前生成计划核对，漏条、空白、截断或过期时不亮绿灯。\n- 修复补漏后刷新云端导致提示词关联丢失的问题。同一批提示词补缺沿用原版本和有效素材关联，自动继续处理新增条目；删词、换模型重生成仍形成独立版本。\n- 核实分发顶部显示版本数量和各版条数，一次切换全剧查看版本，分集、场景、提示词正文和对应关联同步切换。\n- 按“分集清单 → 场景 → 提示词”连续关联，重复启动按钮合并为“补齐素材关联”。保留停止、人工核实发布及单条重新关联。\n- 本集资产清单只列本集实际讲话场景需要的音色，包含配角，不再混入全剧音色。音色页新增分集筛选及本集统计，本集批量生成、采用和补全均遵从所选范围。",
+  "sha256": "2e2e51cb75c6ef0f6226f11d5e4e50fb40dedb0277fd90ca36ee055557f4b91e",
+  "size": 104011903,
+  "publishedAt": "2026-11-08T12:54:06.941479+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ULgBkAOviNManXhmNYOv29TJeyTvRgKEbTGkkVEMm4B1GCPWQgCMvHwL2TB2J4qPp0kzea68AzcInttjb6KSAA=="
+    "value": "y/+3inJ0qARMJUjOAMdjbpyvFZU3QeikUJm0szrL9TN8aeFfIdtlfHk++3Yi7xki1mMyjgkrstxVzW/OQ/kJBA=="
   }
 }
