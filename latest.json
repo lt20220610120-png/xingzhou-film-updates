@@ -1,12 +1,12 @@
 {
-  "version": "2.8.130",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.130/Xingzhou-Film-Tencent-Setup-2.8.130.exe",
-  "notes": "行舟影视 2.8.130\n\n- 导演左侧分集改为紧凑单行，集名、提示词数量和完成绿点对齐，移除重复状态说明。\n- 核实页版本栏简化为“版本＋选择框”，统一版本、分析方式、音色统计等文字字体。\n- “本条操作”改为直接的“重新关联本条”小按钮，与“核实并发布本场”等高，修复下拉内容被遮挡的问题。\n- 修复未采用音色时，画面素材关联仍要求音色回包而反复失败的问题；后续采用音色仍会重新核对真实关联。\n- 关联任务限制提前准备数量，避免全剧条目同时读写与占用队列；当前条目显示排队、请求、重试、保存及具体失败原因。\n- 为模型提供基础设定原文片段编号，减少引句改写导致的反复校验，同时保留原文与类别验证。",
-  "sha256": "f38132205d575a5515f7af736d18eeabb3cdd707fef527cabf71f973120ec0f2",
-  "size": 104028146,
-  "publishedAt": "2026-11-08T13:35:35.126032+00:00",
+  "version": "2.8.131",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.131/Xingzhou-Film-Tencent-Setup-2.8.131.exe",
+  "notes": "行舟影视 2.8.131\n\n- 重排美术导出弹窗：四种导出方式从打开时就固定显示，同一行等宽小按钮；优先复用已读取的关联记录，减少等待和布局跳动。\n- 重排“仅图片 / 图片与音频”选择弹窗，缩小标题，关闭按钮固定右上角，两个选项等高对齐。\n- 修复已识别人物音色在场景清单中存在、进入提示词却消失的问题；未采用样音也保留逻辑关联，实际导出音频或生成前再检查已采用文件。\n- 提示词音色按本条实际对白核对，不把整场或全剧音色一起复制；明确对白标记可补回模型漏选的讲话人物。\n- 同场唯一人物简称（如“助理”）按场景已有身份核对，修复相邻提示词漏配，并校正引用到其他人物原文的情况；多身份歧义和人工“无需参考图”等选择保留。\n- 限定项目协作的页面滚动范围，避免内外层重复滚动；保留原有按集、场景、提示词组织图片及对应音频的导出方式。",
+  "sha256": "05c96c899350f5e49212cc9a9c69f1c1482a146bec8f4e29a3ccae736ce67bcc",
+  "size": 104028256,
+  "publishedAt": "2026-11-08T15:43:55.463790+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Rm9ia6CamCi0yzWADI7jEZbix9Fe8bN+oE1yGTTsaMsi2b1ZZ059fxmb0QeVUabFJ1I4HyluLCLToMRKhUkNCA=="
+    "value": "+gLIL9IvDUwR6NnXmolnhjvQURTX3fMVPJk2RjSUenn3TfmGthgA6YsppbqLQpfvTXqZeYfWnlxFq0lhMKviBA=="
   }
 }
