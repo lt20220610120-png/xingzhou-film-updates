@@ -1,12 +1,12 @@
 {
-  "version": "2.8.129",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.129/Xingzhou-Film-Tencent-Setup-2.8.129.exe",
-  "notes": "行舟影视 2.8.129\n\n- 导演工作台新增分集及全剧提示词完成标记。按全部场景的实际分段、已保存正文和当前生成计划核对，漏条、空白、截断或过期时不亮绿灯。\n- 修复补漏后刷新云端导致提示词关联丢失的问题。同一批提示词补缺沿用原版本和有效素材关联，自动继续处理新增条目；删词、换模型重生成仍形成独立版本。\n- 核实分发顶部显示版本数量和各版条数，一次切换全剧查看版本，分集、场景、提示词正文和对应关联同步切换。\n- 按“分集清单 → 场景 → 提示词”连续关联，重复启动按钮合并为“补齐素材关联”。保留停止、人工核实发布及单条重新关联。\n- 本集资产清单只列本集实际讲话场景需要的音色，包含配角，不再混入全剧音色。音色页新增分集筛选及本集统计，本集批量生成、采用和补全均遵从所选范围。",
-  "sha256": "2e2e51cb75c6ef0f6226f11d5e4e50fb40dedb0277fd90ca36ee055557f4b91e",
-  "size": 104011903,
-  "publishedAt": "2026-11-08T12:54:06.941479+00:00",
+  "version": "2.8.130",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.130/Xingzhou-Film-Tencent-Setup-2.8.130.exe",
+  "notes": "行舟影视 2.8.130\n\n- 导演左侧分集改为紧凑单行，集名、提示词数量和完成绿点对齐，移除重复状态说明。\n- 核实页版本栏简化为“版本＋选择框”，统一版本、分析方式、音色统计等文字字体。\n- “本条操作”改为直接的“重新关联本条”小按钮，与“核实并发布本场”等高，修复下拉内容被遮挡的问题。\n- 修复未采用音色时，画面素材关联仍要求音色回包而反复失败的问题；后续采用音色仍会重新核对真实关联。\n- 关联任务限制提前准备数量，避免全剧条目同时读写与占用队列；当前条目显示排队、请求、重试、保存及具体失败原因。\n- 为模型提供基础设定原文片段编号，减少引句改写导致的反复校验，同时保留原文与类别验证。",
+  "sha256": "f38132205d575a5515f7af736d18eeabb3cdd707fef527cabf71f973120ec0f2",
+  "size": 104028146,
+  "publishedAt": "2026-11-08T13:35:35.126032+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "y/+3inJ0qARMJUjOAMdjbpyvFZU3QeikUJm0szrL9TN8aeFfIdtlfHk++3Yi7xki1mMyjgkrstxVzW/OQ/kJBA=="
+    "value": "Rm9ia6CamCi0yzWADI7jEZbix9Fe8bN+oE1yGTTsaMsi2b1ZZ059fxmb0QeVUabFJ1I4HyluLCLToMRKhUkNCA=="
   }
 }
