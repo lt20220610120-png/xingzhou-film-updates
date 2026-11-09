@@ -1,12 +1,12 @@
 {
-  "version": "2.8.138",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.138/Xingzhou-Film-Tencent-Setup-2.8.138.exe",
-  "notes": "# 行舟影视 2.8.138\n\n- 分镜切到视频池再返回时立即复用已读取卡片；素材变动后台更新，保留当前编辑。缓存按账号、项目、提示词版本和资料目录隔离。\n- “素材待处理”移至顶部，悬停或键盘聚焦显示浮层，详情不挤占编辑空间。\n- 分镜补上提示词已有的建议生成时长；移除草稿说明、重复标题和“分镜默认”字样，集场选择旁直接展示数量。\n- 素材卡与添加卡统一尺寸，名称悬停可见；点击编号仍插入 @image 等原始标记，已匹配编号在编辑框着色。\n- 导演分集完成状态改为序号边框变化，移除分集绿色圆点。\n\n建议时长用于参考，不自动覆盖接口的实际生成参数。",
-  "sha256": "e18ac4badc7b16b69371a83d9a934e8d862bb31a51aeb602c1ea9226ef776d2d",
-  "size": 104054424,
-  "publishedAt": "2026-11-09T18:23:11.536469+00:00",
+  "version": "2.8.139",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.139/Xingzhou-Film-Tencent-Setup-2.8.139.exe",
+  "notes": "项目协作音色：新增入口改为“添加人物音色”，默认搜索并选择剧本已读取的人物，复用现有身份、集数与场景关联，不必重复填写姓名或年龄。已有音频、样音和编辑内容继续保留；选择短出场人物后自动显示并定位。\n\n“未找到人物？手动补录”保留人物名称、年龄阶段及场景选择，供漏读和声音角色补充。取消不会创建空白人物卡片，保存失败在窗口内反馈。\n\n“查看范围”与添加按钮移到人物音色标题右侧，添加按钮采用现有紫色主操作样式。正常对白音频参考仍由分镜素材编译自动追加，本次未改其处理规则。",
+  "sha256": "424cb7e1307f5c2c510cd9ca71b4d23fd708460118d03e8f5dc933a9652396e3",
+  "size": 104056648,
+  "publishedAt": "2026-11-09T19:35:18.902518+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "pAsTHjMFsreFOKSRLHuQOnO1A7n7AhztGuMLpudY7q3RiWEhPCDgR0FPwGqZdSVTqHIHuEQEiE20/jTqMgtDDw=="
+    "value": "KmKG5qOTuvUgDCv6w2QYV2ETldRkW8F6fwtEdTCPeAaai6Iu1r3Kxjf0ajl9VJeRj+CJQeboBJo9IWTZQDc8DQ=="
   }
 }
