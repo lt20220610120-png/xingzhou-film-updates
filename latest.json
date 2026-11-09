@@ -1,12 +1,12 @@
 {
-  "version": "2.8.136",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.136/Xingzhou-Film-Tencent-Setup-2.8.136.exe",
-  "notes": "# 行舟影视 2.8.136\n\n- 修复导演源与协作提示词身份不同导致已发布素材关联失效的问题；美术、资产及分镜恢复对应提示词和已生成素材。\n- 刷新时分别处理素材读取与导演同步，避免同步保存失败后丢弃已读取的素材。\n- 分镜统一简洁白底，收紧卡片和操作区；视频池改为紧凑网格，支持状态筛选、分页和进入对应分镜。\n- 音色移至左侧“资产”与“分镜”之间，使用独立图标，移除原音色/核实分发切换栏。\n- 删除发布进度中的“不调用大模型”等冗余说明；保留必要状态与操作提示。\n\n旧版的真实正文变化、重复身份或素材缺失仍需核对；不会将有歧义的关联强行标记成功。",
-  "sha256": "8a5fa6639ec97b3798fdc5a887e8a7bb798a11cc6e022f4366117916b3fa9dfd",
-  "size": 104029477,
-  "publishedAt": "2026-11-09T10:54:57.296722+00:00",
+  "version": "2.8.137",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.137/Xingzhou-Film-Tencent-Setup-2.8.137.exe",
+  "notes": "# 行舟影视 2.8.137\n\n- 修复语音已生成却未回到人物卡片的问题；刷新、切页保留任务，支持按卡片并发与排队，提供“找回已有语音”。\n- 分镜顶部新增默认接口、模型、画幅、时长和分辨率，可应用到全部分镜，单条仍可调整。\n- 调整分镜卡片按钮位置，支持单个或全部恢复移除的素材；上传图片、音频、视频保持同行，左侧剧本填满可用高度。\n- 美术与资产默认采用最新生成的图片，可手动采用旧图；已关联的提示词和分镜跟随素材卡的采用图。\n- 素材未完成提醒改为默认收起的提示入口，展开查看详情。\n\n旧版丢在语音生成结果中的样音，可在音色页点击“找回已有语音”核对恢复，无需重新生成。项目默认参数保存在本机当前账号及版本，单条保存后随分镜同步。",
+  "sha256": "b81f3a1f69aa10b68d64f78be246373bdf0db587a3cbb4309c37e3bf8fd38990",
+  "size": 104034023,
+  "publishedAt": "2026-11-09T17:16:23.446954+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "tnklxd7pLa1nnUgUpYuCJfpeZuIAI2ar751NyoEZFtdsuFHWYjBSNxGr3CgUogQIgpJvTfPb04Ye9oLtmeH+Aw=="
+    "value": "c7OBNrOuevUEsHRYeyJcEiR1hvRTOnFlEzLZkAeM6UpKPwI2mq3E7pnssD0sx1NsgTMYvqJM7luNB/jDVrArCg=="
   }
 }
