@@ -1,12 +1,12 @@
 {
-  "version": "2.8.137",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.137/Xingzhou-Film-Tencent-Setup-2.8.137.exe",
-  "notes": "# 行舟影视 2.8.137\n\n- 修复语音已生成却未回到人物卡片的问题；刷新、切页保留任务，支持按卡片并发与排队，提供“找回已有语音”。\n- 分镜顶部新增默认接口、模型、画幅、时长和分辨率，可应用到全部分镜，单条仍可调整。\n- 调整分镜卡片按钮位置，支持单个或全部恢复移除的素材；上传图片、音频、视频保持同行，左侧剧本填满可用高度。\n- 美术与资产默认采用最新生成的图片，可手动采用旧图；已关联的提示词和分镜跟随素材卡的采用图。\n- 素材未完成提醒改为默认收起的提示入口，展开查看详情。\n\n旧版丢在语音生成结果中的样音，可在音色页点击“找回已有语音”核对恢复，无需重新生成。项目默认参数保存在本机当前账号及版本，单条保存后随分镜同步。",
-  "sha256": "b81f3a1f69aa10b68d64f78be246373bdf0db587a3cbb4309c37e3bf8fd38990",
-  "size": 104034023,
-  "publishedAt": "2026-11-09T17:16:23.446954+00:00",
+  "version": "2.8.138",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.138/Xingzhou-Film-Tencent-Setup-2.8.138.exe",
+  "notes": "# 行舟影视 2.8.138\n\n- 分镜切到视频池再返回时立即复用已读取卡片；素材变动后台更新，保留当前编辑。缓存按账号、项目、提示词版本和资料目录隔离。\n- “素材待处理”移至顶部，悬停或键盘聚焦显示浮层，详情不挤占编辑空间。\n- 分镜补上提示词已有的建议生成时长；移除草稿说明、重复标题和“分镜默认”字样，集场选择旁直接展示数量。\n- 素材卡与添加卡统一尺寸，名称悬停可见；点击编号仍插入 @image 等原始标记，已匹配编号在编辑框着色。\n- 导演分集完成状态改为序号边框变化，移除分集绿色圆点。\n\n建议时长用于参考，不自动覆盖接口的实际生成参数。",
+  "sha256": "e18ac4badc7b16b69371a83d9a934e8d862bb31a51aeb602c1ea9226ef776d2d",
+  "size": 104054424,
+  "publishedAt": "2026-11-09T18:23:11.536469+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "c7OBNrOuevUEsHRYeyJcEiR1hvRTOnFlEzLZkAeM6UpKPwI2mq3E7pnssD0sx1NsgTMYvqJM7luNB/jDVrArCg=="
+    "value": "pAsTHjMFsreFOKSRLHuQOnO1A7n7AhztGuMLpudY7q3RiWEhPCDgR0FPwGqZdSVTqHIHuEQEiE20/jTqMgtDDw=="
   }
 }
