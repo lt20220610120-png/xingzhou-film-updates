@@ -1,12 +1,12 @@
 {
-  "version": "2.8.144",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.144/Xingzhou-Film-Tencent-Setup-2.8.144.exe",
-  "notes": "# 2.8.144\n\n- 视频生成结果改为紧凑缩略卡片，中等窗口每行至少3个，大窗口显示更多结果。\n- 视频池每条提示词只占一张等高卡片，显示已有结果数量；点击后查看多次生成记录。\n- 下载默认选择每条提示词最新成功结果。支持全剧/本集/本场一键全选所有成功结果、恢复最新、同条结果单独勾选与批量下载；一次选择目录，按项目和集数归档。\n- 长参数接口自动增加左侧提示词编辑高度，素材区底部与生成按钮对齐；保留手动拉高，避免重叠和素材框内大块空白。\n\n- 分镜顶部拆分“应用到全场景”和“应用到全剧”，参数真实保存到所选范围所有分镜，切集、切场景、重开均保留。\n- 生成中、待核对、失败与已完成的视频结果统一卡片尺寸。\n- 视频池与分镜结果支持单条、当前筛选范围全部删除；所有删除都先确认。生成中的记录移除后原任务不重复提交，已提交任务不能在此撤回；确认框明确说明，保留本机文件。",
-  "sha256": "60089c48120e7d9aca7e14818ffb9c5c8c5a5023b94d826fd5de8c96ef73540c",
-  "size": 104048004,
-  "publishedAt": "2026-11-10T12:22:24.699612+00:00",
+  "version": "2.8.145",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.145/Xingzhou-Film-Tencent-Setup-2.8.145.exe",
+  "notes": "行舟影视 2.8.145\n\n- 重新设计分镜参考素材弹窗：上传入口移至搜索栏旁，分类与素材网格更清晰；确认引用使用高对比白字按钮。\n- 分镜生成结果改为接近方形的紧凑卡片，预览、单行摘要与常用操作集中排列；成功、失败及生成中保持等高，取消卡片内部滚动。\n- 修复音频分类缺少项目已采用音色。全项目已采用人物音色与年龄阶段均可查看、试听、搜索和引用，保留普通上传音频；刷新可读取新采用音色。\n- 修复下载时改名导致扩展名丢失、Windows 显示空白文件图标的问题。保存窗口按原格式筛选并保留后缀，分镜结果默认使用分镜编号命名；分镜和内置画布共用的导出链路同步修复。\n- 保留原视频、音频和图片内容，不转码；自动补后缀遇到已有同名文件时提示重新命名，避免覆盖。",
+  "sha256": "b02a5528dd8fb650f26dab92ccacb19a14995f2692ca17bd7baca8878452604c",
+  "size": 104067939,
+  "publishedAt": "2026-11-10T13:19:10.722788+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "zDwSw/cpzrmMfrO9zlpkbMVOOejS6P3dZxGddkjl4l7cKfS4kqJvmdVhuMa5My3HIp8gAJ+yBzrIf6CkhfuBDQ=="
+    "value": "qVWrSzQIyy9LPoPlM7M/mogLMOmmZRPNtaijG9/Sje6lV/MXBUHyMPtUxX+nbfu14S38QDZmv3bk+FZhgWi9Bw=="
   }
 }
