@@ -1,12 +1,12 @@
 {
-  "version": "2.8.141",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.141/Xingzhou-Film-Tencent-Setup-2.8.141.exe",
-  "notes": "行舟影视 2.8.141\n\n- 修复 Muse 接口时长列表被错误限制为 5、6、8、10 秒的问题，改为与 MuseCanvas 视频设置一致的 4–30 秒，支持每秒选择。\n- 自动更新已有 Muse 视频接口的旧时长能力记录，无需删除、重新接入或重新填写密钥；保留当前默认接口、已选时长、提示词与素材。\n- 协作分镜批量设置、单条分镜、图视生成及主界面画布共用修正后的能力；主进程和独立画布原样传递 30 秒，保留单次提交和后续查询规则。",
-  "sha256": "b862653ef1e8b62be8e742054843f087354dabb062d4b15af3d40d3338f0c8b4",
-  "size": 104055455,
-  "publishedAt": "2026-11-10T04:46:15.541339+00:00",
+  "version": "2.8.142",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.142/Xingzhou-Film-Tencent-Setup-2.8.142.exe",
+  "notes": "行舟影视 2.8.142\n\n- 素材限制提醒改为紧凑醒目的小标签，悬停或键盘聚焦查看详情。\n- 音色引用插入原“音色：”分号条目末尾；不再追加“人物正常对白音色参考”等段落，同一人物的正常声音和OS复用已确认音色。保留原提示词结构。\n- 分镜保存以云端实际回执作为后续基线，减少自身保存引发的误冲突。真实冲突默认折叠成红色一行，可展开查看，采用云端/保留草稿有明确按钮。\n- 设置新增“网络分流”：开启国内云端直连（兼容TUN），官方云端与腾讯云素材绑定物理网卡和国内DNS，模型接口沿用原系统网络。可选物理网络并检查连接，不修改系统代理或Clash配置。\n- Muse视频参考图先在行舟影视读取，再以图片内容发送，避免TUN虚拟地址被号池当作私网地址拒绝；明确HTTP400校验拒绝记录为失败，不再误标为提交待核对，不自动重新生成。",
+  "sha256": "deab4aa7b96f29a1a336df783f8df2759a439e8087cf602992529d648a9f1349",
+  "size": 104044719,
+  "publishedAt": "2026-11-10T05:47:28.560589+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "oxR0nijBydFJ+u69j81PR+FaB5bVJXSdpAzYJx8mLk50LswgyxnTQ4M6mQ1cHU0Rn61CFzkygG+U5gNt3P51Dw=="
+    "value": "ZWDdIwZH7N/kPYGRPr8AJ+QHnnyabh9xyyhbM6LsnLS7Wzd90cLMVWpXRVaqyQHBUOlAbR5mCHkAuWKtqRlLCg=="
   }
 }
