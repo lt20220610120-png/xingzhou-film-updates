@@ -1,12 +1,12 @@
 {
-  "version": "2.8.139",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.139/Xingzhou-Film-Tencent-Setup-2.8.139.exe",
-  "notes": "项目协作音色：新增入口改为“添加人物音色”，默认搜索并选择剧本已读取的人物，复用现有身份、集数与场景关联，不必重复填写姓名或年龄。已有音频、样音和编辑内容继续保留；选择短出场人物后自动显示并定位。\n\n“未找到人物？手动补录”保留人物名称、年龄阶段及场景选择，供漏读和声音角色补充。取消不会创建空白人物卡片，保存失败在窗口内反馈。\n\n“查看范围”与添加按钮移到人物音色标题右侧，添加按钮采用现有紫色主操作样式。正常对白音频参考仍由分镜素材编译自动追加，本次未改其处理规则。",
-  "sha256": "424cb7e1307f5c2c510cd9ca71b4d23fd708460118d03e8f5dc933a9652396e3",
-  "size": 104056648,
-  "publishedAt": "2026-11-09T19:35:18.902518+00:00",
+  "version": "2.8.140",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.140/Xingzhou-Film-Tencent-Setup-2.8.140.exe",
+  "notes": "行舟影视 2.8.140\n\n- 协作分镜：提示词与素材区随右侧参数共同伸展、底部对齐；编辑器拉长后素材区随布局移动，不再重叠。\n- LibTV 项目操作按钮紧凑同行；顶部批量设置读取模型声明的生成模式及附加参数，整齐分行，应用时保留正文与素材。\n- 云端只读刷新增加固定证书备用传输，失联更快切换端点；保留草稿和写入防重复规则。\n- API 设置新增“连接本机 Muse”，读取 D 盘 MuseCanvas 实例，共享既有图片/视频号池。MuseCanvas 需在本机运行；其他电脑不会自动接入。本机地址及凭据不随软件发布。",
+  "sha256": "b1f4ef3280c141b150fcb8c9869401e07a3d3d0fd377256ffbad993c60cbd047",
+  "size": 104055229,
+  "publishedAt": "2026-11-10T04:31:25.098886+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "KmKG5qOTuvUgDCv6w2QYV2ETldRkW8F6fwtEdTCPeAaai6Iu1r3Kxjf0ajl9VJeRj+CJQeboBJo9IWTZQDc8DQ=="
+    "value": "+AVdvBhBjzII/7H+wuWg/DK3V3UvZvo9lhP0ec76abm1WmKEKRwYs1H3EC/+gHRcLVeU3xztV1NpZPUCpC7MAw=="
   }
 }
