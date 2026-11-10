@@ -1,12 +1,12 @@
 {
-  "version": "2.8.143",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.143/Xingzhou-Film-Tencent-Setup-2.8.143.exe",
-  "notes": "# 2.8.143\n\n- 分镜取消提示词差异确认和旧内容冲突拦截。制片、协作者均可直接修改、保存并生成；同条同时保存以最后成功保存为准。\n- 清单核实中选定版本、关联素材并核实发布后，按场景更新分镜默认提示词与逐条素材。未发布的导演新稿不再覆盖分镜。\n- 新发布版本独立保存；旧版本本地草稿不覆盖新默认，已生成作品保留。手工编辑后重进分镜继续使用已保存内容。\n- 提交前继续检查项目权限、锁定状态和真实素材/模型要求。",
-  "sha256": "375e38f354db43dc8d096d02508b6e0bedd2331b65054bd06275b95114184cdc",
-  "size": 104046323,
-  "publishedAt": "2026-11-10T09:38:59.160474+00:00",
+  "version": "2.8.144",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.144/Xingzhou-Film-Tencent-Setup-2.8.144.exe",
+  "notes": "# 2.8.144\n\n- 视频生成结果改为紧凑缩略卡片，中等窗口每行至少3个，大窗口显示更多结果。\n- 视频池每条提示词只占一张等高卡片，显示已有结果数量；点击后查看多次生成记录。\n- 下载默认选择每条提示词最新成功结果。支持全剧/本集/本场一键全选所有成功结果、恢复最新、同条结果单独勾选与批量下载；一次选择目录，按项目和集数归档。\n- 长参数接口自动增加左侧提示词编辑高度，素材区底部与生成按钮对齐；保留手动拉高，避免重叠和素材框内大块空白。\n\n- 分镜顶部拆分“应用到全场景”和“应用到全剧”，参数真实保存到所选范围所有分镜，切集、切场景、重开均保留。\n- 生成中、待核对、失败与已完成的视频结果统一卡片尺寸。\n- 视频池与分镜结果支持单条、当前筛选范围全部删除；所有删除都先确认。生成中的记录移除后原任务不重复提交，已提交任务不能在此撤回；确认框明确说明，保留本机文件。",
+  "sha256": "60089c48120e7d9aca7e14818ffb9c5c8c5a5023b94d826fd5de8c96ef73540c",
+  "size": 104048004,
+  "publishedAt": "2026-11-10T12:22:24.699612+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "FKbvpGagsTd5HbUaA7LIQAT9PcQkbeHu1QPPgpWdx1TtIV/AOgvsM40goV9o4UjCld2D2NEmOJvpAi7A4t7XDg=="
+    "value": "zDwSw/cpzrmMfrO9zlpkbMVOOejS6P3dZxGddkjl4l7cKfS4kqJvmdVhuMa5My3HIp8gAJ+yBzrIf6CkhfuBDQ=="
   }
 }
