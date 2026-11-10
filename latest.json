@@ -1,12 +1,12 @@
 {
-  "version": "2.8.142",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.142/Xingzhou-Film-Tencent-Setup-2.8.142.exe",
-  "notes": "行舟影视 2.8.142\n\n- 素材限制提醒改为紧凑醒目的小标签，悬停或键盘聚焦查看详情。\n- 音色引用插入原“音色：”分号条目末尾；不再追加“人物正常对白音色参考”等段落，同一人物的正常声音和OS复用已确认音色。保留原提示词结构。\n- 分镜保存以云端实际回执作为后续基线，减少自身保存引发的误冲突。真实冲突默认折叠成红色一行，可展开查看，采用云端/保留草稿有明确按钮。\n- 设置新增“网络分流”：开启国内云端直连（兼容TUN），官方云端与腾讯云素材绑定物理网卡和国内DNS，模型接口沿用原系统网络。可选物理网络并检查连接，不修改系统代理或Clash配置。\n- Muse视频参考图先在行舟影视读取，再以图片内容发送，避免TUN虚拟地址被号池当作私网地址拒绝；明确HTTP400校验拒绝记录为失败，不再误标为提交待核对，不自动重新生成。",
-  "sha256": "deab4aa7b96f29a1a336df783f8df2759a439e8087cf602992529d648a9f1349",
-  "size": 104044719,
-  "publishedAt": "2026-11-10T05:47:28.560589+00:00",
+  "version": "2.8.143",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.143/Xingzhou-Film-Tencent-Setup-2.8.143.exe",
+  "notes": "# 2.8.143\n\n- 分镜取消提示词差异确认和旧内容冲突拦截。制片、协作者均可直接修改、保存并生成；同条同时保存以最后成功保存为准。\n- 清单核实中选定版本、关联素材并核实发布后，按场景更新分镜默认提示词与逐条素材。未发布的导演新稿不再覆盖分镜。\n- 新发布版本独立保存；旧版本本地草稿不覆盖新默认，已生成作品保留。手工编辑后重进分镜继续使用已保存内容。\n- 提交前继续检查项目权限、锁定状态和真实素材/模型要求。",
+  "sha256": "375e38f354db43dc8d096d02508b6e0bedd2331b65054bd06275b95114184cdc",
+  "size": 104046323,
+  "publishedAt": "2026-11-10T09:38:59.160474+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ZWDdIwZH7N/kPYGRPr8AJ+QHnnyabh9xyyhbM6LsnLS7Wzd90cLMVWpXRVaqyQHBUOlAbR5mCHkAuWKtqRlLCg=="
+    "value": "FKbvpGagsTd5HbUaA7LIQAT9PcQkbeHu1QPPgpWdx1TtIV/AOgvsM40goV9o4UjCld2D2NEmOJvpAi7A4t7XDg=="
   }
 }
