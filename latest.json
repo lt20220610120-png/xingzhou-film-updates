@@ -1,12 +1,12 @@
 {
-  "version": "2.8.145",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.145/Xingzhou-Film-Tencent-Setup-2.8.145.exe",
-  "notes": "行舟影视 2.8.145\n\n- 重新设计分镜参考素材弹窗：上传入口移至搜索栏旁，分类与素材网格更清晰；确认引用使用高对比白字按钮。\n- 分镜生成结果改为接近方形的紧凑卡片，预览、单行摘要与常用操作集中排列；成功、失败及生成中保持等高，取消卡片内部滚动。\n- 修复音频分类缺少项目已采用音色。全项目已采用人物音色与年龄阶段均可查看、试听、搜索和引用，保留普通上传音频；刷新可读取新采用音色。\n- 修复下载时改名导致扩展名丢失、Windows 显示空白文件图标的问题。保存窗口按原格式筛选并保留后缀，分镜结果默认使用分镜编号命名；分镜和内置画布共用的导出链路同步修复。\n- 保留原视频、音频和图片内容，不转码；自动补后缀遇到已有同名文件时提示重新命名，避免覆盖。",
-  "sha256": "b02a5528dd8fb650f26dab92ccacb19a14995f2692ca17bd7baca8878452604c",
-  "size": 104067939,
-  "publishedAt": "2026-11-10T13:19:10.722788+00:00",
+  "version": "2.8.146",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.146/Xingzhou-Film-Tencent-Setup-2.8.146.exe",
+  "notes": "行舟影视 2.8.146\n\n- 分镜顶部改为可收起的生成设置面板：接口、模型、默认参数、建议时长和一键生成集中设置；记住展开状态，收起仍能看到批量进度。\n- 恢复建议生成时长。可按当前场景、当前一集或全剧，一键为每条分镜设置各自的建议秒数；保留统一时长方式及按集应用参数。缺少建议值或模型不支持时明确提示，避免自动替换成其他时长。\n- 一键生成支持场景、分集和全剧队列，显示每条分镜的发送、排队、生成、完成及百分比；可停止、继续未发送部分，已有成功和活动任务自动跳过，切页不丢队列。\n- 自己上传的参考图片、音频、视频可确认删除；项目已采用素材、音色及他人上传的素材受保护，删除成功同步移除当前分镜引用。\n- 修复当前WiFi下云端检查与LibTV连接器网络不兼容：普通网络和普通代理在开关关闭时自动选择可用线路；TUN兼容开关专用于代理TUN模式。不关闭证书验证，不重发付费命令。\n- 保留2.8.145的已采用音色显示、清晰素材选择器、近方形生成结果卡片与下载扩展名修复。",
+  "sha256": "8cf0151c8044a9feffb50b1dc854b195d2d17080bdf2f7fef9428eef9da72766",
+  "size": 104083650,
+  "publishedAt": "2026-11-11T01:08:58.438755+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "qVWrSzQIyy9LPoPlM7M/mogLMOmmZRPNtaijG9/Sje6lV/MXBUHyMPtUxX+nbfu14S38QDZmv3bk+FZhgWi9Bw=="
+    "value": "fkhpCQoWcR89Dl34JhlwmhFKAnEqY82nSxv/UqP5lPl7xIBrLyeyN1Kwx94TRS+Au/UJ+kmhS0O25MD04V3TBg=="
   }
 }
