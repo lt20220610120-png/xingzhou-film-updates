@@ -1,12 +1,12 @@
 {
-  "version": "2.8.147",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.147/Xingzhou-Film-Tencent-Setup-2.8.147.exe",
-  "notes": "行舟影视 2.8.147\n\n- 单人项目默认在本机保存。未邀请协作者时，剧本、清单核实、美术资产、音色引用、分镜、生成参数和结果无需先保存到项目云端，避免项目云端连接异常阻止生成。\n- 既有项目在确认只有制片本人后准备本机副本，保留项目及素材身份；素材下载完成后切换为本机保存。已经有协作者的项目继续使用云端协作。\n- 保留邀请协作者功能：邀请时同步当前项目和需要共享的素材，成功后开启云端协作。失败保留本机资料，同一邀请可重试核对结果。\n- 修复普通网络下项目保存被错误套用短超时、备用线路及重复重试的问题。TUN兼容关闭时，写入请求恢复正常连接与完整超时；开启时仍保留专用兼容路径。\n- 修复本机素材接入部分视频接口时预览地址影响文件上传的问题，补齐本机生图、音色与生成结果的项目归属。\n- 保留顶部可折叠生成设置、按建议时长设置、场景/分集/全剧队列、参考素材删除、近方形结果卡片及下载格式修复。\n\n首次接收既有云项目需要完成读取和素材下载；在线模型生成及软件授权仍使用各自的网络服务。",
-  "sha256": "281cf7985817df30e9e61e9a6f25f0ad67baaf7297e89ad69c39226cad88ca7a",
-  "size": 104079377,
-  "publishedAt": "2026-11-11T08:54:36.630482+00:00",
+  "version": "2.8.148",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.148/Xingzhou-Film-Tencent-Setup-2.8.148.exe",
+  "notes": "﻿行舟影视 2.8.148\n\n- 修复安装包漏装项目协作运行模块的问题，避免项目列表、分镜素材读取异常以及 WorkBuddy 初始化被一并中断。\n- 移除“网络分流”、TUN 模式兼容、物理网络选择和检查连接功能；项目云端、素材上传下载及更新恢复使用原系统网络与代理设置，不读取或修改既有网络分流配置。\n- 保留云端域名异常时的固定证书备用连接、写入超时及结果不明确时不重复提交的保护。\n- 安装包验收新增 ASAR 模块完整性检查、启动错误检查，以及项目列表和 WorkBuddy 的真实 IPC 调用，防止仅界面打开就误判通过。\n\n本次不改动真实项目，不触发付费生成，也不更改 Clash、TUN 或系统代理设置。",
+  "sha256": "f354e52c9d474e3bcdd7ebdb731aecf8ac3300de90fdd57895c0e1b3b7032bc7",
+  "size": 104017644,
+  "publishedAt": "2026-11-11T11:40:49.599421+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "im2RWygMHy8D6vpkvZnxeCEj4nPmb2qKCYp+3r0NhS4j6CnZiFsvOpnOt48VnGeheVE4K95EbcWQNcbDNX5rDw=="
+    "value": "Dx4C0SA/tCKQxPPtPxchYI+XxvtT2wrssvJaO3OO4MMEPnzFKGuhVi71MV7X+wU6AB5C8AHR3RBd8uZsFY3yDA=="
   }
 }
