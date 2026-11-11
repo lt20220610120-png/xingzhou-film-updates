@@ -1,12 +1,12 @@
 {
-  "version": "2.8.148",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.148/Xingzhou-Film-Tencent-Setup-2.8.148.exe",
-  "notes": "﻿行舟影视 2.8.148\n\n- 修复安装包漏装项目协作运行模块的问题，避免项目列表、分镜素材读取异常以及 WorkBuddy 初始化被一并中断。\n- 移除“网络分流”、TUN 模式兼容、物理网络选择和检查连接功能；项目云端、素材上传下载及更新恢复使用原系统网络与代理设置，不读取或修改既有网络分流配置。\n- 保留云端域名异常时的固定证书备用连接、写入超时及结果不明确时不重复提交的保护。\n- 安装包验收新增 ASAR 模块完整性检查、启动错误检查，以及项目列表和 WorkBuddy 的真实 IPC 调用，防止仅界面打开就误判通过。\n\n本次不改动真实项目，不触发付费生成，也不更改 Clash、TUN 或系统代理设置。",
-  "sha256": "f354e52c9d474e3bcdd7ebdb731aecf8ac3300de90fdd57895c0e1b3b7032bc7",
-  "size": 104017644,
-  "publishedAt": "2026-11-11T11:40:49.599421+00:00",
+  "version": "2.8.149",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.149/Xingzhou-Film-Tencent-Setup-2.8.149.exe",
+  "notes": "行舟影视 2.8.149\n\n- 修复大型协作项目保存失败：单次导演同步约 17.6 MB 时，旧云端接口在 16 MiB 处直接断开连接，客户端因此显示“云端未确认本次保存”。超过大小门槛的保存现在会自动 gzip 压缩后再上传；17.6 MB 项目压缩后仅约数百 KB，实测保存 680 毫秒并回读一致。\n- 云端网关由 16 MiB 提升至 64 MiB，并同时限制压缩前、压缩后大小；超过上限时返回明确的 JSON 413 提示，不再断连形成虚假网络错误。\n- 增加 17 MiB、超 64 MiB 和 gzip 大型保存回归测试，避免“读取正常但大型项目无法保存”再次被漏掉。\n- 修复 LibTV 偶发“网络连接失败”：启动前原要求四个官方域名全部探测成功，任一辅助域名瞬时时超时就会整体失败；现在只剔除失败域名并保留可用线路，实际用到该域名时再按需探测，不再让无关域名阻断账号与项目连接。\n- 本次不改动项目资料、账号、分流、TUN 或系统代理，不触发付费生成。",
+  "sha256": "31cf27e2cb77bd07db6115b61392321f47778c654c81e1912fabea3500032201",
+  "size": 104033725,
+  "publishedAt": "2026-11-11T14:07:46.495355+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Dx4C0SA/tCKQxPPtPxchYI+XxvtT2wrssvJaO3OO4MMEPnzFKGuhVi71MV7X+wU6AB5C8AHR3RBd8uZsFY3yDA=="
+    "value": "4l3JxRE1mxt3ErP6fDiG4ukWkQQFmoPHLOqz92aiUY6nOzKWCjWfpQWhZ7F9KsUvfRKTlbhuOhuoWwLZ6uiUCQ=="
   }
 }
