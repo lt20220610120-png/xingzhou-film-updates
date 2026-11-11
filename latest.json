@@ -1,12 +1,12 @@
 {
-  "version": "2.8.149",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.149/Xingzhou-Film-Tencent-Setup-2.8.149.exe",
-  "notes": "行舟影视 2.8.149\n\n- 修复大型协作项目保存失败：单次导演同步约 17.6 MB 时，旧云端接口在 16 MiB 处直接断开连接，客户端因此显示“云端未确认本次保存”。超过大小门槛的保存现在会自动 gzip 压缩后再上传；17.6 MB 项目压缩后仅约数百 KB，实测保存 680 毫秒并回读一致。\n- 云端网关由 16 MiB 提升至 64 MiB，并同时限制压缩前、压缩后大小；超过上限时返回明确的 JSON 413 提示，不再断连形成虚假网络错误。\n- 增加 17 MiB、超 64 MiB 和 gzip 大型保存回归测试，避免“读取正常但大型项目无法保存”再次被漏掉。\n- 修复 LibTV 偶发“网络连接失败”：启动前原要求四个官方域名全部探测成功，任一辅助域名瞬时时超时就会整体失败；现在只剔除失败域名并保留可用线路，实际用到该域名时再按需探测，不再让无关域名阻断账号与项目连接。\n- 本次不改动项目资料、账号、分流、TUN 或系统代理，不触发付费生成。",
-  "sha256": "31cf27e2cb77bd07db6115b61392321f47778c654c81e1912fabea3500032201",
-  "size": 104033725,
-  "publishedAt": "2026-11-11T14:07:46.495355+00:00",
+  "version": "2.8.150",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.150/Xingzhou-Film-Tencent-Setup-2.8.150.exe",
+  "notes": "行舟影视 2.8.150：修复参考素材被误判格式或数量不符\n\n- 修复部分分镜、项目素材在生成时被错误提示“素材格式不符”“参考素材数量不符合模型要求”“参考素材类型无效”的问题。真实原因是旧草稿把美术资产图保存成了内部存储类型 `asset-image`，而各生成接口只接受标准 `image/audio/video`，导致有效素材被当成 0 张或被拒绝。\n- 现在加载、预览和使用旧草稿时，美术资产图会自动恢复为标准图片参考；人物、场景、道具图片的数量与顺序保持不变。\n- 修复覆盖 LibTV、飞拓、9Y、MaxForAI、AutoDL 等所有经过统一生成队列的接口，不再需要逐项删除后重新添加素材。\n- 用真实失败任务数据复测：原 4 项参考（3 张美术图 + 1 段音频）现已正确进入 Seedance 2.5 的 `mixed2video`，不再报数量或类型错误；模型本身允许 30 张图片。\n- 增加旧素材类型迁移、LibTV 模式计算、所有视频接口统一队列的回归测试。全量 3022/3022 通过。\n- 本次不提交付费生成、不改写真实项目素材、不修改分流/TUN/系统代理。",
+  "sha256": "442442c963cceee0437c773e78fa8ec9289382192c82ee47503f067812d9db5e",
+  "size": 104034096,
+  "publishedAt": "2026-11-11T16:14:31.019951+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "4l3JxRE1mxt3ErP6fDiG4ukWkQQFmoPHLOqz92aiUY6nOzKWCjWfpQWhZ7F9KsUvfRKTlbhuOhuoWwLZ6uiUCQ=="
+    "value": "APRneopYYklHYwirCqMSRm7nafwQWffI+89Pm8NtHHFSx8TWKGEYwxpp99h5bW38HmTCc9kPN+dAuiJ5MJE9Dg=="
   }
 }
