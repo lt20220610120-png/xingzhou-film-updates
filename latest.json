@@ -1,12 +1,12 @@
 {
-  "version": "2.8.151",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.151/Xingzhou-Film-Tencent-Setup-2.8.151.exe",
-  "notes": "行舟影视 2.8.151：修复生成设置无法切换接口、LibTV 参考组合误报与参数字段兼容\n\n- 修复在顶部“生成设置”及单镜生成面板点击切换接口、模型、比例或时长后界面无反应（回弹原接口）的问题：2.8.150 新增的 `normalizeGenerationReferences` 在处理完整生成草稿对象时误返回空数组 `[]`，导致受控组件状态被清空回退；现已修复为保留完整草稿对象并仅归一化其中的 `references` 数组。\n- 修复顶部“生成设置”默认面板在选用不支持纯文生视频（`text2video`）的模型（如 Seedance 2.5）时，因默认面板自身无参考素材而误报红字“此模型不支持当前参考组合，请选择其他模型或调整参考”的问题。\n- 修复批量应用过 `图片参考（image2video）` 的分镜在同时携带音频/视频参考素材时报错“当前模式不支持这组参考素材”的问题：当旧预设模式与分镜实际参考组合冲突且模型支持兼容模式（如 `mixed2video`）时，自动升级到匹配模式。\n- 修复 LibTV CLI `1.1.3` 参数名映射问题：按模型 Schema 的 `originalField`（如 `searchEnabled -> search_enabled`）发送参数，消除 `Unsupported video parameter \"searchEnabled\"` 报错。\n- 修复 FT 直连本地音频参考素材扩展名识别，补齐 `.flac`、`.aac`、`.mov`、`.gif` 标准 MIME 映射，消除音色样本 `.flac` 上传时报“参考素材格式与类型不一致”的问题。",
-  "sha256": "a9ba6986c013e8197a88d47bcf796989cdf5740e2e7470fd14e8427f4452df62",
-  "size": 104037165,
-  "publishedAt": "2026-11-11T18:55:32.893902+00:00",
+  "version": "2.8.152",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.152/Xingzhou-Film-Tencent-Setup-2.8.152.exe",
+  "notes": "行舟影视 2.8.152：导演工作台短剧节奏梯度滑轨与整场时长精准校准\n\n- 新增短剧自动分段三档连续节奏梯度（紧凑 / 适中 / 正常）：在单场自动分段与整本生成设置中提供横线滑轨控件，支持鼠标滚轮悬停微调或拖动选择——越往左越紧凑（快切爽点节奏），向右到底为短剧标准正常节奏，并实时显示当前场景预计秒数与条数。\n- 按短剧拍摄实况重校准整场时长模型，消除整体偏长（原 30 秒戏误估 34～39 秒并拆碎段数）的问题：\n  - 说话时长按短剧实拍口播语速梯度测算（正常约 5.1 字/秒、适中约 5.55 字/秒、紧凑约 6.0 字/秒），大幅收紧句读与换人开口冗余；\n  - 视觉描写不再按文字长短硬加秒数：长篇静态陈设、衣着状态、道具特写、手机屏幕显示按镜头瞬间一瞥（0.2～0.5 秒）计算，转场提示（如“画面定格”“画面闪回”“一小时前”）归零，表情与微动作与台词重叠不重复计秒；\n  - 修复无 `△` 标记的动作/转场行与“屏幕上显示：……”被误并入角色口播字数的解析误差；\n  - 收紧大模型规划器估时膨胀上限，防止模型把文字环境描写自行放大成慢节奏空镜。\n- 精简导演工作台左栏结构与空间效率：自动分段设置与节奏滑轨等高内嵌于场景顶栏，原文/分段稿切换、实时预计时长与运行状态合并为单行紧凑信息条，不增加突兀按钮，为剧本正文留出更大阅读空间。",
+  "sha256": "a0ac43341e23c0d0f42a19e8164678ba852181f0f50243708a541159b4339892",
+  "size": 104026831,
+  "publishedAt": "2026-11-12T01:40:21.307639+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Nv9CCAgWChhfcztSaRAHwZSZAu4R6zbTJzbXdh70oW94m8R5yS1qObS0gJtlfVeBjFRy6ZdHsk8lAZaQ8t2MAQ=="
+    "value": "O/C1VGXL2IyUxNr7/6aPpXLk4wqepjJEnvF+tFglmJ6r1Uss/csCKqCZIfJVQ/gDgd7vPUsCYCYxglOdHbTgAQ=="
   }
 }
