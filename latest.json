@@ -1,12 +1,12 @@
 {
-  "version": "2.8.153",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.153/Xingzhou-Film-Tencent-Setup-2.8.153.exe",
-  "notes": "行舟影视 2.8.153：修复注册界面无法滚动、卡密记住后一键激活，并精简注册/激活页文案\n\n- 修复注册界面滑动不下去、底部「创建账号」按钮永远点不到的根因：注册窗口内页面高度按内容撑开，而窗口主体禁止滚动，超出部分被直接裁掉。现在注册/登录/找回页面本身成为滚动容器，任何窗口高度下都能滚到底部完成提交；同时把注册窗口默认尺寸调整为 1320×880、最小 1000×660，并在 1000×660 下实测可滚到主按钮。\n- 注册表单改为紧凑两列排布（账号/姓名、密码/确认密码、邮箱/邀请码 + 全宽验证码），窗口默认尺寸下无需滚动即可看到全部字段与主按钮。\n- 卡密记住：首次成功验证后，卡密以系统加密（DPAPI/safeStorage）保存在本机，不会明文落盘；下次启动直接在卡密框内以「·····」掩码显示，只需点击「验证并激活」，无需重新输入。输入框右侧提供更换卡密按钮（X），点击后清空记住的卡密并聚焦输入框，方便换卡续期。\n- 激活页删除说明行「输入卡密，激活这台电脑上的软件。」；注册页删除口号式标题、整段说明文案、两张说明卡片、邀请码脚注，以及会直接关闭窗口的「返回上一步」误导按钮，仅保留必要字段标签、发送验证码与唯一主操作。",
-  "sha256": "c4ced24a32481c0c960164e857c9989e54c18c45f8d57a0e650ad8c3b6621965",
-  "size": 104024774,
-  "publishedAt": "2026-11-12T06:02:48.488394+00:00",
+  "version": "2.8.154",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.154/Xingzhou-Film-Tencent-Setup-2.8.154.exe",
+  "notes": "# 行舟影视 2.8.154\n\n**发布日期：** 2026-11-12\n\n## 界面优化\n\n- **API接口页**：删除空状态提示冗余文案\"可以选择本机 Codex、Gemini 或 ChatGPT 网页账号，也可以添加文本 API。\"，界面更简洁。\n- **项目协作页**：空状态布局优化，增加padding和min-height，内容居中显示，视觉更平衡。\n- **\"同步项目列表\"按钮**：从标题下方移至右上角，位置更合理。\n\n## 导演自动生成修复\n\n- 自动分段后继续执行所选完整 Skill，生成提示词并逐条显示建议生成时长；保留人工/自动分段、最高时长和紧凑/适中/正常节奏设置。\n- 估时接口不可用或无有效正文时，使用本地短剧估时与原节奏设置继续分段；只读核对接口失败只作提醒，不再把已经生成并保存的整场误标为失败。\n- 生成接口失败后切换模型再点击“继续未完成部分”，使用当前选择的模型，保留原分段计划、时长和已有结果。不伪造接口未返回的提示词，不自动重复可能已计费的生成请求。\n\n## 用户体验改进\n\n- **注册表单验证提示具体化**：将笼统的\"账号、邮箱或密码格式不正确\"拆分为具体字段提示：\n  - 账号格式不正确时：提示“账号需为 3–32 位英文字母、数字或下划线（不区分大小写），不能含中文、空格或其他符号”，并聚焦错误字段\n  - 密码不符合要求时：提示\"密码至少需要 6 位\"\n  - 邮箱格式错误时：提示\"邮箱地址格式不正确\"\n  - 用户可明确知道哪个字段需要修改，以及具体的格式要求\n\n## 技术细节\n\n- 修改文件：`src/v06/GlobalTools.jsx`、`src/v06/CollabWorkspace.jsx`、`src/collab.css`、`cloud-backend/src/auth.cjs`\n- 导演改动：`core/directorQuickGeneration.js`、`src/v06/DirectorWorkspace.jsx`，新增 `core/directorAutoPipeline.test.js`。\n- 估时和核对降级不绕过原文、账号、权限、版本或存储校验。真实生成服务不可用仍明确失败，已有提示词保留。",
+  "sha256": "0c3fa3e1a9c25d942dbb3aec56ec8863d4131e2698a889c2de1a271a36724b0c",
+  "size": 104040420,
+  "publishedAt": "2026-11-12T09:49:52.908752+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "SHNOSfCOmHYx3X8Md1mWQXGHQE+pQIZi7UMBmpYX8c/EEyz4//056VY9dAvGlzL2B4sh1pAq8mVrLHF2ULk3BQ=="
+    "value": "wt3kCcMSZ/Sog6XdI7pST1a42WWqRT8G7DZlpQuajlCciM5Y/kGVNzj0cHa+LYqUEFDkuR2xIvkYPkQ6DBniAA=="
   }
 }
