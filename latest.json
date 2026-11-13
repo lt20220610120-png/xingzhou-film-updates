@@ -1,12 +1,12 @@
 {
-  "version": "2.8.158",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.158/Xingzhou-Film-Tencent-Setup-2.8.158.exe",
-  "notes": "# 行舟影视 2.8.158\n\n- 导演工作台把内容预估与切分分开。在具体场景确认预估秒数并应用到全剧，其他场景按相同尺度估算，再按各自的内容和单条上限划分。修改单条上限只会改变分段。\n- 人工与自动生成均交给所选完整 Skill。Agent 按该 Skill 生成和自检，软件只负责按外层编号保存和展示，兼容不同的比重写法、正文结构和分镜规则。\n- LibTV 在系统代理隧道未建立时可回退直连，并在网络失败时显示对应阶段。",
-  "sha256": "2bd15d5d36fb10906c7b882bad90c838e73ad597be13bd72599377ec37949cfb",
-  "size": 104044364,
-  "publishedAt": "2026-11-13T05:02:43.058272+00:00",
+  "version": "2.8.159",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.159/Xingzhou-Film-Tencent-Setup-2.8.159.exe",
+  "notes": "# 行舟影视 2.8.159\n\n发布日期：2026-11-13\n\n## 项目协作流程\n\n- 当前查看的场景优先推进：同时调整准备队列、场景关联和模型请求队列，并通过等待时间加权照顾其他任务；保留手动请求通道。\n- 清单保存后，视觉关联与对白读取并行；需要音色身份的提示词关联等待对白完成后再提交。\n- 明确且唯一的素材关联提前复用，减少不必要的模型请求；不确定的候选继续交给模型处理，人工修改和版本冲突保护保持生效。\n- 展示清单、场景和已保存关联的真实完成量；区分排队、等待响应、接收结果和保存阶段，显示最近完成的条目。\n- 缓存未变化的全剧核实统计，减少任务状态更新带来的重复计算。\n\n本次沿用2.8.158源码更新，导演提示词仍由用户所选完整Skill决定正文规则。",
+  "sha256": "b826266a75f12f20ad3b846ce782e40e8bb9eecf5b79de683223e8a50f38aa28",
+  "size": 104126673,
+  "publishedAt": "2026-11-13T06:50:31.384885+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "z4hBvFeXGzZekMZjheKzIA5gJQ8GPagB5KtvfUGzoF3925kqYD9yAivx+WkawhfJvc5kTDoXRK7S4kkSVcQsDA=="
+    "value": "PvyT23zq9WoxeDg1m0vjVe3z1tBqocuceEm9dwzvNk8E5tHXIaB/S38HNq0UwJSsjIG+DNJCA29g0c+nvq8WBA=="
   }
 }
