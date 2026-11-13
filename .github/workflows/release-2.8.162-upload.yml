@@ -26,8 +26,8 @@ jobs:
               changed=bundle.read('changed')
               chunks=json.loads(bundle.read('chunks.json'))
               data=b''.join((changed if source else old)[at:at+size] for source,at,size in chunks)
-          assert len(data)==104120513
-          assert hashlib.sha256(data).hexdigest()=='8d328063dcfa33d92cbde98b3dd29ef8394e3ea0f67fd1feab3277d7382d2d20'
+          assert len(data)==104120648
+          assert hashlib.sha256(data).hexdigest()=='3986bb75a2da4bf918e3b260db9f5dd399a388b7ff61766d2ec608b4dcb38f45'
           pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.162.exe').write_bytes(data)
           print('Installer SHA256 verified',flush=True)
           PY
@@ -39,4 +39,4 @@ jobs:
           api=$(gh release view v2.8.162 --json apiUrl --jq .apiUrl)
           existing=$(gh api "$api" --jq ".assets[] | select(.name == \"$name\").state")
           if test -z "$existing"; then gh release upload v2.8.162 "$name"; fi
-          test "$(gh api "$api" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = "sha256:8d328063dcfa33d92cbde98b3dd29ef8394e3ea0f67fd1feab3277d7382d2d20"
+          test "$(gh api "$api" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = "sha256:3986bb75a2da4bf918e3b260db9f5dd399a388b7ff61766d2ec608b4dcb38f45"
