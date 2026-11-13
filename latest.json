@@ -1,12 +1,12 @@
 {
-  "version": "2.8.159",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.159/Xingzhou-Film-Tencent-Setup-2.8.159.exe",
-  "notes": "# 行舟影视 2.8.159\n\n发布日期：2026-11-13\n\n## 项目协作流程\n\n- 当前查看的场景优先推进：同时调整准备队列、场景关联和模型请求队列，并通过等待时间加权照顾其他任务；保留手动请求通道。\n- 清单保存后，视觉关联与对白读取并行；需要音色身份的提示词关联等待对白完成后再提交。\n- 明确且唯一的素材关联提前复用，减少不必要的模型请求；不确定的候选继续交给模型处理，人工修改和版本冲突保护保持生效。\n- 展示清单、场景和已保存关联的真实完成量；区分排队、等待响应、接收结果和保存阶段，显示最近完成的条目。\n- 缓存未变化的全剧核实统计，减少任务状态更新带来的重复计算。\n\n本次沿用2.8.158源码更新，导演提示词仍由用户所选完整Skill决定正文规则。",
-  "sha256": "b826266a75f12f20ad3b846ce782e40e8bb9eecf5b79de683223e8a50f38aa28",
-  "size": 104126673,
-  "publishedAt": "2026-11-13T06:50:31.384885+00:00",
+  "version": "2.8.160",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.160/Xingzhou-Film-Tencent-Setup-2.8.160.exe",
+  "notes": "# 行舟影视 2.8.160\n\n发布日期：2026-11-13\n\n- 导演工作台快速模式每次点击「生成」都开启独立批次。右侧仅显示本轮结果，旧提示词保留在历史中；失败或迟到的旧回包不会填回本轮。\n- 人工分段按编号锁定原文归属，先展示本轮正文，再由 Agent 读取所选完整 Skill 逐段复核对白、事件和 Skill 要求。有问题时显示提醒并保留原回包；正文格式与比重继续由所选 Skill 决定。\n- 「继续未完成部分」仅续跑当前批次，复用已经保存的回包。",
+  "sha256": "1a3724a302b6fd1e62ca0bed486936fffb6e4c8ddb190917ee7fc07c87425a18",
+  "size": 104117374,
+  "publishedAt": "2026-11-13T09:24:54.021136+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "PvyT23zq9WoxeDg1m0vjVe3z1tBqocuceEm9dwzvNk8E5tHXIaB/S38HNq0UwJSsjIG+DNJCA29g0c+nvq8WBA=="
+    "value": "T2pAicOZyrp4S/lLZHSa7VyaAj6D8eii18a0vYCd+hYO6Iv/kqJUjHAueTsIxUDCrxVU5AjdSy827V0Hma2/Ag=="
   }
 }
