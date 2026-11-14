@@ -1,12 +1,12 @@
 {
-  "version": "2.8.166",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.166/Xingzhou-Film-Tencent-Setup-2.8.166.exe",
-  "notes": "# 行舟影视 2.8.166\n\n- 激活页增加已有账号登录入口。管理员或免卡账号可直接登录，不再被卡密页面拦截。\n- 失效的旧会话会引导重新登录，登录成功后按服务器管理员豁免状态进入软件。",
-  "sha256": "013610afdb107f41380d4328413043581ad09f63cd73833cb26c1a10ed320778",
-  "size": 104121579,
-  "publishedAt": "2026-11-14T09:27:08.806169+00:00",
+  "version": "2.8.167",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.167/Xingzhou-Film-Tencent-Setup-2.8.167.exe",
+  "notes": "# 行舟影视 2.8.167\n\n- 移除新增的管理员登录入口及其初始化崩溃，恢复读取本机登录状态进入工作区。\n- 修复旧目录中的过期会话在注销后反复导入。\n- 云端有效会话在使用期间续期，过期、注销和封禁凭据不会自动恢复。",
+  "sha256": "f5bae4425765812d16d6e62a822a6667a89f67a11b1abf0b2a794d2dde5f0df5",
+  "size": 104137535,
+  "publishedAt": "2026-11-14T09:46:12.232295+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "0AQIvpAg/n+UK4coGTUctQ3yG6zhe7TFqq+gPkFPyYhW+8p0N7fJJdxPx7mHboPeDLLgaY2ZtEVI+RIv4rwTBg=="
+    "value": "8pu/jO/muWOTSAwYVAPnp9XJEu8WDMwmYG15GjM+dbqmbVRIO8GyCRGOGAL7iNfONItP+qkFoRNxzDlU1//JAQ=="
   }
 }
