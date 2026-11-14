@@ -16,11 +16,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          gh release download v2.8.166 --pattern Xingzhou-Film-Tencent-Setup-2.8.167.exe
+          gh release download v2.8.166 --pattern Xingzhou-Film-Tencent-Setup-2.8.166.exe
           gh api "repos/$GH_REPO/contents/release-2.8.167-delta.zip?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > release-delta.zip
           python3 -u - <<'PY'
           import hashlib,json,pathlib,zipfile
-          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.167.exe').read_bytes()
+          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.166.exe').read_bytes()
           assert hashlib.sha256(old).hexdigest()=='013610afdb107f41380d4328413043581ad09f63cd73833cb26c1a10ed320778'
           with zipfile.ZipFile('release-delta.zip') as bundle:
               changed=bundle.read('changed')
