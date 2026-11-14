@@ -1,12 +1,12 @@
 {
-  "version": "2.8.162",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.162/Xingzhou-Film-Tencent-Setup-2.8.162.exe",
-  "notes": "# 行舟影视 2.8.162\n\n发布日期为 2026-11-14。\n\n- API 接口的图片页可以从本机 Codex 导入 GPT Image 2。文生图与参考图经已登录的 Codex 内置生图工具执行，结果保存到行舟影视。\n- 分镜顶部的「一键应用到全部」设置为 LibTV 增加提交方式。默认自动生成并返回结果。选择手动方式后，提示词、参数与素材会准备到原画布，结果卡提供画布入口。用户在 LibTV 生成后，行舟影视读取原节点并收回结果。",
-  "sha256": "3986bb75a2da4bf918e3b260db9f5dd399a388b7ff61766d2ec608b4dcb38f45",
-  "size": 104120648,
-  "publishedAt": "2026-11-13T18:09:43.406207+00:00",
+  "version": "2.8.163",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.163/Xingzhou-Film-Tencent-Setup-2.8.163.exe",
+  "notes": "# 行舟影视 2.8.163\n\n- 修复项目协作中，同一版本的提示词重新关联后，重复素材缺项导致「一键确认全部无需参考图」和勾选确认无法保存的问题。已有待处理记录可继续确认。\n- 结束异常中断任务遗留状态对确认的阻挡。核实并发布后，当前提示词和已关联的素材会一起进入分镜。",
+  "sha256": "5b9d204444c1a2da1eeb927dfccfed6ab82d697fa25547079f53389989e71355",
+  "size": 104136342,
+  "publishedAt": "2026-11-14T02:22:08.841239+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Mb23XZoWQKnUNoYR/7D7peml3E2BAC8REjAjLVAAQJaChVt198jDfjy8TEl1t/YAn3WOQsjLmAHUF1OmZ5wtBw=="
+    "value": "T4AgWZwitoKKuY1pJnTMpyzz2ZHZ6Zh0hY0i+oEG3kGrkx2f4iU0+p5Ujug9mBL+I3tNvJgnti5xAtm1ST9IDw=="
   }
 }
