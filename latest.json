@@ -1,12 +1,12 @@
 {
-  "version": "2.8.164",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.164/Xingzhou-Film-Tencent-Setup-2.8.164.exe",
-  "notes": "# 行舟影视 2.8.164\n\n- 修复大项目读取反复传输完整项目造成的云端请求超时。大项目快照会保留并使用版本校验，后续读取只传输变化。\n- 延长大项目读取的首次等待时间，减少网络稍慢时客户端主动中断请求。\n- 激活页遇到临时云端连接失败会自动重试，恢复后可继续进入软件。",
-  "sha256": "df650e5cefa83979fa7724611563b8c933bb4a8ec8cde14ab4d93fd27b6e76c9",
-  "size": 104121199,
-  "publishedAt": "2026-11-14T08:13:14.045819+00:00",
+  "version": "2.8.165",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.165/Xingzhou-Film-Tencent-Setup-2.8.165.exe",
+  "notes": "# 行舟影视 2.8.165\n\n- 修复腾讯云版切换用户数据目录后，旧版管理员登录会话未迁移，导致管理员被错误要求输入卡密的问题。\n- 启动时安全迁移旧目录中的登录会话和授权设备状态，已有新目录状态不会被覆盖。",
+  "sha256": "4b05d1fa1e1da4de8cac024f25cc65db3321217ea67afb6e4a2dd2ca0d59011c",
+  "size": 104137614,
+  "publishedAt": "2026-11-14T08:36:46.923627+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "0PiwR2JePMGWZmJw8JwImB4+7hw1fXUN9v3ySGScCzBD0bG2sDu3RLyhjcJinGwxTPkMXExYIVYQHE9u5xQ+BQ=="
+    "value": "ZkWByKOGcr3bb/kArcd1vTXoVB2cduCLmSJKl/CpZnlQJ8pP7DEJfYJt3QRROAYMorBgZVPnCWzXcNwYEOWjCg=="
   }
 }
