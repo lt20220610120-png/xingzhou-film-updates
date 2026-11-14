@@ -1,0 +1,42 @@
+name: Upload verified 2.8.163 installer
+on:
+  push:
+    branches: [codex/release-2.8.163-upload]
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Restore and verify installer from published baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release download v2.8.162 --pattern Xingzhou-Film-Tencent-Setup-2.8.162.exe
+          gh api "repos/$GH_REPO/contents/release-2.8.163-delta.zip?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > release-delta.zip
+          python3 -u - <<'PY'
+          import hashlib,json,pathlib,zipfile
+          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.162.exe').read_bytes()
+          assert hashlib.sha256(old).hexdigest()=='3986bb75a2da4bf918e3b260db9f5dd399a388b7ff61766d2ec608b4dcb38f45'
+          with zipfile.ZipFile('release-delta.zip') as bundle:
+              changed=bundle.read('changed')
+              chunks=json.loads(bundle.read('chunks.json'))
+              data=b''.join((changed if source else old)[at:at+size] for source,at,size in chunks)
+          assert len(data)==104136342
+          assert hashlib.sha256(data).hexdigest()=='5b9d204444c1a2da1eeb927dfccfed6ab82d697fa25547079f53389989e71355'
+          pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.163.exe').write_bytes(data)
+          print('Installer SHA256 verified',flush=True)
+          PY
+      - name: Upload verified installer to draft release
+        shell: bash
+        run: |
+          set -euo pipefail
+          name=Xingzhou-Film-Tencent-Setup-2.8.163.exe
+          api=$(gh release view v2.8.163 --json apiUrl --jq .apiUrl)
+          existing=$(gh api "$api" --jq ".assets[] | select(.name == \"$name\").state")
+          if test -z "$existing"; then gh release upload v2.8.163 "$name"; fi
+          test "$(gh api "$api" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = "sha256:5b9d204444c1a2da1eeb927dfccfed6ab82d697fa25547079f53389989e71355"
