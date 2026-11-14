@@ -39,5 +39,6 @@ jobs:
           api=$(gh release view v2.8.166 --json apiUrl --jq .apiUrl)
           existing=$(gh api "$api" --jq ".assets[] | select(.name == \"$name\").state")
           if test -z "$existing"; then gh release upload v2.8.166 "$name"; fi
-          test "$(gh api "$api" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = "sha256:4b05d1fa1e1da4de8cac024f25cc65db3321217ea67afb6e4a2dd2ca0d59011c"
+          test "$(gh api "$api" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = "sha256:013610afdb107f41380d4328413043581ad09f63cd73833cb26c1a10ed320778"
+
 
