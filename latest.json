@@ -1,12 +1,12 @@
 {
-  "version": "2.8.163",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.163/Xingzhou-Film-Tencent-Setup-2.8.163.exe",
-  "notes": "# 行舟影视 2.8.163\n\n- 修复项目协作中，同一版本的提示词重新关联后，重复素材缺项导致「一键确认全部无需参考图」和勾选确认无法保存的问题。已有待处理记录可继续确认。\n- 结束异常中断任务遗留状态对确认的阻挡。核实并发布后，当前提示词和已关联的素材会一起进入分镜。",
-  "sha256": "5b9d204444c1a2da1eeb927dfccfed6ab82d697fa25547079f53389989e71355",
-  "size": 104136342,
-  "publishedAt": "2026-11-14T02:22:08.841239+00:00",
+  "version": "2.8.164",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.164/Xingzhou-Film-Tencent-Setup-2.8.164.exe",
+  "notes": "# 行舟影视 2.8.164\n\n- 修复大项目读取反复传输完整项目造成的云端请求超时。大项目快照会保留并使用版本校验，后续读取只传输变化。\n- 延长大项目读取的首次等待时间，减少网络稍慢时客户端主动中断请求。\n- 激活页遇到临时云端连接失败会自动重试，恢复后可继续进入软件。",
+  "sha256": "df650e5cefa83979fa7724611563b8c933bb4a8ec8cde14ab4d93fd27b6e76c9",
+  "size": 104121199,
+  "publishedAt": "2026-11-14T08:13:14.045819+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "T4AgWZwitoKKuY1pJnTMpyzz2ZHZ6Zh0hY0i+oEG3kGrkx2f4iU0+p5Ujug9mBL+I3tNvJgnti5xAtm1ST9IDw=="
+    "value": "0PiwR2JePMGWZmJw8JwImB4+7hw1fXUN9v3ySGScCzBD0bG2sDu3RLyhjcJinGwxTPkMXExYIVYQHE9u5xQ+BQ=="
   }
 }
