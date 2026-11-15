@@ -1,12 +1,12 @@
 {
-  "version": "2.8.169",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.169/Xingzhou-Film-Tencent-Setup-2.8.169.exe",
-  "notes": "# 行舟影视 2.8.169\n\n发布日期：2026-11-15\n\n- 内置美术清单升级为 v5.1：新增妆造前先确认按剧本发生的服饰转变或可见身体转变，动作、情绪、累了、疲倦、疲惫、守夜、惊醒、持物等复用原套装，不再以剧情事件不断新建人物卡。\n- 信息读取对明确属于同一套服装的临时状态进行归并，保留出现集数并同步修正逐场对应表；保存发布也沿用同一套装身份。\n- 因场合或剧情实际换衣、受伤及战斗后的可见伤痕、不同年龄或形态继续保留，不因伤势轻微或角色级别直接删除必要差异，不设置10套的硬上限。\n- 已保存的图片、手工信息和已核实发布记录保留；本更新不自动删除历史人物卡，也不自动重新执行付费分析。",
-  "sha256": "8608abc6ea0d47f0ceeb0a7a8be1ef2fc276809ddc301fcc1959faee23fb750f",
-  "size": 104126999,
-  "publishedAt": "2026-11-15T10:01:38.161875+00:00",
+  "version": "2.8.170",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.170/Xingzhou-Film-Tencent-Setup-2.8.170.exe",
+  "notes": "# 行舟影视 2.8.170\n\n- 修复原图已经取回、保存云端却失败的问题：桌面上传不再手动设置 Chromium 不接受的长度头，保留原图和原任务继续保存。上传错误保留具体原因，不再把参数错误统称网络故障。\n- 普通视频结果默认保存链接，点击窗口直接预览，可按需下载到本地；后台不再自动把成功视频上传到云端。\n- 协作项目的视频结果新增“上传到云端”，点击后才下载并上传协作副本；失败保留本地文件，再次操作先核对已有记录，减少重复上传。\n- 自动化任务需要的本地视频下载继续保留；需要接口鉴权才能访问的内容继续使用原下载通道。已有视频和项目资料保留。",
+  "sha256": "cbca4c2e959270409b9194282b11fefa97039a79398a7694c359bc7d70bc98ca",
+  "size": 104142968,
+  "publishedAt": "2026-11-15T14:09:26.286627+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "nMgpeDOT+qM8EKpDCX+BnsvAP6BQFaWWk5FQFXKSDi/iUrFNysb83VsDDMqIpyXSf8wS0tvlbiwEKoYVcU9uAQ=="
+    "value": "fHUrbCDPhh1pR347CzVT0j7MQiUEu6Qv0QZ0eD+VIxtH7I99PwAIPwu+rmaQeOf+BtaN4BEC5LVxwD7gQNQlBg=="
   }
 }
