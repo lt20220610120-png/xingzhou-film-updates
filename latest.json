@@ -1,12 +1,12 @@
 {
-  "version": "2.8.168",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.168/Xingzhou-Film-Tencent-Setup-2.8.168.exe",
-  "notes": "# 行舟影视 2.8.168\n\n- 统一云端、飞拓、FT、自定义视频接口和素材直传使用桌面系统代理/PAC；保留写入请求单次提交，避免网络中断时重复生成或重复扣费。\n- 自定义视频适配器的素材上传、任务提交、状态查询和结果下载改走统一网络层；任务状态继续落盘，断线后只查询原任务。\n- 分镜单条保存改为短确认回执，不再把整部大项目正文作为保存响应传回；回执丢失时读取云端同一条分镜核对，确认一致才继续生成，避免“已保存却显示未保存”。\n- 保存回执按分镜发布批次合并到当前页面，首次直接保存会建立本地独立分镜副本；账号切换期间不接受旧回执。\n- LibTV 账号、模型目录和节点只读查询断线后自动重新探测一次网络路径；创建项目、上传素材、创建节点和点击生成不自动重放。\n\n本版本重点解决跨接口的网络路径不一致、云端大项目保存回包过大及分镜保存确认丢失问题。真实付费生成仍遵循“提交一次、结果只查询”的原则。",
-  "sha256": "0ed39b7644ce3e8ad1159c7d581a4a2ecdd8bced405f2c44b15ed1b4e2f76f46",
-  "size": 104121092,
-  "publishedAt": "2026-11-15T02:08:14.550987+00:00",
+  "version": "2.8.169",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.169/Xingzhou-Film-Tencent-Setup-2.8.169.exe",
+  "notes": "# 行舟影视 2.8.169\n\n发布日期：2026-11-15\n\n- 内置美术清单升级为 v5.1：新增妆造前先确认按剧本发生的服饰转变或可见身体转变，动作、情绪、累了、疲倦、疲惫、守夜、惊醒、持物等复用原套装，不再以剧情事件不断新建人物卡。\n- 信息读取对明确属于同一套服装的临时状态进行归并，保留出现集数并同步修正逐场对应表；保存发布也沿用同一套装身份。\n- 因场合或剧情实际换衣、受伤及战斗后的可见伤痕、不同年龄或形态继续保留，不因伤势轻微或角色级别直接删除必要差异，不设置10套的硬上限。\n- 已保存的图片、手工信息和已核实发布记录保留；本更新不自动删除历史人物卡，也不自动重新执行付费分析。",
+  "sha256": "8608abc6ea0d47f0ceeb0a7a8be1ef2fc276809ddc301fcc1959faee23fb750f",
+  "size": 104126999,
+  "publishedAt": "2026-11-15T10:01:38.161875+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "cQAme15ZcltFz8MK/bbR2MoyAKQJbwjR60zXyAwn6X11pSnIq82cmasKgy06Z558Jn8kUGPO5qYIyl88IO8jBQ=="
+    "value": "nMgpeDOT+qM8EKpDCX+BnsvAP6BQFaWWk5FQFXKSDi/iUrFNysb83VsDDMqIpyXSf8wS0tvlbiwEKoYVcU9uAQ=="
   }
 }
