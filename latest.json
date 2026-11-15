@@ -1,12 +1,12 @@
 {
-  "version": "2.8.170",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.170/Xingzhou-Film-Tencent-Setup-2.8.170.exe",
-  "notes": "# 行舟影视 2.8.170\n\n- 修复原图已经取回、保存云端却失败的问题：桌面上传不再手动设置 Chromium 不接受的长度头，保留原图和原任务继续保存。上传错误保留具体原因，不再把参数错误统称网络故障。\n- 普通视频结果默认保存链接，点击窗口直接预览，可按需下载到本地；后台不再自动把成功视频上传到云端。\n- 协作项目的视频结果新增“上传到云端”，点击后才下载并上传协作副本；失败保留本地文件，再次操作先核对已有记录，减少重复上传。\n- 自动化任务需要的本地视频下载继续保留；需要接口鉴权才能访问的内容继续使用原下载通道。已有视频和项目资料保留。",
-  "sha256": "cbca4c2e959270409b9194282b11fefa97039a79398a7694c359bc7d70bc98ca",
-  "size": 104142968,
-  "publishedAt": "2026-11-15T14:09:26.286627+00:00",
+  "version": "2.8.171",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.171/Xingzhou-Film-Tencent-Setup-2.8.171.exe",
+  "notes": "# 2.8.171\n\n- 修复参考图生图时，“服装改为……”等自然语言换装、身体变化描述被差异提取规则误删，导致结果仍沿用参考图服饰的问题。\n- 单张、批量生图及保存后的提示词完整保留自然语言差异；人物身份参考和原有图片继续保留。\n- 验证生成、返回、保存、预览全链路：参考图与新结果分别核对，保存重试仅恢复原结果，不重复提交生成。\n\n此前已生成的图片不会自动改变。需要新造型时，请在更新后重新生成；“继续保存图片”仍只保存此前的结果。",
+  "sha256": "299e79da951c1c083cb787c2edcc29e3f4bb38e2e0f9a23fcb35ffebf7ee150c",
+  "size": 104146020,
+  "publishedAt": "2026-11-15T15:09:20.404701+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "fHUrbCDPhh1pR347CzVT0j7MQiUEu6Qv0QZ0eD+VIxtH7I99PwAIPwu+rmaQeOf+BtaN4BEC5LVxwD7gQNQlBg=="
+    "value": "aYKrom5dtfq0Ab4cYQXxKPQFuLgIkkr/iJVO/N6LhtpQoUCZBRiWFdL2OE4uV6k0j6/y0wEYcGIwphTGMWMvCQ=="
   }
 }
