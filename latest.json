@@ -1,12 +1,12 @@
 {
-  "version": "2.8.167",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.167/Xingzhou-Film-Tencent-Setup-2.8.167.exe",
-  "notes": "# 行舟影视 2.8.167\n\n- 移除新增的管理员登录入口及其初始化崩溃，恢复读取本机登录状态进入工作区。\n- 修复旧目录中的过期会话在注销后反复导入。\n- 云端有效会话在使用期间续期，过期、注销和封禁凭据不会自动恢复。",
-  "sha256": "f5bae4425765812d16d6e62a822a6667a89f67a11b1abf0b2a794d2dde5f0df5",
-  "size": 104137535,
-  "publishedAt": "2026-11-14T09:46:12.232295+00:00",
+  "version": "2.8.168",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.168/Xingzhou-Film-Tencent-Setup-2.8.168.exe",
+  "notes": "# 行舟影视 2.8.168\n\n- 统一云端、飞拓、FT、自定义视频接口和素材直传使用桌面系统代理/PAC；保留写入请求单次提交，避免网络中断时重复生成或重复扣费。\n- 自定义视频适配器的素材上传、任务提交、状态查询和结果下载改走统一网络层；任务状态继续落盘，断线后只查询原任务。\n- 分镜单条保存改为短确认回执，不再把整部大项目正文作为保存响应传回；回执丢失时读取云端同一条分镜核对，确认一致才继续生成，避免“已保存却显示未保存”。\n- 保存回执按分镜发布批次合并到当前页面，首次直接保存会建立本地独立分镜副本；账号切换期间不接受旧回执。\n- LibTV 账号、模型目录和节点只读查询断线后自动重新探测一次网络路径；创建项目、上传素材、创建节点和点击生成不自动重放。\n\n本版本重点解决跨接口的网络路径不一致、云端大项目保存回包过大及分镜保存确认丢失问题。真实付费生成仍遵循“提交一次、结果只查询”的原则。",
+  "sha256": "0ed39b7644ce3e8ad1159c7d581a4a2ecdd8bced405f2c44b15ed1b4e2f76f46",
+  "size": 104121092,
+  "publishedAt": "2026-11-15T02:08:14.550987+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8pu/jO/muWOTSAwYVAPnp9XJEu8WDMwmYG15GjM+dbqmbVRIO8GyCRGOGAL7iNfONItP+qkFoRNxzDlU1//JAQ=="
+    "value": "cQAme15ZcltFz8MK/bbR2MoyAKQJbwjR60zXyAwn6X11pSnIq82cmasKgy06Z558Jn8kUGPO5qYIyl88IO8jBQ=="
   }
 }
