@@ -1,12 +1,12 @@
 {
-  "version": "2.8.174",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.174/Xingzhou-Film-Tencent-Setup-2.8.174.exe",
-  "notes": "# 行舟影视 2.8.174\n\n- 修复大型项目邀请已成功、负责人却收到「云端未确认本次保存」的问题。邀请只返回精简确认结果，项目内容和已同步素材仍完整保存。\n- 邀请确认中断时自动核对原请求。旧记录也可以通过「刷新本机资料」核对，已经加入的成员不会被重复邀请。",
-  "sha256": "8ba3a6b9c05908bce8064e7a07fd980f9e269c3ed8cd7be0ed9ab5799ab7bbd5",
-  "size": 104131599,
-  "publishedAt": "2026-11-16T14:12:38.074804+00:00",
+  "version": "2.8.175",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.175/Xingzhou-Film-Tencent-Setup-2.8.175.exe",
+  "notes": "# 行舟影视 2.8.175\n\n- 资产 → 道具新增按关联提示词数量筛选，默认「至少 2 条」。支持调整为 3、4、5 条及任意正整数，也可选择「至多」或「全部」。\n- 自动勾选符合条件且未生成的道具，一键生成仅处理选中的道具。已有图片默认跳过，支持手动调整勾选。\n- 道具卡片显示关联条数，同一提示词重复引用只计一次；采用实际保存的关联，不按出场集数估算。关联读取期间会等待，避免误选生成范围。",
+  "sha256": "eabfe82e9ced83861a8f7eb564cfdf263acaa85768d0e69379a2933a93e382a7",
+  "size": 104146435,
+  "publishedAt": "2026-11-16T16:24:57.019927+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "O4QRt2jv4g3lrTz86hmozRCk7WvtX3b1fWMQfK8CjNfN7QYMukQhshJ0JBB2hTAfEgylHFNwvw+Hgh2slo7oDQ=="
+    "value": "Y0ww2bDTbgs0EMPjJ+0bzCk6Q8RryHwFLxPf+z1mjziwTor6q7KeWqPax4AjJfbyk3WJWRloa36NsUxjBejqAA=="
   }
 }
