@@ -1,12 +1,12 @@
 {
-  "version": "2.8.173",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.173/Xingzhou-Film-Tencent-Setup-2.8.173.exe",
-  "notes": "# 行舟影视 2.8.173\n\n- 修复制片负责人首次邀请时，被分镜或采用音色里的失效素材拦住的问题。可用素材照常共享，暂不可用的项目会在邀请后提示补选；个人生成视频仍需主动上传才共享。\n- 清单核实遇到待补充项会保留提醒，并继续处理剩余提示词和场景。每项只跑一轮，整轮结束后保存结果、等待人工核实发布；需要补查时可再点「补齐素材关联」。\n- 缺项可一键确认无需补充，也可恢复为待补充，或返回对应场景补选。刷新项目不会重复请求模型。",
-  "sha256": "5f558b6410b2022a769191ce46daeb05d621e15c39e607991d5bb72f4f51ac03",
-  "size": 104134447,
-  "publishedAt": "2026-11-16T13:47:47.691105+00:00",
+  "version": "2.8.174",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.174/Xingzhou-Film-Tencent-Setup-2.8.174.exe",
+  "notes": "# 行舟影视 2.8.174\n\n- 修复大型项目邀请已成功、负责人却收到「云端未确认本次保存」的问题。邀请只返回精简确认结果，项目内容和已同步素材仍完整保存。\n- 邀请确认中断时自动核对原请求。旧记录也可以通过「刷新本机资料」核对，已经加入的成员不会被重复邀请。",
+  "sha256": "8ba3a6b9c05908bce8064e7a07fd980f9e269c3ed8cd7be0ed9ab5799ab7bbd5",
+  "size": 104131599,
+  "publishedAt": "2026-11-16T14:12:38.074804+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "0EnwOg3hnpZstfOcpn86/XaKJ5u76Vo9fNjwbmIN/AB98e/nprimCICka9eemaoxiVUfGT2Jk1Nia7fus5CIBQ=="
+    "value": "O4QRt2jv4g3lrTz86hmozRCk7WvtX3b1fWMQfK8CjNfN7QYMukQhshJ0JBB2hTAfEgylHFNwvw+Hgh2slo7oDQ=="
   }
 }
