@@ -1,12 +1,12 @@
 {
-  "version": "2.8.172",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.172/Xingzhou-Film-Tencent-Setup-2.8.172.exe",
-  "notes": "# 行舟影视 2.8.172\n\n- 修复项目协作中清单已核实、提示词已关联，但其他协作者看不到关联及分镜参考图的问题。关联保存后随项目共享，协作者刷新即可读取，不需要邀请者先点击生成。\n- 普通项目协作者可以读取已保存的关联；美术编辑权限仍按项目角色执行。多人同时保存时检查版本，避免覆盖其他人的更新。\n- 原来仅保存在本机的旧关联，在原操作人更新后打开该项目的清单核实或分镜时同步；邀请新成员时一并带入。参与者均需升级到此版本。\n- 视频继续默认保留生成者本机的结果链接、在窗口预览；只有明确点击“上传到云端”后才共享给项目成员。按需本地下载和自动化所需下载保留。",
-  "sha256": "d7f2353118d9f25b1bb354f9eab6314bb52e203853c5e696610f8ba76be74fa0",
-  "size": 104131082,
-  "publishedAt": "2026-11-16T02:45:08.166491+00:00",
+  "version": "2.8.173",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.173/Xingzhou-Film-Tencent-Setup-2.8.173.exe",
+  "notes": "# 行舟影视 2.8.173\n\n- 修复制片负责人首次邀请时，被分镜或采用音色里的失效素材拦住的问题。可用素材照常共享，暂不可用的项目会在邀请后提示补选；个人生成视频仍需主动上传才共享。\n- 清单核实遇到待补充项会保留提醒，并继续处理剩余提示词和场景。每项只跑一轮，整轮结束后保存结果、等待人工核实发布；需要补查时可再点「补齐素材关联」。\n- 缺项可一键确认无需补充，也可恢复为待补充，或返回对应场景补选。刷新项目不会重复请求模型。",
+  "sha256": "5f558b6410b2022a769191ce46daeb05d621e15c39e607991d5bb72f4f51ac03",
+  "size": 104134447,
+  "publishedAt": "2026-11-16T13:47:47.691105+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "KLj8nE++sW5yBnxguFyHmE/sWyxsmyMw9BM/dSAkh1Sx6ks/DBb8DuRxtbbl9OhI/GQj15CPHov4n/GKdw1wBg=="
+    "value": "0EnwOg3hnpZstfOcpn86/XaKJ5u76Vo9fNjwbmIN/AB98e/nprimCICka9eemaoxiVUfGT2Jk1Nia7fus5CIBQ=="
   }
 }
