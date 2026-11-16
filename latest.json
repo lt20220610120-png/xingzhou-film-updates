@@ -1,12 +1,12 @@
 {
-  "version": "2.8.171",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.171/Xingzhou-Film-Tencent-Setup-2.8.171.exe",
-  "notes": "# 2.8.171\n\n- 修复参考图生图时，“服装改为……”等自然语言换装、身体变化描述被差异提取规则误删，导致结果仍沿用参考图服饰的问题。\n- 单张、批量生图及保存后的提示词完整保留自然语言差异；人物身份参考和原有图片继续保留。\n- 验证生成、返回、保存、预览全链路：参考图与新结果分别核对，保存重试仅恢复原结果，不重复提交生成。\n\n此前已生成的图片不会自动改变。需要新造型时，请在更新后重新生成；“继续保存图片”仍只保存此前的结果。",
-  "sha256": "299e79da951c1c083cb787c2edcc29e3f4bb38e2e0f9a23fcb35ffebf7ee150c",
-  "size": 104146020,
-  "publishedAt": "2026-11-15T15:09:20.404701+00:00",
+  "version": "2.8.172",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.172/Xingzhou-Film-Tencent-Setup-2.8.172.exe",
+  "notes": "# 行舟影视 2.8.172\n\n- 修复项目协作中清单已核实、提示词已关联，但其他协作者看不到关联及分镜参考图的问题。关联保存后随项目共享，协作者刷新即可读取，不需要邀请者先点击生成。\n- 普通项目协作者可以读取已保存的关联；美术编辑权限仍按项目角色执行。多人同时保存时检查版本，避免覆盖其他人的更新。\n- 原来仅保存在本机的旧关联，在原操作人更新后打开该项目的清单核实或分镜时同步；邀请新成员时一并带入。参与者均需升级到此版本。\n- 视频继续默认保留生成者本机的结果链接、在窗口预览；只有明确点击“上传到云端”后才共享给项目成员。按需本地下载和自动化所需下载保留。",
+  "sha256": "d7f2353118d9f25b1bb354f9eab6314bb52e203853c5e696610f8ba76be74fa0",
+  "size": 104131082,
+  "publishedAt": "2026-11-16T02:45:08.166491+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "aYKrom5dtfq0Ab4cYQXxKPQFuLgIkkr/iJVO/N6LhtpQoUCZBRiWFdL2OE4uV6k0j6/y0wEYcGIwphTGMWMvCQ=="
+    "value": "KLj8nE++sW5yBnxguFyHmE/sWyxsmyMw9BM/dSAkh1Sx6ks/DBb8DuRxtbbl9OhI/GQj15CPHov4n/GKdw1wBg=="
   }
 }
