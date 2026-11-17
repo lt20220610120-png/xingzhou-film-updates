@@ -1,12 +1,12 @@
 {
-  "version": "2.8.177",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.177/Xingzhou-Film-Tencent-Setup-2.8.177.exe",
-  "notes": "# 行舟影视 2.8.177\n\n- 信息读取的分析方式新增「无需核实发布」。选择后点击分析／继续未完成，扫描和关联整剧后自动确认待处理项无需补充，再核实并发布全剧提示词，无需进入清单核实逐步操作。\n- 自动处理保留逐条记录，可随时返回清单核实、恢复待补充、整理素材并重新核实发布。\n- 刷新页面不会自动发布；停任务、权限、来源变化与保存失败继续保留真实状态，已完成内容可接续。",
-  "sha256": "f5bf0c5ea4dc0914dec5be44bf4cb9d2ae08b1f5e6f636b8fa1f6e461b697ab2",
-  "size": 104136001,
-  "publishedAt": "2026-11-17T06:50:32.236382+00:00",
+  "version": "2.8.178",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.178/Xingzhou-Film-Tencent-Setup-2.8.178.exe",
+  "notes": "# 2.8.178\n\n- 优化全剧提示词发布：分镜发布返回精简回执，批次合并保存发布结果，减少大型项目重复传输。逐集显示云端发布进度，失败集可继续发布。\n- 项目协作 → 资产 → 角色新增「只生成默认参考妆造」：每个人先生成缺少图片的默认参考妆造，其他妆造暂不生成。原「一键生成人物」保留。",
+  "sha256": "c68c9fc1d8574578fa2cb280e1ee0f142d7b94e021a68526420f3e4acd0d1ace",
+  "size": 104152059,
+  "publishedAt": "2026-11-17T07:41:33.246858+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "UkxV1aKKvqQUdNaIyr+CxMGriSaJowuxhDLTH6P4AmYzF/aYCWJ2izgc0Iy7FTJBpmmRozTZ7UqCqIh/AWpYDQ=="
+    "value": "m3k5EDGnTiZox11gVm8p0uQq8cGN8z/BI06Qoqum33KhsgPyBrNpJfprAp8WfIugZpWnfhHXtQV1VUG6nS1LAw=="
   }
 }
