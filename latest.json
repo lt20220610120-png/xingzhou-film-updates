@@ -1,12 +1,12 @@
 {
-  "version": "2.8.176",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.176/Xingzhou-Film-Tencent-Setup-2.8.176.exe",
-  "notes": "# 行舟影视 2.8.176\n\n- 项目协作的每条分镜新增「导入本场景素材」，一键补入所属场景关联的已采用图片、已就绪音色与场景上传素材，补齐提示词关联遗漏。\n- 导入保留原有手选素材与提示词，重复点击不会重复添加；可逐张叉掉不属于本条提示词的素材，再直接生成。\n- 手工选择随分镜保存，刷新、重开和批量生成保留调整结果；可用恢复素材或再次导入补回，沿用模型素材数量上限与协作权限。",
-  "sha256": "bd08bdb7a8da04b4f056475436a2f0e1bfa05faa3bc2079c20d4e66251bd0023",
-  "size": 104133001,
-  "publishedAt": "2026-11-17T06:24:08.812644+00:00",
+  "version": "2.8.177",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.177/Xingzhou-Film-Tencent-Setup-2.8.177.exe",
+  "notes": "# 行舟影视 2.8.177\n\n- 信息读取的分析方式新增「无需核实发布」。选择后点击分析／继续未完成，扫描和关联整剧后自动确认待处理项无需补充，再核实并发布全剧提示词，无需进入清单核实逐步操作。\n- 自动处理保留逐条记录，可随时返回清单核实、恢复待补充、整理素材并重新核实发布。\n- 刷新页面不会自动发布；停任务、权限、来源变化与保存失败继续保留真实状态，已完成内容可接续。",
+  "sha256": "f5bf0c5ea4dc0914dec5be44bf4cb9d2ae08b1f5e6f636b8fa1f6e461b697ab2",
+  "size": 104136001,
+  "publishedAt": "2026-11-17T06:50:32.236382+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "YOh8eqAFbH7bnuN3nk7yA8LndNiZYQt79ojAuatwwCcu5pD4g3qK3Bnc7EGZq5Khl/P5M49X5uRbRmxYYqZMBw=="
+    "value": "UkxV1aKKvqQUdNaIyr+CxMGriSaJowuxhDLTH6P4AmYzF/aYCWJ2izgc0Iy7FTJBpmmRozTZ7UqCqIh/AWpYDQ=="
   }
 }
