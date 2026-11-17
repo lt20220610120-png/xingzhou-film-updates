@@ -1,12 +1,12 @@
 {
-  "version": "2.8.178",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.178/Xingzhou-Film-Tencent-Setup-2.8.178.exe",
-  "notes": "# 2.8.178\n\n- 优化全剧提示词发布：分镜发布返回精简回执，批次合并保存发布结果，减少大型项目重复传输。逐集显示云端发布进度，失败集可继续发布。\n- 项目协作 → 资产 → 角色新增「只生成默认参考妆造」：每个人先生成缺少图片的默认参考妆造，其他妆造暂不生成。原「一键生成人物」保留。",
-  "sha256": "c68c9fc1d8574578fa2cb280e1ee0f142d7b94e021a68526420f3e4acd0d1ace",
-  "size": 104152059,
-  "publishedAt": "2026-11-17T07:41:33.246858+00:00",
+  "version": "2.8.179",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.179/Xingzhou-Film-Tencent-Setup-2.8.179.exe",
+  "notes": "提示词素材关联与清单核实优化\n\n- 新增全剧素材总览：按集、场景、提示词查看已关联、已发布、分镜就绪及失败状态，点击即可定位具体提示词。\n- 显示关联队列的实际阶段、等待顺序与下一条，失败原因保留在对应提示词下。\n- 修复旧关联记录经云端保存后被误判失效、已采用图片未补入已发布分镜的问题；符合原有关联依据的记录可恢复，无需重新调用模型。\n- 关联保存采用轻量回执；回执丢失时自动核对已提交结果，减少长时间等待及“云端未确认保存”。\n- “无需参考图”仅处理选中的缺项；有画面、场景有素材但零关联的提示词会被拦截，不能当成关联完成。\n- 明确区分场景清单发布、提示词发布与素材就绪。分镜缺少关联或素材时显示原因，并可直接返回对应提示词处理。\n\n关联结果自动保存。“无需参考图”不会代替核实发布。旧核实记录若无法证明与当前内容一致，需要重新核实；已采用素材会按原有关联恢复。",
+  "sha256": "062b4e94d9fe026d7a52e197d5032332431ac725c34f83ee667e039c3bda8698",
+  "size": 104098052,
+  "publishedAt": "2026-11-17T17:27:26.512197+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "m3k5EDGnTiZox11gVm8p0uQq8cGN8z/BI06Qoqum33KhsgPyBrNpJfprAp8WfIugZpWnfhHXtQV1VUG6nS1LAw=="
+    "value": "llnYllsQW1Kb6kwCKXhcEqdbGKHjjLr1lR1+Pbj8sHeg5B55KSnHeObUPNXM7/8EE27AvmuzBko9zNm+q22vCg=="
   }
 }
