@@ -1,12 +1,12 @@
 {
-  "version": "2.8.181",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.181/Xingzhou-Film-Tencent-Setup-2.8.181.exe",
-  "notes": "移除已停用的协作项目整表替换美术资产接口。",
-  "sha256": "e6ce726e852d255a3efe5f78f17bbcafedb4ad6db5fb574a621c802749a5c40a",
-  "size": 104100407,
-  "publishedAt": "2026-11-18T02:12:41.914482+00:00",
+  "version": "2.8.182",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.182/Xingzhou-Film-Tencent-Setup-2.8.182.exe",
+  "notes": "修复部分大型协作项目点击后长时间停在列表的问题。减少项目资料的网络传输量，打开时显示进度，失败后可在对应卡片直接重试。",
+  "sha256": "31d5371bdd82efcbd9bd80a82327db7dad86391c1acb2583b8d7152fe411d49c",
+  "size": 104097936,
+  "publishedAt": "2026-11-18T02:38:11.586027+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "dKyXR/slvbpuqW1Etf0Lt+LDhhFO6x2f3kU30jbYWNHv11uGjbmXSgd0p/mPzj3pC0jPHDK4+r8iISaIUcNEAA=="
+    "value": "wqvobHVpHNfPovWMVKx5p+QWKF9Zcauw4i9KIeA4ymb+V9fmXEjXryUgGczUzttIh+k2O+J/L4fdO/Pp0mm1Dw=="
   }
 }
