@@ -1,12 +1,12 @@
 {
-  "version": "2.8.180",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.180/Xingzhou-Film-Tencent-Setup-2.8.180.exe",
-  "notes": "项目协作、素材和生成任务修复\n\n- 修复更新任务状态时新增空任务、分配后负责人丢失、按成员编号调整角色或移除成员失效，以及美术成员无法手动创建资产。\n- 修复素材文件名与提示词编号重名时引用错位。两次同时导出到同一目录会分别保存，音频 MP4 保留原后缀。\n- 本机项目分享和协作上传正确识别 FLAC、AAC、OGG、M4A 及音频 MP4。\n- Like 同页可以并发提交，等待授权期间若切换了视频节点会终止原提交。取消或超时会释放参考素材。已完成的通用视频任务不会因再次查询上游而误报失败。\n- 提示词绑定重试复用已保存结果，减少大项目的清单复制和写入。",
-  "sha256": "cc75c0f2f92b9840a85b67cdbd5394ad30cf8c6119d03ab006d47b73da9e8dd0",
-  "size": 104098002,
-  "publishedAt": "2026-11-18T01:38:44.979953+00:00",
+  "version": "2.8.181",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.181/Xingzhou-Film-Tencent-Setup-2.8.181.exe",
+  "notes": "移除已停用的协作项目整表替换美术资产接口。",
+  "sha256": "e6ce726e852d255a3efe5f78f17bbcafedb4ad6db5fb574a621c802749a5c40a",
+  "size": 104100407,
+  "publishedAt": "2026-11-18T02:12:41.914482+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "s7K1ewG+eI/IsKrSfVakOAC8FJ5VyQwVubRF4yJTN1QNaQRZ/JKT2oVm47uOp/YmqZStnSXqG6m7kTMz76JNAg=="
+    "value": "dKyXR/slvbpuqW1Etf0Lt+LDhhFO6x2f3kU30jbYWNHv11uGjbmXSgd0p/mPzj3pC0jPHDK4+r8iISaIUcNEAA=="
   }
 }
