@@ -1,12 +1,12 @@
 {
-  "version": "2.8.179",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.179/Xingzhou-Film-Tencent-Setup-2.8.179.exe",
-  "notes": "提示词素材关联与清单核实优化\n\n- 新增全剧素材总览：按集、场景、提示词查看已关联、已发布、分镜就绪及失败状态，点击即可定位具体提示词。\n- 显示关联队列的实际阶段、等待顺序与下一条，失败原因保留在对应提示词下。\n- 修复旧关联记录经云端保存后被误判失效、已采用图片未补入已发布分镜的问题；符合原有关联依据的记录可恢复，无需重新调用模型。\n- 关联保存采用轻量回执；回执丢失时自动核对已提交结果，减少长时间等待及“云端未确认保存”。\n- “无需参考图”仅处理选中的缺项；有画面、场景有素材但零关联的提示词会被拦截，不能当成关联完成。\n- 明确区分场景清单发布、提示词发布与素材就绪。分镜缺少关联或素材时显示原因，并可直接返回对应提示词处理。\n\n关联结果自动保存。“无需参考图”不会代替核实发布。旧核实记录若无法证明与当前内容一致，需要重新核实；已采用素材会按原有关联恢复。",
-  "sha256": "062b4e94d9fe026d7a52e197d5032332431ac725c34f83ee667e039c3bda8698",
-  "size": 104098052,
-  "publishedAt": "2026-11-17T17:27:26.512197+00:00",
+  "version": "2.8.180",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.180/Xingzhou-Film-Tencent-Setup-2.8.180.exe",
+  "notes": "项目协作、素材和生成任务修复\n\n- 修复更新任务状态时新增空任务、分配后负责人丢失、按成员编号调整角色或移除成员失效，以及美术成员无法手动创建资产。\n- 修复素材文件名与提示词编号重名时引用错位。两次同时导出到同一目录会分别保存，音频 MP4 保留原后缀。\n- 本机项目分享和协作上传正确识别 FLAC、AAC、OGG、M4A 及音频 MP4。\n- Like 同页可以并发提交，等待授权期间若切换了视频节点会终止原提交。取消或超时会释放参考素材。已完成的通用视频任务不会因再次查询上游而误报失败。\n- 提示词绑定重试复用已保存结果，减少大项目的清单复制和写入。",
+  "sha256": "cc75c0f2f92b9840a85b67cdbd5394ad30cf8c6119d03ab006d47b73da9e8dd0",
+  "size": 104098002,
+  "publishedAt": "2026-11-18T01:38:44.979953+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "llnYllsQW1Kb6kwCKXhcEqdbGKHjjLr1lR1+Pbj8sHeg5B55KSnHeObUPNXM7/8EE27AvmuzBko9zNm+q22vCg=="
+    "value": "s7K1ewG+eI/IsKrSfVakOAC8FJ5VyQwVubRF4yJTN1QNaQRZ/JKT2oVm47uOp/YmqZStnSXqG6m7kTMz76JNAg=="
   }
 }
