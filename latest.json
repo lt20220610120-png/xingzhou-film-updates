@@ -1,12 +1,12 @@
 {
-  "version": "2.8.186",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.186/Xingzhou-Film-Tencent-Setup-2.8.186.exe",
-  "notes": "- 参考素材选择器和分镜只展示有采用图的资产卡。已关联的卡片采用图片后自动出现，换图直接使用新采用图。\n- 生成时跳过暂无采用图的资产卡，并按本次实际上传图片顺排提示词中的图片编号。",
-  "sha256": "3691528373bfebd59622cc45f5e0093ca4fcbf174ff22e93628ee9ac1637044e",
-  "size": 104110009,
-  "publishedAt": "2026-11-19T08:41:23.063798+00:00",
+  "version": "2.8.187",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.187/Xingzhou-Film-Tencent-Setup-2.8.187.exe",
+  "notes": "- 视频池支持按选择批量上传成片到项目云端，并列出上传失败的分镜。\n- 修复 LibTV 参考素材上传使用错误代理路径的问题。连接超时时重试当前素材，失败时显示具体编号。\n- 资产页去掉参考图旁重复的换装说明。",
+  "sha256": "34692d3daeeae1c62d348d6c9e6b92a1534973c107f7449a9e64313da25cb709",
+  "size": 104108415,
+  "publishedAt": "2026-11-19T10:31:00.167830+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "FlL52gMF6TmyJwHmZzG/pOeVsB7aL6y7b4o4OcalsoEOyyZfu+FehS1LgRyX76/HBkL+7jgsft5+x419rOgyCA=="
+    "value": "k8X2gALOE/c7eb86RHPPb4dnMlKUG2tegvlQlavN8xbeVk289KdG/wA8Yhw31pokFROWr9O4B2AsvWeujcHnBg=="
   }
 }
