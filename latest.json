@@ -1,12 +1,12 @@
 {
-  "version": "2.8.184",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.184/Xingzhou-Film-Tencent-Setup-2.8.184.exe",
-  "notes": "- 项目协作人物参考换装仅改变服装、鞋履和必要的发型、饰品。脸、肤色、肤质和原有妆容沿用参考图。\n- 美术读取、AI 修改、单张和批量生图统一换装规则。旧卡混写的服装与饰品会保留，皮肤、妆面描述会从换装提示词中移除。\n- 角色手写提示词可直接生图，无需填写脸型或五官描述。",
-  "sha256": "e64ee67fa3eadb3074578717057b898402a23e6eb995cfab56c2f496b62136b9",
-  "size": 104105018,
-  "publishedAt": "2026-11-19T03:46:35.241990+00:00",
+  "version": "2.8.185",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.185/Xingzhou-Film-Tencent-Setup-2.8.185.exe",
+  "notes": "- 分镜图片统一关联资产卡片，显示并提交当前已采用的图片。换图后沿用原分镜引用位置，无需删除再添加。\n- 旧分镜的资产卡引用直接兼容，分镜素材选择、清单发布和批量生成使用同一规则。缺少采用图时指明资产卡和图片编号。",
+  "sha256": "984d9945a049077b623e75086a82758f8108447d9ebcbb2409dca753be69e8ab",
+  "size": 104106200,
+  "publishedAt": "2026-11-19T06:19:51.865113+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "3Yzv6PdHOktTOqhkFfHoSmpXW8L8Tdpy4VQM5NWFNlC/TUmfO958yf/vZnklRANTokMEbeJx7E/LHPeo36qoAw=="
+    "value": "1tm0YE1eMpBpTgLZ2eo/AWnOzcHSoCz2Xp3ZefMd0btaKt2pDDLGzxWEjWvAshkGbDIOrW6RrK3pCJ5AZeicBw=="
   }
 }
