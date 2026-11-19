@@ -1,12 +1,12 @@
 {
-  "version": "2.8.187",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.187/Xingzhou-Film-Tencent-Setup-2.8.187.exe",
-  "notes": "- 视频池支持按选择批量上传成片到项目云端，并列出上传失败的分镜。\n- 修复 LibTV 参考素材上传使用错误代理路径的问题。连接超时时重试当前素材，失败时显示具体编号。\n- 资产页去掉参考图旁重复的换装说明。",
-  "sha256": "34692d3daeeae1c62d348d6c9e6b92a1534973c107f7449a9e64313da25cb709",
-  "size": 104108415,
-  "publishedAt": "2026-11-19T10:31:00.167830+00:00",
+  "version": "2.8.188",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.188/Xingzhou-Film-Tencent-Setup-2.8.188.exe",
+  "notes": "- 修复项目协作分镜上传 LibTV 画布时，官方素材存储地址被连接器误拦截的问题。",
+  "sha256": "f4d85c442a5b82bce5954fd34f25b1f5edb0464a239fd8a01959ef71dfc45061",
+  "size": 104108531,
+  "publishedAt": "2026-11-19T11:12:51.947018+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "k8X2gALOE/c7eb86RHPPb4dnMlKUG2tegvlQlavN8xbeVk289KdG/wA8Yhw31pokFROWr9O4B2AsvWeujcHnBg=="
+    "value": "+oaRFP5IaFCZBbGXPW1WN5PIdR22RnlBzIuLURFvUJZS0oHP4XvshXcCcN+ZZgLIejX/7ivtsL/e9F123buPCg=="
   }
 }
