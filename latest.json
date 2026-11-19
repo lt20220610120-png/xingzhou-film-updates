@@ -1,12 +1,12 @@
 {
-  "version": "2.8.185",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.185/Xingzhou-Film-Tencent-Setup-2.8.185.exe",
-  "notes": "- 分镜图片统一关联资产卡片，显示并提交当前已采用的图片。换图后沿用原分镜引用位置，无需删除再添加。\n- 旧分镜的资产卡引用直接兼容，分镜素材选择、清单发布和批量生成使用同一规则。缺少采用图时指明资产卡和图片编号。",
-  "sha256": "984d9945a049077b623e75086a82758f8108447d9ebcbb2409dca753be69e8ab",
-  "size": 104106200,
-  "publishedAt": "2026-11-19T06:19:51.865113+00:00",
+  "version": "2.8.186",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.186/Xingzhou-Film-Tencent-Setup-2.8.186.exe",
+  "notes": "- 参考素材选择器和分镜只展示有采用图的资产卡。已关联的卡片采用图片后自动出现，换图直接使用新采用图。\n- 生成时跳过暂无采用图的资产卡，并按本次实际上传图片顺排提示词中的图片编号。",
+  "sha256": "3691528373bfebd59622cc45f5e0093ca4fcbf174ff22e93628ee9ac1637044e",
+  "size": 104110009,
+  "publishedAt": "2026-11-19T08:41:23.063798+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "1tm0YE1eMpBpTgLZ2eo/AWnOzcHSoCz2Xp3ZefMd0btaKt2pDDLGzxWEjWvAshkGbDIOrW6RrK3pCJ5AZeicBw=="
+    "value": "FlL52gMF6TmyJwHmZzG/pOeVsB7aL6y7b4o4OcalsoEOyyZfu+FehS1LgRyX76/HBkL+7jgsft5+x419rOgyCA=="
   }
 }
