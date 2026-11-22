@@ -1,12 +1,12 @@
 {
-  "version": "2.8.191",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.191/Xingzhou-Film-Tencent-Setup-2.8.191.exe",
-  "notes": "## 项目协作\n\n- 修复本机项目首次邀请时，旧导演编号对应多份云端文档导致共享失败的问题。邀请沿用本机已绑定的云端导演项目，保留已发布提示词及素材关联。\n- 导演文档关联异常时，邀请界面会指出需要核对的环节，并持续显示错误，方便处理后重试。",
-  "sha256": "ad97e0d4c73728a1d046e4ea296d344326fe6e1a2084c5af49e613a0b71c638e",
-  "size": 104110605,
-  "publishedAt": "2026-11-22T07:21:26.358006+00:00",
+  "version": "2.8.192",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.192/Xingzhou-Film-Tencent-Setup-2.8.192.exe",
+  "notes": "## 资产图片\n\n- 修复项目资产的已采用图片被误判为非图片，导致带参考图的单张和批量生成在提交前失败。可沿用原来的参考图。\n- 生图接口返回错误时，显示接口状态和原因，方便区分素材读取与模型服务问题。",
+  "sha256": "328b747a04632a8a4445dca843c65a7e1fd6e0c46533e3a05fb9efa302c7c761",
+  "size": 104096894,
+  "publishedAt": "2026-11-22T07:28:39.692857+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "yKttkh9YgRSkDtZqKi8ve2mcH6IbZOkHNTkVKglF1/nMP0Xj5W6k8Mgq2NBUzO6eXuYzTbUPsqPhIL1tnrKkAA=="
+    "value": "PzhKPTd4B/7VKaixix3Xuk1lwpM9RRYnCL8MAxhNyo+lqjl14St7VeMA/9ptqCEuSYfpeUqZ6yE5X7WuekX5Dw=="
   }
 }
