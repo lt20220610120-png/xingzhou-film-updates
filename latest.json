@@ -1,12 +1,12 @@
 {
-  "version": "2.8.193",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.193/Xingzhou-Film-Tencent-Setup-2.8.193.exe",
-  "notes": "## 分镜参考音频\n\n- 共享分镜保存或发布时会同步本机可读的参考音频。协作者打开分镜时读取项目素材，保留原来的 `@audio` 编号。\n- 提交 LibTV 前检查参考音频。缺失时标明具体音频和恢复方式，避免先上传其他素材。\n- 下载到本机的参考音频使用正确的文件格式，WAV 不再保存为 MP3。",
-  "sha256": "4018d7869f49b22e42243e6eccc6f4623bdb630c940d533e85b14a316bd50f9f",
-  "size": 104111725,
-  "publishedAt": "2026-11-22T10:11:58.332142+00:00",
+  "version": "2.8.194",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.194/Xingzhou-Film-Tencent-Setup-2.8.194.exe",
+  "notes": "- 项目图片与参考音频上传后直接复用本机原始字节，预览、原图、导出及提交共用更大的持久缓存。\n- 小图片和音频的缓存未命中时尝试同地域服务器中转。忙碌、超时及大文件自动走原 COS 路径。\n- 需要公网链接的模型可使用轻量 JPEG 临时参考副本。项目原图和共享资源保持原始字节。\n- Windows 安装包保留简体中文、繁体中文和英文。剔除打包中的源码映射、测试夹具、覆盖率与调试残余，本机正式安装包滚动保留最近五个版本。",
+  "sha256": "9f07f26df6f8a68c119c1044e337afb3650d08b149717cecd7609eca08ebd013",
+  "size": 95208956,
+  "publishedAt": "2026-11-22T16:26:53.398973+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "18YBf9clacGfN4LR/y6oAq3VkdVLO7Ien2Q+5xy+Dx4bp1wRJ+XIw7VaIjPpDCPXNAIyVuYvgJ/ZosCQTR9mAQ=="
+    "value": "VMjB7grCrH5cdNfCKCnWDNm4uzk2nsiQMcCMmPGbF6KIgEJHt3eL4L20jONSKPJuVp4SL/ozBblG4MoJVaZVBw=="
   }
 }
