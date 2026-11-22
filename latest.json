@@ -1,12 +1,12 @@
 {
-  "version": "2.8.194",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.194/Xingzhou-Film-Tencent-Setup-2.8.194.exe",
-  "notes": "- 项目图片与参考音频上传后直接复用本机原始字节，预览、原图、导出及提交共用更大的持久缓存。\n- 小图片和音频的缓存未命中时尝试同地域服务器中转。忙碌、超时及大文件自动走原 COS 路径。\n- 需要公网链接的模型可使用轻量 JPEG 临时参考副本。项目原图和共享资源保持原始字节。\n- Windows 安装包保留简体中文、繁体中文和英文。剔除打包中的源码映射、测试夹具、覆盖率与调试残余，本机正式安装包滚动保留最近五个版本。",
-  "sha256": "9f07f26df6f8a68c119c1044e337afb3650d08b149717cecd7609eca08ebd013",
-  "size": 95208956,
-  "publishedAt": "2026-11-22T16:26:53.398973+00:00",
+  "version": "2.8.195",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.195/Xingzhou-Film-Tencent-Setup-2.8.195.exe",
+  "notes": "- 新建和导入导演剧本自动选用最新可用规则，既有项目保留各自选择。客户端与云端受保护 Skill 共用协议实现。\n- 修复语音设置、分镜参考校验、总剧本清空、切页弹窗、中文输入法中断、聊天附件和搜索高亮。补齐剧本分集、对白、资产采用和提示词保存的边界处理。\n- 改进桌面会话路径、退出收尾、取消与结果持久化。云端补齐建库结构、索引、权限与账号删除约束。\n- 明确打包依赖版本，发布时校验升级顺序并滚动清理服务器镜像。",
+  "sha256": "339eca6108c4933e069996fe69292ba461abf5b385f911dfdb75c71da0c3ad5e",
+  "size": 95215007,
+  "publishedAt": "2026-11-22T17:07:22.058863+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "VMjB7grCrH5cdNfCKCnWDNm4uzk2nsiQMcCMmPGbF6KIgEJHt3eL4L20jONSKPJuVp4SL/ozBblG4MoJVaZVBw=="
+    "value": "ZKY4r5Ri5AuKxNEO4jxKrQ73Sfwh7yhASSZnq6v4RCkPiBPuwBww2Ug75KmSQd05Esj2aZvPaDtLZhE53aacAQ=="
   }
 }
