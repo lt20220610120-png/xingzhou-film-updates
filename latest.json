@@ -1,12 +1,12 @@
 {
-  "version": "2.8.195",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.195/Xingzhou-Film-Tencent-Setup-2.8.195.exe",
-  "notes": "- 新建和导入导演剧本自动选用最新可用规则，既有项目保留各自选择。客户端与云端受保护 Skill 共用协议实现。\n- 修复语音设置、分镜参考校验、总剧本清空、切页弹窗、中文输入法中断、聊天附件和搜索高亮。补齐剧本分集、对白、资产采用和提示词保存的边界处理。\n- 改进桌面会话路径、退出收尾、取消与结果持久化。云端补齐建库结构、索引、权限与账号删除约束。\n- 明确打包依赖版本，发布时校验升级顺序并滚动清理服务器镜像。",
-  "sha256": "339eca6108c4933e069996fe69292ba461abf5b385f911dfdb75c71da0c3ad5e",
-  "size": 95215007,
-  "publishedAt": "2026-11-22T17:07:22.058863+00:00",
+  "version": "2.8.196",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.196/Xingzhou-Film-Tencent-Setup-2.8.196.exe",
+  "notes": "- 统一工作台按钮和下拉选择框。下拉支持键盘选择、长列表滚动与窗口边缘避让，原生提示和确认改为应用内弹窗。\n- 图视生成切页保留标签与草稿。隐藏的协作页面暂停轮询，停止闲置的清单刷新与倒计时，长列表分批渲染。\n- 使用系统字体。大文件读取与哈希移出主线程同步路径，短期复用登录、授权与本机项目索引。\n- 长场景审核按待复核段提交，减少重复模型请求。创作、审校和进度更新减少重复复制与渲染。",
+  "sha256": "d99fb886fa2ce129dcaebafd1490cfe19ba1252dcb2c444b0bb484f5fdbe44b0",
+  "size": 95228945,
+  "publishedAt": "2026-11-22T18:02:37.653826+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "ZKY4r5Ri5AuKxNEO4jxKrQ73Sfwh7yhASSZnq6v4RCkPiBPuwBww2Ug75KmSQd05Esj2aZvPaDtLZhE53aacAQ=="
+    "value": "dTkDodNjJduM3dSFOsOKv3SW1Q1ox24eINXjKBmysWVmCYctOLA33OuLwDsQo6q2hORT3aqKGyL48Uekjyg9Dg=="
   }
 }
