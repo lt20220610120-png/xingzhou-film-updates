@@ -1,12 +1,12 @@
 {
-  "version": "2.8.192",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.192/Xingzhou-Film-Tencent-Setup-2.8.192.exe",
-  "notes": "## 资产图片\n\n- 修复项目资产的已采用图片被误判为非图片，导致带参考图的单张和批量生成在提交前失败。可沿用原来的参考图。\n- 生图接口返回错误时，显示接口状态和原因，方便区分素材读取与模型服务问题。",
-  "sha256": "328b747a04632a8a4445dca843c65a7e1fd6e0c46533e3a05fb9efa302c7c761",
-  "size": 104096894,
-  "publishedAt": "2026-11-22T07:28:39.692857+00:00",
+  "version": "2.8.193",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.193/Xingzhou-Film-Tencent-Setup-2.8.193.exe",
+  "notes": "## 分镜参考音频\n\n- 共享分镜保存或发布时会同步本机可读的参考音频。协作者打开分镜时读取项目素材，保留原来的 `@audio` 编号。\n- 提交 LibTV 前检查参考音频。缺失时标明具体音频和恢复方式，避免先上传其他素材。\n- 下载到本机的参考音频使用正确的文件格式，WAV 不再保存为 MP3。",
+  "sha256": "4018d7869f49b22e42243e6eccc6f4623bdb630c940d533e85b14a316bd50f9f",
+  "size": 104111725,
+  "publishedAt": "2026-11-22T10:11:58.332142+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "PzhKPTd4B/7VKaixix3Xuk1lwpM9RRYnCL8MAxhNyo+lqjl14St7VeMA/9ptqCEuSYfpeUqZ6yE5X7WuekX5Dw=="
+    "value": "18YBf9clacGfN4LR/y6oAq3VkdVLO7Ien2Q+5xy+Dx4bp1wRJ+XIw7VaIjPpDCPXNAIyVuYvgJ/ZosCQTR9mAQ=="
   }
 }
