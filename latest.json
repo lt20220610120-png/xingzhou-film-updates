@@ -1,12 +1,12 @@
 {
-  "version": "2.8.188",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.188/Xingzhou-Film-Tencent-Setup-2.8.188.exe",
-  "notes": "- 修复项目协作分镜上传 LibTV 画布时，官方素材存储地址被连接器误拦截的问题。",
-  "sha256": "f4d85c442a5b82bce5954fd34f25b1f5edb0464a239fd8a01959ef71dfc45061",
-  "size": 104108531,
-  "publishedAt": "2026-11-19T11:12:51.947018+00:00",
+  "version": "2.8.190",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.190/Xingzhou-Film-Tencent-Setup-2.8.190.exe",
+  "notes": "- 降低导演工作台生成提示词时的内存占用。保存只传输变更的项目资料，已完成任务的正文按需读取。\n- 整本提示词进入队列，最多同时处理六场。旧任务可沿用已有进度。\n- 空闲的视频监控停止反复读取整个本地资料库，补充本机运行内存和退出诊断。",
+  "sha256": "e016d5026462b350eb4b79adf385f1e94da349ce76ff25f54331529ac46b9821",
+  "size": 104110600,
+  "publishedAt": "2026-11-22T05:49:19.166369+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "+oaRFP5IaFCZBbGXPW1WN5PIdR22RnlBzIuLURFvUJZS0oHP4XvshXcCcN+ZZgLIejX/7ivtsL/e9F123buPCg=="
+    "value": "9HTwIRXZ/LlmBRk4PzyNAHGNxlHEAwnn+3750mRifmR2DeAEmMjo7LIp8qKeaB84UBrrZraP9cxkCCD9zHJtCw=="
   }
 }
