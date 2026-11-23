@@ -1,12 +1,12 @@
 {
-  "version": "2.8.200",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.200/Xingzhou-Film-Tencent-Setup-2.8.200.exe",
-  "notes": "- LibTV 连接可跟随系统、直连或使用自定义代理，兼容 SOCKS5。减少额外探测，在只读和参考上传阶段恢复短暂断线。\n- LibTV 设置新增连接测试与脱敏诊断。生成前失败显示在操作区，实际已提交任务继续保留结果与状态。",
-  "sha256": "b5efd80df726f33e76a4648a2c59a6dab225ada14f797ce169ee99a21f5682e5",
-  "size": 95241365,
-  "publishedAt": "2026-11-23T07:34:32.629450+00:00",
+  "version": "2.8.201",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.201/Xingzhou-Film-Tencent-Setup-2.8.201.exe",
+  "notes": "- LibTV 直连直接访问官方服务。网络、代理和官方 API 错误分别显示。\n- 分镜复用已核验的 LibTV 账号、项目和模型参数。素材准备限制并发，提供进度和取消入口。",
+  "sha256": "f42ff7b5a62cb2dbad861cbd417312101436ab616e295f9850dac4a9532e491e",
+  "size": 95243054,
+  "publishedAt": "2026-11-23T09:38:33.555032+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "wqLF5efCYhIBJAF1YUYOFMx1MMKRy9s5W2+oPiRmC050nQaoBk2xNyjd8CDd4bMFRX528kpYQVH90eP25agzBQ=="
+    "value": "aelsXmn+d2v0oYXzojHTlAKljpRFUDXAFmzXyMbx7fZOBcE2oN9ty6XGOQxgL9JVDwn3dkISeIbP6OAf2wrOCA=="
   }
 }
