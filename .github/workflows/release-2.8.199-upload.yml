@@ -1,0 +1,44 @@
+name: Upload verified 2.8.199 installer
+on:
+  push:
+    branches: [codex/release-2.8.199-verified-upload]
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Reconstruct and verify the paired immutable installer
+        run: |
+          set -euo pipefail
+          gh release download v2.8.198 --pattern Xingzhou-Film-Tencent-Setup-2.8.198.exe
+          gh api "repos/$GH_REPO/contents/release-2.8.199-delta.zip?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > delta.zip
+          python3 - <<'PY'
+          import hashlib,json,pathlib,zipfile
+          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.198.exe').read_bytes()
+          assert hashlib.sha256(old).hexdigest()=='b89a5cfeb492dd97c47106cad170c630068917ea64babc0c1e88a682bd9f5399'
+          with zipfile.ZipFile('delta.zip') as bundle:
+              changed=bundle.read('changed')
+              data=b''.join((changed if source else old)[at:at+size]
+                            for source,at,size in json.loads(bundle.read('chunks.json')))
+          assert len(data)==95236080 and hashlib.sha256(data).hexdigest()=='4165b59ec4a0e5891c877b2fe425b4fcaf8c98970282aafdd2b65e971cf2d81a'
+          pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.199.exe').write_bytes(data)
+          PY
+      - name: Upload the verified installer to its release draft
+        run: |
+          set -euo pipefail
+          name='Xingzhou-Film-Tencent-Setup-2.8.199.exe'
+          endpoint="repos/$GH_REPO/releases/454973543"
+          tag="$(gh api "$endpoint" --jq .tag_name)"
+          test "$tag" = v2.8.199
+          existing="$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\").digest")"
+          if test -z "$existing"; then
+            printf 'header = "Authorization: Bearer %s"\n' "$GH_TOKEN" | curl --config - --fail --silent --show-error --connect-timeout 15 --max-time 240 -H 'Content-Type: application/octet-stream' --data-binary "@$name" "https://uploads.github.com/$GH_REPO_PATH/releases/454973543/assets?name=$name" >/dev/null
+          fi
+          test "$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = 'sha256:4165b59ec4a0e5891c877b2fe425b4fcaf8c98970282aafdd2b65e971cf2d81a'
+        env:
+          GH_REPO_PATH: repos/${{ github.repository }}
