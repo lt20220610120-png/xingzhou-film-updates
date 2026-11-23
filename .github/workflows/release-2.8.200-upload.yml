@@ -1,0 +1,57 @@
+name: Upload verified 2.8.200 installer
+on:
+  push:
+    branches: [codex/release-2.8.200-verified-upload]
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Reconstruct and verify the paired immutable installer
+        run: |
+          set -euo pipefail
+          gh release download v2.8.199 --pattern Xingzhou-Film-Tencent-Setup-2.8.199.exe
+          gh api "repos/$GH_REPO/contents/release-2.8.200-delta.zip?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > delta.zip
+          python3 - <<'PY'
+          import hashlib,json,pathlib,zipfile
+          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.199.exe').read_bytes()
+          assert hashlib.sha256(old).hexdigest()=='4165b59ec4a0e5891c877b2fe425b4fcaf8c98970282aafdd2b65e971cf2d81a'
+          with zipfile.ZipFile('delta.zip') as bundle:
+              changed=bundle.read('changed')
+              data=b''.join((changed if source else old)[at:at+size]
+                            for source,at,size in json.loads(bundle.read('chunks.json')))
+          assert len(data)==95241365 and hashlib.sha256(data).hexdigest()=='b5efd80df726f33e76a4648a2c59a6dab225ada14f797ce169ee99a21f5682e5'
+          pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.200.exe').write_bytes(data)
+          PY
+      - name: Upload the verified installer to its release draft
+        run: |
+          set -euo pipefail
+          name='Xingzhou-Film-Tencent-Setup-2.8.200.exe'
+          find_draft() {
+            gh api "repos/$GH_REPO/releases?per_page=30" --jq '.[] | select(.tag_name == "v2.8.200" and .draft == true) | .id'
+          }
+          release="$(find_draft)"
+          if test -z "$release"; then
+            cat > release-notes.md <<'NOTES'
+          - LibTV 连接可跟随系统、直连或使用自定义代理，兼容 SOCKS5。减少额外探测，在只读和参考上传阶段恢复短暂断线。
+          - LibTV 设置新增连接测试与脱敏诊断。生成前失败显示在操作区，实际已提交任务继续保留结果与状态。
+          NOTES
+            gh release create v2.8.200 --draft --target main --title '行舟影视 2.8.200' --notes-file release-notes.md >/dev/null
+            release="$(find_draft)"
+          fi
+          test -n "$release"
+          endpoint="repos/$GH_REPO/releases/$release"
+          tag="$(gh api "$endpoint" --jq .tag_name)"
+          test "$tag" = v2.8.200
+          existing="$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\").digest")"
+          if test -z "$existing"; then
+            printf 'header = "Authorization: Bearer %s"\n' "$GH_TOKEN" | curl --config - --fail --silent --show-error --connect-timeout 15 --max-time 240 -H 'Content-Type: application/octet-stream' --data-binary "@$name" "https://uploads.github.com/$GH_REPO_PATH/releases/$release/assets?name=$name" >/dev/null
+          fi
+          test "$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = 'sha256:b5efd80df726f33e76a4648a2c59a6dab225ada14f797ce169ee99a21f5682e5'
+        env:
+          GH_REPO_PATH: repos/${{ github.repository }}
