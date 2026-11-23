@@ -1,12 +1,12 @@
 {
-  "version": "2.8.199",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.199/Xingzhou-Film-Tencent-Setup-2.8.199.exe",
-  "notes": "- 提高 LibTV 多参考素材上传的抗抖动能力。上传失败可重试，错误显示可用的故障阶段与原因。付费生成继续只提交一次。\n- 分镜编辑参考素材时保持当前视口。手动切集、切场或从分集进入时回到顶部，显式定位仍准确到达目标分镜。",
-  "sha256": "4165b59ec4a0e5891c877b2fe425b4fcaf8c98970282aafdd2b65e971cf2d81a",
-  "size": 95236080,
-  "publishedAt": "2026-11-23T04:08:40.127765+00:00",
+  "version": "2.8.200",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.200/Xingzhou-Film-Tencent-Setup-2.8.200.exe",
+  "notes": "- LibTV 连接可跟随系统、直连或使用自定义代理，兼容 SOCKS5。减少额外探测，在只读和参考上传阶段恢复短暂断线。\n- LibTV 设置新增连接测试与脱敏诊断。生成前失败显示在操作区，实际已提交任务继续保留结果与状态。",
+  "sha256": "b5efd80df726f33e76a4648a2c59a6dab225ada14f797ce169ee99a21f5682e5",
+  "size": 95241365,
+  "publishedAt": "2026-11-23T07:34:32.629450+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "irYd5+yrypdvbTS6O/8w3nMBICdIE0iOgEs11+4WZCVc33cJgf8Y+jv/uT6OcNlrxy6fe2gnjyjJplbnkP91BQ=="
+    "value": "wqLF5efCYhIBJAF1YUYOFMx1MMKRy9s5W2+oPiRmC050nQaoBk2xNyjd8CDd4bMFRX528kpYQVH90eP25agzBQ=="
   }
 }
