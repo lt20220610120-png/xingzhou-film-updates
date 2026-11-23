@@ -1,12 +1,12 @@
 {
-  "version": "2.8.198",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.198/Xingzhou-Film-Tencent-Setup-2.8.198.exe",
-  "notes": "- 修复旧应用数据目录的 Windows 加密凭据在升级后无法读取的问题，兼容已有登录、设备、LibTV 和 Like 配置。\n- 激活页提供「已有账号登录」。免卡账号通过云端鉴权即可进入，月卡用户仍按服务端规则完成设备授权。",
-  "sha256": "b89a5cfeb492dd97c47106cad170c630068917ea64babc0c1e88a682bd9f5399",
-  "size": 95174283,
-  "publishedAt": "2026-11-22T19:08:55.563479+00:00",
+  "version": "2.8.199",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.199/Xingzhou-Film-Tencent-Setup-2.8.199.exe",
+  "notes": "- 提高 LibTV 多参考素材上传的抗抖动能力。上传失败可重试，错误显示可用的故障阶段与原因。付费生成继续只提交一次。\n- 分镜编辑参考素材时保持当前视口。手动切集、切场或从分集进入时回到顶部，显式定位仍准确到达目标分镜。",
+  "sha256": "4165b59ec4a0e5891c877b2fe425b4fcaf8c98970282aafdd2b65e971cf2d81a",
+  "size": 95236080,
+  "publishedAt": "2026-11-23T04:08:40.127765+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "cWczi/2OnZ5bUQFk7ao7MaSa5eCalmZGYLc4gmYdnCsxhQLRytvmIoDTsXksgT9wbb5YtXIcjrdRCfu0o0zcAg=="
+    "value": "irYd5+yrypdvbTS6O/8w3nMBICdIE0iOgEs11+4WZCVc33cJgf8Y+jv/uT6OcNlrxy6fe2gnjyjJplbnkP91BQ=="
   }
 }
