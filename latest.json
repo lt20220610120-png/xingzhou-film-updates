@@ -1,12 +1,12 @@
 {
-  "version": "2.8.202",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.202/Xingzhou-Film-Tencent-Setup-2.8.202.exe",
-  "notes": "- 分镜只给实际使用的参考图连续编号。空资产仍保留关联，采用图片后自动补入。\n- 美术和资产支持单卡及批量标记「无需参考图」，已有采用图受保护，已标记项移出默认生图范围。\n- LibTV 拉长只读核验和素材上传的网络退避，准备仍可取消，付费运行单次提交。",
-  "sha256": "361541fe1d82050d2df1946fa9052c6639924972851d22b8f19ac1f37c8e9cdf",
-  "size": 95247555,
-  "publishedAt": "2026-11-23T11:02:59.513392+00:00",
+  "version": "2.8.203",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.203/Xingzhou-Film-Tencent-Setup-2.8.203.exe",
+  "notes": "- 内置精准估时 Skill 2.0.0。导演提示词保存后按场估时，支持独立模型、补估和超载提醒。\n- 最高视频时长提供 15 秒和 30 秒。自动分段超载可纠错重分一次，人工切点保持原样。\n- 协作分镜可按模型合法档位应用建议时长，默认保护手调值。改稿后可重估，待估时和超载有批量提交保护。",
+  "sha256": "af343925a15e39d3a713afe94100e8473232fd9633d861e3c67167070b2a7808",
+  "size": 95286829,
+  "publishedAt": "2026-11-24T04:10:07.857294+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "4sm28ckDjmnm/kB2YfBixDEfBmiplze4R3wVij6msY2wTuAul8ykOHdrPaxtk/oqcT3AkgWzyFJuu3YF4refBg=="
+    "value": "USNQj0bjcdz02e3krREfWYXtt6ExwngdsIivwh80hzJxQYxJmP4mHXu9YdGevrlvaihUhFzke9tyyvc/Hl9KBA=="
   }
 }
