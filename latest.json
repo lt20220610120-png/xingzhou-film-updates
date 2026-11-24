@@ -1,12 +1,12 @@
 {
-  "version": "2.8.203",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.203/Xingzhou-Film-Tencent-Setup-2.8.203.exe",
-  "notes": "- 内置精准估时 Skill 2.0.0。导演提示词保存后按场估时，支持独立模型、补估和超载提醒。\n- 最高视频时长提供 15 秒和 30 秒。自动分段超载可纠错重分一次，人工切点保持原样。\n- 协作分镜可按模型合法档位应用建议时长，默认保护手调值。改稿后可重估，待估时和超载有批量提交保护。",
-  "sha256": "af343925a15e39d3a713afe94100e8473232fd9633d861e3c67167070b2a7808",
-  "size": 95286829,
-  "publishedAt": "2026-11-24T04:10:07.857294+00:00",
+  "version": "2.8.204",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.204/Xingzhou-Film-Tencent-Setup-2.8.204.exe",
+  "notes": "- 分镜按建议时长提交时继续校验估时状态与模型档位。手动和统一固定时长按当前视频模型的合法秒数提交，卡片保留待复核、待估时或超载提醒及重估入口。\n- 按建议时长批量设置时，已手调的分镜保留手调秒数与模式，同时同步新接口、模型、画幅与分辨率。新模型无法执行原秒数时，提交前提示调整。\n- 精准估时兼容完整 Markdown JSON 围栏和不同字段顺序，保留 Skill 2.0.0 的片段编号、字段、算术与容量校验。",
+  "sha256": "7bafa5ff1d7e6a695bc9e1f1d95fe144a95b6d6f099822a93325f4bcabff098a",
+  "size": 95288373,
+  "publishedAt": "2026-11-24T05:01:07.296813+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "USNQj0bjcdz02e3krREfWYXtt6ExwngdsIivwh80hzJxQYxJmP4mHXu9YdGevrlvaihUhFzke9tyyvc/Hl9KBA=="
+    "value": "TioC6zkNdeRCkoFkDA60Y6iftTQawzkVzgzmKyqazoWeu6iXQIPbBtnziTXbfIf6Ff8IdJDB+2P+vhlLo6NUBg=="
   }
 }
