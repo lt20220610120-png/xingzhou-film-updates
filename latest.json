@@ -1,12 +1,12 @@
 {
-  "version": "2.8.204",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.204/Xingzhou-Film-Tencent-Setup-2.8.204.exe",
-  "notes": "- 分镜按建议时长提交时继续校验估时状态与模型档位。手动和统一固定时长按当前视频模型的合法秒数提交，卡片保留待复核、待估时或超载提醒及重估入口。\n- 按建议时长批量设置时，已手调的分镜保留手调秒数与模式，同时同步新接口、模型、画幅与分辨率。新模型无法执行原秒数时，提交前提示调整。\n- 精准估时兼容完整 Markdown JSON 围栏和不同字段顺序，保留 Skill 2.0.0 的片段编号、字段、算术与容量校验。",
-  "sha256": "7bafa5ff1d7e6a695bc9e1f1d95fe144a95b6d6f099822a93325f4bcabff098a",
-  "size": 95288373,
-  "publishedAt": "2026-11-24T05:01:07.296813+00:00",
+  "version": "2.8.205",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.205/Xingzhou-Film-Tencent-Setup-2.8.205.exe",
+  "notes": "- 精准估时让模型拆解声画语义，由软件按内置 Skill 2.0.0 计算。首轮成功项立即保存，个别失败项单独补试一次。DeepSeek 估时沿用模型的思考配置。\n- 导演超载保留首次提示词，重分由用户确认。整本生成提供超载场景汇总与定位，估时按钮移至场景标题栏右侧，并显示进度和结果。\n- 下拉框收起时单行省略，悬停和展开均可查看选项全称。",
+  "sha256": "1df69d241294c13a9c75ed21386d57c70ea7f4d5ff7ea4566335e6ca5d8e6010",
+  "size": 95297940,
+  "publishedAt": "2026-11-25T09:00:09.278640+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "TioC6zkNdeRCkoFkDA60Y6iftTQawzkVzgzmKyqazoWeu6iXQIPbBtnziTXbfIf6Ff8IdJDB+2P+vhlLo6NUBg=="
+    "value": "CFn95+o1KPrxCgkpkbsHMbKKJuFwMhoLHEMRy0V+7+65uCld1aCWzw5/HHOk9omEH7h001iU2jEUGsNs7PbHAg=="
   }
 }
