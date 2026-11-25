@@ -1,12 +1,12 @@
 {
-  "version": "2.8.206",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.206/Xingzhou-Film-Tencent-Setup-2.8.206.exe",
-  "notes": "- 内置精准估时升级至短剧实拍校准版 3.0.0，按新语速、回合气口与快剪动作算账。历史 2.0.0 估时照常读取，按需重估可写入新版。\n- DeepSeek Flash 等快速模型的估时使用精简语义账本和非思考模式。常见数字与简短英文缩写可按默认读法计算，继续逐条保存成功结果，并对个别失败项补试一次。",
-  "sha256": "7471e2730e342663282e15f4b22d4ea477d4a98c80c1952a2f0e1f08f50af9f2",
-  "size": 95289558,
-  "publishedAt": "2026-11-25T12:22:39.534203+00:00",
+  "version": "2.8.207",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.207/Xingzhou-Film-Tencent-Setup-2.8.207.exe",
+  "notes": "- 修复共用确认和提示弹窗偏到左上角的问题，弹窗在当前窗口居中并保留半透明遮罩。\n- 修复本机项目无法删除资产单张图片的问题。删除后同步更新缩略图和预览，删除采用图时自动切换到最新余图。删除失败时显示具体原因。",
+  "sha256": "1d70f335717c6028594069885055d4453ea55161b11517f66fe842829f96ac8d",
+  "size": 95290557,
+  "publishedAt": "2026-11-25T14:44:48.186586+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "RTZdIrbTp63el4eqJcZ8e9tpYII289rNUiMGzevm+WN9iI3hsOJxFFuHCtLGW9oP3qZ5JozaWKOuByAAUkmSDA=="
+    "value": "Xw5uGsq0JAGNOFDXFr0tG0M4hRRmX7k0yjBdoWOIPniPQfqus9Q2S9j8JmpVqV9pRZQkv+79mq8mpfDghSRQBQ=="
   }
 }
