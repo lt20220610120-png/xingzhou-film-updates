@@ -1,12 +1,12 @@
 {
-  "version": "2.8.208",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.208/Xingzhou-Film-Tencent-Setup-2.8.208.exe",
-  "notes": "- 统一浅色界面的文字层级、控件与标签页样式，提高设置、管理后台和弹窗的可读性。\n- 调整资产和音色工具栏，窄窗下操作可折行。资产生成规则可从提示入口查看，音色卡清晰区分未生成、待采用和已采用。\n- 精简分镜生成设置，优化参数栅格。同步改善视频池、图视生成、清单核实和导演工作台的显示。",
-  "sha256": "41cabdea4f742d711e84c9adaccd107272400349c3c926a915f53ae6cefaefcc",
-  "size": 95290639,
-  "publishedAt": "2026-11-25T15:42:06.509708+00:00",
+  "version": "2.8.209",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.209/Xingzhou-Film-Tencent-Setup-2.8.209.exe",
+  "notes": "- 分镜同步导演最新建议时长。素材关联、编号变化、移除或恢复会保留原估时，实质改稿仍提示待复核。\n- 按建议时长批量设置会跳过真正未保存的分镜，并列出跳过项。批量生成只发送符合当前模型时长要求的分镜。\n- 素材待就绪提示移到「画面与镜头描述」旁，可用鼠标或键盘查看原因并定位清单条目。",
+  "sha256": "31bf66858bd26f73c25a7d6ed5e5ead28594677246ed564eee00706c80cbcbc9",
+  "size": 95297586,
+  "publishedAt": "2026-11-25T16:41:12.051344+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "qaeggAi2qDwfBENFO4/9gjOe1IIGHT29MrsBSzHQYDBiRVkavLeplBdYTJN6nY5eoxNlq2NfDlNu9Oo0uA9HDg=="
+    "value": "5F46BOISFKqH7l7i4wOrzAQFr7i66lI8UlMchqRC0y9wWEPOuKwPCqO3TEukMwcI/4YTobp+VEvX2TiIdAuQBA=="
   }
 }
