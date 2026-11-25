@@ -1,12 +1,12 @@
 {
-  "version": "2.8.207",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.207/Xingzhou-Film-Tencent-Setup-2.8.207.exe",
-  "notes": "- 修复共用确认和提示弹窗偏到左上角的问题，弹窗在当前窗口居中并保留半透明遮罩。\n- 修复本机项目无法删除资产单张图片的问题。删除后同步更新缩略图和预览，删除采用图时自动切换到最新余图。删除失败时显示具体原因。",
-  "sha256": "1d70f335717c6028594069885055d4453ea55161b11517f66fe842829f96ac8d",
-  "size": 95290557,
-  "publishedAt": "2026-11-25T14:44:48.186586+00:00",
+  "version": "2.8.208",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.208/Xingzhou-Film-Tencent-Setup-2.8.208.exe",
+  "notes": "- 统一浅色界面的文字层级、控件与标签页样式，提高设置、管理后台和弹窗的可读性。\n- 调整资产和音色工具栏，窄窗下操作可折行。资产生成规则可从提示入口查看，音色卡清晰区分未生成、待采用和已采用。\n- 精简分镜生成设置，优化参数栅格。同步改善视频池、图视生成、清单核实和导演工作台的显示。",
+  "sha256": "41cabdea4f742d711e84c9adaccd107272400349c3c926a915f53ae6cefaefcc",
+  "size": 95290639,
+  "publishedAt": "2026-11-25T15:42:06.509708+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "Xw5uGsq0JAGNOFDXFr0tG0M4hRRmX7k0yjBdoWOIPniPQfqus9Q2S9j8JmpVqV9pRZQkv+79mq8mpfDghSRQBQ=="
+    "value": "qaeggAi2qDwfBENFO4/9gjOe1IIGHT29MrsBSzHQYDBiRVkavLeplBdYTJN6nY5eoxNlq2NfDlNu9Oo0uA9HDg=="
   }
 }
