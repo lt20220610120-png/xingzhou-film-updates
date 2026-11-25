@@ -1,12 +1,12 @@
 {
-  "version": "2.8.205",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.205/Xingzhou-Film-Tencent-Setup-2.8.205.exe",
-  "notes": "- 精准估时让模型拆解声画语义，由软件按内置 Skill 2.0.0 计算。首轮成功项立即保存，个别失败项单独补试一次。DeepSeek 估时沿用模型的思考配置。\n- 导演超载保留首次提示词，重分由用户确认。整本生成提供超载场景汇总与定位，估时按钮移至场景标题栏右侧，并显示进度和结果。\n- 下拉框收起时单行省略，悬停和展开均可查看选项全称。",
-  "sha256": "1df69d241294c13a9c75ed21386d57c70ea7f4d5ff7ea4566335e6ca5d8e6010",
-  "size": 95297940,
-  "publishedAt": "2026-11-25T09:00:09.278640+00:00",
+  "version": "2.8.206",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.206/Xingzhou-Film-Tencent-Setup-2.8.206.exe",
+  "notes": "- 内置精准估时升级至短剧实拍校准版 3.0.0，按新语速、回合气口与快剪动作算账。历史 2.0.0 估时照常读取，按需重估可写入新版。\n- DeepSeek Flash 等快速模型的估时使用精简语义账本和非思考模式。常见数字与简短英文缩写可按默认读法计算，继续逐条保存成功结果，并对个别失败项补试一次。",
+  "sha256": "7471e2730e342663282e15f4b22d4ea477d4a98c80c1952a2f0e1f08f50af9f2",
+  "size": 95289558,
+  "publishedAt": "2026-11-25T12:22:39.534203+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "CFn95+o1KPrxCgkpkbsHMbKKJuFwMhoLHEMRy0V+7+65uCld1aCWzw5/HHOk9omEH7h001iU2jEUGsNs7PbHAg=="
+    "value": "RTZdIrbTp63el4eqJcZ8e9tpYII289rNUiMGzevm+WN9iI3hsOJxFFuHCtLGW9oP3qZ5JozaWKOuByAAUkmSDA=="
   }
 }
