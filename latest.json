@@ -1,12 +1,12 @@
 {
-  "version": "2.8.209",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.209/Xingzhou-Film-Tencent-Setup-2.8.209.exe",
-  "notes": "- 分镜同步导演最新建议时长。素材关联、编号变化、移除或恢复会保留原估时，实质改稿仍提示待复核。\n- 按建议时长批量设置会跳过真正未保存的分镜，并列出跳过项。批量生成只发送符合当前模型时长要求的分镜。\n- 素材待就绪提示移到「画面与镜头描述」旁，可用鼠标或键盘查看原因并定位清单条目。",
-  "sha256": "31bf66858bd26f73c25a7d6ed5e5ead28594677246ed564eee00706c80cbcbc9",
-  "size": 95297586,
-  "publishedAt": "2026-11-25T16:41:12.051344+00:00",
+  "version": "2.8.210",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.210/Xingzhou-Film-Tencent-Setup-2.8.210.exe",
+  "notes": "## 2.8.210\n\n- 修复带本机图片、音色、分镜参考素材或视频的项目首次邀请协作者时误报无权限的问题。\n- 首次共享中断后，可回到「邀请协作」重试。正式提交前可以更换协作者或身份，继续使用原有本机项目和素材。",
+  "sha256": "93b23b455ed3f9c92ae51deac51f06135925c13eafc9214e7d6e14d023dd47fd",
+  "size": 95301435,
+  "publishedAt": "2026-11-25T17:14:28.096397+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "5F46BOISFKqH7l7i4wOrzAQFr7i66lI8UlMchqRC0y9wWEPOuKwPCqO3TEukMwcI/4YTobp+VEvX2TiIdAuQBA=="
+    "value": "rETYx010qQS2KJQ67JXWD1B/MxLckO1UIBUhsbdnDrbjO0TotyzdN1T8LRmXjfPGWEax4OlhK0tIA4nmlEtJCQ=="
   }
 }
