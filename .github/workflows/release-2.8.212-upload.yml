@@ -50,3 +50,13 @@ jobs:
           fi
           test "$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = 'sha256:6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2'
           printf 'Verified private draft %s\n' "$release_id"
+
+      - name: Promote the checked draft to the public stable channel
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GH_REPO/releases/latest" --jq .tag_name)" = 'v2.8.211'
+          endpoint="repos/$GH_REPO/releases/460405101"
+          test "$(gh api "$endpoint" --jq .tag_name)" = 'v2.8.212'
+          test "$(gh api "$endpoint" --jq '.assets[] | select(.name == "Xingzhou-Film-Tencent-Setup-2.8.212.exe" and .size == 95317946 and .state == "uploaded") | .digest')" = 'sha256:6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2'
+          gh api --method PATCH "$endpoint" -F draft=false -F prerelease=false -f make_latest=true --silent
+          test "$(gh api "$endpoint" --jq .draft)" = false
