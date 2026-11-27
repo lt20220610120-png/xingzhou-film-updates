@@ -1,12 +1,12 @@
 {
-  "version": "2.8.210",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.210/Xingzhou-Film-Tencent-Setup-2.8.210.exe",
-  "notes": "## 2.8.210\n\n- 修复带本机图片、音色、分镜参考素材或视频的项目首次邀请协作者时误报无权限的问题。\n- 首次共享中断后，可回到「邀请协作」重试。正式提交前可以更换协作者或身份，继续使用原有本机项目和素材。",
-  "sha256": "93b23b455ed3f9c92ae51deac51f06135925c13eafc9214e7d6e14d023dd47fd",
-  "size": 95301435,
-  "publishedAt": "2026-11-25T17:14:28.096397+00:00",
+  "version": "2.8.211",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.211/Xingzhou-Film-Tencent-Setup-2.8.211.exe",
+  "notes": "## 2.8.211\n\n- 分镜里的 LibTV「重试」现在会重新读取账号和模型参数，显示进度与失败原因。更新官方 Windows CLI，改善直连和代理短时断线的恢复。\n- 恢复 WorkBuddy 手动检查和备份更新，改善管理员会话短时抖动时的面板连接。\n- 修复云端成员权限、设备绑定、到期只读、资产清单和更新下载。资产删图后会清理已无引用的存储文件。\n- 本机项目首次分享可核对并恢复提交中断。改进退出、切号和资料目录切换时的数据隔离，修复音色关联、新图预览和生成监控。",
+  "sha256": "13a95f1bdf2aba8804ecf1b64c508719848c1f3002b4e193e0fbe80a1a1b5650",
+  "size": 95307048,
+  "publishedAt": "2026-11-27T08:23:12.484453+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "rETYx010qQS2KJQ67JXWD1B/MxLckO1UIBUhsbdnDrbjO0TotyzdN1T8LRmXjfPGWEax4OlhK0tIA4nmlEtJCQ=="
+    "value": "gnIoehh70Tc00d8YTMR/1b5KEYuiT/pO2agtTqICIr3ISs4zad/5g7kYqHFQgCFvItn15WxsBDvmRGV11IAlBQ=="
   }
 }
