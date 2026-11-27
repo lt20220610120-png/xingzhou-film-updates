@@ -1,12 +1,12 @@
 {
-  "version": "2.8.212",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.212/Xingzhou-Film-Tencent-Setup-2.8.212.exe",
-  "notes": "# 行舟影视 2.8.212\n\n- 统一桌面与云端的集号、场景、资产分类和分镜时长规则，减少误切场景、误报冲突与重复返工。\n- 加固 Windows 写盘、共享续传、分镜提交前校验与退出清理。后台协作自动降频，临时素材与预览缓存减少反复扫盘。\n- 内置无限画布升级至 0.20.0，保留已有画布和配置。视频池与分镜新增剪映草稿导出，可将已下载的视频、已关联配音及字幕或分镜标注排入时间轴。\n- 接入脱敏故障监测通道。安装包隔离测试夹具、未编译 Skill 源文件和本机覆盖配置。",
-  "sha256": "6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2",
-  "size": 95317946,
-  "publishedAt": "2026-11-27T10:19:33.166328+00:00",
+  "version": "2.8.213",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.213/Xingzhou-Film-Tencent-Setup-2.8.213.exe",
+  "notes": "# 行舟影视 2.8.213\n\n- 全剧背景从正文分段提取线索，汇总后再标记待核对项。异常最多纠偏两次，可手动重试或确认背景继续。\n- 角色、场景和道具生图各自只列同类参考。历史跨类引用回退到默认参考。\n- 批量标记「无需参考图」前确认分类和数量，支持即时撤销和按分类批量取消。\n- 美术与资产批量生图支持多批并行和不限并发。切换页面或项目后继续保存，返回可查看进度、失败原因并停止后续任务。",
+  "sha256": "5e209038d0a155410b8a8e8d05d247b656ab277af728a6049c3e152ef50dcc53",
+  "size": 95325120,
+  "publishedAt": "2026-11-27T15:12:48.894679+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "8IOqCxYxvRmAtnsZ7GyfJzkKzThLrgKyTqVMxZULTf7wIDYn2o/yWOLSMOfQ74pgYYmIC8xK6M1A6fuJA9B8DA=="
+    "value": "8NxPCWNrzS/28QKFoss4VS5+gl8C7O0iD1vr0wbg3DkpnABxSYkP8u9sHfjVmpLWUJjh66YXzOyRKqpx4vKuDw=="
   }
 }
