@@ -1,12 +1,12 @@
 {
-  "version": "2.8.211",
-  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.211/Xingzhou-Film-Tencent-Setup-2.8.211.exe",
-  "notes": "## 2.8.211\n\n- 分镜里的 LibTV「重试」现在会重新读取账号和模型参数，显示进度与失败原因。更新官方 Windows CLI，改善直连和代理短时断线的恢复。\n- 恢复 WorkBuddy 手动检查和备份更新，改善管理员会话短时抖动时的面板连接。\n- 修复云端成员权限、设备绑定、到期只读、资产清单和更新下载。资产删图后会清理已无引用的存储文件。\n- 本机项目首次分享可核对并恢复提交中断。改进退出、切号和资料目录切换时的数据隔离，修复音色关联、新图预览和生成监控。",
-  "sha256": "13a95f1bdf2aba8804ecf1b64c508719848c1f3002b4e193e0fbe80a1a1b5650",
-  "size": 95307048,
-  "publishedAt": "2026-11-27T08:23:12.484453+00:00",
+  "version": "2.8.212",
+  "installerUrl": "https://github.com/lt20220610120-png/xingzhou-film-updates/releases/download/v2.8.212/Xingzhou-Film-Tencent-Setup-2.8.212.exe",
+  "notes": "# 行舟影视 2.8.212\n\n- 统一桌面与云端的集号、场景、资产分类和分镜时长规则，减少误切场景、误报冲突与重复返工。\n- 加固 Windows 写盘、共享续传、分镜提交前校验与退出清理。后台协作自动降频，临时素材与预览缓存减少反复扫盘。\n- 内置无限画布升级至 0.20.0，保留已有画布和配置。视频池与分镜新增剪映草稿导出，可将已下载的视频、已关联配音及字幕或分镜标注排入时间轴。\n- 接入脱敏故障监测通道。安装包隔离测试夹具、未编译 Skill 源文件和本机覆盖配置。",
+  "sha256": "6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2",
+  "size": 95317946,
+  "publishedAt": "2026-11-27T10:19:33.166328+00:00",
   "signature": {
     "algorithm": "Ed25519",
-    "value": "gnIoehh70Tc00d8YTMR/1b5KEYuiT/pO2agtTqICIr3ISs4zad/5g7kYqHFQgCFvItn15WxsBDvmRGV11IAlBQ=="
+    "value": "8IOqCxYxvRmAtnsZ7GyfJzkKzThLrgKyTqVMxZULTf7wIDYn2o/yWOLSMOfQ74pgYYmIC8xK6M1A6fuJA9B8DA=="
   }
 }
