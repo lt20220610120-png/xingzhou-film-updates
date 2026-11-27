@@ -1,0 +1,52 @@
+name: Upload verified 2.8.212 installer
+on:
+  push:
+    branches: [codex/release-2.8.212-verified-upload]
+permissions:
+  contents: write
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Reconstruct and verify the paired immutable installer
+        run: |
+          set -euo pipefail
+          gh release download v2.8.211 --pattern Xingzhou-Film-Tencent-Setup-2.8.211.exe
+          gh api "repos/$GH_REPO/contents/release-2.8.212-delta.zip?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > delta.zip
+          python3 - <<'PY'
+          import hashlib,json,pathlib,zipfile
+          old=pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.211.exe').read_bytes()
+          assert hashlib.sha256(old).hexdigest()=='13a95f1bdf2aba8804ecf1b64c508719848c1f3002b4e193e0fbe80a1a1b5650'
+          with zipfile.ZipFile('delta.zip') as bundle:
+              changed=bundle.read('changed')
+              data=b''.join((changed if source else old)[at:at+size]
+                            for source,at,size in json.loads(bundle.read('chunks.json')))
+          assert len(data)==95317946 and hashlib.sha256(data).hexdigest()=='6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2'
+          pathlib.Path('Xingzhou-Film-Tencent-Setup-2.8.212.exe').write_bytes(data)
+          PY
+      - name: Ensure draft and upload its verified Windows installer
+        run: |
+          set -euo pipefail
+          tag=v2.8.212
+          name='Xingzhou-Film-Tencent-Setup-2.8.212.exe'
+          list="repos/$GH_REPO/releases?per_page=20"
+          release_id="$(gh api "$list" --jq '.[] | select(.tag_name=="v2.8.212") | .id')"
+          if test -z "$release_id"; then
+            gh api "repos/$GH_REPO/contents/release-2.8.212-notes.md?ref=$GITHUB_REF_NAME" -H 'Accept: application/vnd.github.raw' > notes.md
+            jq -n --arg tag "$tag" --rawfile body notes.md '{tag_name:$tag,target_commitish:"main",name:"行舟影视 2.8.212",body:$body,draft:true,prerelease:false}' > draft.json
+            release_id="$(gh api --method POST "repos/$GH_REPO/releases" --input draft.json --jq .id)"
+          fi
+          [[ "$release_id" =~ ^[0-9]+$ ]]
+          endpoint="repos/$GH_REPO/releases/$release_id"
+          test "$(gh api "$endpoint" --jq .tag_name)" = "$tag"
+          test "$(gh api "$endpoint" --jq .draft)" = true
+          existing="$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\").digest")"
+          if test -z "$existing"; then
+            printf 'header = "Authorization: Bearer %s"\n' "$GH_TOKEN" | curl --config - --fail --silent --show-error --connect-timeout 15 --max-time 240 -H 'Content-Type: application/octet-stream' --data-binary "@$name" "https://uploads.github.com/$endpoint/assets?name=$name" >/dev/null
+          fi
+          test "$(gh api "$endpoint" --jq ".assets[] | select(.name == \"$name\" and .state == \"uploaded\").digest")" = 'sha256:6f3039455a704e58c4d1ade19257a21e5c022a2840180569eb9d480411ecf7b2'
+          printf 'Verified private draft %s\n' "$release_id"
